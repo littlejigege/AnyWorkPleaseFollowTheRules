@@ -52,7 +52,7 @@
             android:layout_marginLeft="24dp"
             android:ellipsize="end"
             android:gravity="center"
-            android:maxEms="2"
+            android:maxEms="3"
             android:singleLine="true"
             android:text="黄海景"
             android:textColor="#616161" />
