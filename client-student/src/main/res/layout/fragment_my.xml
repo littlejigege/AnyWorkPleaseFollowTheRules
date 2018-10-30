@@ -1,0 +1,253 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#f9f9f9">
+
+    <FrameLayout
+        android:id="@+id/my_frame_layout"
+        android:layout_width="32dp"
+        android:layout_height="32dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginTop="6dp"
+        android:elevation="1px"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+        <Button
+            android:id="@+id/edit_message"
+            android:layout_width="12dp"
+            android:layout_height="12dp"
+            android:layout_gravity="center"
+            android:clickable="false"
+            android:background="@drawable/icon_account_edit"/>
+    </FrameLayout>
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/my_head"
+        android:layout_width="64dp"
+        android:layout_height="64dp"
+        android:layout_marginStart="41dp"
+        android:layout_marginTop="41dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:src="@drawable/ic_user_default"
+        app:civ_border_color="@color/AnyWork_light"
+        app:civ_border_width="1px"
+        android:elevation="1dp"/>
+
+    <ImageView
+        android:id="@+id/view"
+        android:layout_width="0dp"
+        android:layout_height="141dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:scaleType="centerCrop"
+        android:background="@drawable/background_my"/>
+
+    <TextView
+        android:id="@+id/my_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="51dp"
+        android:text="黄海景"
+        android:textColor="#ffffff"
+        app:layout_constraintStart_toEndOf="@+id/my_head"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/my_student_id"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="12dp"
+        android:text="3216002334"
+        android:textColor="#ffffff"
+        app:layout_constraintStart_toEndOf="@+id/my_head"
+        app:layout_constraintTop_toBottomOf="@+id/my_name" />
+
+    <LinearLayout
+        android:id="@+id/linearLayout4"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:background="#ffffff"
+        android:orientation="horizontal"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/linearLayout5">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="#ffffff"
+            android:orientation="vertical">
+
+            <FrameLayout
+                android:layout_width="60dp"
+                android:layout_height="42dp">
+
+                <ImageView
+                    android:layout_width="20dp"
+                    android:layout_height="20dp"
+                    android:layout_gravity="center"
+                    android:background="@drawable/icon_account_a" />
+            </FrameLayout>
+
+            <FrameLayout
+                android:layout_width="60dp"
+                android:layout_height="42dp">
+
+                <ImageView
+                    android:layout_width="20dp"
+                    android:layout_height="20dp"
+                    android:layout_gravity="center"
+                    android:background="@drawable/icon_account_download" />
+            </FrameLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:background="#e8e8e8">
+
+            <TextView
+                android:id="@+id/about"
+                android:layout_width="match_parent"
+                android:layout_height="42dp"
+                android:background="#ffffff"
+                android:gravity="center_vertical|left"
+                android:text="关于"
+                android:textColor="#626262" />
+
+            <TextView
+                android:id="@+id/update"
+                android:layout_width="match_parent"
+                android:layout_height="42dp"
+                android:layout_marginTop="1px"
+                android:background="#ffffff"
+                android:gravity="center_vertical|left"
+                android:text="版本更新"
+                android:textColor="#626262" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linearLayout5"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:background="#ffffff"
+        android:orientation="horizontal"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/view">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="#ffffff"
+            android:orientation="vertical">
+
+            <FrameLayout
+                android:layout_width="60dp"
+                android:layout_height="42dp">
+
+                <ImageView
+                    android:layout_width="20dp"
+                    android:layout_height="20dp"
+                    android:layout_gravity="center"
+                    android:background="@drawable/icon_account_pass" />
+            </FrameLayout>
+
+            <FrameLayout
+                android:layout_width="60dp"
+                android:layout_height="42dp">
+
+                <ImageView
+                    android:layout_width="20dp"
+                    android:layout_height="20dp"
+                    android:layout_gravity="center"
+                    android:background="@drawable/icon_account_password" />
+            </FrameLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:background="#e8e8e8">
+
+            <TextView
+                android:id="@+id/exercise_record"
+                android:layout_width="match_parent"
+                android:layout_height="42dp"
+                android:background="#ffffff"
+                android:gravity="center_vertical|left"
+                android:text="做题记录"
+                android:textColor="#626262" />
+
+            <TextView
+                android:id="@+id/change_password"
+                android:layout_width="match_parent"
+                android:layout_height="42dp"
+                android:layout_marginTop="1px"
+                android:background="#ffffff"
+                android:gravity="center_vertical|left"
+                android:text="修改密码"
+                android:textColor="#626262" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/logout"
+        android:layout_width="0dp"
+        android:layout_height="36dp"
+        android:layout_marginTop="20dp"
+        android:background="#ffffff"
+        android:text="退出登录"
+        android:gravity="center"
+        android:textColor="#e83a3a"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/linearLayout6" />
+
+    <LinearLayout
+        android:id="@+id/linearLayout6"
+        android:layout_width="0dp"
+        android:layout_height="42dp"
+        android:layout_marginTop="20dp"
+        android:orientation="horizontal"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/linearLayout4"
+        android:background="#ffffff">
+        <FrameLayout
+            android:layout_width="60dp"
+            android:layout_height="42dp">
+
+            <ImageView
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                android:layout_gravity="center"
+                android:background="@drawable/vector_drawable_feedback" />
+        </FrameLayout>
+        <TextView
+            android:id="@+id/feedback"
+            android:background="#ffffff"
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="42dp"
+            android:gravity="center_vertical|left"
+            android:textColor="#626262"
+            android:text="意见反馈"/>
+    </LinearLayout>
+
+</android.support.constraint.ConstraintLayout>

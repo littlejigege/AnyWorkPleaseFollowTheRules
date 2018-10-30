@@ -1,0 +1,43 @@
+<resources>
+    <string name="app_name">AnyWork</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+
+    <string name="create_account">注册帐号</string>
+    <string name="login">登录帐号</string>
+    <string name="login_others">游客模式</string>
+    <string name="change_ip">更改服务器IP</string>
+    <string name="use_info">请在校园网下使用本软件Ծ‸Ծ</string>
+    <string name="sign_up">注 册</string>
+    <string name="register">立即注册</string>
+    <string name="name">请输入您的学号</string>
+    <string name="phone">请输入您的手机号码</string>
+    <string name="password">请输入您的密码</string>
+    <string name="put_email">请输入您的邮箱</string>
+    <string name="rePassword">请再次输入您的密码</string>
+    <string name="sign_in">登 录</string>
+    <string name="student_id">学号</string>
+    <string name="forget_password">忘记密码？</string>
+    <string name="info">个人信息</string>
+    <string name="paper">试卷</string>
+    <string name="inform">公告</string>
+    <string name="edit">编辑</string>
+    <string name="my_name">姓名</string>
+    <string name="my_account">帐号</string>
+    <string name="account2">请输入帐号</string>
+    <string name="phone2">请输入电话号码</string>
+    <string name="my_phone">手机号码</string>
+    <string name="point">提示</string>
+    <string name="confirm">确认</string>
+    <string name="cancel">取消</string>
+
+    <string name="tip_load_blank">暂时木有内容呀～～</string>
+    <string name="tip_load_error">轻触重新加载～～</string>
+    <string name="meed_question">遇到问题</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+</resources>

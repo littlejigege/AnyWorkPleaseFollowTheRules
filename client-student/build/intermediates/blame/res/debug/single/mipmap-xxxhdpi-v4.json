@@ -1,0 +1,14 @@
+[
+    {
+        "merged": "E:\\work\\Android\\Apps\\AnyWork2.0\\client-student\\build\\intermediates\\res\\merged\\debug\\mipmap-xxxhdpi-v4\\ic_launcher.png",
+        "source": "E:\\work\\Android\\Apps\\AnyWork2.0\\client-student\\src\\main\\res\\mipmap-xxxhdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "E:\\work\\Android\\Apps\\AnyWork2.0\\client-student\\build\\intermediates\\res\\merged\\debug\\mipmap-xxxhdpi-v4\\ic_launcher_round.png",
+        "source": "E:\\work\\Android\\Apps\\AnyWork2.0\\client-student\\src\\main\\res\\mipmap-xxxhdpi\\ic_launcher_round.png"
+    },
+    {
+        "merged": "E:\\work\\Android\\Apps\\AnyWork2.0\\client-student\\build\\intermediates\\res\\merged\\debug\\mipmap-xxxhdpi-v4\\ic_launcher_foreground.png",
+        "source": "E:\\work\\Android\\Apps\\AnyWork2.0\\client-student\\src\\main\\res\\mipmap-xxxhdpi\\ic_launcher_foreground.png"
+    }
+]

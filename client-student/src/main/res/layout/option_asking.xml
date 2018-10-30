@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<EditText xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/edi_asking"
+    style="@style/AnyWork.Theme.EditText1"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginBottom="12dp"
+    android:layout_marginTop="12dp"
+    android:background="@drawable/background"
+    android:gravity="left|top"
+    android:hint="请输入你的答案..."
+    android:maxLines="10"
+    android:minLines="1"
+    android:padding="8dp"
+    android:textColor="#616161"
+    android:textColorHint="#66616161"
+    android:textSize="14sp"/>

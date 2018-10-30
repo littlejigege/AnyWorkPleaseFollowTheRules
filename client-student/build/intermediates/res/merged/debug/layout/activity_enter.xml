@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/AnyWork_primary_dark"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".enter.EnterActivity">
+
+    <ImageView
+        android:layout_width="100dp"
+        android:layout_height="70dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_margin="120dp"
+        android:background="@mipmap/logo"/>
+
+    <TextView
+        android:id="@+id/register"
+        android:layout_marginTop="240dp"
+        android:text="@string/create_account"
+        style="@style/AnyWork.Theme.TextView1"
+        android:background="@drawable/bg_btn_yellow"/>
+
+    <TextView
+        android:id="@+id/login"
+        android:layout_marginTop="330dp"
+        android:text="@string/login"
+        style="@style/AnyWork.Theme.TextView1"
+        android:background="@drawable/bg_btn_yellow" />
+
+    <TextView
+        android:id="@+id/others"
+        android:layout_marginTop="420dp"
+        android:text="@string/change_ip"
+        style="@style/AnyWork.Theme.TextView1"
+        android:background="@drawable/bg_btn_green"/>
+
+    <TextView
+        android:layout_gravity="center_horizontal|bottom"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:textColor="@color/white"
+        android:text="@string/use_info"/>
+
+    <FrameLayout
+        android:id="@+id/container"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+</FrameLayout>

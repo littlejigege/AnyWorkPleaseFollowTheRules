@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#f6f6f6"
+    tools:context="com.qgstudio.anywork.main.NewOrganizationActivity">
+
+    <FrameLayout
+        android:id="@+id/frame"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginTop="16dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/my_organization"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/toolbar2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#2e85ea"
+        app:contentInsetStart="0dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="所属组织"
+            android:textColor="#ffffff"
+            android:textSize="18sp" />
+
+        <ImageView
+            android:id="@+id/img_back"
+            android:layout_width="36dp"
+            android:layout_height="36dp"
+            android:padding="12dp"
+            android:src="@drawable/icon_register_back" />
+
+    </android.support.v7.widget.Toolbar>
+
+    <EditText
+        android:id="@+id/edi_searching"
+        android:layout_width="280dp"
+        android:layout_height="32dp"
+        android:layout_marginTop="20dp"
+        android:hint="请输入班级名称"
+        android:textColor="#437aea"
+        android:paddingStart="17dp"
+        android:textSize="14sp"
+        android:background="@drawable/shape_organization_search"
+        android:layout_marginLeft="20dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/toolbar2" />
+
+    <ImageView
+        android:layout_width="12.1dp"
+        android:layout_height="12.1dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="15dp"
+        android:text="搜索"
+        android:textColor="#2E85EA"
+        android:textSize="14sp"
+        app:layout_constraintBottom_toBottomOf="@+id/edi_searching"
+        app:layout_constraintStart_toEndOf="@+id/edi_searching"
+        app:layout_constraintTop_toTopOf="@+id/edi_searching" />
+
+    <TextView
+        android:id="@+id/my_organization"
+        android:layout_width="wrap_content"
+        android:layout_height="30dp"
+        android:layout_marginTop="16dp"
+        android:background="@drawable/bg_my_organize"
+        android:gravity="center"
+        android:paddingHorizontal="11dp"
+        android:paddingVertical="7dp"
+        android:text="当前组织：未获取"
+        android:textColor="#ffffff"
+        android:clickable="false"
+        app:layout_constraintStart_toStartOf="@+id/edi_searching"
+        app:layout_constraintTop_toBottomOf="@+id/edi_searching" />
+
+
+</android.support.constraint.ConstraintLayout>

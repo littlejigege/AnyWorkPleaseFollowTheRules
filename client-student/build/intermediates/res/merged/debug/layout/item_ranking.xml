@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:layout_marginTop="8dp"
+        android:orientation="horizontal"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <FrameLayout
+            android:layout_width="42dp"
+            android:layout_height="39dp"
+            android:layout_marginLeft="24dp">
+
+            <ImageView
+                android:id="@+id/number_image"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:visibility="gone" />
+
+            <TextView
+                android:id="@+id/number_text"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:text="NO.4"
+                android:textColor="#616161"
+                android:visibility="gone" />
+        </FrameLayout>
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/head_pic"
+            android:layout_width="42dp"
+            android:layout_height="42dp"
+            android:layout_marginLeft="24dp" />
+
+        <TextView
+            android:id="@+id/name"
+            android:layout_width="48dp"
+            android:layout_height="22dp"
+            android:layout_gravity="center"
+            android:layout_marginLeft="24dp"
+            android:gravity="center"
+            android:text="黄海景"
+            android:textColor="#616161"/>
+
+        <TextView
+            android:id="@+id/student_id"
+            android:layout_width="85dp"
+            android:layout_height="20dp"
+            android:layout_gravity="center"
+            android:layout_marginLeft="24dp"
+            android:gravity="center"
+            android:text="3216002234"
+            android:textColor="#616161"/>
+    </LinearLayout>
+</android.support.constraint.ConstraintLayout>

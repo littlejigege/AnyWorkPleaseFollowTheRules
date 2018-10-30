@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg_change_info"
+    tools:context="com.qgstudio.anywork.user.ChangeInfoActivity">
+
+
+    <TextView
+        android:id="@+id/textview_mail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="32dp"
+        android:text="邮箱"
+        android:textColor="#4f6be5"
+        android:textSize="14sp"
+        android:translationZ="5dp"
+        app:layout_constraintBottom_toTopOf="@+id/textview_phone"
+        app:layout_constraintStart_toStartOf="@+id/button_save" />
+
+    <ImageView
+        android:id="@+id/image_cancel"
+        android:layout_width="36dp"
+        android:layout_height="36dp"
+        android:padding="12dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/icon_cancel" />
+
+    <android.support.v7.widget.CardView
+        android:id="@+id/cardView"
+        android:layout_width="312dp"
+        android:layout_height="264dp"
+
+        app:cardCornerRadius="15dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.5">
+
+    </android.support.v7.widget.CardView>
+
+    <Button
+        android:id="@+id/button_save"
+        android:layout_width="252dp"
+        android:layout_height="30dp"
+        android:layout_marginBottom="24dp"
+        android:layout_marginEnd="0dp"
+        android:layout_marginStart="0dp"
+        android:background="@drawable/shape_button_notice"
+        android:text="保存"
+        android:textColor="#ffffff"
+        android:textSize="16sp"
+        app:layout_constraintBottom_toBottomOf="@+id/cardView"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/textview_phone"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="48dp"
+        android:text="手机"
+        android:textColor="#4f6be5"
+        android:textSize="14sp"
+        android:translationZ="2dp"
+        app:layout_constraintBottom_toTopOf="@+id/button_save"
+        app:layout_constraintStart_toStartOf="@+id/button_save" />
+
+    <View
+        android:id="@+id/line1"
+        android:layout_width="252dp"
+        android:layout_height="1dp"
+        android:layout_marginTop="7dp"
+        android:background="#4f6be5"
+        android:translationZ="2dp"
+        app:layout_constraintStart_toStartOf="@+id/button_save"
+        app:layout_constraintTop_toBottomOf="@+id/textview_mail"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <View
+        android:id="@+id/line2"
+        android:layout_width="252dp"
+        android:layout_height="1dp"
+        android:layout_marginTop="7dp"
+        android:background="#4f6be5"
+        android:translationZ="2dp"
+        app:layout_constraintStart_toStartOf="@+id/button_save"
+        app:layout_constraintTop_toBottomOf="@+id/textview_phone"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <EditText
+        android:id="@+id/editText_old"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="50dp"
+        android:background="@null"
+        android:textColor="#2F2F2F"
+        android:translationZ="2dp"
+        android:textCursorDrawable="@drawable/my_cursor"
+        app:layout_constraintBottom_toBottomOf="@+id/textview_mail"
+        app:layout_constraintLeft_toLeftOf="@+id/textview_mail"
+        app:layout_constraintTop_toTopOf="@+id/textview_mail" />
+
+    <EditText
+        android:id="@+id/editText_phone"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="50dp"
+        android:background="@null"
+        android:textColor="#2F2F2F"
+        android:translationZ="2dp"
+        android:textCursorDrawable="@drawable/my_cursor"
+        app:layout_constraintBottom_toBottomOf="@+id/textview_phone"
+        app:layout_constraintLeft_toLeftOf="@+id/textview_phone"
+        app:layout_constraintTop_toTopOf="@+id/textview_phone" />
+
+    <TextView
+        android:id="@+id/textView_id"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="12dp"
+        android:text="3116002334"
+        android:textColor="#2f2f2f"
+        android:textSize="12sp"
+        android:translationZ="5dp"
+        app:layout_constraintBottom_toTopOf="@id/editText_old"
+        app:layout_constraintHorizontal_bias="0.502"
+        app:layout_constraintLeft_toLeftOf="@id/button_save"
+        app:layout_constraintRight_toRightOf="@id/button_save" />
+
+    <TextView
+        android:id="@+id/textView_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="5dp"
+        android:text="黄海金"
+        android:textColor="#2f2f2f"
+        android:textSize="16sp"
+        android:translationZ="5dp"
+        app:layout_constraintBottom_toTopOf="@id/textView_id"
+        app:layout_constraintHorizontal_bias="0.47"
+        app:layout_constraintLeft_toLeftOf="@id/textView_id"
+        app:layout_constraintRight_toRightOf="@id/textView_id" />
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/imageView_head"
+        android:layout_width="65dp"
+        android:layout_height="65dp"
+        android:src="@drawable/icon_head"
+        android:translationZ="5dp"
+        app:layout_constraintBottom_toTopOf="@id/cardView"
+        app:layout_constraintLeft_toLeftOf="@id/cardView"
+        app:layout_constraintRight_toRightOf="@id/cardView"
+        app:layout_constraintTop_toTopOf="@id/cardView" />
+
+</android.support.constraint.ConstraintLayout>

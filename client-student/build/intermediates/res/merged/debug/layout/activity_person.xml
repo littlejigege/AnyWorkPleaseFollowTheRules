@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/white">
+
+    <ImageView
+        android:id="@+id/background"
+        android:layout_width="match_parent"
+        android:layout_height="160dp"
+        android:background="@drawable/bg_person"/>
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/head_pic"
+        android:layout_width="72dp"
+        android:layout_height="72dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="120dp"
+        android:src="@drawable/ic_user_default"
+        app:civ_border_color="@color/AnyWork_light"
+        app:civ_border_width="2dp"/>
+
+    <Button
+        android:id="@+id/edit"
+        android:layout_width="82dp"
+        android:layout_height="36dp"
+        android:layout_marginTop="170dp"
+        android:layout_marginEnd="20dp"
+        android:layout_gravity="end"
+        android:text="@string/edit"
+        android:textColor="@color/AnyWork_light"
+        android:textSize="20sp"
+        android:background="@drawable/bg_btn_yellow"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="200dp"
+        android:layout_marginStart="36dp"
+        android:layout_marginEnd="36dp"
+        android:orientation="vertical">
+
+        <TextView
+            style="@style/AnyWork.Theme.TextView3"
+            android:layout_marginTop="10dp"
+            android:text="@string/my_account"/>
+
+        <TextView
+            android:id="@+id/student_id"
+            style="@style/AnyWork.Theme.EditText2"/>
+
+        <TextView
+            style="@style/AnyWork.Theme.TextView3"
+            android:text="@string/my_name" />
+
+        <TextView
+            android:id="@+id/name"
+            style="@style/AnyWork.Theme.EditText2" />
+
+        <TextView
+            style="@style/AnyWork.Theme.TextView3"
+            android:text="@string/my_phone"/>
+
+        <EditText
+            android:id="@+id/phone"
+            style="@style/AnyWork.Theme.EditText2"
+            android:hint="@string/phone2"
+            android:inputType="phone" />
+
+        <TextView
+            style="@style/AnyWork.Theme.TextView3"
+            android:text="邮箱"/>
+
+        <EditText
+            android:id="@+id/email"
+            style="@style/AnyWork.Theme.EditText2"
+            android:hint="请输入邮箱"
+            android:inputType="textEmailAddress" />
+
+        <ImageView
+            android:id="@+id/exit"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="16dp"
+            app:srcCompat="@mipmap/cancel"/>
+
+    </LinearLayout>
+
+</FrameLayout>

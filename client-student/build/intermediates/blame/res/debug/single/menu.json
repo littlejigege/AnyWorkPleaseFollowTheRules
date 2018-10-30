@@ -1,0 +1,18 @@
+[
+    {
+        "merged": "E:\\work\\Android\\Apps\\AnyWork2.0\\client-student\\build\\intermediates\\res\\merged\\debug\\menu\\home_bottom.xml",
+        "source": "E:\\work\\Android\\Apps\\AnyWork2.0\\client-student\\src\\main\\res\\menu\\home_bottom.xml"
+    },
+    {
+        "merged": "E:\\work\\Android\\Apps\\AnyWork2.0\\client-student\\build\\intermediates\\res\\merged\\debug\\menu\\menu_search.xml",
+        "source": "E:\\work\\Android\\Apps\\AnyWork2.0\\client-student\\src\\main\\res\\menu\\menu_search.xml"
+    },
+    {
+        "merged": "E:\\work\\Android\\Apps\\AnyWork2.0\\client-student\\build\\intermediates\\res\\merged\\debug\\menu\\drawer_content.xml",
+        "source": "E:\\work\\Android\\Apps\\AnyWork2.0\\client-student\\src\\main\\res\\menu\\drawer_content.xml"
+    },
+    {
+        "merged": "E:\\work\\Android\\Apps\\AnyWork2.0\\client-student\\build\\intermediates\\res\\merged\\debug\\menu\\setting.xml",
+        "source": "E:\\work\\Android\\Apps\\AnyWork2.0\\client-student\\src\\main\\res\\menu\\setting.xml"
+    }
+]

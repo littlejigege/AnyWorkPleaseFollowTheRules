@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="Gradle: com.tinkerpatch.tinker:aosp-dexutils:1.9.8@jar">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.tinkerpatch.tinker/aosp-dexutils/1.9.8/dc1822479c66cda4b962e19b2d7777e22c3d8892/aosp-dexutils-1.9.8.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.tinkerpatch.tinker/aosp-dexutils/1.9.8/9dad9e8fe3875242afd5ffe8b313f9f74551ff7d/aosp-dexutils-1.9.8-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

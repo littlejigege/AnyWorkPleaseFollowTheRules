@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="80dp"
+    android:background="@drawable/bg_organization_item"
+    android:orientation="horizontal">
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/civ_organization"
+        android:layout_width="56dp"
+        android:layout_height="56dp"
+        android:layout_gravity="center_vertical"
+        android:layout_margin="15dp"
+        android:background="@drawable/bg_circle_solid"
+        android:src="@drawable/ic_organization_default" />
+
+    <RelativeLayout
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:gravity="center_vertical">
+
+        <TextView
+            android:id="@+id/tv_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="15计科三四班-JAVA"
+            android:textColor="#fd9002"
+            android:textSize="20dp"
+            android:singleLine="true"/>
+
+        <TextView
+            android:id="@+id/tv_teacher"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/tv_name"
+            android:layout_marginRight="8dp"
+            android:layout_marginTop="10dp"
+            android:text="教师：唐浩强"
+            android:textColor="#5ba9e5"
+            android:textSize="12dp" />
+
+        <TextView
+            android:id="@+id/tv_description"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBaseline="@id/tv_teacher"
+            android:layout_toRightOf="@id/tv_teacher"
+            android:text="ACM程序设计大赛"
+            android:textColor="#5ba9e5"
+            android:textSize="12dp"
+            android:singleLine="true"/>
+
+    </RelativeLayout>
+
+    <TextView
+        android:id="@+id/tv_status"
+        android:layout_width="50dp"
+        android:layout_height="25dp"
+        android:layout_gravity="center_vertical"
+        android:layout_margin="15dp"
+        android:gravity="center"
+        android:background="@drawable/bg_status_join_false"
+        android:text="未加入"
+        android:textColor="@color/status_join_false_text" />
+
+</LinearLayout>

@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="282dp"
+    android:layout_height="203dp"
+    android:layout_gravity="center_horizontal"
+    android:background="@drawable/bg_attention">
+
+    <FrameLayout
+        android:id="@+id/title_container"
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:layout_gravity="top">
+
+        <TextView
+            android:id="@+id/title_text"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:textColor="@color/AnyWork_accent"
+            android:textSize="20sp"/>
+
+        <ImageView
+            android:id="@+id/close"
+            android:layout_width="36dp"
+            android:layout_height="36dp"
+            android:padding="14dp"
+            android:src="@drawable/icon_cancel"
+            android:layout_gravity="end"/>
+
+    </FrameLayout>
+
+    <FrameLayout
+        android:id="@+id/view_container"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:minHeight="50dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginBottom="60dp"/>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="30dp"
+        android:layout_gravity="bottom|center_horizontal"
+        android:layout_marginBottom="15dp"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/confirm"
+            android:layout_width="158dp"
+            android:layout_height="30dp"
+            android:textColor="#528dff"
+            android:text="@string/cancel"
+            android:textSize="16sp"
+            android:background="@drawable/shape_button_organization" />
+
+    </LinearLayout>
+
+</FrameLayout>

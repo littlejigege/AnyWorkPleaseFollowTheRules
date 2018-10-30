@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <declare-styleable name="ExamPagerView">
+        <attr name="sTitleCenterTextString" format="string" />
+        <attr name="sTitleCenterTextColor" format="color" />
+        <attr name="sTitleBackgroundColor" format="color" />
+        <attr name="sTitleLeftIconResId" format="integer" />
+        <attr name="sTitleRightIconResId" format="integer" />
+        <attr name="sTitleRightIconTittle" format="string" />
+        <attr name="sLeftBottomTextString" format="string" />
+        <attr name="sLeftBottomTextColor" format="color" />
+        <attr name="sLeftBottomBackgroundColor" format="color" />
+        <attr name="sLeftBottomAlpha" format="float" />
+        <attr name="sRightBottomTextString" format="string" />
+        <attr name="sRightBottomTextColor" format="color" />
+        <attr name="sRightBottomBackgroundColor" format="color" />
+        <attr name="sRightBottomAlpha" format="float" />
+    </declare-styleable>
+
+    <declare-styleable name="ArrowsView">
+        <attr name="android:layout_width" />
+        <attr name="android:layout_height" />
+    </declare-styleable>
+
+</resources>

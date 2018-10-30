@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#262626</color>
+    <color name="colorPrimaryDark">#212121</color>
+    <color name="colorAccent">#88ffffff</color>
+
+    <!--color used by yason-->
+    <color name="dark_grey_toolbar" >#212121</color>
+    <color name="dark_grey_status" >#262626</color>
+    <color name="dark_green_text">#3bbf95</color>
+    <color name="dark_blue_text">#5aa8e4</color>
+    <color name="dark_orange_text">#fd8f01</color>
+    <color name="dark_grey_background">#272727</color>
+    <color name="dark_grey_baseline">#404040</color>
+    <color name="dark_purple_text">#64717f</color>
+    <color name="dark_grey_text">#454545</color>
+    <color name="dark_white_background">#fdfdfe</color>
+
+    <color name="status_join_false_bg">#dfdfdf</color>
+    <color name="status_join_false_text">#797979</color>
+    <color name="status_join_true_bg">#fd8f01</color>
+    <color name="status_join_true_text">#fcfdfd</color>
+
+
+    <color name="touch_effect">#9ccc</color>
+
+    <color name="AnyWork_primary">#202529</color>
+    <color name="AnyWork_primary_dark">#272727</color>
+    <color name="AnyWork_blank">#424242</color>
+    <color name="AnyWork_light">@android:color/white</color>
+    <color name="AnyWork_accent">#fd8f01</color>
+
+    <color name="text_light">@android:color/white</color>
+    <color name="text_dark">#616161</color>
+    <color name="text_hint">#66ffffff</color>
+
+    <color name="sample_red">#ff4444</color>
+    <color name="sample_blue">#3C7EFF</color>
+    <color name="sample_green">#1DC44B</color>
+    <color name="sample_yellow">#fd8f01</color>
+    <color name="sample_disable">#88454545</color>
+
+    <color name="background_dark">#353535</color>
+
+    <!-- theme colors -->
+    <color name="theme_blue_background">#84ffff</color>
+    <color name="theme_blue_primary">#4FC3F7</color>
+    <color name="theme_blue_accent">#ff193a</color>
+    <color name="theme_blue_text">@color/text_dark</color>
+    <color name="theme_blue_text_inverse">@android:color/black</color>
+    <color name="theme_blue_primary_dark">#039BE5</color>
+
+    <color name="theme_green_background">#b9f6ca</color>
+    <color name="theme_green_primary">#669900</color>
+    <color name="theme_green_accent">#e919ff</color>
+    <color name="theme_green_text">@color/text_dark</color>
+    <color name="theme_green_primary_dark">#558B2F</color>
+
+    <color name="theme_purple_background">#b388ff</color>
+    <color name="theme_purple_primary">#7e57c2</color>
+    <color name="theme_purple_accent">#ff9419</color>
+    <color name="theme_purple_text">@color/text_light</color>
+    <color name="theme_purple_primary_dark">#6c4aa6</color>
+
+    <color name="theme_red_background">#ff8a80</color>
+    <color name="theme_red_primary">#ff5252</color>
+    <color name="theme_red_accent">#fffc19</color>
+    <color name="theme_red_text">@color/text_light</color>
+    <color name="theme_red_primary_dark">#e64a4a</color>
+
+    <color name="theme_yellow_background">#fde2b2</color>
+    <color name="theme_yellow_primary">#ff8800</color>
+    <color name="theme_yellow_accent">#19dcff</color>
+    <color name="theme_yellow_text">@color/text_dark</color>
+    <color name="theme_yellow_primary_dark">#EF6C00</color>
+
+    <color name="white">#ffffff</color>
+    <color name="green">#00e676</color>
+    <color name="red">#ff5252</color>
+    <color name="light_grey">#E0E0E0</color>
+
+    <!-- paper feature -->
+    <color name="paper_blue_light">#3F56B5</color>
+    <color name="paper_blue_dark">#30459E</color>
+
+</resources>

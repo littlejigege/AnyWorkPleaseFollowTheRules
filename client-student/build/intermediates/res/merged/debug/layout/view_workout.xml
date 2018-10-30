@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="#ffffff">
+
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginEnd="20dp"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="20dp"
+            android:layout_weight="1"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/tv_question_info"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="1/20  (单选题)"
+                android:textColor="@color/sample_blue" />
+
+            <ImageView
+                android:id="@+id/btn_collect"
+                android:layout_width="16dp"
+                android:layout_height="16dp"
+                android:layout_gravity="center"
+                android:src="@drawable/icon_uncollect"
+                android:visibility="gone"/>
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/tv_question_content"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="20dp"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="12dp"
+            android:text="语言的祖先是BCPL语言。 以BCPL语言为基础，设计出很简单且很接近硬件的B语言（取BCPL的首字母）。   在1972年，美国贝尔实验室的 D.M.Ritchie 在B语言的基础上最终设计出了一种新的语言，他取了BCP。"
+            android:textColor="#616161" />
+
+        <android.support.v7.widget.RecyclerView
+            android:id="@+id/recycler_view_question_selections"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="20dp"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="6dp"
+            android:overScrollMode="never" />
+
+        <!--<EditText-->
+        <!--android:id="@+id/editTv_question_fill_blank"-->
+        <!--style="@style/AnyWork.Theme.EditText1"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:layout_marginBottom="12dp"-->
+        <!--android:layout_marginEnd="20dp"-->
+        <!--android:layout_marginStart="20dp"-->
+        <!--android:layout_marginTop="12dp"-->
+        <!--android:background="@drawable/background"-->
+        <!--android:gravity="left|top"-->
+        <!--android:hint="请输入你的答案..."-->
+        <!--android:maxLines="10"-->
+        <!--android:minLines="1"-->
+        <!--android:padding="8dp"-->
+        <!--android:textColor="#616161"-->
+        <!--android:textColorHint="#66616161"-->
+        <!--android:textSize="14sp" />-->
+
+        <TextView
+            android:id="@+id/btn_answer_control"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="end"
+            android:layout_marginBottom="20dp"
+            android:layout_marginEnd="20dp"
+            android:layout_marginStart="20dp"
+            android:clickable="true"
+            android:drawablePadding="8dp"
+            android:foreground="?android:attr/selectableItemBackground"
+            android:gravity="center"
+            android:text="展开解析"
+            android:textColor="#F13E58" />
+
+        <TextView
+            android:id="@+id/tv_answer"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingBottom="20dp"
+            android:paddingEnd="20dp"
+            android:paddingStart="20dp"
+            android:text="语言的祖先是BCPL语言。 以BCPL语言为基础，设计出很简单且很接近硬件的B语言（取BCPL的首字母）。   在1972年，美国贝尔实验室的 D.M.Ritchie 在B语言的基础上最终设计出了一种新的语言，他取了BCP。"
+            android:textColor="#616161" />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/tv_answer_invisible"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingBottom="20dp"
+        android:paddingEnd="20dp"
+        android:paddingStart="20dp"
+        android:text="语言的祖先是BCPL语言。 以BCPL语言为基础，设计出很简单且很接近硬件的B语言（取BCPL的首字母）。   在1972年，美国贝尔实验室的 D.M.Ritchie 在B语言的基础上最终设计出了一种新的语言，他取了BCP。"
+        android:textColor="#616161"
+        android:visibility="invisible" />
+</android.support.constraint.ConstraintLayout>

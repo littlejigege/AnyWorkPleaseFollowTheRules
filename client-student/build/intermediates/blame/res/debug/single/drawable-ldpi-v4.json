@@ -1,0 +1,50 @@
+[
+    {
+        "merged": "E:\\work\\Android\\Apps\\AnyWork2.0\\client-student\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi-v4\\ic_add.png",
+        "source": "E:\\work\\Android\\Apps\\AnyWork2.0\\client-student\\build\\generated\\res\\pngs\\debug\\drawable-ldpi\\ic_add.png"
+    },
+    {
+        "merged": "E:\\work\\Android\\Apps\\AnyWork2.0\\client-student\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi-v4\\ic_fiber_green.png",
+        "source": "E:\\work\\Android\\Apps\\AnyWork2.0\\client-student\\build\\generated\\res\\pngs\\debug\\drawable-ldpi\\ic_fiber_green.png"
+    },
+    {
+        "merged": "E:\\work\\Android\\Apps\\AnyWork2.0\\client-student\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi-v4\\feedback_select.png",
+        "source": "E:\\work\\Android\\Apps\\AnyWork2.0\\client-student\\build\\generated\\res\\pngs\\debug\\drawable-ldpi\\feedback_select.png"
+    },
+    {
+        "merged": "E:\\work\\Android\\Apps\\AnyWork2.0\\client-student\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi-v4\\feedback_noselect.png",
+        "source": "E:\\work\\Android\\Apps\\AnyWork2.0\\client-student\\build\\generated\\res\\pngs\\debug\\drawable-ldpi\\feedback_noselect.png"
+    },
+    {
+        "merged": "E:\\work\\Android\\Apps\\AnyWork2.0\\client-student\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi-v4\\ic_fiber_red.png",
+        "source": "E:\\work\\Android\\Apps\\AnyWork2.0\\client-student\\build\\generated\\res\\pngs\\debug\\drawable-ldpi\\ic_fiber_red.png"
+    },
+    {
+        "merged": "E:\\work\\Android\\Apps\\AnyWork2.0\\client-student\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi-v4\\ic_search.png",
+        "source": "E:\\work\\Android\\Apps\\AnyWork2.0\\client-student\\build\\generated\\res\\pngs\\debug\\drawable-ldpi\\ic_search.png"
+    },
+    {
+        "merged": "E:\\work\\Android\\Apps\\AnyWork2.0\\client-student\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi-v4\\vector_drawable_feedback.png",
+        "source": "E:\\work\\Android\\Apps\\AnyWork2.0\\client-student\\build\\generated\\res\\pngs\\debug\\drawable-ldpi\\vector_drawable_feedback.png"
+    },
+    {
+        "merged": "E:\\work\\Android\\Apps\\AnyWork2.0\\client-student\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi-v4\\change_ip.png",
+        "source": "E:\\work\\Android\\Apps\\AnyWork2.0\\client-student\\build\\generated\\res\\pngs\\debug\\drawable-ldpi\\change_ip.png"
+    },
+    {
+        "merged": "E:\\work\\Android\\Apps\\AnyWork2.0\\client-student\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi-v4\\feedback_add_picture.png",
+        "source": "E:\\work\\Android\\Apps\\AnyWork2.0\\client-student\\build\\generated\\res\\pngs\\debug\\drawable-ldpi\\feedback_add_picture.png"
+    },
+    {
+        "merged": "E:\\work\\Android\\Apps\\AnyWork2.0\\client-student\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi-v4\\bg_load_blank.png",
+        "source": "E:\\work\\Android\\Apps\\AnyWork2.0\\client-student\\build\\generated\\res\\pngs\\debug\\drawable-ldpi\\bg_load_blank.png"
+    },
+    {
+        "merged": "E:\\work\\Android\\Apps\\AnyWork2.0\\client-student\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi-v4\\feedback_cancel.png",
+        "source": "E:\\work\\Android\\Apps\\AnyWork2.0\\client-student\\build\\generated\\res\\pngs\\debug\\drawable-ldpi\\feedback_cancel.png"
+    },
+    {
+        "merged": "E:\\work\\Android\\Apps\\AnyWork2.0\\client-student\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi-v4\\ic_rank_fill.png",
+        "source": "E:\\work\\Android\\Apps\\AnyWork2.0\\client-student\\build\\generated\\res\\pngs\\debug\\drawable-ldpi\\ic_rank_fill.png"
+    }
+]

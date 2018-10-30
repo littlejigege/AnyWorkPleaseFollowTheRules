@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/nav_join"
+        android:title="我的班级" />
+    <item
+        android:id="@+id/nav_inform"
+        android:title="个人信息" />
+    <item
+        android:id="@+id/nav_feedback"
+        android:title="意见反馈" />
+    <item
+        android:id="@+id/nav_exit"
+        android:title="退出登入" />
+</menu>
