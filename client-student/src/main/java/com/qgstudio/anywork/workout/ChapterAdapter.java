@@ -134,7 +134,7 @@ public class ChapterAdapter extends RecyclerView.Adapter<RecyclerView.ViewHolder
                     long now = System.currentTimeMillis();
 
                     //只有在考试不是完成状态才需要
-                    if (testpaper.getStatus()!= Testpaper.STATUS_DONE) {
+                    if (testpaper.getStatus() != Testpaper.STATUS_DONE) {
                         if (now < createD.getTime()) {
                             ToastUtil.showToast("未到达考试时间");
                             return;
@@ -213,29 +213,31 @@ public class ChapterAdapter extends RecyclerView.Adapter<RecyclerView.ViewHolder
 
         Map<String, Integer> info = new HashMap<>();
         info.put("testpaperId", testpaperId);
-        info.put("userId", App.getInstance().getUser().getUserId());
-
         Log.e(TAG, "checkTheTestFinish: " + GsonUtil.GsonString(info));
-        RetrofitClient.RETROFIT_CLIENT.getRetrofit().create(PaperAdapter.CheckApi.class)
-                .checkTheTestFinish(info)
-                .subscribeOn(Schedulers.io())
-                .observeOn(AndroidSchedulers.mainThread())
-                .subscribe(new Observer<ResponseResult<StudentTestResult>>() {
-                    @Override
-                    public void onCompleted() {
-                    }
+        //试卷完成的状态下才需要去获取答题结果
+        if (state != Testpaper.STATUS_DONE) {
+            dialog.dismiss();
+            ExamActivity.start(context, testpaperId, type, paperTittle, state);
+        } else {
+            RetrofitClient.RETROFIT_CLIENT.getRetrofit().create(CheckApi.class)
+                    .checkTheTestFinish(info)
+                    .subscribeOn(Schedulers.io())
+                    .observeOn(AndroidSchedulers.mainThread())
+                    .subscribe(new Observer<ResponseResult<StudentTestResult>>() {
+                        @Override
+                        public void onCompleted() {
+                        }
 
-                    @Override
-                    public void onError(Throwable e) {
-                        dialog.dismiss();
-                        e.printStackTrace();
-                        ToastUtil.showToast("网络连接错误");
-                    }
+                        @Override
+                        public void onError(Throwable e) {
+                            dialog.dismiss();
+                            e.printStackTrace();
+                            ToastUtil.showToast("网络连接错误");
+                        }
 
-                    @Override
-                    public void onNext(ResponseResult<StudentTestResult> result) {
-                        dialog.dismiss();
-                        if (result.getState() == 1) {
+                        @Override
+                        public void onNext(ResponseResult<StudentTestResult> result) {
+                            dialog.dismiss();
                             double socre = result.getData().getSocre();
                             List<StudentAnswerResult> results = new ArrayList<>();
 
@@ -244,11 +246,11 @@ public class ChapterAdapter extends RecyclerView.Adapter<RecyclerView.ViewHolder
                                 results.add(new StudentAnswerResult(analysi));
                             }
                             GradeActivity.start(context, socre, GsonUtil.GsonString(results), paperTittle);
-                        } else {
-                            ExamActivity.start(context, testpaperId, type, paperTittle, state);
+
                         }
-                    }
-                });
+                    });
+        }
+
     }
 
     /**
@@ -275,7 +277,7 @@ public class ChapterAdapter extends RecyclerView.Adapter<RecyclerView.ViewHolder
 
     public interface CheckApi {
 
-        @POST("organization/studentTestDetail")
+        @POST("test/done/detail")
         @Headers("Content-Type:application/json")
         Observable<ResponseResult<StudentTestResult>> checkTheTestFinish(@Body Map<String, Integer> testpaperId);
     }

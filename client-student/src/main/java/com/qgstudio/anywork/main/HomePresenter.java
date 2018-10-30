@@ -90,8 +90,12 @@ public class HomePresenter extends BasePresenterImpl<HomeContract.HomeView> impl
                     protected void onSuccess(JsonObject data) {
                         List<Notice> noticeList = new Gson().fromJson(data
                                         .get("list")
-                                , new TypeToken<List<Notice>>() {}.getType());
-                        mView.onNoticeGet(noticeList);
+                                , new TypeToken<List<Notice>>() {
+                                }.getType());
+                        if (mView != null) {
+
+                            mView.onNoticeGet(noticeList);
+                        }
                     }
 
                     @Override
@@ -121,6 +125,9 @@ public class HomePresenter extends BasePresenterImpl<HomeContract.HomeView> impl
     }
 
     private void prepareLoading() {
-        mView.showLoading();
+        if (mView != null) {
+
+            mView.showLoading();
+        }
     }
 }

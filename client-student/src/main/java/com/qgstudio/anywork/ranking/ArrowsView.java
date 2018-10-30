@@ -10,18 +10,19 @@ import android.support.annotation.Nullable;
 import android.util.AttributeSet;
 import android.util.Log;
 import android.view.View;
+import android.view.animation.AccelerateDecelerateInterpolator;
 
 import com.qgstudio.anywork.R;
 
-public class ArrowsView extends View{
+public class ArrowsView extends View {
 
     private Paint paint;
 
     private float height = 0;
     private float width = 0;
 
-    private float head = 2/3;
-    private float tail = 1/3;
+    private float head = 2 / 3;
+    private float tail = 1 / 3;
 
     private float x1, y1;
     private float x2, y2;
@@ -37,6 +38,7 @@ public class ArrowsView extends View{
         paint.setColor(0xFF2E85EA);
         paint.setStyle(Paint.Style.FILL_AND_STROKE);
         paint.setStrokeWidth(10);
+        paint.setAntiAlias(true);
 
         TypedArray typedArray = context.obtainStyledAttributes(attrs, R.styleable.ArrowsView);
         height = typedArray.getDimension(R.styleable.ArrowsView_android_layout_height, 0);
@@ -80,7 +82,8 @@ public class ArrowsView extends View{
 
     public void mUp() {
         ValueAnimator animator = ValueAnimator.ofFloat(30, 20);
-        animator.setDuration(500);
+        animator.setDuration(200)
+                .setInterpolator(new AccelerateDecelerateInterpolator());
         animator.addUpdateListener(new ValueAnimator.AnimatorUpdateListener() {
             @Override
             public void onAnimationUpdate(ValueAnimator animation) {
@@ -90,12 +93,14 @@ public class ArrowsView extends View{
                 invalidate();
             }
         });
+
         animator.start();
     }
 
     public void mDown() {
         ValueAnimator animator = ValueAnimator.ofFloat(20, 30);
-        animator.setDuration(500);
+        animator.setDuration(200)
+                .setInterpolator(new AccelerateDecelerateInterpolator());
         animator.addUpdateListener(new ValueAnimator.AnimatorUpdateListener() {
             @Override
             public void onAnimationUpdate(ValueAnimator animation) {

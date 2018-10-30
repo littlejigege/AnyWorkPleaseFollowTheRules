@@ -48,77 +48,50 @@ public class ChangeInfoActivity extends MVPBaseActivity<UserContract.View, UserP
     public static final String TAG = "ChangeInfoActivity";
     private User user;
 
-//    @BindView(R.id.imageView_head)
+
     CircleImageView pic;
 
-//    @BindView(R.id.textView_name)
+
     TextView name;
 
-//    @BindView(R.id.textView_id)
+
     TextView studentId;
 
-//    @BindView(R.id.editText_mail)
+
     EditText email;
 
-//    @BindView(R.id.editText_phone)
+
     EditText phone;
 
-//    @BindView(R.id.button_save)
+
     Button saveButton;
 
     ImageView cancelImage;
 
-//    @OnClick(R.id.button_save)
-    public void save(){
-        String p = phone.getText().toString();
-        String m = email.getText().toString();
-        if (!m.matches("\\w+@\\w+(\\.\\w{2,3})*\\.\\w{2,3}")) {
-            ToastUtil.showToast("请输入正确的邮箱地址");
-            return ;
-        }
-        if (!p.matches("^((13[0-9])|(15[^4])|(18[0,2,3,5-9])|(17[0-8])|(147))\\d{8}$")) {
-            ToastUtil.showToast("请输入正确的电话号码");
-            return ;
-        }
-        User nUser = user.clone();
-//            nUser.setUserName(n);
-        nUser.setPhone(p);
-        nUser.setEmail(m);
-        mPresenter.changeInfo(nUser);
-    }
+
 
     @OnClick(R.id.edit)
     public void edit() {
-//        if (isFinish) {
-//            editFocusable(true);
-//            edit.setText("完成");
-//            edit.setBackgroundResource(R.drawable.bg_btn_blue);
-//        } else {
-//            String n = name.getText().toString();
+
             String p = phone.getText().toString();
             String m = email.getText().toString();
-//            if (!n.matches("[a-z0-9A-Z\\u4e00-\\u9fa5]{1,15}")) {
-//                ToastUtil.showToast("请输入1-15个字符的姓名");
-//                return ;
-//            }
+
             if (!m.matches("\\w+@\\w+(\\.\\w{2,3})*\\.\\w{2,3}")) {
                 ToastUtil.showToast("请输入正确的邮箱地址");
             }
             if (!p.matches("^((13[0-9])|(15[^4])|(18[0,2,3,5-9])|(17[0-8])|(147))\\d{8}$")) {
                 ToastUtil.showToast("请输入正确的电话号码");
-//                return ;
+
             }
 
             User nUser = user.clone();
-//            nUser.setUserName(n);
+
             nUser.setPhone(p);
             nUser.setEmail(m);
             mPresenter.changeInfo(nUser);
-//            editFocusable(false);
-//            edit.setText("编辑");
-//            edit.setBackgroundResource(R.drawable.bg_btn_yellow);
+
         }
-//        isFinish = !isFinish;
+
 
 
     @OnClick(R.id.imageView_head)
@@ -344,6 +317,7 @@ public class ChangeInfoActivity extends MVPBaseActivity<UserContract.View, UserP
         MyOpenHelper myOpenHelper = DataBaseUtil.getHelper();
         myOpenHelper.save(user);
         ToastUtil.showToast("信息修改完成");
+        finish();
     }
 
     @Override

@@ -236,6 +236,7 @@ public class ChangeInfoActivity2 extends MVPBaseActivity<UserContract.View, User
     public void showSuccess(User user) {
         App.getInstance().setUser(user);
         ToastUtil.showToast("信息修改完成");
+        finish();
     }
 
     @Override
