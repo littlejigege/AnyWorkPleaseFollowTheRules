@@ -215,7 +215,6 @@ public class ExamActivity extends MVPBaseActivity<ExamView, ExamRepository> impl
         mExamPagerView.setOnTopRightButtonClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-
                 mExamPagerView.showAnswerCard(AnswerBuffer.getInstance().getStudentAnswerArray(), mQuestionFragAdapter.getCount());
             }
         });

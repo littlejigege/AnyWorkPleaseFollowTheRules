@@ -16,6 +16,7 @@ import android.widget.TextView;
 import com.qgstudio.anywork.R;
 import com.qgstudio.anywork.collection.CollectionActivity;
 import com.qgstudio.anywork.data.model.Organization;
+import com.qgstudio.anywork.data.model.User;
 import com.qgstudio.anywork.grade.GradeContract;
 import com.qgstudio.anywork.mvp.MVPBaseFragment;
 import com.qgstudio.anywork.notice.NoticeActivity;
@@ -24,6 +25,7 @@ import com.qgstudio.anywork.notice.data.Notice;
 import com.qgstudio.anywork.paper.PaperActivity;
 import com.qgstudio.anywork.user.ChangeInfoActivity;
 import com.qgstudio.anywork.user.ChangePasswordActivity;
+import com.qgstudio.anywork.utils.DataBaseUtil;
 import com.qgstudio.anywork.utils.DesityUtil;
 import com.qgstudio.anywork.websocket.ThreadMode;
 import com.qgstudio.anywork.websocket.WS;
@@ -111,8 +113,8 @@ public class HomeFragment extends MVPBaseFragment<HomeContract.HomeView, HomePre
 
     @OnClick(R.id.btn_my_class)
     public void clickMyClass() {
-        WebSocketHolder.getDefault().onMessage(null, "{ \"messageId\": 123,\"type\": 2,\"title\": \"标题\",\"content\": \"内容\",\"publisher\": \"发布人\",\"status\": 0}");
-        if (((Organization)btnMyClass.getTag()).getOrganizationId() == -1) {
+
+        if (((Organization) btnMyClass.getTag()).getOrganizationId() == -1) {
             startActivity(new Intent(getActivity(), NewOrganizationActivity.class));
         }
     }
@@ -181,6 +183,7 @@ public class HomeFragment extends MVPBaseFragment<HomeContract.HomeView, HomePre
             }
         }
     }
+
     @WS(threadMode = ThreadMode.MAIN)
     public void onRealtimeNoticeGet(Notice notice) {
         //收到公告推送，重新拉一遍
@@ -190,7 +193,9 @@ public class HomeFragment extends MVPBaseFragment<HomeContract.HomeView, HomePre
     @Override
     public void onResume() {
         super.onResume();
+
         //每次进入碎片都要重新拉取数据
+
         mPresenter.getJoinOrganization();
         WebSocketHolder.getDefault().register(this);
         mPresenter.getNoticeNew();

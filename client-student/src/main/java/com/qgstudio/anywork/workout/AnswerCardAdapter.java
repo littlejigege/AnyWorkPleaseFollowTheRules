@@ -41,6 +41,7 @@ public class AnswerCardAdapter extends Adapter<RecyclerView.ViewHolder> {
     private SparseArray<StudentAnswer> mDatas;
     private Context mContext;
     private int sum;
+    private View.OnClickListener onItemClickListener;
 
 
     public void setmDatas(SparseArray<StudentAnswer> datas) {
@@ -85,6 +86,12 @@ public class AnswerCardAdapter extends Adapter<RecyclerView.ViewHolder> {
             text.setBackgroundResource(R.drawable.bg_choice_normal);
             text.setTextColor(ContextCompat.getColor(mContext, R.color.sample_blue));
         }
+        text.setTag(position);
+        text.setOnClickListener(onItemClickListener);
+    }
+
+    public void setOnItemClickListener(View.OnClickListener listener) {
+        onItemClickListener = listener;
     }
 
     @Override

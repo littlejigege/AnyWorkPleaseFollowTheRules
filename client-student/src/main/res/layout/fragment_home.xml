@@ -232,7 +232,8 @@
             <android.support.v7.widget.RecyclerView
                 android:id="@+id/recycler_view_notice"
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content" />
+                android:layout_height="wrap_content"
+                android:visibility="gone"/>
 
             <TextView
                 android:id="@+id/empty_view"
@@ -242,7 +243,7 @@
                 android:text="暂无公告"
                 android:textColor="#616161"
                 android:textSize="16sp"
-                android:visibility="gone" />
+                android:visibility="visible" />
         </LinearLayout>
     </ScrollView>
 
@@ -294,7 +295,7 @@
             android:paddingEnd="4dp"
             android:paddingStart="4dp"
             android:paddingTop="2dp"
-            android:text="2018级计科3班  >"
+            android:text="无班级，快去pick你的班级吧  >"
             android:textColor="@color/sample_blue"
             android:textSize="13sp"
             app:layout_constraintBottom_toBottomOf="parent"
