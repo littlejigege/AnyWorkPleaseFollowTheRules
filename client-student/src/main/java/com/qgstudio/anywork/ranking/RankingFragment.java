@@ -1,6 +1,7 @@
 package com.qgstudio.anywork.ranking;
 
 import android.app.ActionBar;
+import android.graphics.Typeface;
 import android.os.Bundle;
 import android.support.annotation.Nullable;
 import android.support.v4.app.Fragment;
@@ -39,6 +40,7 @@ public class RankingFragment extends Fragment {
     private ListView listView1;
     private PopupWindow popupWindow1;
     private RecyclerView rankingList;
+    private TextView score;
 
     //排行榜适配器
     private RankingAdapter rankingAdapter;
@@ -48,6 +50,16 @@ public class RankingFragment extends Fragment {
     private ArrayAdapter<String> arrayAdapter1;
 
     private RankingApi rankingApi;
+
+    private OnBackListener onBackListener;
+
+    interface OnBackListener {
+        void onClick();
+    }
+
+    public void setOnBackListener(OnBackListener onBackListener) {
+        this.onBackListener = onBackListener;
+    }
 
     public RankingFragment() {
     }
@@ -83,6 +95,7 @@ public class RankingFragment extends Fragment {
         View rootView = inflater.inflate(R.layout.fragment_ranking, container, false);
         try {
             initRankingList(rootView);
+            initBackButton(rootView);
             initSpinner(rootView);
             setDetails(rootView);
         } catch (NoSuchFieldException e) {
@@ -97,6 +110,19 @@ public class RankingFragment extends Fragment {
         return rootView;
     }
 
+    private void initBackButton(View rootView) {
+        View view = rootView.findViewById(R.id.btn_back);
+        if (testpaperId != -1) {
+            view.setVisibility(View.VISIBLE);
+            view.setOnClickListener(new View.OnClickListener() {
+                @Override
+                public void onClick(View v) {
+                    onBackListener.onClick();
+                }
+            });
+        }
+    }
+
     private void setDetails(View rootView) {
         int result = 0;
         int resourceId = getContext().getResources().getIdentifier("status_bar_height", "dimen", "android");
@@ -104,10 +130,11 @@ public class RankingFragment extends Fragment {
             result = getContext().getResources().getDimensionPixelOffset(resourceId);
         }
 
-        TextView textView = rootView.findViewById(R.id.title_ranking);
-        ViewGroup.MarginLayoutParams params = (ViewGroup.MarginLayoutParams) textView.getLayoutParams();
+//        TextView textView = rootView.findViewById(R.id.title_ranking);
+        View view = rootView.findViewById(R.id.ranking_frame);
+        ViewGroup.MarginLayoutParams params = (ViewGroup.MarginLayoutParams) view.getLayoutParams();
         params.topMargin = params.topMargin + result;
-        textView.setLayoutParams(params);
+        view.setLayoutParams(params);
     }
 
     /**

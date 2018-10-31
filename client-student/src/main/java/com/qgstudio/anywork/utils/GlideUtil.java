@@ -42,7 +42,7 @@ public class GlideUtil {
     public static void setPictureWithOutCache(ImageView img, String url, int def) {
         Glide.with(App.getInstance())
                 .load(ApiStores.API_DEFAULT_URL + url)
-                .skipMemoryCache(true)
+                .skipMemoryCache(false)
                 .diskCacheStrategy(DiskCacheStrategy.NONE)
                 .error(def == -1 ? R.drawable.ic_icon : def)
                 .fitCenter()
