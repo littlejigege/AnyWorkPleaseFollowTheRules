@@ -34,7 +34,7 @@ import com.tencent.bugly.beta.Beta;
 import de.hdodenhof.circleimageview.CircleImageView;
 
 public class MyFragment extends Fragment {
-
+    protected View rootView;
     private CircleImageView head;
     private View edit;
     private TextView feedback;
@@ -56,15 +56,21 @@ public class MyFragment extends Fragment {
     @Nullable
     @Override
     public View onCreateView(@NonNull LayoutInflater inflater, @Nullable ViewGroup container, @Nullable Bundle savedInstanceState) {
-        View view = inflater.inflate(R.layout.fragment_my, container, false);
+        if (rootView == null) {
+            rootView = inflater.inflate(R.layout.fragment_my, container, false);
+        }
 
 //        getActivity().getWindow().addFlags(WindowManager.LayoutParams.FLAG_TRANSLUCENT_STATUS);
 //        getActivity().getWindow().addFlags(WindowManager.LayoutParams.FLAG_TRANSLUCENT_NAVIGATION);
 
-        initView(view);
-        setDetails(view);
+        initView(rootView);
+        //避免重复下移
+        if (rootView.getTag() == null) {
+            setDetails(rootView);
+            rootView.setTag(new Object());
+        }
 
-        return view;
+        return rootView;
     }
 
     /**
@@ -145,7 +151,7 @@ public class MyFragment extends Fragment {
         about.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                if (toast == null){
+                if (toast == null) {
                     toast = Toast.makeText(getActivity(),
                             "Copyright (C) 2018\n" +
                                     "AnyWork2.0\n" +

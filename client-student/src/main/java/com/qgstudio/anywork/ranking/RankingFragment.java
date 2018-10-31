@@ -1,6 +1,7 @@
 package com.qgstudio.anywork.ranking;
 
 import android.app.ActionBar;
+import android.arch.lifecycle.Lifecycle;
 import android.graphics.Typeface;
 import android.os.Bundle;
 import android.support.annotation.Nullable;
@@ -33,6 +34,7 @@ import rx.schedulers.Schedulers;
 
 public class RankingFragment extends Fragment {
 
+    protected View rootView;
     private int testpaperId = -1;
 
     private TextView ranking1;
@@ -92,12 +94,18 @@ public class RankingFragment extends Fragment {
     @Nullable
     @Override
     public View onCreateView(LayoutInflater inflater, @Nullable ViewGroup container, @Nullable Bundle savedInstanceState) {
-        View rootView = inflater.inflate(R.layout.fragment_ranking, container, false);
+        if (rootView == null) {
+            rootView = inflater.inflate(R.layout.fragment_ranking, container, false);
+        }
         try {
             initRankingList(rootView);
             initBackButton(rootView);
             initSpinner(rootView);
-            setDetails(rootView);
+            //避免重复下移
+            if (rootView.getTag() == null) {
+                setDetails(rootView);
+                rootView.setTag(new Object());
+            }
         } catch (NoSuchFieldException e) {
             e.printStackTrace();
         } catch (IllegalAccessException e) {
@@ -234,6 +242,9 @@ public class RankingFragment extends Fragment {
 
                         @Override
                         public void onNext(ResponseResult<ArrayList<RankingMessage>> arrayListResponseResult) {
+                            if (getLifecycle().getCurrentState() != Lifecycle.State.RESUMED) {
+                                return;
+                            }
                             ArrayList<RankingMessage> messages = (ArrayList<RankingMessage>) arrayListResponseResult.getData();
                             Log.d("linzongzhan", "onNext: " + messages.toString());
                             rankingAdapter = new RankingAdapter(getActivity(), messages);
@@ -261,6 +272,9 @@ public class RankingFragment extends Fragment {
 
                         @Override
                         public void onNext(ResponseResult<ArrayList<RankingMessage>> arrayListResponseResult) {
+                            if (getLifecycle().getCurrentState() != Lifecycle.State.RESUMED) {
+                                return;
+                            }
                             ArrayList<RankingMessage> messages = (ArrayList<RankingMessage>) arrayListResponseResult.getData();
                             rankingAdapter = new RankingAdapter(getActivity(), messages);
                             rankingList.setAdapter(rankingAdapter);

@@ -33,6 +33,7 @@ import com.qgstudio.anywork.websocket.WebSocketHolder;
 import com.qgstudio.anywork.workout.WorkoutContainerActivity;
 import com.qgstudio.anywork.workout.WorkoutType;
 
+import java.lang.ref.WeakReference;
 import java.util.List;
 
 import butterknife.BindView;
@@ -53,6 +54,7 @@ public class HomeFragment extends MVPBaseFragment<HomeContract.HomeView, HomePre
     @BindView(R.id.recycler_view_notice)
     RecyclerView recyclerView;
     NoticeAdapter adapter;
+
 
     public static HomeFragment newInstance() {
         HomeFragment fragment = new HomeFragment();
@@ -206,4 +208,5 @@ public class HomeFragment extends MVPBaseFragment<HomeContract.HomeView, HomePre
         super.onStop();
         WebSocketHolder.getDefault().unregister(this);
     }
+
 }

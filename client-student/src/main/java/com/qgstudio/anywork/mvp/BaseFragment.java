@@ -9,6 +9,8 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 
+import java.lang.ref.WeakReference;
+
 /**
  * 自定义 BaseFragment 模版
  * Created by Yason on 2017/4/3.
@@ -18,17 +20,27 @@ public abstract class BaseFragment extends Fragment {
 
     protected View mRoot;
 
-    /** 供子类调用的父Activity，不要直接getActivity() */
+    /**
+     * 供子类调用的父Activity，不要直接getActivity()
+     */
     protected Activity mActivity;
 
-    /** 在此方法中返回顶层视图 */
+    /**
+     * 在此方法中返回顶层视图
+     */
     public abstract int getRootId();
 
-    /** 在此方法中初始化View */
+    /**
+     * 在此方法中初始化View
+     */
     public abstract void initView();
 
-    /** 在此方法中请求数据 */
+    /**
+     * 在此方法中请求数据
+     */
     public abstract void loadData();
+
+
 
     @Override
     public void onAttach(Context context) {
@@ -41,7 +53,10 @@ public abstract class BaseFragment extends Fragment {
     @Nullable
     @Override
     public View onCreateView(LayoutInflater inflater, @Nullable ViewGroup container, @Nullable Bundle savedInstanceState) {
-        mRoot = inflater.inflate(getRootId(), container, false);
+        //试图不让rootView死亡，避免闪烁
+        if (mRoot == null) {
+            mRoot = inflater.inflate(getRootId(), container, false);
+        }
         initView();
         loadData();
         return mRoot;
