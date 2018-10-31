@@ -53,7 +53,7 @@ public class RankingFragment extends Fragment {
 
     private OnBackListener onBackListener;
 
-    interface OnBackListener {
+    public interface OnBackListener {
         void onClick();
     }
 

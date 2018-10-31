@@ -18,8 +18,7 @@ public class User implements Parcelable, Cloneable {
     private String studentId;   //学号
     private String imagePath;   //头像路径
     private int mark;           //标志，区分是学生还是教师, 0学生，1老师
-    private int organizationID = -1;
-    private String organizationName;
+
 
     public User(int id, String name, String email, String password, String phone, String studentId, String imagePath, int mark) {
         this.userId = id;
@@ -129,21 +128,7 @@ public class User implements Parcelable, Cloneable {
         this.mark = mark;
     }
 
-    public int getOrganizationID() {
-        return organizationID;
-    }
 
-    public void setOrganizationID(int organizationID) {
-        this.organizationID = organizationID;
-    }
-
-    public String getOrganizationName() {
-        return organizationName;
-    }
-
-    public void setOrganizationName(String organizationName) {
-        this.organizationName = organizationName;
-    }
     // toString
 
 
@@ -158,7 +143,6 @@ public class User implements Parcelable, Cloneable {
                 ", studentId='" + studentId + '\'' +
                 ", imagePath='" + imagePath + '\'' +
                 ", mark=" + mark +
-                ", organizationID=" + organizationID +
                 '}';
     }
 

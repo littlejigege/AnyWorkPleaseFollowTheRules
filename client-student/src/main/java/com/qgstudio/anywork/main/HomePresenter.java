@@ -53,15 +53,6 @@ public class HomePresenter extends BasePresenterImpl<HomeContract.HomeView> impl
                     protected void onSuccess(List<Organization> data) {
                         LogUtil.d2(TAG, "getJoinOrganization", "onSuccess -> " + data);
                         //如果用户已经加入组织，则把组织号查入数据库，避免多余的网络请求
-                        if (data != null) {
-                            List<User> users = DataBaseUtil.getHelper().queryAll(User.class);
-                            if (users != null) {
-                                User loginUser = users.get(users.size() - 1);
-                                loginUser.setOrganizationID(data.get(0).getOrganizationId());
-                                loginUser.setOrganizationName(data.get(0).getOrganizationName());
-                                DataBaseUtil.getHelper().save(loginUser);
-                            }
-                        }
                         afterLoading();
                         if (mView != null) {
                             mView.onMyClassGot(data.isEmpty() ? null : data.get(0));
