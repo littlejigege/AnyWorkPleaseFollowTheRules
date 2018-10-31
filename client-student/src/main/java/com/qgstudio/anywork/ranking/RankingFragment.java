@@ -1,6 +1,7 @@
 package com.qgstudio.anywork.ranking;
 
 import android.app.ActionBar;
+import android.graphics.Typeface;
 import android.os.Bundle;
 import android.support.annotation.Nullable;
 import android.support.v4.app.Fragment;
@@ -39,6 +40,7 @@ public class RankingFragment extends Fragment {
     private ListView listView1;
     private PopupWindow popupWindow1;
     private RecyclerView rankingList;
+    private TextView score;
 
     //排行榜适配器
     private RankingAdapter rankingAdapter;

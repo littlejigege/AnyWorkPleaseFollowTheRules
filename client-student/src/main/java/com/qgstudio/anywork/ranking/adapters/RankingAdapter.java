@@ -2,6 +2,7 @@ package com.qgstudio.anywork.ranking.adapters;
 
 import android.content.Context;
 import android.graphics.Typeface;
+import android.os.Build;
 import android.support.annotation.NonNull;
 import android.support.v7.widget.RecyclerView;
 import android.view.LayoutInflater;
@@ -34,6 +35,7 @@ public class RankingAdapter extends RecyclerView.Adapter<RankingAdapter.ViewHold
         CircleImageView headPic;
         TextView name;
         TextView studentId;
+        TextView score;
 
         public ViewHolder(View itemView) {
             super(itemView);
@@ -43,6 +45,7 @@ public class RankingAdapter extends RecyclerView.Adapter<RankingAdapter.ViewHold
             headPic = (CircleImageView) itemView.findViewById(R.id.head_pic);
             name = (TextView) itemView.findViewById(R.id.name);
             studentId = (TextView) itemView.findViewById(R.id.student_id);
+            score = (TextView) itemView.findViewById(R.id.score);
         }
     }
 
@@ -80,6 +83,24 @@ public class RankingAdapter extends RecyclerView.Adapter<RankingAdapter.ViewHold
         GlideUtil.setPictureWithOutCache(holder.headPic, rankingMessage.getImagePath(), R.drawable.icon_head);
         holder.name.setText(rankingMessage.getUsername());
         holder.studentId.setText(rankingMessage.getStudentId());
+        holder.score.setTypeface(Typeface.createFromAsset(context.getAssets(), "zhankukuaileti.ttf"));
+        //根据分数设置背景颜色
+        int score = (int) rankingMessage.getScore();
+        if (score < 60) {
+            //保持默认红色背景
+            if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.LOLLIPOP) {
+                holder.score.setBackground(context.getDrawable(R.drawable.background_score_red));
+            }
+        } else if (score < 80) {
+            if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.LOLLIPOP) {
+                holder.score.setBackground(context.getDrawable(R.drawable.background_score_yellow));
+            }
+        } else {
+            if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.LOLLIPOP) {
+                holder.score.setBackground(context.getDrawable(R.drawable.background_score_green));
+            }
+        }
+        holder.score.setText(score + "");
     }
 
     @Override
