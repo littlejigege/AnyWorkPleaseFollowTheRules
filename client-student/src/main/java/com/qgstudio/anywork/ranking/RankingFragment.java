@@ -22,6 +22,7 @@ import com.qgstudio.anywork.R;
 import com.qgstudio.anywork.data.ResponseResult;
 import com.qgstudio.anywork.data.RetrofitClient;
 import com.qgstudio.anywork.data.model.RankingMessage;
+import com.qgstudio.anywork.mvp.BaseFragment;
 import com.qgstudio.anywork.ranking.adapters.RankingAdapter;
 
 import java.util.ArrayList;
@@ -32,7 +33,7 @@ import rx.Observer;
 import rx.android.schedulers.AndroidSchedulers;
 import rx.schedulers.Schedulers;
 
-public class RankingFragment extends Fragment {
+public class RankingFragment extends BaseFragment {
 
     protected View rootView;
     private int testpaperId = -1;
@@ -91,20 +92,21 @@ public class RankingFragment extends Fragment {
         this.testpaperId = testpaperId;
     }
 
-    @Nullable
     @Override
-    public View onCreateView(LayoutInflater inflater, @Nullable ViewGroup container, @Nullable Bundle savedInstanceState) {
-        if (rootView == null) {
-            rootView = inflater.inflate(R.layout.fragment_ranking, container, false);
-        }
+    public int getRootId() {
+        return R.layout.fragment_ranking;
+    }
+
+    @Override
+    public void initView(View view) {
         try {
-            initRankingList(rootView);
-            initBackButton(rootView);
-            initSpinner(rootView);
+            initRankingList(view);
+            initBackButton(view);
+            initSpinner(view);
             //避免重复下移
-            if (rootView.getTag() == null) {
-                setDetails(rootView);
-                rootView.setTag(new Object());
+            if (view.getTag() == null) {
+                setDetails(view);
+                view.setTag(new Object());
             }
         } catch (NoSuchFieldException e) {
             e.printStackTrace();
@@ -112,10 +114,12 @@ public class RankingFragment extends Fragment {
             e.printStackTrace();
         }
 
+    }
+
+    @Override
+    public void loadData(View view) {
         //初始化填充时的数据是按学生所在班级进行排名
         getRankingMessage(testpaperId, 1);
-
-        return rootView;
     }
 
     private void initBackButton(View rootView) {
@@ -138,7 +142,6 @@ public class RankingFragment extends Fragment {
             result = getContext().getResources().getDimensionPixelOffset(resourceId);
         }
 
-//        TextView textView = rootView.findViewById(R.id.title_ranking);
         View view = rootView.findViewById(R.id.ranking_frame);
         ViewGroup.MarginLayoutParams params = (ViewGroup.MarginLayoutParams) view.getLayoutParams();
         params.topMargin = params.topMargin + result;

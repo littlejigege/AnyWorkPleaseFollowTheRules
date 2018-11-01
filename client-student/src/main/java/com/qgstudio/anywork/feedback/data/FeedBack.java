@@ -23,6 +23,14 @@ public class FeedBack implements Serializable {
                 + "联系方式：" + contantWay;
     }
 
+    public String toString() {
+        output = "反馈类型：" + type + "\n"
+                + "详细内容：" + content + "\n"
+                + "模块：" + module + "\n"
+                + "联系方式：" + contantWay;
+        return output;
+    }
+
     public String getType() {
         return type;
     }

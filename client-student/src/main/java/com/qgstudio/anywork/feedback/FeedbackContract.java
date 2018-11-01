@@ -14,9 +14,11 @@ public class FeedbackContract {
         void showLoad();
 
         void stopLoad();
+
+        void updateUploadProgress(long length, long hasWrited);
     }
 
     interface Presenter extends BasePresenter<View> {
-        void uploadFeedback(FeedBack feedBack);
+        void uploadFeedback(FeedBack feedBack, String imagePath);
     }
 }
