@@ -49,6 +49,7 @@ public class RankingAdapter extends RecyclerView.Adapter<RankingAdapter.ViewHold
         }
     }
 
+
     @NonNull
     @Override
     public ViewHolder onCreateViewHolder(@NonNull ViewGroup parent, int viewType) {
