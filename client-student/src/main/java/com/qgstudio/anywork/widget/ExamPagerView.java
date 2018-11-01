@@ -130,6 +130,10 @@ public class ExamPagerView extends LinearLayout {
         }
     }
 
+    public void setViewPagerCurrentItem(int pos) {
+        mViewPager.setCurrentItem(pos);
+    }
+
     public void setTitleCenterTextString(String text) {
         if (mTitleCenterTV != null) {
             mTitleCenterTV.setText(text);
@@ -231,7 +235,6 @@ public class ExamPagerView extends LinearLayout {
         answerCard.setVisibility(GONE);
         addView(answerCard);
     }
-                                        
 
 
     public void showAnswerCard(SparseArray<StudentAnswer> answers, int questionSum) {
@@ -247,6 +250,14 @@ public class ExamPagerView extends LinearLayout {
             answerCardAdapter.setmDatas(answers);
             answerCardAdapter.notifyDataSetChanged();
         }
+        answerCardAdapter.setOnItemClickListener(new OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                int pos = (int) v.getTag();
+                setViewPagerCurrentItem(pos);
+                closeAnswerCard();
+            }
+        });
         //调整toolbar
         changeToolbar();
         //调整中间显示内容

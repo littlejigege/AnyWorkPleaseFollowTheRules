@@ -79,8 +79,8 @@ public class LoginFragment extends MVPBaseFragment<LoginContract.View, LoginPres
     }
 
     @Override
-    public void initView() {
-        ButterKnife.bind(this, mRoot);
+    public void initView(View view) {
+        ButterKnife.bind(this, view);
         User user = mPresenter.getUser();
         if (user != null) {
             account.setText(user.getStudentId());
@@ -104,7 +104,7 @@ public class LoginFragment extends MVPBaseFragment<LoginContract.View, LoginPres
     }
 
     @Override
-    public void loadData() {
+    public void loadData(View view) {
 
     }
 

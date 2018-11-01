@@ -2,6 +2,7 @@ package com.qgstudio.anywork.exam;
 
 import android.os.Bundle;
 import android.support.annotation.Nullable;
+import android.view.View;
 
 import com.qgstudio.anywork.R;
 import com.qgstudio.anywork.data.model.Question;
@@ -56,13 +57,13 @@ public class QuestionFragment extends BaseFragment {
     }
 
     @Override
-    public void initView() {
-        mUnbinder = ButterKnife.bind(this, mRoot);
+    public void initView(View view) {
+        mUnbinder = ButterKnife.bind(this, view);
         questionView.setQuestion(mQuestion,mPosition,sum);
     }
 
     @Override
-    public void loadData() {
+    public void loadData(View view) {
 
     }
 

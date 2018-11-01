@@ -19,6 +19,7 @@ public class User implements Parcelable, Cloneable {
     private String imagePath;   //头像路径
     private int mark;           //标志，区分是学生还是教师, 0学生，1老师
 
+
     public User(int id, String name, String email, String password, String phone, String studentId, String imagePath, int mark) {
         this.userId = id;
         this.userName = (name == null ? "" : name);
@@ -127,7 +128,9 @@ public class User implements Parcelable, Cloneable {
         this.mark = mark;
     }
 
+
     // toString
+
 
     @Override
     public String toString() {

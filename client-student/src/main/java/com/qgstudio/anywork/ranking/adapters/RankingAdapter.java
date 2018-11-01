@@ -23,16 +23,17 @@ public class RankingAdapter extends RecyclerView.Adapter<RankingAdapter.ViewHold
 
     private Context context;
     private ArrayList<RankingMessage> rankingMessages;
+    private Typeface ttf;
 
     public RankingAdapter(Context context, ArrayList<RankingMessage> rankingMessages) {
         this.context = context;
         this.rankingMessages = rankingMessages;
     }
 
-    static class ViewHolder extends RecyclerView.ViewHolder{
+    static class ViewHolder extends RecyclerView.ViewHolder {
         ImageView numberImage;
         TextView numberText;
-        CircleImageView headPic;
+        ImageView headPic;
         TextView name;
         TextView studentId;
         TextView score;
@@ -40,12 +41,12 @@ public class RankingAdapter extends RecyclerView.Adapter<RankingAdapter.ViewHold
         public ViewHolder(View itemView) {
             super(itemView);
 
-            numberImage = (ImageView) itemView.findViewById(R.id.number_image);
-            numberText = (TextView) itemView.findViewById(R.id.number_text);
-            headPic = (CircleImageView) itemView.findViewById(R.id.head_pic);
-            name = (TextView) itemView.findViewById(R.id.name);
-            studentId = (TextView) itemView.findViewById(R.id.student_id);
-            score = (TextView) itemView.findViewById(R.id.score);
+            numberImage =  itemView.findViewById(R.id.number_image);
+            numberText = itemView.findViewById(R.id.number_text);
+            headPic =  itemView.findViewById(R.id.head_pic);
+            name =  itemView.findViewById(R.id.name);
+            studentId =  itemView.findViewById(R.id.student_id);
+            score = itemView.findViewById(R.id.score);
         }
     }
 
@@ -75,7 +76,7 @@ public class RankingAdapter extends RecyclerView.Adapter<RankingAdapter.ViewHold
             holder.numberImage.setImageResource(R.drawable.icon_ranking_third);
         } else {
             //设置字体
-            holder.numberText.setTypeface(Typeface.createFromAsset(context.getAssets(), "zhankukuaileti.ttf"));
+            holder.numberText.setTypeface(ttf == null ? Typeface.createFromAsset(context.getAssets(), "zhankukuaileti.ttf") : ttf);
 
             holder.numberImage.setVisibility(View.GONE);
             holder.numberText.setVisibility(View.VISIBLE);
@@ -84,7 +85,7 @@ public class RankingAdapter extends RecyclerView.Adapter<RankingAdapter.ViewHold
         GlideUtil.setPictureWithOutCache(holder.headPic, rankingMessage.getImagePath(), R.drawable.icon_head);
         holder.name.setText(rankingMessage.getUsername());
         holder.studentId.setText(rankingMessage.getStudentId());
-        holder.score.setTypeface(Typeface.createFromAsset(context.getAssets(), "zhankukuaileti.ttf"));
+        holder.score.setTypeface(ttf == null ? Typeface.createFromAsset(context.getAssets(), "zhankukuaileti.ttf") : ttf);
         //根据分数设置背景颜色
         int score = (int) rankingMessage.getScore();
         if (score < 60) {

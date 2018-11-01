@@ -2,6 +2,7 @@ package com.qgstudio.anywork.enter.register;
 
 
 import android.graphics.Color;
+import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
 
@@ -94,8 +95,8 @@ public class RegisterFragment extends MVPBaseFragment<RegisterContract.View, Reg
     }
 
     @Override
-    public void initView() {
-        ButterKnife.bind(this, mRoot);
+    public void initView(View view) {
+        ButterKnife.bind(this, view);
         setBtnRegisterState();
         //设置editText监听
         email.addTextChangedListener(new TextWatcherV2() {
@@ -131,7 +132,7 @@ public class RegisterFragment extends MVPBaseFragment<RegisterContract.View, Reg
     }
 
     @Override
-    public void loadData() {
+    public void loadData(View view) {
 
     }
 

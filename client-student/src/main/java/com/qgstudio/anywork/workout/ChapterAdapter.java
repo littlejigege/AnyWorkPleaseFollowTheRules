@@ -154,11 +154,18 @@ public class ChapterAdapter extends RecyclerView.Adapter<RecyclerView.ViewHolder
                 @Override
                 public void onClick(View v) {
                     RankingFragment fragment = RankingFragment.newInstance(testpaper.getTestpaperId());
-                    AppCompatActivity activity = (AppCompatActivity) context;
+                    final AppCompatActivity activity = (AppCompatActivity) context;
                     FragmentTransaction transaction = activity.getSupportFragmentManager().beginTransaction();
                     transaction.replace(R.id.workout_activity_container, fragment);
                     transaction.addToBackStack(null);
                     transaction.commit();
+                    fragment.setOnBackListener(new RankingFragment.OnBackListener() {
+                        @Override
+                        public void onClick() {
+                            activity.getSupportFragmentManager().popBackStack();
+                        }
+                    });
+
                 }
             });
 

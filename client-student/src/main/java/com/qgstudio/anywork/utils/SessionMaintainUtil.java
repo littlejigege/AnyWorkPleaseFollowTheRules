@@ -37,8 +37,8 @@ public class SessionMaintainUtil {
     }
 
     public static void start () {
-        executors = Executors.newScheduledThreadPool(1);
-        executors.scheduleAtFixedRate(new AccessTask(), 5, 5, TimeUnit.SECONDS);
+//        executors = Executors.newScheduledThreadPool(1);
+//        executors.scheduleAtFixedRate(new AccessTask(), 5, 5, TimeUnit.SECONDS);
     }
 
     public static void stop(){

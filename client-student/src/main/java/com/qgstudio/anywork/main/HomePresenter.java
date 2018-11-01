@@ -6,10 +6,12 @@ import com.google.gson.reflect.TypeToken;
 import com.qgstudio.anywork.data.RetrofitClient;
 import com.qgstudio.anywork.data.RetrofitSubscriber;
 import com.qgstudio.anywork.data.model.Organization;
+import com.qgstudio.anywork.data.model.User;
 import com.qgstudio.anywork.main.data.OrganizationApi;
 import com.qgstudio.anywork.mvp.BasePresenterImpl;
 import com.qgstudio.anywork.notice.NoticeApi;
 import com.qgstudio.anywork.notice.data.Notice;
+import com.qgstudio.anywork.utils.DataBaseUtil;
 import com.qgstudio.anywork.utils.LogUtil;
 
 import java.util.HashMap;
@@ -50,7 +52,7 @@ public class HomePresenter extends BasePresenterImpl<HomeContract.HomeView> impl
                     @Override
                     protected void onSuccess(List<Organization> data) {
                         LogUtil.d2(TAG, "getJoinOrganization", "onSuccess -> " + data);
-
+                        //如果用户已经加入组织，则把组织号查入数据库，避免多余的网络请求
                         afterLoading();
                         if (mView != null) {
                             mView.onMyClassGot(data.isEmpty() ? null : data.get(0));

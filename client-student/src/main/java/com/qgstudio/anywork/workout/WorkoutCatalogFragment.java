@@ -97,9 +97,11 @@ public class WorkoutCatalogFragment extends Fragment {
 
     @OnClick(R.id.btn_back)
     public void clickBack() {
-        if (adapter != null && adapter.datas.get(0).getClass() == Testpaper.class) {
+        if (adapter != null && !adapter.datas.isEmpty() && adapter.datas.get(0).getClass() == Testpaper.class) {
+            //退回到章节
             viewModel.getChapter();
         } else if (!getFragmentManager().popBackStackImmediate()) {
+            //退回主页
             getActivity().finish();
         }
     }

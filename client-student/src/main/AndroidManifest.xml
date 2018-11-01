@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
     package="com.qgstudio.anywork"
     android:versionCode="1">
 
@@ -23,9 +24,12 @@
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
         android:label="@string/app_name"
+        android:networkSecurityConfig="@xml/network_config"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
-        android:theme="@style/AnyWork.Theme">
+        android:theme="@style/AnyWork.Theme"
+        tools:ignore="GoogleAppIndexingWarning"
+        tools:targetApi="n">
         <meta-data
             android:name="android.max_aspect"
             android:value="2.1" />
@@ -67,14 +71,11 @@
             android:name=".user.AppService"
             android:enabled="true"
             android:exported="true"
-            android:process=":remote"  />
+            android:process=":remote" />
 
         <activity android:name=".workout.WorkoutContainerActivity" />
         <activity android:name=".search.SearchActivity" />
-        <activity
-            android:name=".workout.WorkoutActivity"
-            android:windowSoftInputMode="adjustPan"></activity>
-        <activity android:name=".collection.CollectionActivity"></activity>
+        <activity android:name=".collection.CollectionActivity" />
     </application>
 
 </manifest>

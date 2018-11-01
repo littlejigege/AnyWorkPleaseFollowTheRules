@@ -12,7 +12,7 @@ public class Organization {
     private String teacherName;          //教师名称
     private String organizationName;       //组织名
     private String description;     //描述
-    private long token;             //口令
+    private String token;             //口令
     private int count;              //组织人数
 
     public Organization(int organizationId) {
@@ -65,11 +65,11 @@ public class Organization {
         this.description = description;
     }
 
-    public long getToken() {
+    public String getToken() {
         return token;
     }
 
-    public void setToken(long token) {
+    public void setToken(String token) {
         this.token = token;
     }
 
