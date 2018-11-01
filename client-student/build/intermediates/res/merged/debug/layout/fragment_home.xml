@@ -190,7 +190,7 @@
                             android:layout_marginBottom="8dp"
                             android:layout_marginEnd="8dp"
                             android:layout_marginStart="8dp"
-                            android:text="错题收藏"
+                            android:text="题目收藏"
                             android:textColor="#616161"
                             android:textSize="12sp"
                             app:layout_constraintBottom_toBottomOf="parent"

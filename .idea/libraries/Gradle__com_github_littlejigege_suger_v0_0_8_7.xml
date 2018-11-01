@@ -1,8 +1,8 @@
 <component name="libraryTable">
   <library name="Gradle: com.github.littlejigege:suger-v0.0.8.7">
     <CLASSES>
-      <root url="jar://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/suger-v0.0.8.7.aar/0dfda5ae3ab05bd2eadbe37902783a0c/jars/classes.jar!/" />
-      <root url="file://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/suger-v0.0.8.7.aar/0dfda5ae3ab05bd2eadbe37902783a0c/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/suger-v0.0.8.7.aar/a8fb302bae9b2eed0a40b49a3d3c5184/res" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/suger-v0.0.8.7.aar/a8fb302bae9b2eed0a40b49a3d3c5184/jars/classes.jar!/" />
     </CLASSES>
     <JAVADOC />
     <SOURCES />
