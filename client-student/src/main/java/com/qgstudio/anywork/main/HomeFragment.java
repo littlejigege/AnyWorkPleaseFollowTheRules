@@ -84,8 +84,8 @@ public class HomeFragment extends MVPBaseFragment<HomeContract.HomeView, HomePre
     }
 
     @Override
-    public void initView() {
-        ButterKnife.bind(this, mRoot);
+    public void initView(View view) {
+        ButterKnife.bind(this, view);
         btnMyClass.setTag(null);
         if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.LOLLIPOP) {
             getActivity().getWindow().setStatusBarColor(getActivity().getResources().getColor(R.color.sample_blue));
@@ -109,7 +109,7 @@ public class HomeFragment extends MVPBaseFragment<HomeContract.HomeView, HomePre
     }
 
     @Override
-    public void loadData() {
+    public void loadData(View view) {
 
     }
 

@@ -35,7 +35,7 @@ import de.hdodenhof.circleimageview.CircleImageView;
 
 public class MyFragment extends Fragment {
     protected View rootView;
-    private CircleImageView head;
+    private ImageView head;
     private View edit;
     private TextView feedback;
     private TextView name;
@@ -107,7 +107,7 @@ public class MyFragment extends Fragment {
      * @param view
      */
     private void initView(View view) {
-        head = (CircleImageView) view.findViewById(R.id.my_head);
+        head = view.findViewById(R.id.my_head);
         feedback = (TextView) view.findViewById(R.id.feedback);
         edit = view.findViewById(R.id.my_frame_layout);
         name = (TextView) view.findViewById(R.id.my_name);

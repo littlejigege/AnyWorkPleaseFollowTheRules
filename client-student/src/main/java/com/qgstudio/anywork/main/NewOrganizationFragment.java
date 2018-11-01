@@ -74,8 +74,8 @@ public class NewOrganizationFragment extends MVPBaseFragment<OrganizationFragVie
     }
 
     @Override
-    public void initView() {
-        mUnbinder = ButterKnife.bind(this, mRoot);
+    public void initView(View view) {
+        mUnbinder = ButterKnife.bind(this, view);
 
         mOrganizationAdapter = new NewOrganizationAdapter((DialogManagerActivity) mActivity, new ArrayList<Organization>());
         mOrganizationAdapter.setJoinOrganizationListener(new NewOrganizationAdapter.JoinOrganizationListener() {
@@ -134,7 +134,7 @@ public class NewOrganizationFragment extends MVPBaseFragment<OrganizationFragVie
 //    }
 
     @Override
-    public void loadData() {
+    public void loadData(View view) {
         mPresenter.getAllOrganization();
     }
 

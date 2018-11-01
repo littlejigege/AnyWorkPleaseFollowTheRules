@@ -75,6 +75,7 @@
 
         <activity android:name=".workout.WorkoutContainerActivity" />
         <activity android:name=".search.SearchActivity" />
+        <activity android:name=".collection.CollectionActivity" />
     </application>
 
 </manifest>

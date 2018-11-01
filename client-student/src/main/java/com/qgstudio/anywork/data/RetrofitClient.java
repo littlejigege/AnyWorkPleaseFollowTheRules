@@ -7,7 +7,12 @@ import android.util.Log;
 import com.qgstudio.anywork.App;
 
 import java.io.IOException;
+import java.net.Proxy;
+import java.net.ProxySelector;
+import java.net.SocketAddress;
+import java.net.URI;
 import java.util.ArrayList;
+import java.util.Collections;
 import java.util.HashMap;
 import java.util.List;
 import java.util.concurrent.TimeUnit;
@@ -56,6 +61,18 @@ public enum RetrofitClient {
             .writeTimeout(20, TimeUnit.SECONDS)
             //错误重连
             .retryOnConnectionFailure(true)
+            //绕过系统代理
+            .proxySelector(new ProxySelector() {
+                @Override
+                public List<Proxy> select(URI uri) {
+                    return Collections.singletonList(Proxy.NO_PROXY);
+                }
+
+                @Override
+                public void connectFailed(URI uri, SocketAddress sa, IOException ioe) {
+
+                }
+            })
             //添加拦截器
             .addInterceptor(new HttpLoggingInterceptor().setLevel(HttpLoggingInterceptor.Level.BODY))
             .build();

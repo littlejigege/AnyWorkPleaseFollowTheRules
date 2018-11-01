@@ -56,7 +56,6 @@ public class App extends Application {
         super.onCreate();
         context = getApplicationContext();
         app = this;
-
         String packageName = context.getPackageName();
         String processName = getProcessName(android.os.Process.myPid());
         CrashReport.UserStrategy strategy = new CrashReport.UserStrategy(context);
@@ -127,5 +126,6 @@ public class App extends Application {
         }
         return null;
     }
+
 
 }

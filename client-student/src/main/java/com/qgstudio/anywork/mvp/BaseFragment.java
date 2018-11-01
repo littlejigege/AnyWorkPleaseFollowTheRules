@@ -17,8 +17,8 @@ import java.lang.ref.WeakReference;
  */
 
 public abstract class BaseFragment extends Fragment {
+    private WeakReference viewWeakReference;
 
-    protected View mRoot;
 
     /**
      * 供子类调用的父Activity，不要直接getActivity()
@@ -33,13 +33,12 @@ public abstract class BaseFragment extends Fragment {
     /**
      * 在此方法中初始化View
      */
-    public abstract void initView();
+    public abstract void initView(View view);
 
     /**
      * 在此方法中请求数据
      */
-    public abstract void loadData();
-
+    public abstract void loadData(View view);
 
 
     @Override
@@ -54,12 +53,13 @@ public abstract class BaseFragment extends Fragment {
     @Override
     public View onCreateView(LayoutInflater inflater, @Nullable ViewGroup container, @Nullable Bundle savedInstanceState) {
         //试图不让rootView死亡，避免闪烁
-        if (mRoot == null) {
-            mRoot = inflater.inflate(getRootId(), container, false);
+        if (viewWeakReference == null || viewWeakReference.get() == null) {
+            View root = inflater.inflate(getRootId(), container, false);
+            viewWeakReference = new WeakReference<View>(root);
         }
-        initView();
-        loadData();
-        return mRoot;
+        initView((View) viewWeakReference.get());
+        loadData((View) viewWeakReference.get());
+        return (View) viewWeakReference.get();
     }
 
 }

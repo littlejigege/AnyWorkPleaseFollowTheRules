@@ -11,6 +11,7 @@ import com.qgstudio.anywork.R;
 import com.qgstudio.anywork.data.ApiStores;
 
 import jp.wasabeef.glide.transformations.BlurTransformation;
+import jp.wasabeef.glide.transformations.CropCircleTransformation;
 
 /**
  * Created by chenyi on 2017/7/12.
@@ -35,30 +36,21 @@ public class GlideUtil {
                 .diskCacheStrategy(DiskCacheStrategy.NONE)
                 .error(def == -1 ? R.drawable.ic_icon : def)
                 .fitCenter()
-                .crossFade(500)
+                .bitmapTransform(new CropCircleTransformation(App.getInstance()))
                 .into(img);
     }
 
     public static void setPictureWithOutCache(ImageView img, String url, int def) {
         Glide.with(App.getInstance())
                 .load(ApiStores.API_DEFAULT_URL + url)
+                .placeholder(def)
                 .skipMemoryCache(false)
                 .diskCacheStrategy(DiskCacheStrategy.NONE)
                 .error(def == -1 ? R.drawable.ic_icon : def)
                 .fitCenter()
                 .crossFade(200)
+                .bitmapTransform(new CropCircleTransformation(App.getInstance()))
                 .into(img);
     }
 
-    public static void setPictureWithOutCacheWithBlur(ImageView img, int id, int def, Context context) {
-        Glide.with(App.getInstance())
-                .load(ApiStores.API_DEFAULT_URL + "/picture/user/" + id + ".jpg")
-                .skipMemoryCache(true)
-                .diskCacheStrategy(DiskCacheStrategy.NONE)
-                .error(def == -1 ? R.drawable.ic_icon : def)
-                .fitCenter()
-                .crossFade(500)
-                .bitmapTransform(new BlurTransformation(context, 10, 4))
-                .into(img);
-    }
 }

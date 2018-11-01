@@ -71,8 +71,8 @@ public class PaperFragment extends MVPBaseFragment<PaperFragView, PaperRepositor
     }
 
     @Override
-    public void initView() {
-        mUnbinder = ButterKnife.bind(this, mRoot);
+    public void initView(View view) {
+        mUnbinder = ButterKnife.bind(this, view);
 
         mPaperAdapter = new PaperAdapter(mActivity,new ArrayList<Testpaper>());
         mRecyclerView.setAdapter(mPaperAdapter);
@@ -87,7 +87,7 @@ public class PaperFragment extends MVPBaseFragment<PaperFragView, PaperRepositor
     }
 
     @Override
-    public void loadData() {
+    public void loadData(View view) {
         switch (mType) {
             case TYPE_EXMINATION: {
                 mPresenter.getExaminationPaper(mOrganizationId);
@@ -128,7 +128,7 @@ public class PaperFragment extends MVPBaseFragment<PaperFragView, PaperRepositor
         mImg.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                loadData();
+                loadData(null);
             }
         });
     }

@@ -44,13 +44,15 @@ public class StartActivity extends AppCompatActivity {
     @Override
     protected void onCreate(@Nullable Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_welcome);
         //获得账号信息
-        User user =  getUser();
-        //自动登录
-        login(user.getStudentId(), user.getPassword());
-        Log.d("linzongzhan", "onCreate: " + user.getStudentId());
-
+        User user = getUser();
+        if (user == null) {
+            goToEnterActivity();
+        } else {
+            //自动登录
+            login(user.getStudentId(), user.getPassword());
+            Log.d("linzongzhan", "onCreate: " + user.getStudentId());
+        }
     }
 
     @Override
@@ -68,7 +70,7 @@ public class StartActivity extends AppCompatActivity {
      * 登录操作，若登录失败则返回登录注册界面
      *
      * @param account  账号
-     * @param password  密码
+     * @param password 密码
      */
     private void login(final String account, final String password) {
         //加载动画
@@ -112,7 +114,6 @@ public class StartActivity extends AppCompatActivity {
                             user.setPassword(password);
                             MyOpenHelper myOpenHelper = DataBaseUtil.getHelper();
                             myOpenHelper.save(user);
-
                             ToastUtil.showToast("自动登录成功");
                             Intent intent = new Intent(StartActivity.this, HomeActivity.class);
                             startActivity(intent);
@@ -145,14 +146,14 @@ public class StartActivity extends AppCompatActivity {
     /**
      * 从数据库中读取用户登录信息
      *
-     * @return  User
+     * @return User
      */
     public static User getUser() {
         List<User> users = DataBaseUtil.getHelper().queryAll(User.class);
         if (users != null) {
             return users.get(users.size() - 1);
         } else {
-            return new User();
+            return null;
         }
     }
 }
