@@ -41,7 +41,13 @@ public class FeedbackPresenter extends BasePresenterImpl<FeedbackContract.View> 
 //        feedBack.buildOutput();
         MultipartBody.Builder builder = new MultipartBody.Builder()
                 .setType(MultipartBody.FORM);
-        File file = new File(imagePath);
+
+        File file;
+        if (imagePath == null) {
+            file = null;
+        } else {
+            file = new File(imagePath);
+        }
 //        RequestBody body = RequestBody.create(MediaType.parse("multipart/form-data"), file);
         final FileRequestBody body = new FileRequestBody(MediaType.parse("multipart/form-data"), file);
         body.setWritedListener(new FileRequestBody.WritedListener() {
