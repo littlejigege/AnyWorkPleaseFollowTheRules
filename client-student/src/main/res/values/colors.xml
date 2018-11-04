@@ -2,7 +2,7 @@
 <resources>
     <color name="colorPrimary">#262626</color>
     <color name="colorPrimaryDark">#212121</color>
-    <color name="colorAccent">#88ffffff</color>
+    <color name="colorAccent">#3C7EFF</color>
 
     <!--color used by yason-->
     <color name="dark_grey_toolbar" >#212121</color>

@@ -14,6 +14,8 @@ import android.view.View;
 
 import com.qgstudio.anywork.R;
 import com.qgstudio.anywork.data.model.Question;
+import com.qgstudio.anywork.dialog.LoadingDialog;
+import com.qgstudio.anywork.widget.LoadingView;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -28,7 +30,10 @@ public class CollectionActivity extends AppCompatActivity {
     View btnBack;
     @BindView(R.id.recycler_view)
     RecyclerView recyclerView;
+    @BindView(R.id.loading_view)
+    LoadingView loadingView;
     CollectionViewModel viewModel;
+
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -39,23 +44,19 @@ public class CollectionActivity extends AppCompatActivity {
             getWindow().setStatusBarColor(getResources().getColor(R.color.sample_blue));
         }
         viewModel = ViewModelProviders.of(this).get(CollectionViewModel.class);
-        //请求id列表
-//        List<Question> list = new ArrayList<>();
-//        for (int i = 454; i <= 454 + 15; i++) {
-//            Question question = new Question();
-//            question.setQuestionId(i);
-//            list.add(question);
-//        }
-//        recyclerView.setAdapter(new CollectionAdapter(list));
-//        recyclerView.setLayoutManager(new LinearLayoutManager(CollectionActivity.this));
+        loadingView.load(recyclerView);
         viewModel.getAllContions().observe(this, new Observer<List<Question>>() {
             @Override
             public void onChanged(@Nullable List<Question> questions) {
                 if (questions == null) {
+                    loadingView.empty(recyclerView);
                     questions = new ArrayList<>();
+                } else {
+                    loadingView.loadSuccess(recyclerView);
+                    recyclerView.setAdapter(new CollectionAdapter(questions));
+                    recyclerView.setLayoutManager(new LinearLayoutManager(CollectionActivity.this));
                 }
-                recyclerView.setAdapter(new CollectionAdapter(questions));
-                recyclerView.setLayoutManager(new LinearLayoutManager(CollectionActivity.this));
+
             }
         });
         btnBack.setOnClickListener(new View.OnClickListener() {

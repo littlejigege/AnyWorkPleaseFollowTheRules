@@ -10,6 +10,7 @@ import com.qgstudio.anywork.data.model.StudentAnswerAnalysis;
 import com.qgstudio.anywork.data.model.StudentAnswerResult;
 import com.qgstudio.anywork.data.model.StudentPaper;
 import com.qgstudio.anywork.data.model.StudentTestResult;
+import com.qgstudio.anywork.exam.ExamActivity;
 import com.qgstudio.anywork.exam.ExamView;
 import com.qgstudio.anywork.exam.adapters.AnswerBuffer;
 import com.qgstudio.anywork.mvp.BasePresenterImpl;
@@ -42,6 +43,10 @@ public class ExamRepository extends BasePresenterImpl<ExamView> implements ExamP
         mExamApi = retrofit.create(ExamApi.class);
     }
 
+    private ExamActivity getExamActivity() {
+        return (ExamActivity) mView;
+    }
+
     public void getTestpaper(int textpaperId, int state) {
         Map map = new HashMap<>();
         map.put("testpaperId", textpaperId + "");
@@ -51,9 +56,9 @@ public class ExamRepository extends BasePresenterImpl<ExamView> implements ExamP
             map.put("choice", 0);
         }
         if (mView != null) {
-            mView.showLoading();
+            getExamActivity().loading();
         }
-        mExamApi.getTestpaper(Apis.getTestpaperApi(),map)
+        mExamApi.getTestpaper(Apis.getTestpaperApi(), map)
                 .subscribeOn(Schedulers.io())
                 .observeOn(AndroidSchedulers.mainThread())
                 .subscribe(new RetrofitSubscriber<List<Question>>() {
@@ -61,7 +66,7 @@ public class ExamRepository extends BasePresenterImpl<ExamView> implements ExamP
                     protected void onSuccess(List<Question> data) {
                         LogUtil.d(TAG, "[getTestpaper] " + "onSuccess -> " + data);
                         if (mView != null) {
-                            mView.hideLoading();
+                            getExamActivity().loadSuccess();
                         }
                         mView.addQuestions(data);
                     }
@@ -69,7 +74,7 @@ public class ExamRepository extends BasePresenterImpl<ExamView> implements ExamP
                     @Override
                     protected void onFailure(String info) {
                         if (mView != null) {
-                            mView.hideLoading();
+                            getExamActivity().loadError();
                         }
                         LogUtil.d(TAG, "[getTestpaper] " + "onFailure -> " + info);
                         handleGetPaperContentFailure();
@@ -78,9 +83,10 @@ public class ExamRepository extends BasePresenterImpl<ExamView> implements ExamP
                     @Override
                     protected void onMistake(Throwable t) {
                         LogUtil.d(TAG, "[getTestpaper] " + "onMistake -> " + t.getMessage());
-                        if (mView != null) {
-                            mView.hideLoading();
+                        if (mView == null) {
+                            return;
                         }
+                        getExamActivity().loadError();
                         if (t instanceof ConnectException) {
                             mView.showToast("无法连接到服务器");
                             mView.destroySelf();
@@ -97,7 +103,7 @@ public class ExamRepository extends BasePresenterImpl<ExamView> implements ExamP
         if (mView != null) {
             mView.showLoading();
         }
-        mExamApi.submitTestpaper(Apis.submitTestpaperApi(),studentPaper)
+        mExamApi.submitTestpaper(Apis.submitTestpaperApi(), studentPaper)
                 .subscribeOn(Schedulers.io())
                 .observeOn(AndroidSchedulers.mainThread())
                 .subscribe(new RetrofitSubscriber<StudentTestResult>() {

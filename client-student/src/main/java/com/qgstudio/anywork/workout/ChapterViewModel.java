@@ -36,8 +36,8 @@ public class ChapterViewModel extends ViewModel {
         }
         Map map = new HashMap();
         map.put("organizationId", fragment.classId);
-        showLoading();
-        api.getChapter(Apis.getChapterApi(),map)
+        fragment.loading();
+        api.getChapter(Apis.getChapterApi(), map)
                 .subscribeOn(Schedulers.io())
                 .observeOn(AndroidSchedulers.mainThread())
                 .subscribe(new Observer<ResponseResult<List<Chapter>>>() {
@@ -50,7 +50,10 @@ public class ChapterViewModel extends ViewModel {
                     public void onError(Throwable e) {
 
                         e.printStackTrace();
-                        hideLoading();
+                        if (fragment == null) {
+                            return;
+                        }
+                        fragment.loadError();
                     }
 
                     @Override
@@ -58,8 +61,13 @@ public class ChapterViewModel extends ViewModel {
                         if (fragment == null) {
                             return;
                         }
+                        if (listResponseResult.getData().isEmpty()) {
+                            fragment.loadEmpty();
+                        } else {
+                            fragment.loadSuccess();
+                        }
                         fragment.onChapterGet(listResponseResult.getData());
-                        hideLoading();
+
                     }
                 });
     }
@@ -69,8 +77,8 @@ public class ChapterViewModel extends ViewModel {
         map.put("organizationId", fragment.classId);
         map.put("chapter", chapterID);
         map.put("testPaperType", fragment.type.toInt());
-        showLoading();
-        api.getCatalog(Apis.getCatalogApi(),map)
+        fragment.loading();
+        api.getCatalog(Apis.getCatalogApi(), map)
                 .subscribeOn(Schedulers.io())
                 .observeOn(AndroidSchedulers.mainThread())
                 .subscribe(new Observer<ResponseResult<List<Testpaper>>>() {
@@ -83,7 +91,10 @@ public class ChapterViewModel extends ViewModel {
                     public void onError(Throwable e) {
 
                         e.printStackTrace();
-                        hideLoading();
+                        if (fragment == null) {
+                            return;
+                        }
+                        fragment.loadError();
                     }
 
                     @Override
@@ -91,21 +102,15 @@ public class ChapterViewModel extends ViewModel {
                         if (fragment == null) {
                             return;
                         }
+                        if (listResponseResult.getData().isEmpty()) {
+                            fragment.loadEmpty();
+                        } else {
+                            fragment.loadSuccess();
+                        }
                         fragment.onCatalogGet(listResponseResult.getData());
-                        hideLoading();
                     }
                 });
     }
 
-    private void showLoading() {
-        if (fragment != null) {
-            fragment.showLoading();
-        }
-    }
 
-    private void hideLoading() {
-        if (fragment != null) {
-            fragment.hideLoading();
-        }
-    }
 }

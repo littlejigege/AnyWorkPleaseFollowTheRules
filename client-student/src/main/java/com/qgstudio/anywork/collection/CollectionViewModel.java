@@ -34,6 +34,7 @@ public class CollectionViewModel extends ViewModel {
                     @Override
                     public void onError(Throwable e) {
                         e.printStackTrace();
+                        listLiveData.postValue(null);
                     }
 
                     @Override

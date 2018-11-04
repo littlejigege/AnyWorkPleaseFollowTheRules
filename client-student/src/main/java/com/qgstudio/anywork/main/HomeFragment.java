@@ -30,6 +30,7 @@ import com.qgstudio.anywork.utils.DesityUtil;
 import com.qgstudio.anywork.websocket.ThreadMode;
 import com.qgstudio.anywork.websocket.WS;
 import com.qgstudio.anywork.websocket.WebSocketHolder;
+import com.qgstudio.anywork.widget.LoadingView;
 import com.qgstudio.anywork.workout.WorkoutContainerActivity;
 import com.qgstudio.anywork.workout.WorkoutType;
 
@@ -49,8 +50,8 @@ public class HomeFragment extends MVPBaseFragment<HomeContract.HomeView, HomePre
     TextView tvOnlineCount;
     @BindView(R.id.top_view)
     View topView;
-    @BindView(R.id.empty_view)
-    View emptyView;
+    @BindView(R.id.loading_view)
+    LoadingView loadingView;
     @BindView(R.id.recycler_view_notice)
     RecyclerView recyclerView;
     NoticeAdapter adapter;
@@ -106,6 +107,12 @@ public class HomeFragment extends MVPBaseFragment<HomeContract.HomeView, HomePre
         Log.e("gaodu", result + "");
         topView.getLayoutParams().height = result;
         topView.setLayoutParams(topView.getLayoutParams());
+        loadingView.setOnRetryListener(new LoadingView.OnRetryListener() {
+            @Override
+            public void onRetry() {
+                mPresenter.getNoticeNew();
+            }
+        });
     }
 
     @Override
@@ -165,12 +172,7 @@ public class HomeFragment extends MVPBaseFragment<HomeContract.HomeView, HomePre
 
     @Override
     public void onNoticeGet(List<Notice> notices) {
-        if (notices == null) {
-            emptyView.setVisibility(View.VISIBLE);
-            recyclerView.setVisibility(View.GONE);
-        } else {
-            emptyView.setVisibility(View.GONE);
-            recyclerView.setVisibility(View.VISIBLE);
+        if (notices != null) {
             if (adapter == null) {
                 adapter = new NoticeAdapter(notices, getActivity());
                 recyclerView.setLayoutManager(new LinearLayoutManager(getActivity()));
@@ -181,7 +183,6 @@ public class HomeFragment extends MVPBaseFragment<HomeContract.HomeView, HomePre
                 adapter.list.clear();
                 adapter.list.addAll(notices);
                 adapter.notifyDataSetChanged();
-
             }
         }
     }
@@ -200,6 +201,22 @@ public class HomeFragment extends MVPBaseFragment<HomeContract.HomeView, HomePre
         mPresenter.getJoinOrganization();
         WebSocketHolder.getDefault().register(this);
         mPresenter.getNoticeNew();
+    }
+
+    public void loading() {
+        loadingView.load(recyclerView);
+    }
+
+    public void loadSuccess() {
+        loadingView.loadSuccess(recyclerView);
+    }
+
+    public void loadEmpty() {
+        loadingView.empty(recyclerView);
+    }
+
+    public void loadError() {
+        loadingView.error(recyclerView);
     }
 
     @Override

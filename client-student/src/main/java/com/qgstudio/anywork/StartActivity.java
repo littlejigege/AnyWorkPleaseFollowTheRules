@@ -23,6 +23,7 @@ import com.qgstudio.anywork.utils.MyOpenHelper;
 import com.qgstudio.anywork.utils.SessionMaintainUtil;
 import com.qgstudio.anywork.utils.ToastUtil;
 import com.qgstudio.anywork.websocket.WebSocketHolder;
+import com.qgstudio.anywork.widget.LoadingView;
 import com.qgstudio.anywork.workout.WorkoutContainerActivity;
 import com.qgstudio.anywork.workout.WorkoutType;
 
@@ -51,6 +52,7 @@ public class StartActivity extends AppCompatActivity {
     @Override
     protected void onCreate(@Nullable Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
+        setContentView(R.layout.activity_welcome);
         //获得账号信息
         User user = getUser();
         if (user == null) {

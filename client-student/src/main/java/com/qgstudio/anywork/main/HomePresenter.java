@@ -8,6 +8,7 @@ import com.qgstudio.anywork.data.RetrofitClient;
 import com.qgstudio.anywork.data.RetrofitSubscriber;
 import com.qgstudio.anywork.data.model.Organization;
 import com.qgstudio.anywork.data.model.User;
+import com.qgstudio.anywork.exam.ExamActivity;
 import com.qgstudio.anywork.main.data.OrganizationApi;
 import com.qgstudio.anywork.mvp.BasePresenterImpl;
 import com.qgstudio.anywork.notice.NoticeApi;
@@ -31,6 +32,10 @@ public class HomePresenter extends BasePresenterImpl<HomeContract.HomeView> impl
         Retrofit retrofit = RetrofitClient.RETROFIT_CLIENT.getRetrofit();
         mOrganizationApi = retrofit.create(OrganizationApi.class);
         mNoticeApi = retrofit.create(NoticeApi.class);
+    }
+
+    private HomeFragment getHomeFragment() {
+        return (HomeFragment) mView;
     }
 
     @Override
@@ -80,6 +85,9 @@ public class HomePresenter extends BasePresenterImpl<HomeContract.HomeView> impl
 
     @Override
     public void getNoticeNew() {
+        if (mView != null) {
+            getHomeFragment().loading();
+        }
         mNoticeApi.getNotice(Apis.getNoticeApi(), buildRequestParam())
                 .subscribeOn(Schedulers.io())
                 .observeOn((AndroidSchedulers.mainThread()))
@@ -91,19 +99,26 @@ public class HomePresenter extends BasePresenterImpl<HomeContract.HomeView> impl
                                 , new TypeToken<List<Notice>>() {
                                 }.getType());
                         if (mView != null) {
+                            if (noticeList == null) {
+                                getHomeFragment().loadEmpty();
+                            } else {
+                                getHomeFragment().loadSuccess();
+                            }
                             mView.onNoticeGet(noticeList);
                         }
                     }
 
                     @Override
                     protected void onFailure(String info) {
-
+                        if (mView != null) {
+                            getHomeFragment().loadError();
+                        }
                     }
 
                     @Override
                     protected void onMistake(Throwable t) {
                         if (mView != null) {
-                            mView.onNoticeGet(null);
+                            getHomeFragment().loadError();
                         }
                     }
                 });
@@ -125,7 +140,6 @@ public class HomePresenter extends BasePresenterImpl<HomeContract.HomeView> impl
 
     private void prepareLoading() {
         if (mView != null) {
-
             mView.showLoading();
         }
     }

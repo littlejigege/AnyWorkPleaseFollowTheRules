@@ -24,6 +24,7 @@ import com.qgstudio.anywork.data.RetrofitClient;
 import com.qgstudio.anywork.data.model.RankingMessage;
 import com.qgstudio.anywork.mvp.BaseFragment;
 import com.qgstudio.anywork.ranking.adapters.RankingAdapter;
+import com.qgstudio.anywork.widget.LoadingView;
 
 import java.util.ArrayList;
 import java.util.HashMap;
@@ -43,7 +44,9 @@ public class RankingFragment extends BaseFragment {
     private ListView listView1;
     private PopupWindow popupWindow1;
     private RecyclerView rankingList;
+    private LoadingView loadingView;
     private TextView score;
+    private int leaderboardType = 1;
 
     //排行榜适配器
     private RankingAdapter rankingAdapter;
@@ -156,6 +159,14 @@ public class RankingFragment extends BaseFragment {
     private void initRankingList(View rootView) {
         rankingList = (RecyclerView) rootView.findViewById(R.id.recycler_view_ranking);
         rankingList.setLayoutManager(new LinearLayoutManager(getActivity()));
+        loadingView = rootView.findViewById(R.id.loading_view);
+        loadingView.setOnRetryListener(new LoadingView.OnRetryListener() {
+            @Override
+            public void onRetry() {
+                loadingView.load(rankingList);
+                getRankingMessage(testpaperId, leaderboardType);
+            }
+        });
     }
 
     /**
@@ -222,6 +233,7 @@ public class RankingFragment extends BaseFragment {
     }
 
     private void getRankingMessage(int testpaperId, int leaderboardType) {
+        this.leaderboardType = leaderboardType;
         if (rankingApi == null) {
             rankingApi = RetrofitClient.RETROFIT_CLIENT.getRetrofit().create(RankingApi.class);
         }
@@ -241,6 +253,10 @@ public class RankingFragment extends BaseFragment {
                         @Override
                         public void onError(Throwable e) {
                             e.printStackTrace();
+                            if (getLifecycle().getCurrentState() != Lifecycle.State.RESUMED) {
+                                return;
+                            }
+                            loadingView.error(rankingList);
                         }
 
                         @Override
@@ -249,6 +265,11 @@ public class RankingFragment extends BaseFragment {
                                 return;
                             }
                             ArrayList<RankingMessage> messages = (ArrayList<RankingMessage>) arrayListResponseResult.getData();
+                            if (messages.isEmpty()) {
+                                loadingView.empty(rankingList);
+                            } else {
+                                loadingView.loadSuccess(rankingList);
+                            }
                             Log.d("linzongzhan", "onNext: " + messages.toString());
                             rankingAdapter = new RankingAdapter(getActivity(), messages);
                             rankingList.setAdapter(rankingAdapter);
@@ -271,6 +292,10 @@ public class RankingFragment extends BaseFragment {
                         @Override
                         public void onError(Throwable e) {
                             e.printStackTrace();
+                            if (getLifecycle().getCurrentState() != Lifecycle.State.RESUMED) {
+                                return;
+                            }
+                            loadingView.error(rankingList);
                         }
 
                         @Override
@@ -279,6 +304,11 @@ public class RankingFragment extends BaseFragment {
                                 return;
                             }
                             ArrayList<RankingMessage> messages = (ArrayList<RankingMessage>) arrayListResponseResult.getData();
+                            if (messages.isEmpty()) {
+                                loadingView.empty(rankingList);
+                            } else {
+                                loadingView.loadSuccess(rankingList);
+                            }
                             rankingAdapter = new RankingAdapter(getActivity(), messages);
                             rankingList.setAdapter(rankingAdapter);
                             rankingAdapter.notifyDataSetChanged();

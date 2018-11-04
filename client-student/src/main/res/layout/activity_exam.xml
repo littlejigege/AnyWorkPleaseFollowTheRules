@@ -21,4 +21,9 @@
         epv:sTitleRightIconResId="@drawable/icon_answer_answercard"
         epv:sTitleRightIconTittle="答题卡" />
 
+    <com.qgstudio.anywork.widget.LoadingView
+        android:id="@+id/loading_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
 </FrameLayout>

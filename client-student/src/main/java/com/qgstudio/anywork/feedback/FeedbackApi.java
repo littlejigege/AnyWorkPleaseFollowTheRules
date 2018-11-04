@@ -1,5 +1,6 @@
 package com.qgstudio.anywork.feedback;
 
+import com.qgstudio.anywork.core.Apis;
 import com.qgstudio.anywork.data.ResponseResult;
 import com.qgstudio.anywork.data.model.User;
 
@@ -11,6 +12,7 @@ import retrofit2.http.Headers;
 import retrofit2.http.Multipart;
 import retrofit2.http.POST;
 import retrofit2.http.Part;
+import retrofit2.http.Url;
 import rx.Observable;
 
 public interface FeedbackApi {
@@ -19,6 +21,6 @@ public interface FeedbackApi {
     Observable<ResponseResult<User>> uploadFeedback(@Body Object object);
 
     @Multipart
-    @POST("suggest/add")
-    Observable<ResponseResult<User>> uploadFeedbackWithPicture(@Part List<MultipartBody.Part> partList);
+    @POST
+    Observable<ResponseResult<User>> uploadFeedbackWithPicture(@Url String url, @Part List<MultipartBody.Part> partList);
 }

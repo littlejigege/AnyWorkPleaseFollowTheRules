@@ -28,6 +28,7 @@ import com.qgstudio.anywork.mvp.MVPBaseActivity;
 import com.qgstudio.anywork.utils.GsonUtil;
 import com.qgstudio.anywork.utils.ToastUtil;
 import com.qgstudio.anywork.widget.ExamPagerView;
+import com.qgstudio.anywork.widget.LoadingView;
 
 import java.io.BufferedInputStream;
 import java.io.Closeable;
@@ -51,14 +52,14 @@ public class ExamActivity extends MVPBaseActivity<ExamView, ExamRepository> impl
 
     @BindView(R.id.epv)
     ExamPagerView mExamPagerView;
-
+    @BindView(R.id.loading_view)
+    public LoadingView loadingView;
     private int mTestPaperId;
     private int mTestPaperType;//1为考试，0为练习
     private String mTestPaperTittle;
     private QuestionFragAdapter mQuestionFragAdapter;//数据适配器
     private int state;
     private LoadingDialog loadingDialog;
-    private BaseDialog mBaseDialog;
 
     @Override
     protected void onCreate(@Nullable Bundle savedInstanceState) {
@@ -109,26 +110,6 @@ public class ExamActivity extends MVPBaseActivity<ExamView, ExamRepository> impl
     public void onBackPressed() {
         submit(true);
         super.onBackPressed();
-    }
-
-    public void checkExit() {
-        if (mBaseDialog == null) {
-            mBaseDialog = new BaseDialog.Builder(this)
-                    .title("提示")
-                    .content("您还未提交试卷，退出将不保存作答内容！！！")
-                    .setNegativeListener("确认", new View.OnClickListener() {
-                        @Override
-                        public void onClick(View v) {
-                            finishAty();
-                        }
-                    })
-                    .setPositiveListener("取消", null)
-                    .cancelTouchout(true)
-                    .build();
-        }
-        if (!mBaseDialog.isShowing()) {
-            mBaseDialog.show();
-        }
     }
 
 
@@ -262,7 +243,21 @@ public class ExamActivity extends MVPBaseActivity<ExamView, ExamRepository> impl
     public void showToast(String s) {
         ToastUtil.showToast(s);
     }
+    public void loading() {
+        loadingView.load(mExamPagerView);
+    }
 
+    public void loadSuccess() {
+        loadingView.loadSuccess(mExamPagerView);
+    }
+
+    public void loadEmpty() {
+        loadingView.empty(mExamPagerView);
+    }
+
+    public void loadError() {
+        loadingView.error(mExamPagerView);
+    }
 
     private void finishAty() {
         this.finish();

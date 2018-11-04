@@ -4,6 +4,7 @@ import android.app.Activity;
 import android.support.v7.app.AppCompatActivity;
 import android.util.Log;
 
+import com.qgstudio.anywork.core.Apis;
 import com.qgstudio.anywork.data.ResponseResult;
 import com.qgstudio.anywork.data.RetrofitClient;
 import com.qgstudio.anywork.data.model.User;
@@ -60,7 +61,7 @@ public class FeedbackPresenter extends BasePresenterImpl<FeedbackContract.View> 
         builder.addFormDataPart("file", file.getName(), body);
         List<MultipartBody.Part> parts = builder.build().parts();
 
-        Subscription subscription = feedbackApi.uploadFeedbackWithPicture(parts)
+        Subscription subscription = feedbackApi.uploadFeedbackWithPicture(Apis.uploadFeedbackApi(),parts)
                 .subscribeOn(Schedulers.io())
                 .observeOn(AndroidSchedulers.mainThread())
                 .subscribe(new Observer<ResponseResult<User>>() {

@@ -28,6 +28,7 @@ import com.qgstudio.anywork.common.PreLoading;
 import com.qgstudio.anywork.dialog.LoadingDialog;
 import com.qgstudio.anywork.search.SearchActivity;
 import com.qgstudio.anywork.utils.ToastUtil;
+import com.qgstudio.anywork.widget.LoadingView;
 import com.qgstudio.anywork.workout.data.Chapter;
 import com.qgstudio.anywork.workout.data.Testpaper;
 import com.qgstudio.anywork.workout.data.WorkoutInfo;
@@ -39,7 +40,7 @@ import butterknife.ButterKnife;
 import butterknife.OnClick;
 
 
-public class WorkoutCatalogFragment extends Fragment implements PreLoading {
+public class WorkoutCatalogFragment extends Fragment {
 
     @BindView(R.id.workout_frag_toolbar)
     Toolbar toolbar;
@@ -50,7 +51,8 @@ public class WorkoutCatalogFragment extends Fragment implements PreLoading {
     private ChapterViewModel viewModel;
     private ChapterAdapter adapter;
     public int chapterID;
-    private LoadingDialog loadingDialog;
+    @BindView(R.id.loading_view)
+    public LoadingView loadingView;
 
     public WorkoutCatalogFragment() {
         // Required empty public constructor
@@ -88,7 +90,12 @@ public class WorkoutCatalogFragment extends Fragment implements PreLoading {
         }
 
         initToolbar();
-        //viewModel.getChapter();
+        loadingView.setOnRetryListener(new LoadingView.OnRetryListener() {
+            @Override
+            public void onRetry() {
+                viewModel.getChapter();
+            }
+        });
         return view;
     }
 
@@ -175,24 +182,22 @@ public class WorkoutCatalogFragment extends Fragment implements PreLoading {
 
     }
 
-    @Override
-    public void showLoading() {
-        if (loadingDialog == null) {
-            loadingDialog = new LoadingDialog(getActivity());
-        }
-        loadingDialog.show();
+
+    public void loading() {
+        loadingView.load(recyclerView);
     }
 
-    @Override
-    public void hideLoading() {
-        if (loadingDialog != null) {
-            loadingDialog.dismiss();
-            loadingDialog = null;
-        }
+    public void loadSuccess() {
+        loadingView.loadSuccess(recyclerView);
     }
 
-    @Override
-    public void showToast(String s) {
-
+    public void loadEmpty() {
+        loadingView.empty(recyclerView);
     }
+
+    public void loadError() {
+        loadingView.error(recyclerView);
+    }
+
+
 }
