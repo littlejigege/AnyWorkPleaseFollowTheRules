@@ -2,6 +2,7 @@ package com.qgstudio.anywork.exam.data;
 
 import android.content.Context;
 
+import com.qgstudio.anywork.core.Apis;
 import com.qgstudio.anywork.data.RetrofitClient;
 import com.qgstudio.anywork.data.RetrofitSubscriber;
 import com.qgstudio.anywork.data.model.Question;
@@ -49,18 +50,27 @@ public class ExamRepository extends BasePresenterImpl<ExamView> implements ExamP
         } else {
             map.put("choice", 0);
         }
-        mExamApi.getTestpaper(map)
+        if (mView != null) {
+            mView.showLoading();
+        }
+        mExamApi.getTestpaper(Apis.getTestpaperApi(),map)
                 .subscribeOn(Schedulers.io())
                 .observeOn(AndroidSchedulers.mainThread())
                 .subscribe(new RetrofitSubscriber<List<Question>>() {
                     @Override
                     protected void onSuccess(List<Question> data) {
                         LogUtil.d(TAG, "[getTestpaper] " + "onSuccess -> " + data);
+                        if (mView != null) {
+                            mView.hideLoading();
+                        }
                         mView.addQuestions(data);
                     }
 
                     @Override
                     protected void onFailure(String info) {
+                        if (mView != null) {
+                            mView.hideLoading();
+                        }
                         LogUtil.d(TAG, "[getTestpaper] " + "onFailure -> " + info);
                         handleGetPaperContentFailure();
                     }
@@ -68,7 +78,9 @@ public class ExamRepository extends BasePresenterImpl<ExamView> implements ExamP
                     @Override
                     protected void onMistake(Throwable t) {
                         LogUtil.d(TAG, "[getTestpaper] " + "onMistake -> " + t.getMessage());
-
+                        if (mView != null) {
+                            mView.hideLoading();
+                        }
                         if (t instanceof ConnectException) {
                             mView.showToast("无法连接到服务器");
                             mView.destroySelf();
@@ -82,12 +94,18 @@ public class ExamRepository extends BasePresenterImpl<ExamView> implements ExamP
 
     public void submitTestPaper(StudentPaper studentPaper) {
         LogUtil.d(TAG, "[submitTestPaper] " + "studentPaper -> " + GsonUtil.GsonString(studentPaper));
-        mExamApi.submitTestpaper(studentPaper)
+        if (mView != null) {
+            mView.showLoading();
+        }
+        mExamApi.submitTestpaper(Apis.submitTestpaperApi(),studentPaper)
                 .subscribeOn(Schedulers.io())
                 .observeOn(AndroidSchedulers.mainThread())
                 .subscribe(new RetrofitSubscriber<StudentTestResult>() {
                     @Override
                     protected void onSuccess(StudentTestResult data) {
+                        if (mView != null) {
+                            mView.hideLoading();
+                        }
                         LogUtil.d(TAG, "[submitTestPaper] " + "onSuccess -> " + data);
                         AnswerBuffer.getInstance().clear();//提交必清空
                         if (data == null) {
@@ -107,6 +125,9 @@ public class ExamRepository extends BasePresenterImpl<ExamView> implements ExamP
 
                     @Override
                     protected void onFailure(String info) {
+                        if (mView != null) {
+                            mView.hideLoading();
+                        }
                         LogUtil.d(TAG, "[submitTestPaper] " + "onFailure -> " + info);
                         mView.showToast("提交试卷失败");
                     }
@@ -114,7 +135,9 @@ public class ExamRepository extends BasePresenterImpl<ExamView> implements ExamP
                     @Override
                     protected void onMistake(Throwable t) {
                         LogUtil.d(TAG, "[submitTestPaper] " + "onMistake -> " + t);
-
+                        if (mView != null) {
+                            mView.hideLoading();
+                        }
                         if (t instanceof ConnectException) {
                             mView.showToast("无法连接到服务器");
                             return;

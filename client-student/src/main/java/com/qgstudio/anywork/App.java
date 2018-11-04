@@ -7,6 +7,7 @@ import android.text.TextUtils;
 
 import com.google.gson.JsonObject;
 import com.mobile.utils.Utils;
+import com.qgstudio.anywork.core.Apis;
 import com.qgstudio.anywork.data.ResponseResult;
 import com.qgstudio.anywork.data.model.User;
 import com.qgstudio.anywork.main.HomeActivity;
@@ -31,7 +32,6 @@ import rx.Observable;
  */
 
 public class App extends Application {
-
     private static Context context;
 
     private static App app;

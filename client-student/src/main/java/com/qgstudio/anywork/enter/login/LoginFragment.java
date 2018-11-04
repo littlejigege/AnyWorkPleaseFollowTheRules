@@ -124,9 +124,9 @@ public class LoginFragment extends MVPBaseFragment<LoginContract.View, LoginPres
     @Override
     public void showLoad() {
         if (loadingDialog == null) {
-            loadingDialog = new LoadingDialog();
+            loadingDialog = new LoadingDialog(getActivity());
         }
-        loadingDialog.show(getFragmentManager(), "");
+        loadingDialog.show();
     }
 
     @Override

@@ -3,6 +3,7 @@ package com.qgstudio.anywork.main;
 import com.google.gson.Gson;
 import com.google.gson.JsonObject;
 import com.google.gson.reflect.TypeToken;
+import com.qgstudio.anywork.core.Apis;
 import com.qgstudio.anywork.data.RetrofitClient;
 import com.qgstudio.anywork.data.RetrofitSubscriber;
 import com.qgstudio.anywork.data.model.Organization;
@@ -38,14 +39,9 @@ public class HomePresenter extends BasePresenterImpl<HomeContract.HomeView> impl
     }
 
     @Override
-    public void detachView() {
-        mView = null;
-    }
-
-    @Override
     public void getJoinOrganization() {
         prepareLoading();
-        mOrganizationApi.getJoinOrganization()
+        mOrganizationApi.getJoinOrganization(Apis.getJoinOrganizationApi())
                 .subscribeOn(Schedulers.io())
                 .observeOn(AndroidSchedulers.mainThread())
                 .subscribe(new RetrofitSubscriber<List<Organization>>() {
@@ -84,7 +80,7 @@ public class HomePresenter extends BasePresenterImpl<HomeContract.HomeView> impl
 
     @Override
     public void getNoticeNew() {
-        mNoticeApi.getNotice(buildRequestParam())
+        mNoticeApi.getNotice(Apis.getNoticeApi(), buildRequestParam())
                 .subscribeOn(Schedulers.io())
                 .observeOn((AndroidSchedulers.mainThread()))
                 .subscribe(new RetrofitSubscriber<JsonObject>() {
@@ -95,7 +91,6 @@ public class HomePresenter extends BasePresenterImpl<HomeContract.HomeView> impl
                                 , new TypeToken<List<Notice>>() {
                                 }.getType());
                         if (mView != null) {
-
                             mView.onNoticeGet(noticeList);
                         }
                     }
@@ -107,7 +102,9 @@ public class HomePresenter extends BasePresenterImpl<HomeContract.HomeView> impl
 
                     @Override
                     protected void onMistake(Throwable t) {
-                        mView.onNoticeGet(null);
+                        if (mView != null) {
+                            mView.onNoticeGet(null);
+                        }
                     }
                 });
     }

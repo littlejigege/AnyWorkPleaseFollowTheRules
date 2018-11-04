@@ -1,6 +1,7 @@
 package com.qgstudio.anywork.dialog;
 
 import android.app.Dialog;
+import android.content.Context;
 import android.content.DialogInterface;
 import android.graphics.Color;
 import android.os.Bundle;
@@ -8,6 +9,7 @@ import android.support.annotation.NonNull;
 import android.support.v4.app.DialogFragment;
 import android.support.v4.view.ViewPager;
 import android.view.Gravity;
+import android.view.KeyEvent;
 import android.view.View;
 import android.view.ViewGroup;
 import android.view.Window;
@@ -20,52 +22,42 @@ import com.victor.loading.newton.NewtonCradleLoading;
  * Created by chenyi on 17-8-20.
  */
 
-public class LoadingDialog extends DialogFragment {
+public class LoadingDialog {
 
     Dialog mDialog;
 
-    NewtonCradleLoading loading;
+    public LoadingDialog(Context context) {
+        createDialog(context);
+    }
 
+    public void show() {
+        if (mDialog != null) {
+            mDialog.show();
+        }
+    }
 
-    @Override
-    public Dialog onCreateDialog(Bundle savedInstanceState) {
+    public void dismiss() {
+        if (mDialog != null) {
+            mDialog.dismiss();
+        }
+    }
+
+    private Dialog createDialog(Context context) {
         if (mDialog == null) {
-            mDialog = new Dialog(getActivity(), R.style.loading_dialog);
+            mDialog = new Dialog(context, R.style.loading_dialog);
             mDialog.setContentView(R.layout.loading_view);
-            mDialog.setCanceledOnTouchOutside(true);
+            mDialog.setCanceledOnTouchOutside(false);
             Window window = mDialog.getWindow();
+            window.setDimAmount(0f);//去掉遮罩
             assert window != null;
             WindowManager.LayoutParams lp = window.getAttributes();
             lp.gravity = Gravity.CENTER;
             lp.width = ViewGroup.LayoutParams.WRAP_CONTENT;//宽高可设置具体大小
             lp.height = ViewGroup.LayoutParams.WRAP_CONTENT;
             mDialog.getWindow().setAttributes(lp);
-
-            View view = mDialog.getWindow().getDecorView();
-
-            loading = (NewtonCradleLoading) view.findViewById(R.id.newton_cradle_loading);
         }
-
         return mDialog;
     }
 
-    @Override
-    public void onResume() {
-        super.onResume();
-        loading.start();
-    }
 
-    @Override
-    public void onPause() {
-        super.onPause();
-        if (loading.isStart())
-            loading.stop();
-    }
-
-    @Override
-    public void onDismiss(DialogInterface dialog) {
-        super.onDismiss(dialog);
-        mDialog = null;
-        System.gc();
-    }
 }

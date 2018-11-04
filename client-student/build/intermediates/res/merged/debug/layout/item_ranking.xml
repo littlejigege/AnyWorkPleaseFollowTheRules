@@ -37,33 +37,48 @@
                 android:visibility="gone" />
         </FrameLayout>
 
-        <de.hdodenhof.circleimageview.CircleImageView
-            android:id="@+id/head_pic"
-            android:layout_width="42dp"
-            android:layout_height="42dp"
+        <FrameLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
             android:layout_marginLeft="24dp"
-            android:layout_gravity="center"/>
+            android:layout_gravity="center">
+            <ImageView
+                android:id="@+id/head_pic"
+                android:layout_width="42dp"
+                android:layout_height="42dp" />
+
+            <TextView
+                android:id="@+id/score"
+                android:layout_width="18dp"
+                android:layout_height="18dp"
+                android:layout_gravity="right"
+                android:text="0"
+                android:textSize="9sp"
+                android:gravity="center"
+                android:textColor="@color/white"
+                android:background="@drawable/background_score_red"/>
+
+        </FrameLayout>
 
         <TextView
             android:id="@+id/name"
-            android:layout_width="wrap_content"
+            android:layout_width="50dp"
             android:layout_height="wrap_content"
             android:layout_gravity="center"
             android:layout_marginLeft="24dp"
             android:ellipsize="end"
             android:gravity="center"
-            android:maxEms="2"
+            android:maxLength="3"
             android:singleLine="true"
             android:text="黄海景"
             android:textColor="#616161" />
 
         <TextView
             android:id="@+id/student_id"
-            android:layout_width="match_parent"
+            android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_gravity="end|center_vertical"
-            android:gravity="right"
-            android:paddingRight="32dp"
+            android:layout_gravity="center_vertical"
+            android:layout_marginLeft="24dp"
             android:text="3216002234"
             android:textColor="#616161" />
     </LinearLayout>

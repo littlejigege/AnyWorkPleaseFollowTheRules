@@ -118,8 +118,8 @@ public class PaperAdapter extends RecyclerView.Adapter<PaperAdapter.Holder> {
                         ToastUtil.showToast("考试时间已截止");
                         return;
                     }
-                    LoadingDialog dialog = new LoadingDialog();
-                    dialog.show(((AppCompatActivity)mContext).getSupportFragmentManager(), "");
+                    LoadingDialog dialog = new LoadingDialog(mContext);
+                    dialog.show();
 
                     intoTestActivity(v.getContext(), mPapers.get(position).getTestpaperId(), type, dialog);
                 } else {

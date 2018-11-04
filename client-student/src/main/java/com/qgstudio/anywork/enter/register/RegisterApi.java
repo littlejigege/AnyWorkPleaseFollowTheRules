@@ -5,6 +5,7 @@ import com.qgstudio.anywork.data.ResponseResult;
 import retrofit2.http.Body;
 import retrofit2.http.Headers;
 import retrofit2.http.POST;
+import retrofit2.http.Url;
 import rx.Observable;
 
 /**
@@ -13,7 +14,7 @@ import rx.Observable;
 
 interface RegisterApi {
 
-    @POST("user/register")
+    @POST
     @Headers("Content-Type:application/json")
-    Observable<ResponseResult<Integer>> register(@Body Object object);
+    Observable<ResponseResult<Integer>> register(@Url String url, @Body Object object);
 }

@@ -1,5 +1,9 @@
 [
     {
+        "merged": "E:\\work\\Android\\Apps\\AnyWork2.0\\client-student\\build\\intermediates\\res\\merged\\debug\\xml\\network_config.xml",
+        "source": "E:\\work\\Android\\Apps\\AnyWork2.0\\client-student\\src\\main\\res\\xml\\network_config.xml"
+    },
+    {
         "merged": "E:\\work\\Android\\Apps\\AnyWork2.0\\client-student\\build\\intermediates\\res\\merged\\debug\\xml\\provider_paths.xml",
         "source": "C:\\Users\\jimiji\\.gradle\\caches\\transforms-1\\files-1.1\\crashreport_upgrade-1.3.6.aar\\cbbd2ab25164f4ab10615c6bfc3257f0\\res\\xml\\provider_paths.xml"
     }

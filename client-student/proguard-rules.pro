@@ -100,38 +100,9 @@
     void *(**On*Listener);
 }
 
-# webView处理，项目中没有使用到webView忽略即可
--keepclassmembers class fqcn.of.javascript.interface.for.webview {
-    public *;
-}
--keepclassmembers class * extends android.webkit.webViewClient {
-    public void *(android.webkit.WebView, java.lang.String, android.graphics.Bitmap);
-    public boolean *(android.webkit.WebView, java.lang.String);
-}
--keepclassmembers class * extends android.webkit.webViewClient {
-    public void *(android.webkit.webView, jav.lang.String);
-}
 
--keep class android.support.**{*;}
 
--keepclassmembers class ** {
-    @com.yanzhenjie.permission.PermissionYes <methods>;
-}
--keepclassmembers class ** {
-    @com.yanzhenjie.permission.PermissionNo <methods>;
-}
 
--keepclassmembers class * {
-   public <init> (org.json.JSONObject);
-}
-
-#讯飞语音
--keep class com.chinaMobile.** {*;}
--keep class com.iflytek.** {*;}
--keep class com.iflytek.sunflower.** {*;}
--dontwarn com.iflytek.sunflower.**
--dontwarn com.chinaMobile.**
--dontwarn com.iflytek.**
 
 # gilde
 -keep public class * implements com.bumptech.glide.module.GlideModule
@@ -192,4 +163,9 @@
 -keep class com.google.gson.examples.android.model.** { *; }
 -keep class com.qiancheng.carsmangersystem.**{*;}
 
+#----------- bugly ----------------
+-dontwarn com.tencent.bugly.**
+-keep public class com.tencent.bugly.**{*;}
+-keep class android.support.**{*;}
+#---------------------------
 -keep class com.qgstudio.anywork.data.model.**{*;} # 自定义数据模型的bean目录

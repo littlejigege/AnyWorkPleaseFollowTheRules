@@ -11,31 +11,38 @@ import java.lang.reflect.ParameterizedType;
 
 /**
  * MVPPlugin
- *  邮箱 784787081@qq.com
+ * 邮箱 784787081@qq.com
  */
 
-public abstract class MVPBaseActivity<V extends BaseView,T extends BasePresenterImpl<V>> extends DialogManagerActivity implements BaseView{
+public abstract class MVPBaseActivity<V extends BaseView, T extends BasePresenterImpl<V>> extends DialogManagerActivity implements BaseView {
     public T mPresenter;
+
     @Override
     protected void onCreate(@Nullable Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        mPresenter= getInstance(this,1);
+        mPresenter = getInstance(this, 1);
         mPresenter.attachView((V) this);
     }
 
     @Override
-    protected void onDestroy() {
-        super.onDestroy();
-        if (mPresenter!=null)
-        mPresenter.detachView();
+    protected void onResume() {
+        super.onResume();
+        mPresenter.attachView((V) this);
     }
 
     @Override
-    public Context getContext(){
+    protected void onStop() {
+        super.onStop();
+        if (mPresenter != null)
+            mPresenter.detachView();
+    }
+
+    @Override
+    public Context getContext() {
         return this;
     }
 
-    public  <T> T getInstance(Object o, int i) {
+    public <T> T getInstance(Object o, int i) {
         try {
             return ((Class<T>) ((ParameterizedType) (o.getClass()
                     .getGenericSuperclass())).getActualTypeArguments()[i])

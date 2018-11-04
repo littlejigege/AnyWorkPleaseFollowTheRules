@@ -5,6 +5,7 @@ import android.util.Log;
 import android.widget.Toast;
 
 import com.qgstudio.anywork.App;
+import com.qgstudio.anywork.core.Apis;
 import com.qgstudio.anywork.data.ResponseResult;
 import com.qgstudio.anywork.data.RetrofitClient;
 import com.qgstudio.anywork.data.model.User;
@@ -92,7 +93,7 @@ public class LoginPresenter extends BasePresenterImpl<LoginContract.View> implem
         loginInfo.put("password", password);
 
         LogUtil.d(TAG, "[login] " + "loginInfo -> " + GsonUtil.GsonString(loginInfo));
-        loginApi.login(loginInfo)
+        loginApi.login(Apis.loginApi(),loginInfo)
                 .subscribeOn(Schedulers.io())
                 .observeOn(AndroidSchedulers.mainThread())
                 .subscribe(new Observer<ResponseResult<User>>() {

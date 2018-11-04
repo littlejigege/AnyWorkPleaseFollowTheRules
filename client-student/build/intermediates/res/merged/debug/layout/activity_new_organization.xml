@@ -14,8 +14,8 @@
         android:layout_marginTop="16dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/my_organization"
-        app:layout_constraintStart_toStartOf="parent" />
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/my_organization" />
 
     <android.support.v7.widget.Toolbar
         android:id="@+id/toolbar2"
@@ -45,13 +45,13 @@
         android:id="@+id/edi_searching"
         android:layout_width="280dp"
         android:layout_height="32dp"
-        android:layout_marginTop="20dp"
-        android:hint="请输入班级名称"
-        android:textColor="#437aea"
-        android:paddingStart="17dp"
-        android:textSize="14sp"
-        android:background="@drawable/shape_organization_search"
         android:layout_marginLeft="20dp"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/shape_organization_search"
+        android:hint="请输入班级名称"
+        android:paddingStart="17dp"
+        android:textColor="#437aea"
+        android:textSize="14sp"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/toolbar2" />
@@ -77,12 +77,14 @@
         android:layout_height="30dp"
         android:layout_marginTop="16dp"
         android:background="@drawable/bg_my_organize"
+        android:clickable="false"
         android:gravity="center"
-        android:paddingHorizontal="11dp"
-        android:paddingVertical="7dp"
+        android:paddingLeft="11dp"
+        android:paddingTop="7dp"
+        android:paddingRight="11dp"
+        android:paddingBottom="7dp"
         android:text="当前组织：未获取"
         android:textColor="#ffffff"
-        android:clickable="false"
         app:layout_constraintStart_toStartOf="@+id/edi_searching"
         app:layout_constraintTop_toBottomOf="@+id/edi_searching" />
 

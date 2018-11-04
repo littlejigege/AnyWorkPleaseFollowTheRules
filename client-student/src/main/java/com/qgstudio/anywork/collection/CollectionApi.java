@@ -9,18 +9,19 @@ import java.util.List;
 import retrofit2.http.Body;
 import retrofit2.http.Headers;
 import retrofit2.http.POST;
+import retrofit2.http.Url;
 import rx.Observable;
 
 public interface CollectionApi {
-    @POST("quest/collect")
+    @POST
     @Headers("Content-Type:application/json")
-    Observable<ResponseResult> collect(@Body Object object);
+    Observable<ResponseResult> collect(@Url String url,@Body Object object);
 
-    @POST("quest/collect/delete")
+    @POST
     @Headers("Content-Type:application/json")
-    Observable<ResponseResult> uncollect(@Body Object object);
+    Observable<ResponseResult> uncollect(@Url String url,@Body Object object);
 
-    @POST("quest/collect/list")
+    @POST
     @Headers("Content-Type:application/json")
-    Observable<ResponseResult<List<Question>>> getAllCollections();
+    Observable<ResponseResult<List<Question>>> getAllCollections(@Url String url);
 }

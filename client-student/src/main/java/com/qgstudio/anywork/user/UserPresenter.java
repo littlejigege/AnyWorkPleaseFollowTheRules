@@ -3,6 +3,7 @@ package com.qgstudio.anywork.user;
 import android.content.Context;
 import android.util.Log;
 
+import com.qgstudio.anywork.core.Apis;
 import com.qgstudio.anywork.data.ResponseResult;
 import com.qgstudio.anywork.data.RetrofitClient;
 import com.qgstudio.anywork.data.model.User;
@@ -77,14 +78,14 @@ public class UserPresenter extends BasePresenterImpl<UserContract.View> implemen
         if (userApi == null) {
             userApi = RetrofitClient.RETROFIT_CLIENT.getRetrofit().create(UserApi.class);
         }
-
+        mView.showProgressDialog();
         Map<String, String> info = new HashMap<>();
 //        info.put("userName", user.getUserName());
         info.put("phone", user.getPhone());
         info.put("email", user.getEmail());
 
         Log.i(TAG, "changeInfo: " + GsonUtil.GsonString(info));
-        userApi.changeInfo(info)
+        userApi.changeInfo(Apis.changeUserInfoApi(),info)
                 .subscribeOn(Schedulers.io())
                 .observeOn(AndroidSchedulers.mainThread())
                 .subscribe(new Observer<ResponseResult<User>>() {
@@ -128,7 +129,7 @@ public class UserPresenter extends BasePresenterImpl<UserContract.View> implemen
             userApi = RetrofitClient.RETROFIT_CLIENT.getRetrofit().create(UserApi.class);
         }
 
-        userApi.changePic(pictureNameBody, picturePart)
+        userApi.changePic(Apis.changePicApi(),pictureNameBody, picturePart)
                 .subscribeOn(Schedulers.io())
                 .observeOn(AndroidSchedulers.mainThread())
                 .subscribe(new Observer<ResponseResult>() {

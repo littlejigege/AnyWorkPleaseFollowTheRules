@@ -5,6 +5,7 @@ import android.arch.lifecycle.MutableLiveData;
 import android.arch.lifecycle.ViewModel;
 
 import com.qgstudio.anywork.collection.CollectionApi;
+import com.qgstudio.anywork.core.Apis;
 import com.qgstudio.anywork.data.ResponseResult;
 import com.qgstudio.anywork.data.RetrofitClient;
 import com.qgstudio.anywork.data.model.Question;
@@ -23,7 +24,7 @@ public class AnalysisViewModel extends ViewModel {
 
     public void getAllContions(final OnResultListener listener) {
         final MutableLiveData<List<Question>> liveData = new MutableLiveData<>();
-        api.getAllCollections()
+        api.getAllCollections(Apis.getAllCollectionsApi())
                 .subscribeOn(Schedulers.io())
                 .observeOn(AndroidSchedulers.mainThread())
                 .subscribe(new Observer<ResponseResult<List<Question>>>() {
@@ -49,7 +50,7 @@ public class AnalysisViewModel extends ViewModel {
     public void collect(int questionID, final OnResultListener listener) {
         Map map = new HashMap();
         map.put("questionId", questionID);
-        api.collect(map)
+        api.collect(Apis.collectApi(),map)
                 .subscribeOn(Schedulers.io())
                 .observeOn(AndroidSchedulers.mainThread())
                 .subscribe(new Observer<ResponseResult>() {
@@ -77,7 +78,7 @@ public class AnalysisViewModel extends ViewModel {
     public void uncollect(int questionID, final OnResultListener listener) {
         Map map = new HashMap();
         map.put("questionId", questionID);
-        api.uncollect(map)
+        api.uncollect(Apis.unCollectApi(),map)
                 .subscribeOn(Schedulers.io())
                 .observeOn(AndroidSchedulers.mainThread())
                 .subscribe(new Observer<ResponseResult>() {

@@ -4,6 +4,8 @@ import android.arch.lifecycle.ViewModel;
 import android.util.Log;
 
 import com.qgstudio.anywork.App;
+import com.qgstudio.anywork.common.PreLoading;
+import com.qgstudio.anywork.core.Apis;
 import com.qgstudio.anywork.data.ResponseResult;
 import com.qgstudio.anywork.data.RetrofitClient;
 import com.qgstudio.anywork.workout.data.Chapter;
@@ -29,9 +31,13 @@ public class ChapterViewModel extends ViewModel {
     }
 
     public void getChapter() {
+        if (fragment == null) {
+            return;
+        }
         Map map = new HashMap();
         map.put("organizationId", fragment.classId);
-        api.getChapter(map)
+        showLoading();
+        api.getChapter(Apis.getChapterApi(),map)
                 .subscribeOn(Schedulers.io())
                 .observeOn(AndroidSchedulers.mainThread())
                 .subscribe(new Observer<ResponseResult<List<Chapter>>>() {
@@ -42,12 +48,18 @@ public class ChapterViewModel extends ViewModel {
 
                     @Override
                     public void onError(Throwable e) {
+
                         e.printStackTrace();
+                        hideLoading();
                     }
 
                     @Override
                     public void onNext(ResponseResult<List<Chapter>> listResponseResult) {
+                        if (fragment == null) {
+                            return;
+                        }
                         fragment.onChapterGet(listResponseResult.getData());
+                        hideLoading();
                     }
                 });
     }
@@ -57,7 +69,8 @@ public class ChapterViewModel extends ViewModel {
         map.put("organizationId", fragment.classId);
         map.put("chapter", chapterID);
         map.put("testPaperType", fragment.type.toInt());
-        api.getCatalog(map)
+        showLoading();
+        api.getCatalog(Apis.getCatalogApi(),map)
                 .subscribeOn(Schedulers.io())
                 .observeOn(AndroidSchedulers.mainThread())
                 .subscribe(new Observer<ResponseResult<List<Testpaper>>>() {
@@ -68,14 +81,31 @@ public class ChapterViewModel extends ViewModel {
 
                     @Override
                     public void onError(Throwable e) {
+
                         e.printStackTrace();
+                        hideLoading();
                     }
 
                     @Override
                     public void onNext(ResponseResult<List<Testpaper>> listResponseResult) {
+                        if (fragment == null) {
+                            return;
+                        }
                         fragment.onCatalogGet(listResponseResult.getData());
+                        hideLoading();
                     }
                 });
     }
 
+    private void showLoading() {
+        if (fragment != null) {
+            fragment.showLoading();
+        }
+    }
+
+    private void hideLoading() {
+        if (fragment != null) {
+            fragment.hideLoading();
+        }
+    }
 }

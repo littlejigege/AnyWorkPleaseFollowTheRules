@@ -13,9 +13,12 @@ import com.bumptech.glide.util.LogTime;
 import com.qgstudio.anywork.App;
 import com.qgstudio.anywork.R;
 import com.qgstudio.anywork.StartActivity;
+import com.qgstudio.anywork.common.PreLoading;
+import com.qgstudio.anywork.core.Apis;
 import com.qgstudio.anywork.data.ResponseResult;
 import com.qgstudio.anywork.data.RetrofitClient;
 import com.qgstudio.anywork.data.model.User;
+import com.qgstudio.anywork.dialog.LoadingDialog;
 import com.qgstudio.anywork.utils.DataBaseUtil;
 import com.qgstudio.anywork.utils.GsonUtil;
 import com.qgstudio.anywork.utils.LogUtil;
@@ -31,10 +34,10 @@ import rx.Observer;
 import rx.android.schedulers.AndroidSchedulers;
 import rx.schedulers.Schedulers;
 
-public class ChangePasswordActivity extends AppCompatActivity {
+public class ChangePasswordActivity extends AppCompatActivity implements PreLoading {
 
     private static final String TAG = "ChangePasswordActivity";
-    
+
     @BindView(R.id.editText_old)
     EditText etOldPw;
 
@@ -51,6 +54,8 @@ public class ChangePasswordActivity extends AppCompatActivity {
     ImageView IgCancel;
 
     User user;
+    private LoadingDialog loadingDialog;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -76,15 +81,15 @@ public class ChangePasswordActivity extends AppCompatActivity {
                 String againPassWord = etAgainPw.getText().toString();
                 LogUtil.d("changepassword", oldPassWord);
                 LogUtil.d("changepassword", user.getPassword());
-                if (!oldPassWord.equals(user.getPassword())){
+                if (!oldPassWord.equals(user.getPassword())) {
                     ToastUtil.showToast("原始密码不正确");
                     return;
                 }
-                if (newPassWord.equals("")){
+                if (newPassWord.equals("")) {
                     ToastUtil.showToast("重置密码不能为空");
                     return;
                 }
-                if (!againPassWord.equals(newPassWord)){
+                if (!againPassWord.equals(newPassWord)) {
                     ToastUtil.showToast("确认密码不一致");
                     return;
                 }
@@ -97,7 +102,8 @@ public class ChangePasswordActivity extends AppCompatActivity {
                 info.put("newPassword", newPassWord);
 
                 Log.i(TAG, "changePassword: " + GsonUtil.GsonString(info));
-                userApi.changePassword(info)
+                showLoading();
+                userApi.changePassword(Apis.changePasswordApi(),info)
                         .subscribeOn(Schedulers.io())
                         .observeOn(AndroidSchedulers.mainThread())
                         .subscribe(new Observer<ResponseResult>() {
@@ -108,6 +114,7 @@ public class ChangePasswordActivity extends AppCompatActivity {
                             @Override
                             public void onError(Throwable e) {
                                 e.printStackTrace();
+                                hideLoading();
 //                                mView.showError("网络连接错误");
 //                                mView.hidProgressDialog();
                                 ToastUtil.showToast("网络连接错误");
@@ -115,6 +122,7 @@ public class ChangePasswordActivity extends AppCompatActivity {
 
                             @Override
                             public void onNext(ResponseResult result) {
+                                hideLoading();
                                 assert result != null;
 
                                 if (result.getState() == 1) {
@@ -131,5 +139,25 @@ public class ChangePasswordActivity extends AppCompatActivity {
                         });
             }
         });
+    }
+
+    @Override
+    public void showLoading() {
+        if (loadingDialog == null) {
+            loadingDialog = new LoadingDialog(this);
+        }
+        loadingDialog.show();
+    }
+
+    @Override
+    public void hideLoading() {
+        if (loadingDialog != null) {
+            loadingDialog.dismiss();
+        }
+    }
+
+    @Override
+    public void showToast(String s) {
+
     }
 }

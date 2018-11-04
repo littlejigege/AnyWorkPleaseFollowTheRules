@@ -26,6 +26,7 @@ import com.mobile.utils.ActivityUtilsKt;
 import com.qgstudio.anywork.App;
 import com.qgstudio.anywork.R;
 import com.qgstudio.anywork.common.DialogManagerActivity;
+import com.qgstudio.anywork.core.Apis;
 import com.qgstudio.anywork.data.ResponseResult;
 import com.qgstudio.anywork.data.RetrofitClient;
 import com.qgstudio.anywork.data.model.User;
@@ -85,7 +86,7 @@ public class HomeActivity extends DialogManagerActivity implements BottomNavigat
         WebSocketHolder.getDefault().register(this);
         String baseUrl = "ws://" + RetrofitClient.RETROFIT_CLIENT.getRetrofit().baseUrl().host() + ":" +
                 RetrofitClient.RETROFIT_CLIENT.getRetrofit().baseUrl().port();
-        WebSocketHolder.getDefault().connect(baseUrl + "/websocket/" + App.getInstance().getUser().getUserId());
+        WebSocketHolder.getDefault().connect("ws://39.98.41.126/anywork" + "/websocket/" + App.getInstance().getUser().getUserId());
     }
 
     @Override
@@ -157,7 +158,7 @@ public class HomeActivity extends DialogManagerActivity implements BottomNavigat
 
     private void logout() {
         UserApi userApi = RetrofitClient.RETROFIT_CLIENT.getRetrofit().create(UserApi.class);
-        userApi.logout().subscribeOn(Schedulers.io())
+        userApi.logout(Apis.logoutApi()).subscribeOn(Schedulers.io())
                 .observeOn(AndroidSchedulers.mainThread())
                 .subscribe(new Observer<ResponseResult>() {
                     @Override

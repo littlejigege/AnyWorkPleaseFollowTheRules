@@ -303,14 +303,14 @@ public class UserActivity extends MVPBaseActivity<UserContract.View, UserPresent
     @Override
     public void showProgressDialog() {
         if (dialog == null) {
-            dialog = new LoadingDialog();
+            dialog = new LoadingDialog(this);
         }
-        dialog.show(getSupportFragmentManager(), "");
+        dialog.show();
     }
 
     @Override
     public void hidProgressDialog() {
-        if (dialog != null && dialog.isResumed()) {
+        if (dialog != null) {
             dialog.dismiss();
         }
     }

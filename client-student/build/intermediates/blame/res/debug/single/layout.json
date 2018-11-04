@@ -1,7 +1,7 @@
 [
     {
         "merged": "E:\\work\\Android\\Apps\\AnyWork2.0\\client-student\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_bar_title_item.xml",
-        "source": "C:\\Users\\jimiji\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-27.1.0.aar\\d325b4eab5259d85ee379cc0189a9314\\res\\layout\\abc_action_bar_title_item.xml"
+        "source": "C:\\Users\\jimiji\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\0f015facd651bc3d985cbdda3308ed92\\res\\layout\\abc_action_bar_title_item.xml"
     },
     {
         "merged": "E:\\work\\Android\\Apps\\AnyWork2.0\\client-student\\build\\intermediates\\res\\merged\\debug\\layout\\activity_test.xml",
@@ -13,11 +13,11 @@
     },
     {
         "merged": "E:\\work\\Android\\Apps\\AnyWork2.0\\client-student\\build\\intermediates\\res\\merged\\debug\\layout\\abc_activity_chooser_view.xml",
-        "source": "C:\\Users\\jimiji\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-27.1.0.aar\\d325b4eab5259d85ee379cc0189a9314\\res\\layout\\abc_activity_chooser_view.xml"
+        "source": "C:\\Users\\jimiji\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\0f015facd651bc3d985cbdda3308ed92\\res\\layout\\abc_activity_chooser_view.xml"
     },
     {
         "merged": "E:\\work\\Android\\Apps\\AnyWork2.0\\client-student\\build\\intermediates\\res\\merged\\debug\\layout\\design_layout_snackbar_include.xml",
-        "source": "C:\\Users\\jimiji\\.gradle\\caches\\transforms-1\\files-1.1\\design-27.1.0.aar\\0e46ca700e60176a5837388b194d6861\\res\\layout\\design_layout_snackbar_include.xml"
+        "source": "C:\\Users\\jimiji\\.gradle\\caches\\transforms-1\\files-1.1\\design-28.0.0.aar\\9f13930b895983eb13ccd4dd88fb7063\\res\\layout\\design_layout_snackbar_include.xml"
     },
     {
         "merged": "E:\\work\\Android\\Apps\\AnyWork2.0\\client-student\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_workout_catalog.xml",
@@ -29,11 +29,11 @@
     },
     {
         "merged": "E:\\work\\Android\\Apps\\AnyWork2.0\\client-student\\build\\intermediates\\res\\merged\\debug\\layout\\notification_media_action.xml",
-        "source": "C:\\Users\\jimiji\\.gradle\\caches\\transforms-1\\files-1.1\\support-media-compat-27.1.0.aar\\70a8a67ca6ec29d79377191a9024b55d\\res\\layout\\notification_media_action.xml"
+        "source": "C:\\Users\\jimiji\\.gradle\\caches\\transforms-1\\files-1.1\\support-media-compat-28.0.0.aar\\505fed83e67c2aeeb74069a78d29bd2f\\res\\layout\\notification_media_action.xml"
     },
     {
         "merged": "E:\\work\\Android\\Apps\\AnyWork2.0\\client-student\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_big_media_narrow.xml",
-        "source": "C:\\Users\\jimiji\\.gradle\\caches\\transforms-1\\files-1.1\\support-media-compat-27.1.0.aar\\70a8a67ca6ec29d79377191a9024b55d\\res\\layout\\notification_template_big_media_narrow.xml"
+        "source": "C:\\Users\\jimiji\\.gradle\\caches\\transforms-1\\files-1.1\\support-media-compat-28.0.0.aar\\505fed83e67c2aeeb74069a78d29bd2f\\res\\layout\\notification_template_big_media_narrow.xml"
     },
     {
         "merged": "E:\\work\\Android\\Apps\\AnyWork2.0\\client-student\\build\\intermediates\\res\\merged\\debug\\layout\\item_collection.xml",
@@ -41,7 +41,7 @@
     },
     {
         "merged": "E:\\work\\Android\\Apps\\AnyWork2.0\\client-student\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_big_media_narrow_custom.xml",
-        "source": "C:\\Users\\jimiji\\.gradle\\caches\\transforms-1\\files-1.1\\support-media-compat-27.1.0.aar\\70a8a67ca6ec29d79377191a9024b55d\\res\\layout\\notification_template_big_media_narrow_custom.xml"
+        "source": "C:\\Users\\jimiji\\.gradle\\caches\\transforms-1\\files-1.1\\support-media-compat-28.0.0.aar\\505fed83e67c2aeeb74069a78d29bd2f\\res\\layout\\notification_template_big_media_narrow_custom.xml"
     },
     {
         "merged": "E:\\work\\Android\\Apps\\AnyWork2.0\\client-student\\build\\intermediates\\res\\merged\\debug\\layout\\dialog_origanization.xml",
@@ -49,7 +49,7 @@
     },
     {
         "merged": "E:\\work\\Android\\Apps\\AnyWork2.0\\client-student\\build\\intermediates\\res\\merged\\debug\\layout\\design_bottom_sheet_dialog.xml",
-        "source": "C:\\Users\\jimiji\\.gradle\\caches\\transforms-1\\files-1.1\\design-27.1.0.aar\\0e46ca700e60176a5837388b194d6861\\res\\layout\\design_bottom_sheet_dialog.xml"
+        "source": "C:\\Users\\jimiji\\.gradle\\caches\\transforms-1\\files-1.1\\design-28.0.0.aar\\9f13930b895983eb13ccd4dd88fb7063\\res\\layout\\design_bottom_sheet_dialog.xml"
     },
     {
         "merged": "E:\\work\\Android\\Apps\\AnyWork2.0\\client-student\\build\\intermediates\\res\\merged\\debug\\layout\\drawer_header.xml",
@@ -57,7 +57,7 @@
     },
     {
         "merged": "E:\\work\\Android\\Apps\\AnyWork2.0\\client-student\\build\\intermediates\\res\\merged\\debug\\layout\\abc_list_menu_item_layout.xml",
-        "source": "C:\\Users\\jimiji\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-27.1.0.aar\\d325b4eab5259d85ee379cc0189a9314\\res\\layout\\abc_list_menu_item_layout.xml"
+        "source": "C:\\Users\\jimiji\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\0f015facd651bc3d985cbdda3308ed92\\res\\layout\\abc_list_menu_item_layout.xml"
     },
     {
         "merged": "E:\\work\\Android\\Apps\\AnyWork2.0\\client-student\\build\\intermediates\\res\\merged\\debug\\layout\\new_dialog_organization.xml",
@@ -85,19 +85,19 @@
     },
     {
         "merged": "E:\\work\\Android\\Apps\\AnyWork2.0\\client-student\\build\\intermediates\\res\\merged\\debug\\layout\\abc_alert_dialog_material.xml",
-        "source": "C:\\Users\\jimiji\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-27.1.0.aar\\d325b4eab5259d85ee379cc0189a9314\\res\\layout\\abc_alert_dialog_material.xml"
+        "source": "C:\\Users\\jimiji\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\0f015facd651bc3d985cbdda3308ed92\\res\\layout\\abc_alert_dialog_material.xml"
     },
     {
         "merged": "E:\\work\\Android\\Apps\\AnyWork2.0\\client-student\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_big_media.xml",
-        "source": "C:\\Users\\jimiji\\.gradle\\caches\\transforms-1\\files-1.1\\support-media-compat-27.1.0.aar\\70a8a67ca6ec29d79377191a9024b55d\\res\\layout\\notification_template_big_media.xml"
+        "source": "C:\\Users\\jimiji\\.gradle\\caches\\transforms-1\\files-1.1\\support-media-compat-28.0.0.aar\\505fed83e67c2aeeb74069a78d29bd2f\\res\\layout\\notification_template_big_media.xml"
     },
     {
         "merged": "E:\\work\\Android\\Apps\\AnyWork2.0\\client-student\\build\\intermediates\\res\\merged\\debug\\layout\\design_navigation_menu_item.xml",
-        "source": "C:\\Users\\jimiji\\.gradle\\caches\\transforms-1\\files-1.1\\design-27.1.0.aar\\0e46ca700e60176a5837388b194d6861\\res\\layout\\design_navigation_menu_item.xml"
+        "source": "C:\\Users\\jimiji\\.gradle\\caches\\transforms-1\\files-1.1\\design-28.0.0.aar\\9f13930b895983eb13ccd4dd88fb7063\\res\\layout\\design_navigation_menu_item.xml"
     },
     {
         "merged": "E:\\work\\Android\\Apps\\AnyWork2.0\\client-student\\build\\intermediates\\res\\merged\\debug\\layout\\design_layout_tab_icon.xml",
-        "source": "C:\\Users\\jimiji\\.gradle\\caches\\transforms-1\\files-1.1\\design-27.1.0.aar\\0e46ca700e60176a5837388b194d6861\\res\\layout\\design_layout_tab_icon.xml"
+        "source": "C:\\Users\\jimiji\\.gradle\\caches\\transforms-1\\files-1.1\\design-28.0.0.aar\\9f13930b895983eb13ccd4dd88fb7063\\res\\layout\\design_layout_tab_icon.xml"
     },
     {
         "merged": "E:\\work\\Android\\Apps\\AnyWork2.0\\client-student\\build\\intermediates\\res\\merged\\debug\\layout\\activity_welcome.xml",
@@ -105,11 +105,11 @@
     },
     {
         "merged": "E:\\work\\Android\\Apps\\AnyWork2.0\\client-student\\build\\intermediates\\res\\merged\\debug\\layout\\design_bottom_navigation_item.xml",
-        "source": "C:\\Users\\jimiji\\.gradle\\caches\\transforms-1\\files-1.1\\design-27.1.0.aar\\0e46ca700e60176a5837388b194d6861\\res\\layout\\design_bottom_navigation_item.xml"
+        "source": "C:\\Users\\jimiji\\.gradle\\caches\\transforms-1\\files-1.1\\design-28.0.0.aar\\9f13930b895983eb13ccd4dd88fb7063\\res\\layout\\design_bottom_navigation_item.xml"
     },
     {
         "merged": "E:\\work\\Android\\Apps\\AnyWork2.0\\client-student\\build\\intermediates\\res\\merged\\debug\\layout\\abc_alert_dialog_button_bar_material.xml",
-        "source": "C:\\Users\\jimiji\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-27.1.0.aar\\d325b4eab5259d85ee379cc0189a9314\\res\\layout\\abc_alert_dialog_button_bar_material.xml"
+        "source": "C:\\Users\\jimiji\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\0f015facd651bc3d985cbdda3308ed92\\res\\layout\\abc_alert_dialog_button_bar_material.xml"
     },
     {
         "merged": "E:\\work\\Android\\Apps\\AnyWork2.0\\client-student\\build\\intermediates\\res\\merged\\debug\\layout\\view_workout.xml",
@@ -117,19 +117,19 @@
     },
     {
         "merged": "E:\\work\\Android\\Apps\\AnyWork2.0\\client-student\\build\\intermediates\\res\\merged\\debug\\layout\\abc_alert_dialog_title_material.xml",
-        "source": "C:\\Users\\jimiji\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-27.1.0.aar\\d325b4eab5259d85ee379cc0189a9314\\res\\layout\\abc_alert_dialog_title_material.xml"
+        "source": "C:\\Users\\jimiji\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\0f015facd651bc3d985cbdda3308ed92\\res\\layout\\abc_alert_dialog_title_material.xml"
     },
     {
         "merged": "E:\\work\\Android\\Apps\\AnyWork2.0\\client-student\\build\\intermediates\\res\\merged\\debug\\layout\\item_notice.xml",
         "source": "E:\\work\\Android\\Apps\\AnyWork2.0\\client-student\\src\\main\\res\\layout\\item_notice.xml"
     },
     {
-        "merged": "E:\\work\\Android\\Apps\\AnyWork2.0\\client-student\\build\\intermediates\\res\\merged\\debug\\layout\\activity_change_info.xml",
-        "source": "E:\\work\\Android\\Apps\\AnyWork2.0\\client-student\\src\\main\\res\\layout\\activity_change_info.xml"
-    },
-    {
         "merged": "E:\\work\\Android\\Apps\\AnyWork2.0\\client-student\\build\\intermediates\\res\\merged\\debug\\layout\\item_ranking.xml",
         "source": "E:\\work\\Android\\Apps\\AnyWork2.0\\client-student\\src\\main\\res\\layout\\item_ranking.xml"
+    },
+    {
+        "merged": "E:\\work\\Android\\Apps\\AnyWork2.0\\client-student\\build\\intermediates\\res\\merged\\debug\\layout\\activity_change_info.xml",
+        "source": "E:\\work\\Android\\Apps\\AnyWork2.0\\client-student\\src\\main\\res\\layout\\activity_change_info.xml"
     },
     {
         "merged": "E:\\work\\Android\\Apps\\AnyWork2.0\\client-student\\build\\intermediates\\res\\merged\\debug\\layout\\option_choice.xml",
@@ -137,7 +137,7 @@
     },
     {
         "merged": "E:\\work\\Android\\Apps\\AnyWork2.0\\client-student\\build\\intermediates\\res\\merged\\debug\\layout\\abc_select_dialog_material.xml",
-        "source": "C:\\Users\\jimiji\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-27.1.0.aar\\d325b4eab5259d85ee379cc0189a9314\\res\\layout\\abc_select_dialog_material.xml"
+        "source": "C:\\Users\\jimiji\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\0f015facd651bc3d985cbdda3308ed92\\res\\layout\\abc_select_dialog_material.xml"
     },
     {
         "merged": "E:\\work\\Android\\Apps\\AnyWork2.0\\client-student\\build\\intermediates\\res\\merged\\debug\\layout\\item_workout_info.xml",
@@ -149,11 +149,11 @@
     },
     {
         "merged": "E:\\work\\Android\\Apps\\AnyWork2.0\\client-student\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_menu_layout.xml",
-        "source": "C:\\Users\\jimiji\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-27.1.0.aar\\d325b4eab5259d85ee379cc0189a9314\\res\\layout\\abc_action_menu_layout.xml"
+        "source": "C:\\Users\\jimiji\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\0f015facd651bc3d985cbdda3308ed92\\res\\layout\\abc_action_menu_layout.xml"
     },
     {
         "merged": "E:\\work\\Android\\Apps\\AnyWork2.0\\client-student\\build\\intermediates\\res\\merged\\debug\\layout\\notification_media_cancel_action.xml",
-        "source": "C:\\Users\\jimiji\\.gradle\\caches\\transforms-1\\files-1.1\\support-media-compat-27.1.0.aar\\70a8a67ca6ec29d79377191a9024b55d\\res\\layout\\notification_media_cancel_action.xml"
+        "source": "C:\\Users\\jimiji\\.gradle\\caches\\transforms-1\\files-1.1\\support-media-compat-28.0.0.aar\\505fed83e67c2aeeb74069a78d29bd2f\\res\\layout\\notification_media_cancel_action.xml"
     },
     {
         "merged": "E:\\work\\Android\\Apps\\AnyWork2.0\\client-student\\build\\intermediates\\res\\merged\\debug\\layout\\item_new_organization.xml",
@@ -165,23 +165,23 @@
     },
     {
         "merged": "E:\\work\\Android\\Apps\\AnyWork2.0\\client-student\\build\\intermediates\\res\\merged\\debug\\layout\\abc_screen_toolbar.xml",
-        "source": "C:\\Users\\jimiji\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-27.1.0.aar\\d325b4eab5259d85ee379cc0189a9314\\res\\layout\\abc_screen_toolbar.xml"
+        "source": "C:\\Users\\jimiji\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\0f015facd651bc3d985cbdda3308ed92\\res\\layout\\abc_screen_toolbar.xml"
     },
     {
         "merged": "E:\\work\\Android\\Apps\\AnyWork2.0\\client-student\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_media.xml",
-        "source": "C:\\Users\\jimiji\\.gradle\\caches\\transforms-1\\files-1.1\\support-media-compat-27.1.0.aar\\70a8a67ca6ec29d79377191a9024b55d\\res\\layout\\notification_template_media.xml"
+        "source": "C:\\Users\\jimiji\\.gradle\\caches\\transforms-1\\files-1.1\\support-media-compat-28.0.0.aar\\505fed83e67c2aeeb74069a78d29bd2f\\res\\layout\\notification_template_media.xml"
     },
     {
         "merged": "E:\\work\\Android\\Apps\\AnyWork2.0\\client-student\\build\\intermediates\\res\\merged\\debug\\layout\\abc_popup_menu_header_item_layout.xml",
-        "source": "C:\\Users\\jimiji\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-27.1.0.aar\\d325b4eab5259d85ee379cc0189a9314\\res\\layout\\abc_popup_menu_header_item_layout.xml"
+        "source": "C:\\Users\\jimiji\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\0f015facd651bc3d985cbdda3308ed92\\res\\layout\\abc_popup_menu_header_item_layout.xml"
     },
     {
         "merged": "E:\\work\\Android\\Apps\\AnyWork2.0\\client-student\\build\\intermediates\\res\\merged\\debug\\layout\\design_menu_item_action_area.xml",
-        "source": "C:\\Users\\jimiji\\.gradle\\caches\\transforms-1\\files-1.1\\design-27.1.0.aar\\0e46ca700e60176a5837388b194d6861\\res\\layout\\design_menu_item_action_area.xml"
+        "source": "C:\\Users\\jimiji\\.gradle\\caches\\transforms-1\\files-1.1\\design-28.0.0.aar\\9f13930b895983eb13ccd4dd88fb7063\\res\\layout\\design_menu_item_action_area.xml"
     },
     {
         "merged": "E:\\work\\Android\\Apps\\AnyWork2.0\\client-student\\build\\intermediates\\res\\merged\\debug\\layout\\design_navigation_item_subheader.xml",
-        "source": "C:\\Users\\jimiji\\.gradle\\caches\\transforms-1\\files-1.1\\design-27.1.0.aar\\0e46ca700e60176a5837388b194d6861\\res\\layout\\design_navigation_item_subheader.xml"
+        "source": "C:\\Users\\jimiji\\.gradle\\caches\\transforms-1\\files-1.1\\design-28.0.0.aar\\9f13930b895983eb13ccd4dd88fb7063\\res\\layout\\design_navigation_item_subheader.xml"
     },
     {
         "merged": "E:\\work\\Android\\Apps\\AnyWork2.0\\client-student\\build\\intermediates\\res\\merged\\debug\\layout\\activity_person.xml",
@@ -189,19 +189,23 @@
     },
     {
         "merged": "E:\\work\\Android\\Apps\\AnyWork2.0\\client-student\\build\\intermediates\\res\\merged\\debug\\layout\\abc_expanded_menu_layout.xml",
-        "source": "C:\\Users\\jimiji\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-27.1.0.aar\\d325b4eab5259d85ee379cc0189a9314\\res\\layout\\abc_expanded_menu_layout.xml"
+        "source": "C:\\Users\\jimiji\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\0f015facd651bc3d985cbdda3308ed92\\res\\layout\\abc_expanded_menu_layout.xml"
     },
     {
         "merged": "E:\\work\\Android\\Apps\\AnyWork2.0\\client-student\\build\\intermediates\\res\\merged\\debug\\layout\\abc_list_menu_item_icon.xml",
-        "source": "C:\\Users\\jimiji\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-27.1.0.aar\\d325b4eab5259d85ee379cc0189a9314\\res\\layout\\abc_list_menu_item_icon.xml"
+        "source": "C:\\Users\\jimiji\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\0f015facd651bc3d985cbdda3308ed92\\res\\layout\\abc_list_menu_item_icon.xml"
+    },
+    {
+        "merged": "E:\\work\\Android\\Apps\\AnyWork2.0\\client-student\\build\\intermediates\\res\\merged\\debug\\layout\\mtrl_layout_snackbar_include.xml",
+        "source": "C:\\Users\\jimiji\\.gradle\\caches\\transforms-1\\files-1.1\\design-28.0.0.aar\\9f13930b895983eb13ccd4dd88fb7063\\res\\layout\\mtrl_layout_snackbar_include.xml"
     },
     {
         "merged": "E:\\work\\Android\\Apps\\AnyWork2.0\\client-student\\build\\intermediates\\res\\merged\\debug\\layout\\abc_screen_simple.xml",
-        "source": "C:\\Users\\jimiji\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-27.1.0.aar\\d325b4eab5259d85ee379cc0189a9314\\res\\layout\\abc_screen_simple.xml"
+        "source": "C:\\Users\\jimiji\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\0f015facd651bc3d985cbdda3308ed92\\res\\layout\\abc_screen_simple.xml"
     },
     {
         "merged": "E:\\work\\Android\\Apps\\AnyWork2.0\\client-student\\build\\intermediates\\res\\merged\\debug\\layout\\abc_dialog_title_material.xml",
-        "source": "C:\\Users\\jimiji\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-27.1.0.aar\\d325b4eab5259d85ee379cc0189a9314\\res\\layout\\abc_dialog_title_material.xml"
+        "source": "C:\\Users\\jimiji\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\0f015facd651bc3d985cbdda3308ed92\\res\\layout\\abc_dialog_title_material.xml"
     },
     {
         "merged": "E:\\work\\Android\\Apps\\AnyWork2.0\\client-student\\build\\intermediates\\res\\merged\\debug\\layout\\newton_cradle_loading.xml",
@@ -217,11 +221,11 @@
     },
     {
         "merged": "E:\\work\\Android\\Apps\\AnyWork2.0\\client-student\\build\\intermediates\\res\\merged\\debug\\layout\\design_navigation_item_separator.xml",
-        "source": "C:\\Users\\jimiji\\.gradle\\caches\\transforms-1\\files-1.1\\design-27.1.0.aar\\0e46ca700e60176a5837388b194d6861\\res\\layout\\design_navigation_item_separator.xml"
+        "source": "C:\\Users\\jimiji\\.gradle\\caches\\transforms-1\\files-1.1\\design-28.0.0.aar\\9f13930b895983eb13ccd4dd88fb7063\\res\\layout\\design_navigation_item_separator.xml"
     },
     {
         "merged": "E:\\work\\Android\\Apps\\AnyWork2.0\\client-student\\build\\intermediates\\res\\merged\\debug\\layout\\design_layout_tab_text.xml",
-        "source": "C:\\Users\\jimiji\\.gradle\\caches\\transforms-1\\files-1.1\\design-27.1.0.aar\\0e46ca700e60176a5837388b194d6861\\res\\layout\\design_layout_tab_text.xml"
+        "source": "C:\\Users\\jimiji\\.gradle\\caches\\transforms-1\\files-1.1\\design-28.0.0.aar\\9f13930b895983eb13ccd4dd88fb7063\\res\\layout\\design_layout_tab_text.xml"
     },
     {
         "merged": "E:\\work\\Android\\Apps\\AnyWork2.0\\client-student\\build\\intermediates\\res\\merged\\debug\\layout\\activity_new_organization.xml",
@@ -241,11 +245,11 @@
     },
     {
         "merged": "E:\\work\\Android\\Apps\\AnyWork2.0\\client-student\\build\\intermediates\\res\\merged\\debug\\layout\\design_navigation_item_header.xml",
-        "source": "C:\\Users\\jimiji\\.gradle\\caches\\transforms-1\\files-1.1\\design-27.1.0.aar\\0e46ca700e60176a5837388b194d6861\\res\\layout\\design_navigation_item_header.xml"
+        "source": "C:\\Users\\jimiji\\.gradle\\caches\\transforms-1\\files-1.1\\design-28.0.0.aar\\9f13930b895983eb13ccd4dd88fb7063\\res\\layout\\design_navigation_item_header.xml"
     },
     {
         "merged": "E:\\work\\Android\\Apps\\AnyWork2.0\\client-student\\build\\intermediates\\res\\merged\\debug\\layout\\design_layout_snackbar.xml",
-        "source": "C:\\Users\\jimiji\\.gradle\\caches\\transforms-1\\files-1.1\\design-27.1.0.aar\\0e46ca700e60176a5837388b194d6861\\res\\layout\\design_layout_snackbar.xml"
+        "source": "C:\\Users\\jimiji\\.gradle\\caches\\transforms-1\\files-1.1\\design-28.0.0.aar\\9f13930b895983eb13ccd4dd88fb7063\\res\\layout\\design_layout_snackbar.xml"
     },
     {
         "merged": "E:\\work\\Android\\Apps\\AnyWork2.0\\client-student\\build\\intermediates\\res\\merged\\debug\\layout\\item_grade_title.xml",
@@ -253,15 +257,15 @@
     },
     {
         "merged": "E:\\work\\Android\\Apps\\AnyWork2.0\\client-student\\build\\intermediates\\res\\merged\\debug\\layout\\abc_search_dropdown_item_icons_2line.xml",
-        "source": "C:\\Users\\jimiji\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-27.1.0.aar\\d325b4eab5259d85ee379cc0189a9314\\res\\layout\\abc_search_dropdown_item_icons_2line.xml"
+        "source": "C:\\Users\\jimiji\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\0f015facd651bc3d985cbdda3308ed92\\res\\layout\\abc_search_dropdown_item_icons_2line.xml"
     },
     {
         "merged": "E:\\work\\Android\\Apps\\AnyWork2.0\\client-student\\build\\intermediates\\res\\merged\\debug\\layout\\support_simple_spinner_dropdown_item.xml",
-        "source": "C:\\Users\\jimiji\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-27.1.0.aar\\d325b4eab5259d85ee379cc0189a9314\\res\\layout\\support_simple_spinner_dropdown_item.xml"
+        "source": "C:\\Users\\jimiji\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\0f015facd651bc3d985cbdda3308ed92\\res\\layout\\support_simple_spinner_dropdown_item.xml"
     },
     {
         "merged": "E:\\work\\Android\\Apps\\AnyWork2.0\\client-student\\build\\intermediates\\res\\merged\\debug\\layout\\select_dialog_item_material.xml",
-        "source": "C:\\Users\\jimiji\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-27.1.0.aar\\d325b4eab5259d85ee379cc0189a9314\\res\\layout\\select_dialog_item_material.xml"
+        "source": "C:\\Users\\jimiji\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\0f015facd651bc3d985cbdda3308ed92\\res\\layout\\select_dialog_item_material.xml"
     },
     {
         "merged": "E:\\work\\Android\\Apps\\AnyWork2.0\\client-student\\build\\intermediates\\res\\merged\\debug\\layout\\activity_searching.xml",
@@ -277,11 +281,11 @@
     },
     {
         "merged": "E:\\work\\Android\\Apps\\AnyWork2.0\\client-student\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_mode_bar.xml",
-        "source": "C:\\Users\\jimiji\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-27.1.0.aar\\d325b4eab5259d85ee379cc0189a9314\\res\\layout\\abc_action_mode_bar.xml"
+        "source": "C:\\Users\\jimiji\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\0f015facd651bc3d985cbdda3308ed92\\res\\layout\\abc_action_mode_bar.xml"
     },
     {
         "merged": "E:\\work\\Android\\Apps\\AnyWork2.0\\client-student\\build\\intermediates\\res\\merged\\debug\\layout\\design_navigation_menu.xml",
-        "source": "C:\\Users\\jimiji\\.gradle\\caches\\transforms-1\\files-1.1\\design-27.1.0.aar\\0e46ca700e60176a5837388b194d6861\\res\\layout\\design_navigation_menu.xml"
+        "source": "C:\\Users\\jimiji\\.gradle\\caches\\transforms-1\\files-1.1\\design-28.0.0.aar\\9f13930b895983eb13ccd4dd88fb7063\\res\\layout\\design_navigation_menu.xml"
     },
     {
         "merged": "E:\\work\\Android\\Apps\\AnyWork2.0\\client-student\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_organization.xml",
@@ -289,7 +293,7 @@
     },
     {
         "merged": "E:\\work\\Android\\Apps\\AnyWork2.0\\client-student\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_menu_item_layout.xml",
-        "source": "C:\\Users\\jimiji\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-27.1.0.aar\\d325b4eab5259d85ee379cc0189a9314\\res\\layout\\abc_action_menu_item_layout.xml"
+        "source": "C:\\Users\\jimiji\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\0f015facd651bc3d985cbdda3308ed92\\res\\layout\\abc_action_menu_item_layout.xml"
     },
     {
         "merged": "E:\\work\\Android\\Apps\\AnyWork2.0\\client-student\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_home.xml",
@@ -297,7 +301,7 @@
     },
     {
         "merged": "E:\\work\\Android\\Apps\\AnyWork2.0\\client-student\\build\\intermediates\\res\\merged\\debug\\layout\\select_dialog_singlechoice_material.xml",
-        "source": "C:\\Users\\jimiji\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-27.1.0.aar\\d325b4eab5259d85ee379cc0189a9314\\res\\layout\\select_dialog_singlechoice_material.xml"
+        "source": "C:\\Users\\jimiji\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\0f015facd651bc3d985cbdda3308ed92\\res\\layout\\select_dialog_singlechoice_material.xml"
     },
     {
         "merged": "E:\\work\\Android\\Apps\\AnyWork2.0\\client-student\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_paper.xml",
@@ -305,7 +309,7 @@
     },
     {
         "merged": "E:\\work\\Android\\Apps\\AnyWork2.0\\client-student\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_media_custom.xml",
-        "source": "C:\\Users\\jimiji\\.gradle\\caches\\transforms-1\\files-1.1\\support-media-compat-27.1.0.aar\\70a8a67ca6ec29d79377191a9024b55d\\res\\layout\\notification_template_media_custom.xml"
+        "source": "C:\\Users\\jimiji\\.gradle\\caches\\transforms-1\\files-1.1\\support-media-compat-28.0.0.aar\\505fed83e67c2aeeb74069a78d29bd2f\\res\\layout\\notification_template_media_custom.xml"
     },
     {
         "merged": "E:\\work\\Android\\Apps\\AnyWork2.0\\client-student\\build\\intermediates\\res\\merged\\debug\\layout\\new_base_dialog.xml",
@@ -317,11 +321,11 @@
     },
     {
         "merged": "E:\\work\\Android\\Apps\\AnyWork2.0\\client-student\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_lines_media.xml",
-        "source": "C:\\Users\\jimiji\\.gradle\\caches\\transforms-1\\files-1.1\\support-media-compat-27.1.0.aar\\70a8a67ca6ec29d79377191a9024b55d\\res\\layout\\notification_template_lines_media.xml"
+        "source": "C:\\Users\\jimiji\\.gradle\\caches\\transforms-1\\files-1.1\\support-media-compat-28.0.0.aar\\505fed83e67c2aeeb74069a78d29bd2f\\res\\layout\\notification_template_lines_media.xml"
     },
     {
         "merged": "E:\\work\\Android\\Apps\\AnyWork2.0\\client-student\\build\\intermediates\\res\\merged\\debug\\layout\\abc_tooltip.xml",
-        "source": "C:\\Users\\jimiji\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-27.1.0.aar\\d325b4eab5259d85ee379cc0189a9314\\res\\layout\\abc_tooltip.xml"
+        "source": "C:\\Users\\jimiji\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\0f015facd651bc3d985cbdda3308ed92\\res\\layout\\abc_tooltip.xml"
     },
     {
         "merged": "E:\\work\\Android\\Apps\\AnyWork2.0\\client-student\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_login.xml",
@@ -337,23 +341,23 @@
     },
     {
         "merged": "E:\\work\\Android\\Apps\\AnyWork2.0\\client-student\\build\\intermediates\\res\\merged\\debug\\layout\\notification_action_tombstone.xml",
-        "source": "C:\\Users\\jimiji\\.gradle\\caches\\transforms-1\\files-1.1\\support-compat-27.1.0.aar\\1dd27fee2914a48a49a8d651bc7d44b1\\res\\layout\\notification_action_tombstone.xml"
+        "source": "C:\\Users\\jimiji\\.gradle\\caches\\transforms-1\\files-1.1\\support-compat-28.0.0.aar\\146ce858928eda2d21fd039b1013447b\\res\\layout\\notification_action_tombstone.xml"
     },
     {
         "merged": "E:\\work\\Android\\Apps\\AnyWork2.0\\client-student\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_mode_close_item_material.xml",
-        "source": "C:\\Users\\jimiji\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-27.1.0.aar\\d325b4eab5259d85ee379cc0189a9314\\res\\layout\\abc_action_mode_close_item_material.xml"
+        "source": "C:\\Users\\jimiji\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\0f015facd651bc3d985cbdda3308ed92\\res\\layout\\abc_action_mode_close_item_material.xml"
     },
     {
         "merged": "E:\\work\\Android\\Apps\\AnyWork2.0\\client-student\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_part_time.xml",
-        "source": "C:\\Users\\jimiji\\.gradle\\caches\\transforms-1\\files-1.1\\support-compat-27.1.0.aar\\1dd27fee2914a48a49a8d651bc7d44b1\\res\\layout\\notification_template_part_time.xml"
+        "source": "C:\\Users\\jimiji\\.gradle\\caches\\transforms-1\\files-1.1\\support-compat-28.0.0.aar\\146ce858928eda2d21fd039b1013447b\\res\\layout\\notification_template_part_time.xml"
     },
     {
         "merged": "E:\\work\\Android\\Apps\\AnyWork2.0\\client-student\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_icon_group.xml",
-        "source": "C:\\Users\\jimiji\\.gradle\\caches\\transforms-1\\files-1.1\\support-compat-27.1.0.aar\\1dd27fee2914a48a49a8d651bc7d44b1\\res\\layout\\notification_template_icon_group.xml"
+        "source": "C:\\Users\\jimiji\\.gradle\\caches\\transforms-1\\files-1.1\\support-compat-28.0.0.aar\\146ce858928eda2d21fd039b1013447b\\res\\layout\\notification_template_icon_group.xml"
     },
     {
         "merged": "E:\\work\\Android\\Apps\\AnyWork2.0\\client-student\\build\\intermediates\\res\\merged\\debug\\layout\\design_text_input_password_icon.xml",
-        "source": "C:\\Users\\jimiji\\.gradle\\caches\\transforms-1\\files-1.1\\design-27.1.0.aar\\0e46ca700e60176a5837388b194d6861\\res\\layout\\design_text_input_password_icon.xml"
+        "source": "C:\\Users\\jimiji\\.gradle\\caches\\transforms-1\\files-1.1\\design-28.0.0.aar\\9f13930b895983eb13ccd4dd88fb7063\\res\\layout\\design_text_input_password_icon.xml"
     },
     {
         "merged": "E:\\work\\Android\\Apps\\AnyWork2.0\\client-student\\build\\intermediates\\res\\merged\\debug\\layout\\layout_spinner.xml",
@@ -365,11 +369,15 @@
     },
     {
         "merged": "E:\\work\\Android\\Apps\\AnyWork2.0\\client-student\\build\\intermediates\\res\\merged\\debug\\layout\\notification_action.xml",
-        "source": "C:\\Users\\jimiji\\.gradle\\caches\\transforms-1\\files-1.1\\support-compat-27.1.0.aar\\1dd27fee2914a48a49a8d651bc7d44b1\\res\\layout\\notification_action.xml"
+        "source": "C:\\Users\\jimiji\\.gradle\\caches\\transforms-1\\files-1.1\\support-compat-28.0.0.aar\\146ce858928eda2d21fd039b1013447b\\res\\layout\\notification_action.xml"
     },
     {
         "merged": "E:\\work\\Android\\Apps\\AnyWork2.0\\client-student\\build\\intermediates\\res\\merged\\debug\\layout\\abc_activity_chooser_view_list_item.xml",
-        "source": "C:\\Users\\jimiji\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-27.1.0.aar\\d325b4eab5259d85ee379cc0189a9314\\res\\layout\\abc_activity_chooser_view_list_item.xml"
+        "source": "C:\\Users\\jimiji\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\0f015facd651bc3d985cbdda3308ed92\\res\\layout\\abc_activity_chooser_view_list_item.xml"
+    },
+    {
+        "merged": "E:\\work\\Android\\Apps\\AnyWork2.0\\client-student\\build\\intermediates\\res\\merged\\debug\\layout\\abc_cascading_menu_item_layout.xml",
+        "source": "C:\\Users\\jimiji\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\0f015facd651bc3d985cbdda3308ed92\\res\\layout\\abc_cascading_menu_item_layout.xml"
     },
     {
         "merged": "E:\\work\\Android\\Apps\\AnyWork2.0\\client-student\\build\\intermediates\\res\\merged\\debug\\layout\\item_organization.xml",
@@ -381,11 +389,11 @@
     },
     {
         "merged": "E:\\work\\Android\\Apps\\AnyWork2.0\\client-student\\build\\intermediates\\res\\merged\\debug\\layout\\abc_list_menu_item_checkbox.xml",
-        "source": "C:\\Users\\jimiji\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-27.1.0.aar\\d325b4eab5259d85ee379cc0189a9314\\res\\layout\\abc_list_menu_item_checkbox.xml"
+        "source": "C:\\Users\\jimiji\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\0f015facd651bc3d985cbdda3308ed92\\res\\layout\\abc_list_menu_item_checkbox.xml"
     },
     {
         "merged": "E:\\work\\Android\\Apps\\AnyWork2.0\\client-student\\build\\intermediates\\res\\merged\\debug\\layout\\abc_popup_menu_item_layout.xml",
-        "source": "C:\\Users\\jimiji\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-27.1.0.aar\\d325b4eab5259d85ee379cc0189a9314\\res\\layout\\abc_popup_menu_item_layout.xml"
+        "source": "C:\\Users\\jimiji\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\0f015facd651bc3d985cbdda3308ed92\\res\\layout\\abc_popup_menu_item_layout.xml"
     },
     {
         "merged": "E:\\work\\Android\\Apps\\AnyWork2.0\\client-student\\build\\intermediates\\res\\merged\\debug\\layout\\activity_enter.xml",
@@ -397,7 +405,11 @@
     },
     {
         "merged": "E:\\work\\Android\\Apps\\AnyWork2.0\\client-student\\build\\intermediates\\res\\merged\\debug\\layout\\abc_list_menu_item_radio.xml",
-        "source": "C:\\Users\\jimiji\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-27.1.0.aar\\d325b4eab5259d85ee379cc0189a9314\\res\\layout\\abc_list_menu_item_radio.xml"
+        "source": "C:\\Users\\jimiji\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\0f015facd651bc3d985cbdda3308ed92\\res\\layout\\abc_list_menu_item_radio.xml"
+    },
+    {
+        "merged": "E:\\work\\Android\\Apps\\AnyWork2.0\\client-student\\build\\intermediates\\res\\merged\\debug\\layout\\mtrl_layout_snackbar.xml",
+        "source": "C:\\Users\\jimiji\\.gradle\\caches\\transforms-1\\files-1.1\\design-28.0.0.aar\\9f13930b895983eb13ccd4dd88fb7063\\res\\layout\\mtrl_layout_snackbar.xml"
     },
     {
         "merged": "E:\\work\\Android\\Apps\\AnyWork2.0\\client-student\\build\\intermediates\\res\\merged\\debug\\layout\\loading_view.xml",
@@ -409,7 +421,7 @@
     },
     {
         "merged": "E:\\work\\Android\\Apps\\AnyWork2.0\\client-student\\build\\intermediates\\res\\merged\\debug\\layout\\select_dialog_multichoice_material.xml",
-        "source": "C:\\Users\\jimiji\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-27.1.0.aar\\d325b4eab5259d85ee379cc0189a9314\\res\\layout\\select_dialog_multichoice_material.xml"
+        "source": "C:\\Users\\jimiji\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\0f015facd651bc3d985cbdda3308ed92\\res\\layout\\select_dialog_multichoice_material.xml"
     },
     {
         "merged": "E:\\work\\Android\\Apps\\AnyWork2.0\\client-student\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_my.xml",
@@ -433,11 +445,11 @@
     },
     {
         "merged": "E:\\work\\Android\\Apps\\AnyWork2.0\\client-student\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_bar_up_container.xml",
-        "source": "C:\\Users\\jimiji\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-27.1.0.aar\\d325b4eab5259d85ee379cc0189a9314\\res\\layout\\abc_action_bar_up_container.xml"
+        "source": "C:\\Users\\jimiji\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\0f015facd651bc3d985cbdda3308ed92\\res\\layout\\abc_action_bar_up_container.xml"
     },
     {
         "merged": "E:\\work\\Android\\Apps\\AnyWork2.0\\client-student\\build\\intermediates\\res\\merged\\debug\\layout\\abc_screen_content_include.xml",
-        "source": "C:\\Users\\jimiji\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-27.1.0.aar\\d325b4eab5259d85ee379cc0189a9314\\res\\layout\\abc_screen_content_include.xml"
+        "source": "C:\\Users\\jimiji\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\0f015facd651bc3d985cbdda3308ed92\\res\\layout\\abc_screen_content_include.xml"
     },
     {
         "merged": "E:\\work\\Android\\Apps\\AnyWork2.0\\client-student\\build\\intermediates\\res\\merged\\debug\\layout\\activity_paper.xml",
@@ -445,19 +457,19 @@
     },
     {
         "merged": "E:\\work\\Android\\Apps\\AnyWork2.0\\client-student\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_big_media_custom.xml",
-        "source": "C:\\Users\\jimiji\\.gradle\\caches\\transforms-1\\files-1.1\\support-media-compat-27.1.0.aar\\70a8a67ca6ec29d79377191a9024b55d\\res\\layout\\notification_template_big_media_custom.xml"
+        "source": "C:\\Users\\jimiji\\.gradle\\caches\\transforms-1\\files-1.1\\support-media-compat-28.0.0.aar\\505fed83e67c2aeeb74069a78d29bd2f\\res\\layout\\notification_template_big_media_custom.xml"
     },
     {
         "merged": "E:\\work\\Android\\Apps\\AnyWork2.0\\client-student\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_part_chronometer.xml",
-        "source": "C:\\Users\\jimiji\\.gradle\\caches\\transforms-1\\files-1.1\\support-compat-27.1.0.aar\\1dd27fee2914a48a49a8d651bc7d44b1\\res\\layout\\notification_template_part_chronometer.xml"
+        "source": "C:\\Users\\jimiji\\.gradle\\caches\\transforms-1\\files-1.1\\support-compat-28.0.0.aar\\146ce858928eda2d21fd039b1013447b\\res\\layout\\notification_template_part_chronometer.xml"
     },
     {
         "merged": "E:\\work\\Android\\Apps\\AnyWork2.0\\client-student\\build\\intermediates\\res\\merged\\debug\\layout\\abc_screen_simple_overlay_action_mode.xml",
-        "source": "C:\\Users\\jimiji\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-27.1.0.aar\\d325b4eab5259d85ee379cc0189a9314\\res\\layout\\abc_screen_simple_overlay_action_mode.xml"
+        "source": "C:\\Users\\jimiji\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\0f015facd651bc3d985cbdda3308ed92\\res\\layout\\abc_screen_simple_overlay_action_mode.xml"
     },
     {
         "merged": "E:\\work\\Android\\Apps\\AnyWork2.0\\client-student\\build\\intermediates\\res\\merged\\debug\\layout\\abc_search_view.xml",
-        "source": "C:\\Users\\jimiji\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-27.1.0.aar\\d325b4eab5259d85ee379cc0189a9314\\res\\layout\\abc_search_view.xml"
+        "source": "C:\\Users\\jimiji\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\0f015facd651bc3d985cbdda3308ed92\\res\\layout\\abc_search_view.xml"
     },
     {
         "merged": "E:\\work\\Android\\Apps\\AnyWork2.0\\client-student\\build\\intermediates\\res\\merged\\debug\\layout\\activity_main.xml",
@@ -465,7 +477,7 @@
     },
     {
         "merged": "E:\\work\\Android\\Apps\\AnyWork2.0\\client-student\\build\\intermediates\\res\\merged\\debug\\layout\\design_navigation_item.xml",
-        "source": "C:\\Users\\jimiji\\.gradle\\caches\\transforms-1\\files-1.1\\design-27.1.0.aar\\0e46ca700e60176a5837388b194d6861\\res\\layout\\design_navigation_item.xml"
+        "source": "C:\\Users\\jimiji\\.gradle\\caches\\transforms-1\\files-1.1\\design-28.0.0.aar\\9f13930b895983eb13ccd4dd88fb7063\\res\\layout\\design_navigation_item.xml"
     },
     {
         "merged": "E:\\work\\Android\\Apps\\AnyWork2.0\\client-student\\build\\intermediates\\res\\merged\\debug\\layout\\dialog_point.xml",

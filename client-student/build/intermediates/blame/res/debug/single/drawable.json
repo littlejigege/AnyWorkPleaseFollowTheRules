@@ -5,7 +5,7 @@
     },
     {
         "merged": "E:\\work\\Android\\Apps\\AnyWork2.0\\client-student\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_list_selector_holo_light.xml",
-        "source": "C:\\Users\\jimiji\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-27.1.0.aar\\d325b4eab5259d85ee379cc0189a9314\\res\\drawable\\abc_list_selector_holo_light.xml"
+        "source": "C:\\Users\\jimiji\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\0f015facd651bc3d985cbdda3308ed92\\res\\drawable\\abc_list_selector_holo_light.xml"
     },
     {
         "merged": "E:\\work\\Android\\Apps\\AnyWork2.0\\client-student\\build\\intermediates\\res\\merged\\debug\\drawable\\bg_organization_item.xml",
@@ -41,11 +41,11 @@
     },
     {
         "merged": "E:\\work\\Android\\Apps\\AnyWork2.0\\client-student\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_cab_background_internal_bg.xml",
-        "source": "C:\\Users\\jimiji\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-27.1.0.aar\\d325b4eab5259d85ee379cc0189a9314\\res\\drawable\\abc_cab_background_internal_bg.xml"
+        "source": "C:\\Users\\jimiji\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\0f015facd651bc3d985cbdda3308ed92\\res\\drawable\\abc_cab_background_internal_bg.xml"
     },
     {
         "merged": "E:\\work\\Android\\Apps\\AnyWork2.0\\client-student\\build\\intermediates\\res\\merged\\debug\\drawable\\notification_bg_low.xml",
-        "source": "C:\\Users\\jimiji\\.gradle\\caches\\transforms-1\\files-1.1\\support-compat-27.1.0.aar\\1dd27fee2914a48a49a8d651bc7d44b1\\res\\drawable\\notification_bg_low.xml"
+        "source": "C:\\Users\\jimiji\\.gradle\\caches\\transforms-1\\files-1.1\\support-compat-28.0.0.aar\\146ce858928eda2d21fd039b1013447b\\res\\drawable\\notification_bg_low.xml"
     },
     {
         "merged": "E:\\work\\Android\\Apps\\AnyWork2.0\\client-student\\build\\intermediates\\res\\merged\\debug\\drawable\\ic_paper_default.png",
@@ -53,15 +53,15 @@
     },
     {
         "merged": "E:\\work\\Android\\Apps\\AnyWork2.0\\client-student\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_btn_colored_material.xml",
-        "source": "C:\\Users\\jimiji\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-27.1.0.aar\\d325b4eab5259d85ee379cc0189a9314\\res\\drawable\\abc_btn_colored_material.xml"
-    },
-    {
-        "merged": "E:\\work\\Android\\Apps\\AnyWork2.0\\client-student\\build\\intermediates\\res\\merged\\debug\\drawable\\pic_login_bg.png",
-        "source": "E:\\work\\Android\\Apps\\AnyWork2.0\\client-student\\src\\main\\res\\drawable\\pic_login_bg.png"
+        "source": "C:\\Users\\jimiji\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\0f015facd651bc3d985cbdda3308ed92\\res\\drawable\\abc_btn_colored_material.xml"
     },
     {
         "merged": "E:\\work\\Android\\Apps\\AnyWork2.0\\client-student\\build\\intermediates\\res\\merged\\debug\\drawable\\background_feedback_noselect.xml",
         "source": "E:\\work\\Android\\Apps\\AnyWork2.0\\client-student\\src\\main\\res\\drawable\\background_feedback_noselect.xml"
+    },
+    {
+        "merged": "E:\\work\\Android\\Apps\\AnyWork2.0\\client-student\\build\\intermediates\\res\\merged\\debug\\drawable\\bg_join.webp",
+        "source": "E:\\work\\Android\\Apps\\AnyWork2.0\\client-student\\src\\main\\res\\drawable\\bg_join.webp"
     },
     {
         "merged": "E:\\work\\Android\\Apps\\AnyWork2.0\\client-student\\build\\intermediates\\res\\merged\\debug\\drawable\\icon_login_password.png",
@@ -73,7 +73,7 @@
     },
     {
         "merged": "E:\\work\\Android\\Apps\\AnyWork2.0\\client-student\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_ic_clear_material.xml",
-        "source": "C:\\Users\\jimiji\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-27.1.0.aar\\d325b4eab5259d85ee379cc0189a9314\\res\\drawable\\abc_ic_clear_material.xml"
+        "source": "C:\\Users\\jimiji\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\0f015facd651bc3d985cbdda3308ed92\\res\\drawable\\abc_ic_clear_material.xml"
     },
     {
         "merged": "E:\\work\\Android\\Apps\\AnyWork2.0\\client-student\\build\\intermediates\\res\\merged\\debug\\drawable\\buttom_menu_butbg.9.png",
@@ -88,16 +88,20 @@
         "source": "E:\\work\\Android\\Apps\\AnyWork2.0\\client-student\\src\\main\\res\\drawable\\shape_button_organization.xml"
     },
     {
+        "merged": "E:\\work\\Android\\Apps\\AnyWork2.0\\client-student\\build\\intermediates\\res\\merged\\debug\\drawable\\mtrl_snackbar_background.xml",
+        "source": "C:\\Users\\jimiji\\.gradle\\caches\\transforms-1\\files-1.1\\design-28.0.0.aar\\9f13930b895983eb13ccd4dd88fb7063\\res\\drawable\\mtrl_snackbar_background.xml"
+    },
+    {
         "merged": "E:\\work\\Android\\Apps\\AnyWork2.0\\client-student\\build\\intermediates\\res\\merged\\debug\\drawable\\ic_wrong_selected.png",
         "source": "E:\\work\\Android\\Apps\\AnyWork2.0\\client-student\\src\\main\\res\\drawable\\ic_wrong_selected.png"
     },
     {
         "merged": "E:\\work\\Android\\Apps\\AnyWork2.0\\client-student\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_btn_radio_material.xml",
-        "source": "C:\\Users\\jimiji\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-27.1.0.aar\\d325b4eab5259d85ee379cc0189a9314\\res\\drawable\\abc_btn_radio_material.xml"
+        "source": "C:\\Users\\jimiji\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\0f015facd651bc3d985cbdda3308ed92\\res\\drawable\\abc_btn_radio_material.xml"
     },
     {
         "merged": "E:\\work\\Android\\Apps\\AnyWork2.0\\client-student\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_ratingbar_material.xml",
-        "source": "C:\\Users\\jimiji\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-27.1.0.aar\\d325b4eab5259d85ee379cc0189a9314\\res\\drawable\\abc_ratingbar_material.xml"
+        "source": "C:\\Users\\jimiji\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\0f015facd651bc3d985cbdda3308ed92\\res\\drawable\\abc_ratingbar_material.xml"
     },
     {
         "merged": "E:\\work\\Android\\Apps\\AnyWork2.0\\client-student\\build\\intermediates\\res\\merged\\debug\\drawable\\icon_head.png",
@@ -121,19 +125,19 @@
     },
     {
         "merged": "E:\\work\\Android\\Apps\\AnyWork2.0\\client-student\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_ic_go_search_api_material.xml",
-        "source": "C:\\Users\\jimiji\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-27.1.0.aar\\d325b4eab5259d85ee379cc0189a9314\\res\\drawable\\abc_ic_go_search_api_material.xml"
+        "source": "C:\\Users\\jimiji\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\0f015facd651bc3d985cbdda3308ed92\\res\\drawable\\abc_ic_go_search_api_material.xml"
     },
     {
         "merged": "E:\\work\\Android\\Apps\\AnyWork2.0\\client-student\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_item_background_holo_dark.xml",
-        "source": "C:\\Users\\jimiji\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-27.1.0.aar\\d325b4eab5259d85ee379cc0189a9314\\res\\drawable\\abc_item_background_holo_dark.xml"
+        "source": "C:\\Users\\jimiji\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\0f015facd651bc3d985cbdda3308ed92\\res\\drawable\\abc_item_background_holo_dark.xml"
     },
     {
         "merged": "E:\\work\\Android\\Apps\\AnyWork2.0\\client-student\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_cab_background_top_material.xml",
-        "source": "C:\\Users\\jimiji\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-27.1.0.aar\\d325b4eab5259d85ee379cc0189a9314\\res\\drawable\\abc_cab_background_top_material.xml"
+        "source": "C:\\Users\\jimiji\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\0f015facd651bc3d985cbdda3308ed92\\res\\drawable\\abc_cab_background_top_material.xml"
     },
     {
         "merged": "E:\\work\\Android\\Apps\\AnyWork2.0\\client-student\\build\\intermediates\\res\\merged\\debug\\drawable\\design_bottom_navigation_item_background.xml",
-        "source": "C:\\Users\\jimiji\\.gradle\\caches\\transforms-1\\files-1.1\\design-27.1.0.aar\\0e46ca700e60176a5837388b194d6861\\res\\drawable\\design_bottom_navigation_item_background.xml"
+        "source": "C:\\Users\\jimiji\\.gradle\\caches\\transforms-1\\files-1.1\\design-28.0.0.aar\\9f13930b895983eb13ccd4dd88fb7063\\res\\drawable\\design_bottom_navigation_item_background.xml"
     },
     {
         "merged": "E:\\work\\Android\\Apps\\AnyWork2.0\\client-student\\build\\intermediates\\res\\merged\\debug\\drawable\\buttom_menu_preview.png",
@@ -145,7 +149,7 @@
     },
     {
         "merged": "E:\\work\\Android\\Apps\\AnyWork2.0\\client-student\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_item_background_holo_light.xml",
-        "source": "C:\\Users\\jimiji\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-27.1.0.aar\\d325b4eab5259d85ee379cc0189a9314\\res\\drawable\\abc_item_background_holo_light.xml"
+        "source": "C:\\Users\\jimiji\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\0f015facd651bc3d985cbdda3308ed92\\res\\drawable\\abc_item_background_holo_light.xml"
     },
     {
         "merged": "E:\\work\\Android\\Apps\\AnyWork2.0\\client-student\\build\\intermediates\\res\\merged\\debug\\drawable\\icon_menu_unread.png",
@@ -161,7 +165,7 @@
     },
     {
         "merged": "E:\\work\\Android\\Apps\\AnyWork2.0\\client-student\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_text_cursor_material.xml",
-        "source": "C:\\Users\\jimiji\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-27.1.0.aar\\d325b4eab5259d85ee379cc0189a9314\\res\\drawable\\abc_text_cursor_material.xml"
+        "source": "C:\\Users\\jimiji\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\0f015facd651bc3d985cbdda3308ed92\\res\\drawable\\abc_text_cursor_material.xml"
     },
     {
         "merged": "E:\\work\\Android\\Apps\\AnyWork2.0\\client-student\\build\\intermediates\\res\\merged\\debug\\drawable\\icon_section_next.png",
@@ -180,16 +184,32 @@
         "source": "E:\\work\\Android\\Apps\\AnyWork2.0\\client-student\\src\\main\\res\\drawable\\icon_login_phone.png"
     },
     {
+        "merged": "E:\\work\\Android\\Apps\\AnyWork2.0\\client-student\\build\\intermediates\\res\\merged\\debug\\drawable\\background_score_yellow.xml",
+        "source": "E:\\work\\Android\\Apps\\AnyWork2.0\\client-student\\src\\main\\res\\drawable\\background_score_yellow.xml"
+    },
+    {
         "merged": "E:\\work\\Android\\Apps\\AnyWork2.0\\client-student\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_list_selector_background_transition_holo_light.xml",
-        "source": "C:\\Users\\jimiji\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-27.1.0.aar\\d325b4eab5259d85ee379cc0189a9314\\res\\drawable\\abc_list_selector_background_transition_holo_light.xml"
+        "source": "C:\\Users\\jimiji\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\0f015facd651bc3d985cbdda3308ed92\\res\\drawable\\abc_list_selector_background_transition_holo_light.xml"
+    },
+    {
+        "merged": "E:\\work\\Android\\Apps\\AnyWork2.0\\client-student\\build\\intermediates\\res\\merged\\debug\\drawable\\bg_attention.webp",
+        "source": "E:\\work\\Android\\Apps\\AnyWork2.0\\client-student\\src\\main\\res\\drawable\\bg_attention.webp"
+    },
+    {
+        "merged": "E:\\work\\Android\\Apps\\AnyWork2.0\\client-student\\build\\intermediates\\res\\merged\\debug\\drawable\\ic_mtrl_chip_close_circle.xml",
+        "source": "C:\\Users\\jimiji\\.gradle\\caches\\transforms-1\\files-1.1\\design-28.0.0.aar\\9f13930b895983eb13ccd4dd88fb7063\\res\\drawable\\ic_mtrl_chip_close_circle.xml"
+    },
+    {
+        "merged": "E:\\work\\Android\\Apps\\AnyWork2.0\\client-student\\build\\intermediates\\res\\merged\\debug\\drawable\\background_score_red.xml",
+        "source": "E:\\work\\Android\\Apps\\AnyWork2.0\\client-student\\src\\main\\res\\drawable\\background_score_red.xml"
+    },
+    {
+        "merged": "E:\\work\\Android\\Apps\\AnyWork2.0\\client-student\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_list_divider_material.xml",
+        "source": "C:\\Users\\jimiji\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\0f015facd651bc3d985cbdda3308ed92\\res\\drawable\\abc_list_divider_material.xml"
     },
     {
         "merged": "E:\\work\\Android\\Apps\\AnyWork2.0\\client-student\\build\\intermediates\\res\\merged\\debug\\drawable\\bg_circle_line.xml",
         "source": "E:\\work\\Android\\Apps\\AnyWork2.0\\client-student\\src\\main\\res\\drawable\\bg_circle_line.xml"
-    },
-    {
-        "merged": "E:\\work\\Android\\Apps\\AnyWork2.0\\client-student\\build\\intermediates\\res\\merged\\debug\\drawable\\bg_join.png",
-        "source": "E:\\work\\Android\\Apps\\AnyWork2.0\\client-student\\src\\main\\res\\drawable\\bg_join.png"
     },
     {
         "merged": "E:\\work\\Android\\Apps\\AnyWork2.0\\client-student\\build\\intermediates\\res\\merged\\debug\\drawable\\bg_my_organize.xml",
@@ -213,7 +233,7 @@
     },
     {
         "merged": "E:\\work\\Android\\Apps\\AnyWork2.0\\client-student\\build\\intermediates\\res\\merged\\debug\\drawable\\tooltip_frame_dark.xml",
-        "source": "C:\\Users\\jimiji\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-27.1.0.aar\\d325b4eab5259d85ee379cc0189a9314\\res\\drawable\\tooltip_frame_dark.xml"
+        "source": "C:\\Users\\jimiji\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\0f015facd651bc3d985cbdda3308ed92\\res\\drawable\\tooltip_frame_dark.xml"
     },
     {
         "merged": "E:\\work\\Android\\Apps\\AnyWork2.0\\client-student\\build\\intermediates\\res\\merged\\debug\\drawable\\ic_paper_date.png",
@@ -229,11 +249,11 @@
     },
     {
         "merged": "E:\\work\\Android\\Apps\\AnyWork2.0\\client-student\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_dialog_material_background.xml",
-        "source": "C:\\Users\\jimiji\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-27.1.0.aar\\d325b4eab5259d85ee379cc0189a9314\\res\\drawable\\abc_dialog_material_background.xml"
+        "source": "C:\\Users\\jimiji\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\0f015facd651bc3d985cbdda3308ed92\\res\\drawable\\abc_dialog_material_background.xml"
     },
     {
         "merged": "E:\\work\\Android\\Apps\\AnyWork2.0\\client-student\\build\\intermediates\\res\\merged\\debug\\drawable\\tooltip_frame_light.xml",
-        "source": "C:\\Users\\jimiji\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-27.1.0.aar\\d325b4eab5259d85ee379cc0189a9314\\res\\drawable\\tooltip_frame_light.xml"
+        "source": "C:\\Users\\jimiji\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\0f015facd651bc3d985cbdda3308ed92\\res\\drawable\\tooltip_frame_light.xml"
     },
     {
         "merged": "E:\\work\\Android\\Apps\\AnyWork2.0\\client-student\\build\\intermediates\\res\\merged\\debug\\drawable\\icon_login_count.png",
@@ -253,11 +273,11 @@
     },
     {
         "merged": "E:\\work\\Android\\Apps\\AnyWork2.0\\client-student\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_ic_ab_back_material.xml",
-        "source": "C:\\Users\\jimiji\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-27.1.0.aar\\d325b4eab5259d85ee379cc0189a9314\\res\\drawable\\abc_ic_ab_back_material.xml"
+        "source": "C:\\Users\\jimiji\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\0f015facd651bc3d985cbdda3308ed92\\res\\drawable\\abc_ic_ab_back_material.xml"
     },
     {
         "merged": "E:\\work\\Android\\Apps\\AnyWork2.0\\client-student\\build\\intermediates\\res\\merged\\debug\\drawable\\design_snackbar_background.xml",
-        "source": "C:\\Users\\jimiji\\.gradle\\caches\\transforms-1\\files-1.1\\design-27.1.0.aar\\0e46ca700e60176a5837388b194d6861\\res\\drawable\\design_snackbar_background.xml"
+        "source": "C:\\Users\\jimiji\\.gradle\\caches\\transforms-1\\files-1.1\\design-28.0.0.aar\\9f13930b895983eb13ccd4dd88fb7063\\res\\drawable\\design_snackbar_background.xml"
     },
     {
         "merged": "E:\\work\\Android\\Apps\\AnyWork2.0\\client-student\\build\\intermediates\\res\\merged\\debug\\drawable\\icon_ranking_third.png",
@@ -277,7 +297,7 @@
     },
     {
         "merged": "E:\\work\\Android\\Apps\\AnyWork2.0\\client-student\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_list_selector_holo_dark.xml",
-        "source": "C:\\Users\\jimiji\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-27.1.0.aar\\d325b4eab5259d85ee379cc0189a9314\\res\\drawable\\abc_list_selector_holo_dark.xml"
+        "source": "C:\\Users\\jimiji\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\0f015facd651bc3d985cbdda3308ed92\\res\\drawable\\abc_list_selector_holo_dark.xml"
     },
     {
         "merged": "E:\\work\\Android\\Apps\\AnyWork2.0\\client-student\\build\\intermediates\\res\\merged\\debug\\drawable\\shape_organization_search.xml",
@@ -293,11 +313,15 @@
     },
     {
         "merged": "E:\\work\\Android\\Apps\\AnyWork2.0\\client-student\\build\\intermediates\\res\\merged\\debug\\drawable\\notification_icon_background.xml",
-        "source": "C:\\Users\\jimiji\\.gradle\\caches\\transforms-1\\files-1.1\\support-compat-27.1.0.aar\\1dd27fee2914a48a49a8d651bc7d44b1\\res\\drawable\\notification_icon_background.xml"
+        "source": "C:\\Users\\jimiji\\.gradle\\caches\\transforms-1\\files-1.1\\support-compat-28.0.0.aar\\146ce858928eda2d21fd039b1013447b\\res\\drawable\\notification_icon_background.xml"
     },
     {
         "merged": "E:\\work\\Android\\Apps\\AnyWork2.0\\client-student\\build\\intermediates\\res\\merged\\debug\\drawable\\icon_menu_selected.png",
         "source": "E:\\work\\Android\\Apps\\AnyWork2.0\\client-student\\src\\main\\res\\drawable\\icon_menu_selected.png"
+    },
+    {
+        "merged": "E:\\work\\Android\\Apps\\AnyWork2.0\\client-student\\build\\intermediates\\res\\merged\\debug\\drawable\\ic_mtrl_chip_checked_circle.xml",
+        "source": "C:\\Users\\jimiji\\.gradle\\caches\\transforms-1\\files-1.1\\design-28.0.0.aar\\9f13930b895983eb13ccd4dd88fb7063\\res\\drawable\\ic_mtrl_chip_checked_circle.xml"
     },
     {
         "merged": "E:\\work\\Android\\Apps\\AnyWork2.0\\client-student\\build\\intermediates\\res\\merged\\debug\\drawable\\bg_welcome.png",
@@ -309,11 +333,11 @@
     },
     {
         "merged": "E:\\work\\Android\\Apps\\AnyWork2.0\\client-student\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_tab_indicator_material.xml",
-        "source": "C:\\Users\\jimiji\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-27.1.0.aar\\d325b4eab5259d85ee379cc0189a9314\\res\\drawable\\abc_tab_indicator_material.xml"
+        "source": "C:\\Users\\jimiji\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\0f015facd651bc3d985cbdda3308ed92\\res\\drawable\\abc_tab_indicator_material.xml"
     },
     {
         "merged": "E:\\work\\Android\\Apps\\AnyWork2.0\\client-student\\build\\intermediates\\res\\merged\\debug\\drawable\\notification_bg.xml",
-        "source": "C:\\Users\\jimiji\\.gradle\\caches\\transforms-1\\files-1.1\\support-compat-27.1.0.aar\\1dd27fee2914a48a49a8d651bc7d44b1\\res\\drawable\\notification_bg.xml"
+        "source": "C:\\Users\\jimiji\\.gradle\\caches\\transforms-1\\files-1.1\\support-compat-28.0.0.aar\\146ce858928eda2d21fd039b1013447b\\res\\drawable\\notification_bg.xml"
     },
     {
         "merged": "E:\\work\\Android\\Apps\\AnyWork2.0\\client-student\\build\\intermediates\\res\\merged\\debug\\drawable\\icon_ranking_first.png",
@@ -341,7 +365,7 @@
     },
     {
         "merged": "E:\\work\\Android\\Apps\\AnyWork2.0\\client-student\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_seekbar_track_material.xml",
-        "source": "C:\\Users\\jimiji\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-27.1.0.aar\\d325b4eab5259d85ee379cc0189a9314\\res\\drawable\\abc_seekbar_track_material.xml"
+        "source": "C:\\Users\\jimiji\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\0f015facd651bc3d985cbdda3308ed92\\res\\drawable\\abc_seekbar_track_material.xml"
     },
     {
         "merged": "E:\\work\\Android\\Apps\\AnyWork2.0\\client-student\\build\\intermediates\\res\\merged\\debug\\drawable\\icon_menu_onlin.png",
@@ -349,19 +373,23 @@
     },
     {
         "merged": "E:\\work\\Android\\Apps\\AnyWork2.0\\client-student\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_list_selector_background_transition_holo_dark.xml",
-        "source": "C:\\Users\\jimiji\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-27.1.0.aar\\d325b4eab5259d85ee379cc0189a9314\\res\\drawable\\abc_list_selector_background_transition_holo_dark.xml"
+        "source": "C:\\Users\\jimiji\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\0f015facd651bc3d985cbdda3308ed92\\res\\drawable\\abc_list_selector_background_transition_holo_dark.xml"
+    },
+    {
+        "merged": "E:\\work\\Android\\Apps\\AnyWork2.0\\client-student\\build\\intermediates\\res\\merged\\debug\\drawable\\design_fab_background.xml",
+        "source": "C:\\Users\\jimiji\\.gradle\\caches\\transforms-1\\files-1.1\\design-28.0.0.aar\\9f13930b895983eb13ccd4dd88fb7063\\res\\drawable\\design_fab_background.xml"
     },
     {
         "merged": "E:\\work\\Android\\Apps\\AnyWork2.0\\client-student\\build\\intermediates\\res\\merged\\debug\\drawable\\background_ranking.xml",
         "source": "E:\\work\\Android\\Apps\\AnyWork2.0\\client-student\\src\\main\\res\\drawable\\background_ranking.xml"
     },
     {
-        "merged": "E:\\work\\Android\\Apps\\AnyWork2.0\\client-student\\build\\intermediates\\res\\merged\\debug\\drawable\\design_fab_background.xml",
-        "source": "C:\\Users\\jimiji\\.gradle\\caches\\transforms-1\\files-1.1\\design-27.1.0.aar\\0e46ca700e60176a5837388b194d6861\\res\\drawable\\design_fab_background.xml"
+        "merged": "E:\\work\\Android\\Apps\\AnyWork2.0\\client-student\\build\\intermediates\\res\\merged\\debug\\drawable\\ic_mtrl_chip_checked_black.xml",
+        "source": "C:\\Users\\jimiji\\.gradle\\caches\\transforms-1\\files-1.1\\design-28.0.0.aar\\9f13930b895983eb13ccd4dd88fb7063\\res\\drawable\\ic_mtrl_chip_checked_black.xml"
     },
     {
         "merged": "E:\\work\\Android\\Apps\\AnyWork2.0\\client-student\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_ic_menu_overflow_material.xml",
-        "source": "C:\\Users\\jimiji\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-27.1.0.aar\\d325b4eab5259d85ee379cc0189a9314\\res\\drawable\\abc_ic_menu_overflow_material.xml"
+        "source": "C:\\Users\\jimiji\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\0f015facd651bc3d985cbdda3308ed92\\res\\drawable\\abc_ic_menu_overflow_material.xml"
     },
     {
         "merged": "E:\\work\\Android\\Apps\\AnyWork2.0\\client-student\\build\\intermediates\\res\\merged\\debug\\drawable\\icon_people.png",
@@ -381,7 +409,7 @@
     },
     {
         "merged": "E:\\work\\Android\\Apps\\AnyWork2.0\\client-student\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_ic_search_api_material.xml",
-        "source": "C:\\Users\\jimiji\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-27.1.0.aar\\d325b4eab5259d85ee379cc0189a9314\\res\\drawable\\abc_ic_search_api_material.xml"
+        "source": "C:\\Users\\jimiji\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\0f015facd651bc3d985cbdda3308ed92\\res\\drawable\\abc_ic_search_api_material.xml"
     },
     {
         "merged": "E:\\work\\Android\\Apps\\AnyWork2.0\\client-student\\build\\intermediates\\res\\merged\\debug\\drawable\\ic_back.png",
@@ -397,15 +425,11 @@
     },
     {
         "merged": "E:\\work\\Android\\Apps\\AnyWork2.0\\client-student\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_btn_check_material.xml",
-        "source": "C:\\Users\\jimiji\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-27.1.0.aar\\d325b4eab5259d85ee379cc0189a9314\\res\\drawable\\abc_btn_check_material.xml"
-    },
-    {
-        "merged": "E:\\work\\Android\\Apps\\AnyWork2.0\\client-student\\build\\intermediates\\res\\merged\\debug\\drawable\\bg_attention.png",
-        "source": "E:\\work\\Android\\Apps\\AnyWork2.0\\client-student\\src\\main\\res\\drawable\\bg_attention.png"
+        "source": "C:\\Users\\jimiji\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\0f015facd651bc3d985cbdda3308ed92\\res\\drawable\\abc_btn_check_material.xml"
     },
     {
         "merged": "E:\\work\\Android\\Apps\\AnyWork2.0\\client-student\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_seekbar_tick_mark_material.xml",
-        "source": "C:\\Users\\jimiji\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-27.1.0.aar\\d325b4eab5259d85ee379cc0189a9314\\res\\drawable\\abc_seekbar_tick_mark_material.xml"
+        "source": "C:\\Users\\jimiji\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\0f015facd651bc3d985cbdda3308ed92\\res\\drawable\\abc_seekbar_tick_mark_material.xml"
     },
     {
         "merged": "E:\\work\\Android\\Apps\\AnyWork2.0\\client-student\\build\\intermediates\\res\\merged\\debug\\drawable\\bottom_mine_list.xml",
@@ -416,12 +440,16 @@
         "source": "E:\\work\\Android\\Apps\\AnyWork2.0\\client-student\\src\\main\\res\\drawable\\icon_account_normal.png"
     },
     {
+        "merged": "E:\\work\\Android\\Apps\\AnyWork2.0\\client-student\\build\\intermediates\\res\\merged\\debug\\drawable\\background_score_green.xml",
+        "source": "E:\\work\\Android\\Apps\\AnyWork2.0\\client-student\\src\\main\\res\\drawable\\background_score_green.xml"
+    },
+    {
         "merged": "E:\\work\\Android\\Apps\\AnyWork2.0\\client-student\\build\\intermediates\\res\\merged\\debug\\drawable\\icon_on.png",
         "source": "E:\\work\\Android\\Apps\\AnyWork2.0\\client-student\\src\\main\\res\\drawable\\icon_on.png"
     },
     {
         "merged": "E:\\work\\Android\\Apps\\AnyWork2.0\\client-student\\build\\intermediates\\res\\merged\\debug\\drawable\\notification_tile_bg.xml",
-        "source": "C:\\Users\\jimiji\\.gradle\\caches\\transforms-1\\files-1.1\\support-compat-27.1.0.aar\\1dd27fee2914a48a49a8d651bc7d44b1\\res\\drawable\\notification_tile_bg.xml"
+        "source": "C:\\Users\\jimiji\\.gradle\\caches\\transforms-1\\files-1.1\\support-compat-28.0.0.aar\\146ce858928eda2d21fd039b1013447b\\res\\drawable\\notification_tile_bg.xml"
     },
     {
         "merged": "E:\\work\\Android\\Apps\\AnyWork2.0\\client-student\\build\\intermediates\\res\\merged\\debug\\drawable\\bg_status_join_true.xml",
@@ -433,7 +461,7 @@
     },
     {
         "merged": "E:\\work\\Android\\Apps\\AnyWork2.0\\client-student\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_edit_text_material.xml",
-        "source": "C:\\Users\\jimiji\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-27.1.0.aar\\d325b4eab5259d85ee379cc0189a9314\\res\\drawable\\abc_edit_text_material.xml"
+        "source": "C:\\Users\\jimiji\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\0f015facd651bc3d985cbdda3308ed92\\res\\drawable\\abc_edit_text_material.xml"
     },
     {
         "merged": "E:\\work\\Android\\Apps\\AnyWork2.0\\client-student\\build\\intermediates\\res\\merged\\debug\\drawable\\background_my_ranking_fragment.xml",
@@ -449,11 +477,11 @@
     },
     {
         "merged": "E:\\work\\Android\\Apps\\AnyWork2.0\\client-student\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_ic_voice_search_api_material.xml",
-        "source": "C:\\Users\\jimiji\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-27.1.0.aar\\d325b4eab5259d85ee379cc0189a9314\\res\\drawable\\abc_ic_voice_search_api_material.xml"
+        "source": "C:\\Users\\jimiji\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\0f015facd651bc3d985cbdda3308ed92\\res\\drawable\\abc_ic_voice_search_api_material.xml"
     },
     {
         "merged": "E:\\work\\Android\\Apps\\AnyWork2.0\\client-student\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_ratingbar_small_material.xml",
-        "source": "C:\\Users\\jimiji\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-27.1.0.aar\\d325b4eab5259d85ee379cc0189a9314\\res\\drawable\\abc_ratingbar_small_material.xml"
+        "source": "C:\\Users\\jimiji\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\0f015facd651bc3d985cbdda3308ed92\\res\\drawable\\abc_ratingbar_small_material.xml"
     },
     {
         "merged": "E:\\work\\Android\\Apps\\AnyWork2.0\\client-student\\build\\intermediates\\res\\merged\\debug\\drawable\\icon_add.png",
@@ -477,7 +505,7 @@
     },
     {
         "merged": "E:\\work\\Android\\Apps\\AnyWork2.0\\client-student\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_btn_borderless_material.xml",
-        "source": "C:\\Users\\jimiji\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-27.1.0.aar\\d325b4eab5259d85ee379cc0189a9314\\res\\drawable\\abc_btn_borderless_material.xml"
+        "source": "C:\\Users\\jimiji\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\0f015facd651bc3d985cbdda3308ed92\\res\\drawable\\abc_btn_borderless_material.xml"
     },
     {
         "merged": "E:\\work\\Android\\Apps\\AnyWork2.0\\client-student\\build\\intermediates\\res\\merged\\debug\\drawable\\icon_class_normal.png",
@@ -486,6 +514,10 @@
     {
         "merged": "E:\\work\\Android\\Apps\\AnyWork2.0\\client-student\\build\\intermediates\\res\\merged\\debug\\drawable\\bg_choice_selected.xml",
         "source": "E:\\work\\Android\\Apps\\AnyWork2.0\\client-student\\src\\main\\res\\drawable\\bg_choice_selected.xml"
+    },
+    {
+        "merged": "E:\\work\\Android\\Apps\\AnyWork2.0\\client-student\\build\\intermediates\\res\\merged\\debug\\drawable\\bg_loading.xml",
+        "source": "E:\\work\\Android\\Apps\\AnyWork2.0\\client-student\\src\\main\\res\\drawable\\bg_loading.xml"
     },
     {
         "merged": "E:\\work\\Android\\Apps\\AnyWork2.0\\client-student\\build\\intermediates\\res\\merged\\debug\\drawable\\bottom_class_list.xml",
@@ -497,15 +529,19 @@
     },
     {
         "merged": "E:\\work\\Android\\Apps\\AnyWork2.0\\client-student\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_seekbar_thumb_material.xml",
-        "source": "C:\\Users\\jimiji\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-27.1.0.aar\\d325b4eab5259d85ee379cc0189a9314\\res\\drawable\\abc_seekbar_thumb_material.xml"
+        "source": "C:\\Users\\jimiji\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\0f015facd651bc3d985cbdda3308ed92\\res\\drawable\\abc_seekbar_thumb_material.xml"
     },
     {
         "merged": "E:\\work\\Android\\Apps\\AnyWork2.0\\client-student\\build\\intermediates\\res\\merged\\debug\\drawable\\bg_header_divide.xml",
         "source": "E:\\work\\Android\\Apps\\AnyWork2.0\\client-student\\src\\main\\res\\drawable\\bg_header_divide.xml"
     },
     {
+        "merged": "E:\\work\\Android\\Apps\\AnyWork2.0\\client-student\\build\\intermediates\\res\\merged\\debug\\drawable\\pic_login_bg.webp",
+        "source": "E:\\work\\Android\\Apps\\AnyWork2.0\\client-student\\src\\main\\res\\drawable\\pic_login_bg.webp"
+    },
+    {
         "merged": "E:\\work\\Android\\Apps\\AnyWork2.0\\client-student\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_spinner_textfield_background_material.xml",
-        "source": "C:\\Users\\jimiji\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-27.1.0.aar\\d325b4eab5259d85ee379cc0189a9314\\res\\drawable\\abc_spinner_textfield_background_material.xml"
+        "source": "C:\\Users\\jimiji\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\0f015facd651bc3d985cbdda3308ed92\\res\\drawable\\abc_spinner_textfield_background_material.xml"
     },
     {
         "merged": "E:\\work\\Android\\Apps\\AnyWork2.0\\client-student\\build\\intermediates\\res\\merged\\debug\\drawable\\icon_menu_normal.png",
@@ -525,7 +561,7 @@
     },
     {
         "merged": "E:\\work\\Android\\Apps\\AnyWork2.0\\client-student\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_ratingbar_indicator_material.xml",
-        "source": "C:\\Users\\jimiji\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-27.1.0.aar\\d325b4eab5259d85ee379cc0189a9314\\res\\drawable\\abc_ratingbar_indicator_material.xml"
+        "source": "C:\\Users\\jimiji\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\0f015facd651bc3d985cbdda3308ed92\\res\\drawable\\abc_ratingbar_indicator_material.xml"
     },
     {
         "merged": "E:\\work\\Android\\Apps\\AnyWork2.0\\client-student\\build\\intermediates\\res\\merged\\debug\\drawable\\bg_btn_white.xml",
@@ -537,7 +573,7 @@
     },
     {
         "merged": "E:\\work\\Android\\Apps\\AnyWork2.0\\client-student\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_switch_thumb_material.xml",
-        "source": "C:\\Users\\jimiji\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-27.1.0.aar\\d325b4eab5259d85ee379cc0189a9314\\res\\drawable\\abc_switch_thumb_material.xml"
+        "source": "C:\\Users\\jimiji\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\0f015facd651bc3d985cbdda3308ed92\\res\\drawable\\abc_switch_thumb_material.xml"
     },
     {
         "merged": "E:\\work\\Android\\Apps\\AnyWork2.0\\client-student\\build\\intermediates\\res\\merged\\debug\\drawable\\eye.png",
@@ -568,6 +604,10 @@
         "source": "E:\\work\\Android\\Apps\\AnyWork2.0\\client-student\\src\\main\\res\\drawable\\buttom_menu_prectice.png"
     },
     {
+        "merged": "E:\\work\\Android\\Apps\\AnyWork2.0\\client-student\\build\\intermediates\\res\\merged\\debug\\drawable\\mtrl_tabs_default_indicator.xml",
+        "source": "C:\\Users\\jimiji\\.gradle\\caches\\transforms-1\\files-1.1\\design-28.0.0.aar\\9f13930b895983eb13ccd4dd88fb7063\\res\\drawable\\mtrl_tabs_default_indicator.xml"
+    },
+    {
         "merged": "E:\\work\\Android\\Apps\\AnyWork2.0\\client-student\\build\\intermediates\\res\\merged\\debug\\drawable\\bg_btn_green.xml",
         "source": "E:\\work\\Android\\Apps\\AnyWork2.0\\client-student\\src\\main\\res\\drawable\\bg_btn_green.xml"
     },
@@ -585,15 +625,15 @@
     },
     {
         "merged": "E:\\work\\Android\\Apps\\AnyWork2.0\\client-student\\build\\intermediates\\res\\merged\\debug\\drawable\\design_password_eye.xml",
-        "source": "C:\\Users\\jimiji\\.gradle\\caches\\transforms-1\\files-1.1\\design-27.1.0.aar\\0e46ca700e60176a5837388b194d6861\\res\\drawable\\design_password_eye.xml"
+        "source": "C:\\Users\\jimiji\\.gradle\\caches\\transforms-1\\files-1.1\\design-28.0.0.aar\\9f13930b895983eb13ccd4dd88fb7063\\res\\drawable\\design_password_eye.xml"
     },
     {
         "merged": "E:\\work\\Android\\Apps\\AnyWork2.0\\client-student\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_vector_test.xml",
-        "source": "C:\\Users\\jimiji\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-27.1.0.aar\\d325b4eab5259d85ee379cc0189a9314\\res\\drawable\\abc_vector_test.xml"
+        "source": "C:\\Users\\jimiji\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\0f015facd651bc3d985cbdda3308ed92\\res\\drawable\\abc_vector_test.xml"
     },
     {
         "merged": "E:\\work\\Android\\Apps\\AnyWork2.0\\client-student\\build\\intermediates\\res\\merged\\debug\\drawable\\navigation_empty_icon.xml",
-        "source": "C:\\Users\\jimiji\\.gradle\\caches\\transforms-1\\files-1.1\\design-27.1.0.aar\\0e46ca700e60176a5837388b194d6861\\res\\drawable\\navigation_empty_icon.xml"
+        "source": "C:\\Users\\jimiji\\.gradle\\caches\\transforms-1\\files-1.1\\design-28.0.0.aar\\9f13930b895983eb13ccd4dd88fb7063\\res\\drawable\\navigation_empty_icon.xml"
     },
     {
         "merged": "E:\\work\\Android\\Apps\\AnyWork2.0\\client-student\\build\\intermediates\\res\\merged\\debug\\drawable\\background_my.xml",
@@ -601,7 +641,7 @@
     },
     {
         "merged": "E:\\work\\Android\\Apps\\AnyWork2.0\\client-student\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_btn_default_mtrl_shape.xml",
-        "source": "C:\\Users\\jimiji\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-27.1.0.aar\\d325b4eab5259d85ee379cc0189a9314\\res\\drawable\\abc_btn_default_mtrl_shape.xml"
+        "source": "C:\\Users\\jimiji\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\0f015facd651bc3d985cbdda3308ed92\\res\\drawable\\abc_btn_default_mtrl_shape.xml"
     },
     {
         "merged": "E:\\work\\Android\\Apps\\AnyWork2.0\\client-student\\build\\intermediates\\res\\merged\\debug\\drawable\\icon_login_password_twice.png",
@@ -609,11 +649,11 @@
     },
     {
         "merged": "E:\\work\\Android\\Apps\\AnyWork2.0\\client-student\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_ic_arrow_drop_right_black_24dp.xml",
-        "source": "C:\\Users\\jimiji\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-27.1.0.aar\\d325b4eab5259d85ee379cc0189a9314\\res\\drawable\\abc_ic_arrow_drop_right_black_24dp.xml"
+        "source": "C:\\Users\\jimiji\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\0f015facd651bc3d985cbdda3308ed92\\res\\drawable\\abc_ic_arrow_drop_right_black_24dp.xml"
     },
     {
         "merged": "E:\\work\\Android\\Apps\\AnyWork2.0\\client-student\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_textfield_search_material.xml",
-        "source": "C:\\Users\\jimiji\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-27.1.0.aar\\d325b4eab5259d85ee379cc0189a9314\\res\\drawable\\abc_textfield_search_material.xml"
+        "source": "C:\\Users\\jimiji\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\0f015facd651bc3d985cbdda3308ed92\\res\\drawable\\abc_textfield_search_material.xml"
     },
     {
         "merged": "E:\\work\\Android\\Apps\\AnyWork2.0\\client-student\\build\\intermediates\\res\\merged\\debug\\drawable\\icon_collect.png",

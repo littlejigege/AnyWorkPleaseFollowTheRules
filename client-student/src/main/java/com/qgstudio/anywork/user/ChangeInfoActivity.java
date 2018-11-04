@@ -4,6 +4,7 @@ import android.content.Intent;
 import android.graphics.Bitmap;
 import android.net.Uri;
 import android.os.Build;
+import android.provider.MediaStore;
 import android.support.annotation.Nullable;
 import android.support.annotation.RequiresApi;
 import android.os.Bundle;
@@ -25,6 +26,7 @@ import com.qgstudio.anywork.data.model.User;
 import com.qgstudio.anywork.dialog.LoadingDialog;
 import com.qgstudio.anywork.mvp.MVPBaseActivity;
 import com.qgstudio.anywork.utils.DataBaseUtil;
+import com.qgstudio.anywork.utils.DesityUtil;
 import com.qgstudio.anywork.utils.GlideUtil;
 import com.qgstudio.anywork.utils.LogUtil;
 import com.qgstudio.anywork.utils.MyOpenHelper;
@@ -40,8 +42,8 @@ import butterknife.OnClick;
 import de.hdodenhof.circleimageview.CircleImageView;
 
 /**
- *  查看和修改用户信息的 activity
- *  Created by chenyi on 2017/7/12.
+ * 查看和修改用户信息的 activity
+ * Created by chenyi on 2017/7/12.
  */
 public class ChangeInfoActivity extends MVPBaseActivity<UserContract.View, UserPresenter> implements UserContract.View {
 
@@ -69,29 +71,27 @@ public class ChangeInfoActivity extends MVPBaseActivity<UserContract.View, UserP
     ImageView cancelImage;
 
 
-
     @OnClick(R.id.edit)
     public void edit() {
 
-            String p = phone.getText().toString();
-            String m = email.getText().toString();
+        String p = phone.getText().toString();
+        String m = email.getText().toString();
 
-            if (!m.matches("\\w+@\\w+(\\.\\w{2,3})*\\.\\w{2,3}")) {
-                ToastUtil.showToast("请输入正确的邮箱地址");
-            }
-            if (!p.matches("^((13[0-9])|(15[^4])|(18[0,2,3,5-9])|(17[0-8])|(147))\\d{8}$")) {
-                ToastUtil.showToast("请输入正确的电话号码");
-
-            }
-
-            User nUser = user.clone();
-
-            nUser.setPhone(p);
-            nUser.setEmail(m);
-            mPresenter.changeInfo(nUser);
+        if (!m.matches("\\w+@\\w+(\\.\\w{2,3})*\\.\\w{2,3}")) {
+            ToastUtil.showToast("请输入正确的邮箱地址");
+        }
+        if (!p.matches("^((13[0-9])|(15[^4])|(18[0,2,3,5-9])|(17[0-8])|(147))\\d{8}$")) {
+            ToastUtil.showToast("请输入正确的电话号码");
 
         }
 
+        User nUser = user.clone();
+
+        nUser.setPhone(p);
+        nUser.setEmail(m);
+        mPresenter.changeInfo(nUser);
+
+    }
 
 
     @OnClick(R.id.imageView_head)
@@ -122,7 +122,8 @@ public class ChangeInfoActivity extends MVPBaseActivity<UserContract.View, UserP
         studentId = findViewById(R.id.textView_id);
         email = findViewById(R.id.editText_old);
         phone = findViewById(R.id.editText_phone);
-        saveButton = findViewById(R.id.button_save);pic = findViewById(R.id.imageView_head);
+        saveButton = findViewById(R.id.button_save);
+        pic = findViewById(R.id.imageView_head);
         name = findViewById(R.id.textView_name);
         studentId = findViewById(R.id.textView_id);
         email = findViewById(R.id.editText_old);
@@ -144,11 +145,11 @@ public class ChangeInfoActivity extends MVPBaseActivity<UserContract.View, UserP
                 String m = email.getText().toString();
                 if (!m.matches("\\w+@\\w+(\\.\\w{2,3})*\\.\\w{2,3}")) {
                     ToastUtil.showToast("请输入正确的邮箱地址");
-                    return ;
+                    return;
                 }
                 if (!p.matches("^((13[0-9])|(15[^4])|(18[0,2,3,5-9])|(17[0-8])|(147))\\d{8}$")) {
                     ToastUtil.showToast("请输入正确的电话号码");
-                    return ;
+                    return;
                 }
                 User nUser = user.clone();
 //            nUser.setUserName(n);
@@ -246,7 +247,6 @@ public class ChangeInfoActivity extends MVPBaseActivity<UserContract.View, UserP
                 if (resultCode == RESULT_OK) {
                     Uri uri = data.getData();
                     if (uri != null) {
-                        // 将图片设置到头像中
                         Glide.with(this)
                                 .load(uri)
                                 .asBitmap()
@@ -256,11 +256,14 @@ public class ChangeInfoActivity extends MVPBaseActivity<UserContract.View, UserP
                                         saveHeadPic(resource);
                                     }
                                 });
+
                     }
                 }
                 break;
+
         }
     }
+
 
     /**
      * 将获取的图片进行压缩并保存
@@ -280,8 +283,8 @@ public class ChangeInfoActivity extends MVPBaseActivity<UserContract.View, UserP
         //创建图片
         File file = new File(dir, user.getUserId() + ".jpg");
         try {
-            if(!file.exists()){
-                if(!file.createNewFile()){
+            if (!file.exists()) {
+                if (!file.createNewFile()) {
                     ToastUtil.showToast("保存头像失败！");
                     LogUtil.e2(TAG, "saveHeadPic", "create image fail!");
                     return;
@@ -341,14 +344,14 @@ public class ChangeInfoActivity extends MVPBaseActivity<UserContract.View, UserP
     @Override
     public void showProgressDialog() {
         if (dialog == null) {
-            dialog = new LoadingDialog();
+            dialog = new LoadingDialog(getContext());
         }
-        dialog.show(getSupportFragmentManager(), "");
+        dialog.show();
     }
 
     @Override
     public void hidProgressDialog() {
-        if (dialog != null && dialog.isResumed()) {
+        if (dialog != null) {
             dialog.dismiss();
         }
     }

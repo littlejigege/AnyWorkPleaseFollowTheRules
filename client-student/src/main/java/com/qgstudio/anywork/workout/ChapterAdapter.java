@@ -145,8 +145,8 @@ public class ChapterAdapter extends RecyclerView.Adapter<RecyclerView.ViewHolder
                         }
                     }
 
-                    LoadingDialog dialog = new LoadingDialog();
-                    dialog.show(((AppCompatActivity) context).getSupportFragmentManager(), "");
+                    LoadingDialog dialog = new LoadingDialog(context);
+                    dialog.show();
                     intoTestActivity(v.getContext(), testpaper.getTestpaperId(), testpaper.getTestpaperTitle(), 1, dialog, testpaper.getStatus());
                 }
             });

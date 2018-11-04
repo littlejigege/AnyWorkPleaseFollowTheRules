@@ -44,8 +44,6 @@ public class EnterActivity extends DialogManagerActivity {
     @BindView(R.id.container)
     FrameLayout container;
 
-    //切换帐号标志
-    public static final int FLAG_SWITCH_USER = 0;
 
     @OnClick(R.id.register)
     public void intoRegister() {
@@ -55,10 +53,7 @@ public class EnterActivity extends DialogManagerActivity {
         if (registerFragment == null) {
             // 如果当前没有该 fragment ，创建该 fragment 并通过 FragmentManager 进行管理
             registerFragment = RegisterFragment.newInstance();
-            //v2.0去掉动画
-//            if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.LOLLIPOP) {
-//                setTransition(registerFragment);
-//            }
+
             ActivityUtil.addFragmentToActivity(getSupportFragmentManager(), registerFragment,
                     R.id.container, RegisterFragment.ARGUMENT_REGISTER_ID);
         }
@@ -71,79 +66,10 @@ public class EnterActivity extends DialogManagerActivity {
                 (LoginFragment) getSupportFragmentManager().findFragmentByTag(LoginFragment.ARGUMENT_LOGIN_ID);
         if (loginFragment == null) {
             loginFragment = LoginFragment.newInstance();
-            //v2.0去掉frag动画
-//            if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.LOLLIPOP) {
-//                setTransition(loginFragment);
-//            }
-            //v2.0不用吧登陆碎片加入返回栈
-//            ActivityUtil.addFragmentToActivity(getSupportFragmentManager(), loginFragment,
-//                                            R.id.container, LoginFragment.ARGUMENT_LOGIN_ID);
             FragmentTransaction transaction = getSupportFragmentManager().beginTransaction();
             transaction.replace(R.id.container, loginFragment, LoginFragment.ARGUMENT_LOGIN_ID)
                     .commit();
         }
-    }
-
-    @OnClick(R.id.others)
-    public void intoOthers() {
-//        BaseDialog.Builder builder = new BaseDialog.Builder(EnterActivity.this);
-//        BaseDialog baseDialog =
-//                builder.cancelTouchout(false)
-//                .title("提示")
-//                //.titleColor(R.color.theme_yellow_background)
-//                .build();
-//        baseDialog.show();
-
-//        ToastUtil.showToast("暂未开放游客模式。");
-//        // TODO: 2017/7/10 通过游客模式进入
-        //读出当前IP地址
-        SharedPreferences sharedPreferences = App.getContext().getSharedPreferences("ip地址", Context.MODE_PRIVATE);
-        String baseUrl = sharedPreferences.getString("ip", ApiStores.API_DEFAULT_URL);
-        baseUrl = baseUrl.substring(0, baseUrl.lastIndexOf("/"));
-
-        final EditText editText = new EditText(this);
-        editText.setHint("当前IP:" + baseUrl);
-        editText.setTextColor(Color.BLACK);
-        editText.setLines(1);
-        AlertDialog dialog = new AlertDialog.Builder(this)
-                .setTitle("设置IP地址")
-                .setView(editText)
-                .setNegativeButton("取消", new DialogInterface.OnClickListener() {
-                    @Override
-                    public void onClick(DialogInterface dialog, int which) {
-
-                    }
-                })
-                .setPositiveButton("确认", new DialogInterface.OnClickListener() {
-                    @Override
-                    public void onClick(DialogInterface dialog, int which) {
-                        String ip = editText.getText().toString();
-                        if (HttpUrl.parse(ip) == null) {
-                            //将默认ip存进SharedPreferences
-                            SharedPreferences sharedPreferences = App.getContext().getSharedPreferences("ip地址", MODE_PRIVATE);
-                            SharedPreferences.Editor editor = sharedPreferences.edit();
-                            editor.putString("ip", ApiStores.API_DEFAULT_URL + "/");
-                            editor.commit();
-
-                            //重新构造Retrofit
-                            RetrofitClient.RETROFIT_CLIENT.setRetrofit();
-
-                            ToastUtil.showToast("IP地址不合法，已自动使用默认地址");
-                        } else {
-                            //将输入的ip存进SharedPreferences
-                            SharedPreferences sharedPreferences = App.getContext().getSharedPreferences("ip地址", MODE_PRIVATE);
-                            SharedPreferences.Editor editor = sharedPreferences.edit();
-                            editor.putString("ip", ip + "/");
-                            editor.commit();
-
-                            //重新构造Retrofit
-                            RetrofitClient.RETROFIT_CLIENT.setRetrofit();
-
-                            ToastUtil.showToast("设置IP地址成功");
-                        }
-                    }
-                }).create();
-        dialog.show();
     }
 
     @Override
@@ -152,12 +78,6 @@ public class EnterActivity extends DialogManagerActivity {
         setContentView(R.layout.activity_enter);
         ButterKnife.bind(this);
         intoLogin();
-        //v2.0不需要判断flag来确定是否进去登陆页面，默认就在登陆页面
-//        int flag = getIntent().getIntExtra("FLAG", -1);
-//        if (FLAG_SWITCH_USER == flag) {
-//            intoLogin();
-//        }
-
     }
 
     @Override
@@ -176,17 +96,4 @@ public class EnterActivity extends DialogManagerActivity {
         context.startActivity(intent);
     }
 
-    @RequiresApi(api = Build.VERSION_CODES.LOLLIPOP)
-    private void setTransition(Fragment fragment) {
-        Slide slideTransition = new Slide(Gravity.END);
-        slideTransition.setDuration(300);
-
-        ChangeBounds changeBoundsTransition = new ChangeBounds();
-        changeBoundsTransition.setDuration(300);
-        // 为 fragment 设置进出场的动画
-        fragment.setEnterTransition(slideTransition);
-        fragment.setAllowEnterTransitionOverlap(true);
-        fragment.setAllowReturnTransitionOverlap(true);
-        fragment.setSharedElementEnterTransition(changeBoundsTransition);
-    }
 }

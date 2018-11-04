@@ -8,6 +8,7 @@ import java.util.Map;
 
 import retrofit2.http.Body;
 import retrofit2.http.POST;
+import retrofit2.http.Url;
 import rx.Observable;
 
 /**
@@ -16,15 +17,15 @@ import rx.Observable;
 
 public interface OrganizationApi {
 
-    @POST("organization/me")
-    Observable<ResponseResult<List<Organization>>> getJoinOrganization();
+    @POST
+    Observable<ResponseResult<List<Organization>>> getJoinOrganization(@Url String url);
 
-    @POST("organization/search")
-    Observable<ResponseResult<List<Organization>>> getAllOrganization(@Body Map<String, String> organizationName);
+    @POST
+    Observable<ResponseResult<List<Organization>>> getAllOrganization(@Url String url,@Body Map<String, String> organizationName);
 
-    @POST("organization/join")
-    Observable<ResponseResult> joinOrganization(@Body Map<String, String> organizationInfo);
+    @POST
+    Observable<ResponseResult> joinOrganization(@Url String url,@Body Map<String, String> organizationInfo);
 
-    @POST("organization/leave")
-    Observable<ResponseResult> leaveOrganization(@Body Map<String, Integer> organizationId);
+    @POST
+    Observable<ResponseResult> leaveOrganization(@Url String url,@Body Map<String, Integer> organizationId);
 }

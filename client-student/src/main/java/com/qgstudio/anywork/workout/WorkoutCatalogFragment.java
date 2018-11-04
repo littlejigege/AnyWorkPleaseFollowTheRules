@@ -24,6 +24,8 @@ import android.view.ViewTreeObserver;
 import android.widget.TextView;
 
 import com.qgstudio.anywork.R;
+import com.qgstudio.anywork.common.PreLoading;
+import com.qgstudio.anywork.dialog.LoadingDialog;
 import com.qgstudio.anywork.search.SearchActivity;
 import com.qgstudio.anywork.utils.ToastUtil;
 import com.qgstudio.anywork.workout.data.Chapter;
@@ -37,7 +39,7 @@ import butterknife.ButterKnife;
 import butterknife.OnClick;
 
 
-public class WorkoutCatalogFragment extends Fragment {
+public class WorkoutCatalogFragment extends Fragment implements PreLoading {
 
     @BindView(R.id.workout_frag_toolbar)
     Toolbar toolbar;
@@ -48,7 +50,7 @@ public class WorkoutCatalogFragment extends Fragment {
     private ChapterViewModel viewModel;
     private ChapterAdapter adapter;
     public int chapterID;
-
+    private LoadingDialog loadingDialog;
 
     public WorkoutCatalogFragment() {
         // Required empty public constructor
@@ -170,6 +172,27 @@ public class WorkoutCatalogFragment extends Fragment {
         } else {
             viewModel.getChapter();
         }
+
+    }
+
+    @Override
+    public void showLoading() {
+        if (loadingDialog == null) {
+            loadingDialog = new LoadingDialog(getActivity());
+        }
+        loadingDialog.show();
+    }
+
+    @Override
+    public void hideLoading() {
+        if (loadingDialog != null) {
+            loadingDialog.dismiss();
+            loadingDialog = null;
+        }
+    }
+
+    @Override
+    public void showToast(String s) {
 
     }
 }

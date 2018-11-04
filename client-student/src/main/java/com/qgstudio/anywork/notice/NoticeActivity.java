@@ -1,6 +1,7 @@
 package com.qgstudio.anywork.notice;
 
 import android.app.NotificationManager;
+import android.arch.lifecycle.Lifecycle;
 import android.content.Context;
 import android.os.Build;
 import android.support.annotation.NonNull;
@@ -18,6 +19,7 @@ import com.google.gson.reflect.TypeToken;
 import com.qgstudio.anywork.App;
 import com.qgstudio.anywork.R;
 import com.qgstudio.anywork.common.DialogManagerActivity;
+import com.qgstudio.anywork.core.Apis;
 import com.qgstudio.anywork.data.ResponseResult;
 import com.qgstudio.anywork.data.RetrofitClient;
 import com.qgstudio.anywork.notice.data.MessageFactory;
@@ -86,7 +88,7 @@ public class NoticeActivity extends DialogManagerActivity {
                     refreshLayout.finishLoadMore();
                     return;
                 }
-                noticeApi.getNotice(buildRequestParam(true))
+                noticeApi.getNotice(Apis.getNoticeApi(),buildRequestParam(true))
                         .subscribeOn(Schedulers.io())
                         .observeOn(AndroidSchedulers.mainThread())
                         .subscribe(new Observer<ResponseResult<JsonObject>>() {
@@ -97,12 +99,18 @@ public class NoticeActivity extends DialogManagerActivity {
 
                             @Override
                             public void onError(Throwable e) {
+                                if (getLifecycle().getCurrentState() != Lifecycle.State.RESUMED) {
+                                    return;
+                                }
                                 refreshLayout.finishLoadMore();
                                 ToastUtil.showToast("没有更多了");
                             }
 
                             @Override
                             public void onNext(ResponseResult<JsonObject> jsonObjectResponseResult) {
+                                if (getLifecycle().getCurrentState() != Lifecycle.State.RESUMED) {
+                                    return;
+                                }
                                 List<Notice> noticeList = new Gson().fromJson(jsonObjectResponseResult
                                                 .getData()
                                                 .get("list")
@@ -128,7 +136,7 @@ public class NoticeActivity extends DialogManagerActivity {
             @Override
             public void onRefresh(@NonNull final RefreshLayout refreshLayout) {
 
-                noticeApi.getNotice(buildRequestParam(false))
+                noticeApi.getNotice(Apis.getNoticeApi(),buildRequestParam(false))
                         .subscribeOn(Schedulers.io())
                         .observeOn(AndroidSchedulers.mainThread())
                         .subscribe(new Observer<ResponseResult<JsonObject>>() {
@@ -139,12 +147,18 @@ public class NoticeActivity extends DialogManagerActivity {
 
                             @Override
                             public void onError(Throwable e) {
+                                if (getLifecycle().getCurrentState() != Lifecycle.State.RESUMED) {
+                                    return;
+                                }
                                 e.printStackTrace();
                                 refreshLayout.finishRefresh(1);
                             }
 
                             @Override
                             public void onNext(ResponseResult<JsonObject> jsonObjectResponseResult) {
+                                if (getLifecycle().getCurrentState() != Lifecycle.State.RESUMED) {
+                                    return;
+                                }
                                 List<Notice> noticeList = new Gson().fromJson(jsonObjectResponseResult
                                                 .getData()
                                                 .get("list")

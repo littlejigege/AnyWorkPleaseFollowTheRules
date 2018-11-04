@@ -86,7 +86,7 @@ public class HomeFragment extends MVPBaseFragment<HomeContract.HomeView, HomePre
     @Override
     public void initView(View view) {
         ButterKnife.bind(this, view);
-        btnMyClass.setTag(null);
+        btnMyClass.setTag(new Organization(-1));
         if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.LOLLIPOP) {
             getActivity().getWindow().setStatusBarColor(getActivity().getResources().getColor(R.color.sample_blue));
         }
@@ -197,7 +197,6 @@ public class HomeFragment extends MVPBaseFragment<HomeContract.HomeView, HomePre
         super.onResume();
 
         //每次进入碎片都要重新拉取数据
-
         mPresenter.getJoinOrganization();
         WebSocketHolder.getDefault().register(this);
         mPresenter.getNoticeNew();

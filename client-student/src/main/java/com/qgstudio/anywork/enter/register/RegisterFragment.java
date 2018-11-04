@@ -152,10 +152,10 @@ public class RegisterFragment extends MVPBaseFragment<RegisterContract.View, Reg
     @Override
     public void showLoad() {
         if (loadingDialog == null) {
-            loadingDialog = new LoadingDialog();
+            loadingDialog = new LoadingDialog(getActivity());
         }
 
-        loadingDialog.show(getFragmentManager(), "");
+        loadingDialog.show();
     }
 
     @Override

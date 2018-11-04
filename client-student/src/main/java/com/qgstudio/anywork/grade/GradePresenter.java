@@ -4,6 +4,7 @@ import android.content.Context;
 import android.util.Log;
 
 import com.qgstudio.anywork.App;
+import com.qgstudio.anywork.core.Apis;
 import com.qgstudio.anywork.data.ResponseResult;
 import com.qgstudio.anywork.data.RetrofitClient;
 import com.qgstudio.anywork.data.model.Question;
@@ -56,7 +57,7 @@ public class GradePresenter extends BasePresenterImpl<GradeContract.View> implem
         Map info = new HashMap<>();
         info.put("questionId", id+"");
         info.put("userId", App.getInstance().getUser().getUserId());
-        gradeApi.changeInfo(info)
+        gradeApi.changeInfo(Apis.changeInfoApi(),info)
                 .subscribeOn(Schedulers.io())
                 .observeOn(AndroidSchedulers.mainThread())
                 .subscribe(new Observer<ResponseResult<StudentAnswerAnalysis>>() {

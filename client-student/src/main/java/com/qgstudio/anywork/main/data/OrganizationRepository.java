@@ -2,6 +2,7 @@ package com.qgstudio.anywork.main.data;
 
 import android.content.Context;
 
+import com.qgstudio.anywork.core.Apis;
 import com.qgstudio.anywork.data.ResponseResult;
 import com.qgstudio.anywork.data.RetrofitClient;
 import com.qgstudio.anywork.data.RetrofitSubscriber;
@@ -44,7 +45,7 @@ public class OrganizationRepository extends BasePresenterImpl<OrganizationFragVi
 
         Map<String, String> map = new HashMap<>();
         map.put("organizationName", "");
-        mOrganizationApi.getAllOrganization(map)
+        mOrganizationApi.getAllOrganization(Apis.getAllOrganizationApi(), map)
                 .subscribeOn(Schedulers.io())
                 .observeOn(AndroidSchedulers.mainThread())
                 .subscribe(new RetrofitSubscriber<List<Organization>>() {
@@ -75,7 +76,7 @@ public class OrganizationRepository extends BasePresenterImpl<OrganizationFragVi
     }
 
     @Override
-    public void getJoinOrganization(){
+    public void getJoinOrganization() {
         prepareLoading();
         updateJoinOrganization();
     }
@@ -84,7 +85,7 @@ public class OrganizationRepository extends BasePresenterImpl<OrganizationFragVi
     public void updateJoinOrganization() {
 //        prepareLoading();
 
-        mOrganizationApi.getJoinOrganization()
+        mOrganizationApi.getJoinOrganization(Apis.getJoinOrganizationApi())
                 .subscribeOn(Schedulers.io())
                 .observeOn(AndroidSchedulers.mainThread())
                 .subscribe(new RetrofitSubscriber<List<Organization>>() {
@@ -120,7 +121,7 @@ public class OrganizationRepository extends BasePresenterImpl<OrganizationFragVi
         info.put("organizationId", organizationId + "");
         info.put("token", password);
 
-        mOrganizationApi.joinOrganization(info)
+        mOrganizationApi.joinOrganization(Apis.joinOrganizationApi(), info)
                 .subscribeOn(Schedulers.io())
                 .observeOn(AndroidSchedulers.mainThread())
                 .subscribe(new Observer<ResponseResult>() {
@@ -160,7 +161,7 @@ public class OrganizationRepository extends BasePresenterImpl<OrganizationFragVi
         organizationInfo.put("organizationId", organizationId);
 
         LogUtil.d2(TAG, "leaveOrganization", "organizationInfo -> " + GsonUtil.GsonString(organizationInfo));
-        mOrganizationApi.leaveOrganization(organizationInfo)
+        mOrganizationApi.leaveOrganization(Apis.leaveOrganizationApi(), organizationInfo)
                 .subscribeOn(Schedulers.io())
                 .observeOn(AndroidSchedulers.mainThread())
                 .subscribe(new Observer<ResponseResult>() {

@@ -18,6 +18,7 @@ import android.widget.TextView;
 
 import com.qgstudio.anywork.R;
 import com.qgstudio.anywork.common.DialogManagerActivity;
+import com.qgstudio.anywork.core.Apis;
 import com.qgstudio.anywork.data.RetrofitClient;
 import com.qgstudio.anywork.data.RetrofitSubscriber;
 import com.qgstudio.anywork.data.model.Organization;
@@ -72,7 +73,7 @@ public class NewOrganizationActivity extends DialogManagerActivity {
         if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.LOLLIPOP) {
             getWindow().setStatusBarColor(getResources().getColor(R.color.sample_blue));
         }
-        mOrganizationApi.getJoinOrganization()
+        mOrganizationApi.getJoinOrganization(Apis.getJoinOrganizationApi())
                 .subscribeOn(Schedulers.io())
                 .observeOn(AndroidSchedulers.mainThread())
                 .subscribe(new RetrofitSubscriber<List<Organization>>() {

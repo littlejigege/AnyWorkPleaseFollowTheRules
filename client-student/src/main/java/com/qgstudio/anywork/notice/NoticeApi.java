@@ -7,6 +7,7 @@ import com.qgstudio.anywork.data.model.User;
 import retrofit2.http.Body;
 import retrofit2.http.Headers;
 import retrofit2.http.POST;
+import retrofit2.http.Url;
 import rx.Observable;
 
 public interface NoticeApi {
@@ -20,9 +21,9 @@ public interface NoticeApi {
      * @param object
      * @return
      */
-    @POST("message/show")
+    @POST
     @Headers("Content-Type:application/json")
-    Observable<ResponseResult<JsonObject>> getNotice(@Body Object object);
+    Observable<ResponseResult<JsonObject>> getNotice(@Url String url, @Body Object object);
 
 
     /**
@@ -33,7 +34,7 @@ public interface NoticeApi {
      * @param object
      * @return
      */
-    @POST("message/change")
+    @POST
     @Headers("Content-Type:application/json")
-    Observable<ResponseResult> markWatched(@Body Object object);
+    Observable<ResponseResult> markWatched(@Url String url,@Body Object object);
 }

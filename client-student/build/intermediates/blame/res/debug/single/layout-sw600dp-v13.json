@@ -1,6 +1,10 @@
 [
     {
+        "merged": "E:\\work\\Android\\Apps\\AnyWork2.0\\client-student\\build\\intermediates\\res\\merged\\debug\\layout-sw600dp-v13\\mtrl_layout_snackbar.xml",
+        "source": "C:\\Users\\jimiji\\.gradle\\caches\\transforms-1\\files-1.1\\design-28.0.0.aar\\9f13930b895983eb13ccd4dd88fb7063\\res\\layout-sw600dp-v13\\mtrl_layout_snackbar.xml"
+    },
+    {
         "merged": "E:\\work\\Android\\Apps\\AnyWork2.0\\client-student\\build\\intermediates\\res\\merged\\debug\\layout-sw600dp-v13\\design_layout_snackbar.xml",
-        "source": "C:\\Users\\jimiji\\.gradle\\caches\\transforms-1\\files-1.1\\design-27.1.0.aar\\0e46ca700e60176a5837388b194d6861\\res\\layout-sw600dp-v13\\design_layout_snackbar.xml"
+        "source": "C:\\Users\\jimiji\\.gradle\\caches\\transforms-1\\files-1.1\\design-28.0.0.aar\\9f13930b895983eb13ccd4dd88fb7063\\res\\layout-sw600dp-v13\\design_layout_snackbar.xml"
     }
 ]

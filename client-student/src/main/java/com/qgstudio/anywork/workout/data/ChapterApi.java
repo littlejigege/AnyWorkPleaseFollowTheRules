@@ -8,15 +8,16 @@ import java.util.List;
 import retrofit2.http.Body;
 import retrofit2.http.Headers;
 import retrofit2.http.POST;
+import retrofit2.http.Url;
 import rx.Observable;
 
 public interface ChapterApi {
-    @POST("test/chapter")
+    @POST
     @Headers("Content-Type:application/json")
-    Observable<ResponseResult<List<Chapter>>> getChapter(@Body Object object);
+    Observable<ResponseResult<List<Chapter>>> getChapter(@Url String url, @Body Object object);
 
-    @POST("test/list")
+    @POST
     @Headers("Content-Type:application/json")
-    Observable<ResponseResult<List<Testpaper>>> getCatalog(@Body Object object);
+    Observable<ResponseResult<List<Testpaper>>> getCatalog(@Url String url,@Body Object object);
 
 }

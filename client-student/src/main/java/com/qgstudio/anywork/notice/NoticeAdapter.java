@@ -19,6 +19,7 @@ import com.google.gson.JsonObject;
 import com.google.gson.reflect.TypeToken;
 import com.qgstudio.anywork.R;
 import com.qgstudio.anywork.common.DialogManagerActivity;
+import com.qgstudio.anywork.core.Apis;
 import com.qgstudio.anywork.data.ResponseResult;
 import com.qgstudio.anywork.data.RetrofitClient;
 import com.qgstudio.anywork.data.RetrofitSubscriber;
@@ -100,7 +101,7 @@ NoticeAdapter extends RecyclerView.Adapter<NoticeAdapter.ViewHolder> {
                 }
 
                 NoticeApi noticeApi = RetrofitClient.RETROFIT_CLIENT.getRetrofit().create(NoticeApi.class);
-                noticeApi.markWatched(buildReadRequestParam(notice.messageId))
+                noticeApi.markWatched(Apis.markWatchedApi(),buildReadRequestParam(notice.messageId))
                         .subscribeOn(Schedulers.io())
                         .observeOn((AndroidSchedulers.mainThread()))
                         .subscribe(new Observer<ResponseResult>() {

@@ -21,6 +21,12 @@ public abstract class MVPBaseFragment<V extends BaseView,T extends BasePresenter
     }
 
     @Override
+    public void onResume() {
+        super.onResume();
+        mPresenter.attachView((V) this);
+    }
+
+    @Override
     public void onDestroy() {
         super.onDestroy();
         if (mPresenter!=null)

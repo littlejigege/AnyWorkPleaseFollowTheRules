@@ -11,6 +11,7 @@ import retrofit2.http.Headers;
 import retrofit2.http.Multipart;
 import retrofit2.http.POST;
 import retrofit2.http.Part;
+import retrofit2.http.Url;
 import rx.Observable;
 
 /**
@@ -20,18 +21,18 @@ import rx.Observable;
 
 public interface UserApi {
 
-    @POST("user/update")
+    @POST
     @Headers("Content-Type:application/json;charset=UTF-8")
-    Observable<ResponseResult<User>> changeInfo(@Body Object o);
+    Observable<ResponseResult<User>> changeInfo(@Url String url, @Body Object o);
 
-    @POST("user/password/change")
+    @POST
     @Headers("Content-Type:application/json;charset=UTF-8")
-    Observable<ResponseResult> changePassword(@Body Object o);
+    Observable<ResponseResult> changePassword(@Url String url,@Body Object o);
 
     @Multipart
-    @POST("user/upload")
-    Observable<ResponseResult> changePic(@Part("file") RequestBody pictureName, @Part MultipartBody.Part picture);
+    @POST
+    Observable<ResponseResult> changePic(@Url String url,@Part("file") RequestBody pictureName, @Part MultipartBody.Part picture);
 
-    @POST("user/exit")
-    Observable<ResponseResult> logout();
+    @POST
+    Observable<ResponseResult> logout(@Url String url);
 }

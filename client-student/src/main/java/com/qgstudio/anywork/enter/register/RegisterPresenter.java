@@ -2,6 +2,7 @@ package com.qgstudio.anywork.enter.register;
 
 import android.content.Context;
 
+import com.qgstudio.anywork.core.Apis;
 import com.qgstudio.anywork.data.ResponseResult;
 import com.qgstudio.anywork.data.RetrofitClient;
 import com.qgstudio.anywork.mvp.BasePresenterImpl;
@@ -68,7 +69,7 @@ public class RegisterPresenter extends BasePresenterImpl<RegisterContract.View> 
         user.put("mark", "0");
         user.put("valcode", "0");
 
-        registerApi.register(user)
+        registerApi.register(Apis.registerApi(),user)
                 .subscribeOn(Schedulers.io())
                 .observeOn(AndroidSchedulers.mainThread())
                 .subscribe(new Observer<ResponseResult<Integer>>() {

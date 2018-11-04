@@ -4,6 +4,7 @@ import android.arch.lifecycle.LiveData;
 import android.arch.lifecycle.MutableLiveData;
 import android.arch.lifecycle.ViewModel;
 
+import com.qgstudio.anywork.core.Apis;
 import com.qgstudio.anywork.data.ResponseResult;
 import com.qgstudio.anywork.data.RetrofitClient;
 import com.qgstudio.anywork.data.model.Question;
@@ -21,7 +22,7 @@ public class CollectionViewModel extends ViewModel {
     private MutableLiveData<List<Question>> listLiveData = new MutableLiveData<>();
 
     public LiveData<List<Question>> getAllContions() {
-        api.getAllCollections()
+        api.getAllCollections(Apis.getAllCollectionsApi())
                 .subscribeOn(Schedulers.io())
                 .observeOn(AndroidSchedulers.mainThread())
                 .subscribe(new Observer<ResponseResult<List<Question>>>() {

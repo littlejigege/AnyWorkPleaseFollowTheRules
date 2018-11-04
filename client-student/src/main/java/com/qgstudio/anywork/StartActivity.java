@@ -7,6 +7,7 @@ import android.support.annotation.Nullable;
 import android.support.v7.app.AppCompatActivity;
 import android.util.Log;
 
+import com.qgstudio.anywork.core.Apis;
 import com.qgstudio.anywork.data.ResponseResult;
 import com.qgstudio.anywork.data.RetrofitClient;
 import com.qgstudio.anywork.data.model.User;
@@ -25,10 +26,16 @@ import com.qgstudio.anywork.websocket.WebSocketHolder;
 import com.qgstudio.anywork.workout.WorkoutContainerActivity;
 import com.qgstudio.anywork.workout.WorkoutType;
 
+import java.io.IOException;
 import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 
+import okhttp3.Call;
+import okhttp3.Callback;
+import okhttp3.OkHttpClient;
+import okhttp3.Request;
+import okhttp3.Response;
 import rx.Observer;
 import rx.android.schedulers.AndroidSchedulers;
 import rx.schedulers.Schedulers;
@@ -53,6 +60,7 @@ public class StartActivity extends AppCompatActivity {
             login(user.getStudentId(), user.getPassword());
             Log.d("linzongzhan", "onCreate: " + user.getStudentId());
         }
+        //run();
     }
 
     @Override
@@ -74,8 +82,8 @@ public class StartActivity extends AppCompatActivity {
      */
     private void login(final String account, final String password) {
         //加载动画
-        final LoadingDialog loadingDialog = new LoadingDialog();
-        loadingDialog.show(this.getSupportFragmentManager(), "登录中");
+        final LoadingDialog loadingDialog = new LoadingDialog(this);
+        loadingDialog.show();
 
         loginApi = RetrofitClient.RETROFIT_CLIENT.getRetrofit().create(LoginApi.class);
 
@@ -85,7 +93,7 @@ public class StartActivity extends AppCompatActivity {
         loginInfo.put("studentId", account);
         loginInfo.put("password", password);
 
-        loginApi.login(loginInfo)
+        loginApi.login(Apis.loginApi(), loginInfo)
                 .subscribeOn(Schedulers.io())
                 .observeOn(AndroidSchedulers.mainThread())
 //                .subscribe(new Observer<ResponseResult<User>>() {
@@ -155,5 +163,27 @@ public class StartActivity extends AppCompatActivity {
         } else {
             return null;
         }
+    }
+
+    private void run() {
+        new Thread(new Runnable() {
+            @Override
+            public void run() {
+                OkHttpClient client = new OkHttpClient.Builder().build();
+                final Request request = new Request.Builder().url("https://qgstudio.org").build();
+                client.newCall(request).enqueue(new Callback() {
+                    @Override
+                    public void onFailure(Call call, IOException e) {
+                        e.printStackTrace();
+                    }
+
+                    @Override
+                    public void onResponse(Call call, Response response) throws IOException {
+                        Log.d("htttps:  string", response.body().string());
+                    }
+                });
+            }
+        }).start();
+
     }
 }

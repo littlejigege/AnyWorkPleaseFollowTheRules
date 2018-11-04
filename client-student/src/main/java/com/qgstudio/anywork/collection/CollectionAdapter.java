@@ -9,6 +9,7 @@ import android.view.ViewGroup;
 
 import com.qgstudio.anywork.App;
 import com.qgstudio.anywork.R;
+import com.qgstudio.anywork.core.Apis;
 import com.qgstudio.anywork.data.ResponseResult;
 import com.qgstudio.anywork.data.RetrofitClient;
 import com.qgstudio.anywork.data.model.Question;
@@ -54,7 +55,7 @@ public class CollectionAdapter extends RecyclerView.Adapter<CollectionAdapter.Vi
         if (analysis == null) {
             Map info = new HashMap<>();
             info.put("questionId", question.getQuestionId() + "");
-            api.changeInfo(info)
+            api.changeInfo(Apis.changeInfoApi(),info)
                     .subscribeOn(Schedulers.io())
                     .observeOn(AndroidSchedulers.mainThread())
                     .subscribe(new Observer<ResponseResult<StudentAnswerAnalysis>>() {
@@ -65,7 +66,7 @@ public class CollectionAdapter extends RecyclerView.Adapter<CollectionAdapter.Vi
 
                         @Override
                         public void onError(Throwable e) {
-
+                            ToastUtil.showToast("出现错误：" + e.getMessage());
                         }
 
                         @Override
@@ -101,7 +102,7 @@ public class CollectionAdapter extends RecyclerView.Adapter<CollectionAdapter.Vi
         questionView.setBtnCollectListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                uncollect(question.getQuestionId(),holder.getAdapterPosition());
+                uncollect(question.getQuestionId(), holder.getAdapterPosition());
             }
         });
 
@@ -110,7 +111,7 @@ public class CollectionAdapter extends RecyclerView.Adapter<CollectionAdapter.Vi
     public void uncollect(final int questionID, final int pos) {
         Map map = new HashMap();
         map.put("questionId", questionID);
-        collectionApi.uncollect(map)
+        collectionApi.uncollect(Apis.unCollectApi(),map)
                 .subscribeOn(Schedulers.io())
                 .observeOn(AndroidSchedulers.mainThread())
                 .subscribe(new Observer<ResponseResult>() {

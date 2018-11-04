@@ -6,6 +6,7 @@ import com.qgstudio.anywork.data.model.StudentAnswerAnalysis;
 import retrofit2.http.Body;
 import retrofit2.http.Headers;
 import retrofit2.http.POST;
+import retrofit2.http.Url;
 import rx.Observable;
 
 /**
@@ -14,7 +15,7 @@ import rx.Observable;
 
 public interface GradeApi {
 
-    @POST("test/detail")
+    @POST
     @Headers("Content-Type:application/json;charset=UTF-8")
-    Observable<ResponseResult<StudentAnswerAnalysis>> changeInfo(@Body Object o);
+    Observable<ResponseResult<StudentAnswerAnalysis>> changeInfo(@Url String url, @Body Object o);
 }

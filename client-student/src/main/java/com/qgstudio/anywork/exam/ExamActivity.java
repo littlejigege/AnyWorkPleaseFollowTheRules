@@ -14,11 +14,13 @@ import android.view.View;
 
 import com.qgstudio.anywork.App;
 import com.qgstudio.anywork.R;
+import com.qgstudio.anywork.common.PreLoading;
 import com.qgstudio.anywork.data.model.Question;
 import com.qgstudio.anywork.data.model.StudentAnswer;
 import com.qgstudio.anywork.data.model.StudentAnswerResult;
 import com.qgstudio.anywork.data.model.StudentPaper;
 import com.qgstudio.anywork.dialog.BaseDialog;
+import com.qgstudio.anywork.dialog.LoadingDialog;
 import com.qgstudio.anywork.exam.adapters.AnswerBuffer;
 import com.qgstudio.anywork.exam.data.ExamRepository;
 import com.qgstudio.anywork.grade.GradeActivity;
@@ -55,7 +57,7 @@ public class ExamActivity extends MVPBaseActivity<ExamView, ExamRepository> impl
     private String mTestPaperTittle;
     private QuestionFragAdapter mQuestionFragAdapter;//数据适配器
     private int state;
-
+    private LoadingDialog loadingDialog;
     private BaseDialog mBaseDialog;
 
     @Override
@@ -245,12 +247,15 @@ public class ExamActivity extends MVPBaseActivity<ExamView, ExamRepository> impl
 
     @Override
     public void showLoading() {
-
+        if (loadingDialog == null) {
+            loadingDialog = new LoadingDialog(this);
+        }
+        loadingDialog.show();
     }
 
     @Override
     public void hideLoading() {
-
+        loadingDialog.dismiss();
     }
 
     @Override

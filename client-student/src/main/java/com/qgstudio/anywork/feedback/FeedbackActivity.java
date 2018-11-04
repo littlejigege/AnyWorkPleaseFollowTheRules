@@ -211,9 +211,9 @@ public class FeedbackActivity extends MVPBaseActivity<FeedbackContract.View, Fee
     @Override
     public void showLoad() {
         if (loadingDialog == null) {
-            loadingDialog = new LoadingDialog();
+            loadingDialog = new LoadingDialog(getContext());
         }
-        loadingDialog.show(this.getSupportFragmentManager(), "");
+        loadingDialog.show();
     }
 
     @Override
