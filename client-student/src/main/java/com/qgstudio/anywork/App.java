@@ -4,6 +4,7 @@ import android.app.Application;
 import android.content.Context;
 import android.content.Intent;
 import android.text.TextUtils;
+import android.util.Log;
 
 import com.google.gson.JsonObject;
 import com.mobile.utils.Utils;
@@ -83,6 +84,8 @@ public class App extends Application {
         }
         Utils.Companion.init(this);
         //startService(new Intent(this, AppService.class));
+
+        Log.d("checkcheckchekc", Apis.initLib());
     }
 
     private User user;

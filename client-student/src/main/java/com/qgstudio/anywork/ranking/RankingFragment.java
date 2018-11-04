@@ -265,7 +265,7 @@ public class RankingFragment extends BaseFragment {
                                 return;
                             }
                             ArrayList<RankingMessage> messages = (ArrayList<RankingMessage>) arrayListResponseResult.getData();
-                            if (messages.isEmpty()) {
+                            if (messages == null || messages.isEmpty()) {
                                 loadingView.empty(rankingList);
                             } else {
                                 loadingView.loadSuccess(rankingList);
