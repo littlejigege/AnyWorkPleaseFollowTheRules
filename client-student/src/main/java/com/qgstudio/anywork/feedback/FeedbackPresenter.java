@@ -21,6 +21,7 @@ import okhttp3.RequestBody;
 import retrofit2.http.Multipart;
 import rx.Observer;
 import rx.Scheduler;
+import rx.Subscription;
 import rx.android.schedulers.AndroidSchedulers;
 import rx.schedulers.Schedulers;
 
@@ -31,8 +32,8 @@ public class FeedbackPresenter extends BasePresenterImpl<FeedbackContract.View> 
 
 
     @Override
-    public void uploadFeedback(FeedBack feedBack, String imagePath) {
-        mView.showLoad();
+    public Subscription uploadFeedback(FeedBack feedBack, String imagePath) {
+//        mView.showLoad();
         if (feedbackApi == null) {
             feedbackApi = RetrofitClient.RETROFIT_CLIENT.getRetrofit().create(FeedbackApi.class);
         }
@@ -53,7 +54,7 @@ public class FeedbackPresenter extends BasePresenterImpl<FeedbackContract.View> 
         builder.addFormDataPart("file", file.getName(), body);
         List<MultipartBody.Part> parts = builder.build().parts();
 
-        feedbackApi.uploadFeedbackWithPicture(parts)
+        Subscription subscription = feedbackApi.uploadFeedbackWithPicture(parts)
                 .subscribeOn(Schedulers.io())
                 .observeOn(AndroidSchedulers.mainThread())
                 .subscribe(new Observer<ResponseResult<User>>() {
@@ -66,7 +67,7 @@ public class FeedbackPresenter extends BasePresenterImpl<FeedbackContract.View> 
                     public void onError(Throwable e) {
                         e.printStackTrace();
                         mView.showError("网络连接错误");
-                        mView.stopLoad();
+//                        mView.stopLoad();
                     }
 
                     @Override
@@ -74,8 +75,9 @@ public class FeedbackPresenter extends BasePresenterImpl<FeedbackContract.View> 
                         if (userResponseResult.getState() == 1) {
                             mView.showSuccess();
                         }
-                        mView.stopLoad();
+//                        mView.stopLoad();
                     }
                 });
+        return subscription;
     }
 }

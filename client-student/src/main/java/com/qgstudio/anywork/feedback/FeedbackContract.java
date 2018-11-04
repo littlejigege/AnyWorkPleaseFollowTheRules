@@ -4,6 +4,8 @@ import com.qgstudio.anywork.feedback.data.FeedBack;
 import com.qgstudio.anywork.mvp.BasePresenter;
 import com.qgstudio.anywork.mvp.BaseView;
 
+import rx.Subscription;
+
 public class FeedbackContract {
     interface View extends BaseView {
 
@@ -19,6 +21,6 @@ public class FeedbackContract {
     }
 
     interface Presenter extends BasePresenter<View> {
-        void uploadFeedback(FeedBack feedBack, String imagePath);
+        Subscription uploadFeedback(FeedBack feedBack, String imagePath);
     }
 }

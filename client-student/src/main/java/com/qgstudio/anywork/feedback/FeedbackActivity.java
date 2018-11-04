@@ -34,12 +34,15 @@ import com.qgstudio.anywork.R;
 import com.qgstudio.anywork.common.DialogManagerActivity;
 import com.qgstudio.anywork.dialog.LoadingDialog;
 import com.qgstudio.anywork.feedback.data.FeedBack;
+import com.qgstudio.anywork.feedback.utils.ShapeView;
 import com.qgstudio.anywork.mvp.MVPBaseActivity;
 import com.qgstudio.anywork.utils.GetPath;
 import com.qgstudio.anywork.utils.ToastUtil;
 
 import java.io.File;
 import java.util.ArrayList;
+
+import rx.Subscription;
 
 public class FeedbackActivity extends MVPBaseActivity<FeedbackContract.View, FeedbackPresenter> implements FeedbackContract.View {
 
@@ -57,6 +60,7 @@ public class FeedbackActivity extends MVPBaseActivity<FeedbackContract.View, Fee
     private View commit;
     private View back;
     private TextView questionModule;
+    private ShapeView shapeView;
 
     private ArrayList<String> modules = new ArrayList<>();
     private ArrayAdapter<String> arrayAdapter;
@@ -65,6 +69,8 @@ public class FeedbackActivity extends MVPBaseActivity<FeedbackContract.View, Fee
     private String moduleDetail = "无";
 
     private String imagePath;
+
+    private Subscription subscription;
 
     LoadingDialog loadingDialog;
 
@@ -92,6 +98,7 @@ public class FeedbackActivity extends MVPBaseActivity<FeedbackContract.View, Fee
         contact = (EditText) findViewById(R.id.feedback_contact);
         commit = findViewById(R.id.feedback_commit);
         back = findViewById(R.id.feedback_back);
+        shapeView = findViewById(R.id.feedback_shape_view);
 
         layoutQuestion = findViewById(R.id.linear_layout_question);
         layoutSuggestion = findViewById(R.id.linear_layout_suggestion);
@@ -207,12 +214,17 @@ public class FeedbackActivity extends MVPBaseActivity<FeedbackContract.View, Fee
         commit.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
+                commit.setEnabled(false);
+                shapeView.setClickable(false);
+
+                shapeView.setVisibility(View.VISIBLE);
+
                 FeedBack feedBack = new FeedBack();
                 feedBack.setType(questionORsuggestion);
                 feedBack.setContent(questionDetail.getText().toString());
                 feedBack.setModule(moduleDetail);
                 feedBack.setContantWay(contact.getText().toString());
-                mPresenter.uploadFeedback(feedBack, imagePath);
+                subscription = mPresenter.uploadFeedback(feedBack, imagePath);
             }
         });
         back.setOnClickListener(new View.OnClickListener() {
@@ -225,6 +237,8 @@ public class FeedbackActivity extends MVPBaseActivity<FeedbackContract.View, Fee
 
     @Override
     public void showError(String errorInfo) {
+        commit.setEnabled(true);
+        addPicture.setClickable(true);
         ToastUtil.showToast(errorInfo);
     }
 
@@ -276,7 +290,9 @@ public class FeedbackActivity extends MVPBaseActivity<FeedbackContract.View, Fee
                 if (bitmap == null) {
                     Log.d("linzongzhan", "图片为空");
                 }
-                addPicture.setImageBitmap(bitmap);
+                Glide.with(FeedbackActivity.this).load(new File(imagePath)).into(addPicture);
+                shapeView.setVoid();
+//                addPicture.setImageBitmap(bitmap);
             }
         }
     }
@@ -284,6 +300,19 @@ public class FeedbackActivity extends MVPBaseActivity<FeedbackContract.View, Fee
     //更新上传进度
     @Override
     public void updateUploadProgress(long length, long hasWrited) {
+        shapeView.setShapeView((int)length, (int)hasWrited);
+    }
 
+    @Override
+    public void onBackPressed() {
+        if (subscription == null) {
+            super.onBackPressed();
+        } else {
+            if (subscription.isUnsubscribed()) {
+                super.onBackPressed();
+            } else {
+                ToastUtil.showToast("正在上传中...");
+            }
+        }
     }
 }

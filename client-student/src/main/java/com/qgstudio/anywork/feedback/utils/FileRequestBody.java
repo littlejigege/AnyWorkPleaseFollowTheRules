@@ -51,7 +51,7 @@ public class FileRequestBody extends RequestBody{
     @Override
     public void writeTo(BufferedSink sink) throws IOException {
         BufferedSource bufferedSource = Okio.buffer(Okio.source(file));
-        byte[] buffer = new byte[8192];
+        byte[] buffer = new byte[8192 * 5];
         long len = 0;
 
         while((len = bufferedSource.read(buffer)) > 0){
