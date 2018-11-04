@@ -270,7 +270,6 @@ public class RankingFragment extends BaseFragment {
                             } else {
                                 loadingView.loadSuccess(rankingList);
                             }
-                            Log.d("linzongzhan", "onNext: " + messages.toString());
                             rankingAdapter = new RankingAdapter(getActivity(), messages);
                             rankingList.setAdapter(rankingAdapter);
                             rankingAdapter.notifyDataSetChanged();
