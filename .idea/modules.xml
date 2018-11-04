@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/AnyWork2.0.iml" filepath="$PROJECT_DIR$/AnyWork2.0.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/AnyWorkPleaseFollowTheRules.iml" filepath="$PROJECT_DIR$/.idea/AnyWorkPleaseFollowTheRules.iml" />
       <module fileurl="file://$PROJECT_DIR$/client-student/client-student.iml" filepath="$PROJECT_DIR$/client-student/client-student.iml" />
     </modules>
   </component>
