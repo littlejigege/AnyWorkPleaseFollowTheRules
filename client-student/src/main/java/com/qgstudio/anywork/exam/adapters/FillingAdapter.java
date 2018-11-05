@@ -17,6 +17,7 @@ import com.qgstudio.anywork.data.model.StudentAnswer;
 
 import java.util.ArrayList;
 import java.util.List;
+import java.util.StringTokenizer;
 
 import butterknife.BindView;
 import butterknife.ButterKnife;
@@ -29,8 +30,8 @@ public class FillingAdapter extends OptionAdapter {
 
     private List<String> mAnswer;
 
-    public FillingAdapter(Context context, Question question, int position) {
-        super(context, question, position);
+    public FillingAdapter(Context context, Question question, int position, String studentAnswer) {
+        super(context, question, position, studentAnswer);
         init();
     }
 
@@ -69,6 +70,17 @@ public class FillingAdapter extends OptionAdapter {
             //设置不可编辑
             fh.edi_filling.setFocusable(false);
             fh.edi_filling.setFocusableInTouchMode(false);
+            if (studentAnswer != null && !studentAnswer.isEmpty()) {
+                StringTokenizer tokenizer = new StringTokenizer(studentAnswer, "∏");
+                String answer = null;
+                for (int i = 0; i <= position; i++) {
+                    answer = tokenizer.nextToken();
+                }
+                if (answer != null) {
+                    fh.tv_filling.setText(position + 1 + ".");
+                    fh.edi_filling.setText(answer);
+                }
+            }
             return;
         }
 
@@ -116,14 +128,16 @@ public class FillingAdapter extends OptionAdapter {
 
     class FillingHolder extends RecyclerView.ViewHolder {
 
-        @BindView(R.id.tv_filling) public TextView tv_filling;
-        @BindView(R.id.edi_filling) public EditText edi_filling;
+        @BindView(R.id.tv_filling)
+        public TextView tv_filling;
+        @BindView(R.id.edi_filling)
+        public EditText edi_filling;
 
         public FillingHolder(View itemView) {
             super(itemView);
             ButterKnife.bind(this, itemView);
 
-           if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.LOLLIPOP) {
+            if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.LOLLIPOP) {
                 edi_filling.setLetterSpacing(0.2f);
             }
         }

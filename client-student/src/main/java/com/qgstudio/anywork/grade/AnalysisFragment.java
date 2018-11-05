@@ -113,6 +113,9 @@ public class AnalysisFragment extends DialogFragment implements LifecycleOwner {
         viewModel.getAllContions(new AnalysisViewModel.OnResultListener() {
             @Override
             public void onResult(Object o) {
+                if (o == null) {
+                    return;
+                }
                 for (Question question : (List<Question>) o) {
                     if (question.getQuestionId() == mAnalysis.getQuestion().getQuestionId()) {
                         questionView.setIsCollected(true);

@@ -10,6 +10,7 @@ import android.support.v7.widget.LinearLayoutManager;
 import android.support.v7.widget.RecyclerView;
 import android.text.Html;
 import android.util.AttributeSet;
+import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -25,8 +26,11 @@ import com.qgstudio.anywork.data.model.Question;
 import com.qgstudio.anywork.data.model.StudentAnswerAnalysis;
 import com.qgstudio.anywork.exam.adapters.AskingAdapter;
 import com.qgstudio.anywork.exam.adapters.ChoiceAdapter;
+import com.qgstudio.anywork.exam.adapters.FillingAdapter;
 import com.qgstudio.anywork.exam.adapters.OptionAdapter;
 import com.qgstudio.anywork.utils.ToastUtil;
+
+import java.util.StringTokenizer;
 
 import butterknife.BindView;
 import butterknife.ButterKnife;
@@ -154,6 +158,10 @@ public class QuestionView extends FrameLayout {
 
                 break;
             case FILL_BLANK:
+                optionAdapter = new FillingAdapter(getContext(), mQuestion, pos, mAnalysis == null ? null : mAnalysis.getStudentAnswer());
+                recyclerViewQuestionSelections.setAdapter(optionAdapter);
+                recyclerViewQuestionSelections.setLayoutManager(new LinearLayoutManager(getContext()));
+                break;
             case SHORT_ANSWER:
 
                 optionAdapter = new AskingAdapter(getContext(), mQuestion, pos, mAnalysis == null ? null : mAnalysis.getStudentAnswer());
@@ -300,7 +308,12 @@ public class QuestionView extends FrameLayout {
         String key = mQuestion.getKey();
         if (key != null && mQuestion.getType() == 3) {
             //分割填空题答案
-            key = key.replaceAll("∏", " ");
+            StringTokenizer tokenizer = new StringTokenizer(key, "∏");
+            StringBuilder answerBuilder = new StringBuilder();
+            for (int i = 1; tokenizer.hasMoreTokens(); i++) {
+                answerBuilder.append(i + "." + tokenizer.nextToken() + "&nbsp;&nbsp;&nbsp;");
+            }
+            key = answerBuilder.toString();
         }
         if (key != null && mQuestion.getEnumType() == Question.Type.TRUE_OR_FALSE) {
             if (key.equals("1")) {
