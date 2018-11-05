@@ -38,7 +38,7 @@ public class RankingFragment extends BaseFragment {
 
     protected View rootView;
     private int testpaperId = -1;
-
+    public boolean isFromWorkout = false;
     private TextView ranking1;
     private ArrowsView arrows1;
     private ListView listView1;
@@ -75,6 +75,7 @@ public class RankingFragment extends BaseFragment {
         Bundle bundle = new Bundle();
         bundle.putInt("TESTPAPER_ID", testpaperId);
         fragment.setArguments(bundle);
+        fragment.isFromWorkout = true;
         return fragment;
     }
 
@@ -108,8 +109,10 @@ public class RankingFragment extends BaseFragment {
             initSpinner(view);
             //避免重复下移
             if (view.getTag() == null) {
-                setDetails(view);
-                view.setTag(new Object());
+                if (!isFromWorkout){
+                    setDetails(view);
+                    view.setTag(new Object());
+                }
             }
         } catch (NoSuchFieldException e) {
             e.printStackTrace();

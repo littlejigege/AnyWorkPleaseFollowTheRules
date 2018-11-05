@@ -130,7 +130,7 @@ public class FeedbackActivity extends MVPBaseActivity<FeedbackContract.View, Fee
                 final LinearLayout linearLayout = (LinearLayout) findViewById(R.id.feedback_hint);
                 final int height = linearLayout.getHeight();
 
-                final ViewGroup.MarginLayoutParams layoutParams = (ViewGroup.MarginLayoutParams)linearLayout.getLayoutParams();
+                final ViewGroup.MarginLayoutParams layoutParams = (ViewGroup.MarginLayoutParams) linearLayout.getLayoutParams();
                 final int topMargin = layoutParams.topMargin;
 
                 ValueAnimator valueAnimator = ValueAnimator.ofInt(height, 0);
@@ -214,17 +214,24 @@ public class FeedbackActivity extends MVPBaseActivity<FeedbackContract.View, Fee
         commit.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                commit.setEnabled(false);
-                shapeView.setClickable(false);
+                //任意一项不为空才能上传
+                if (imagePath != null || !questionDetail.getText().toString().isEmpty()) {
+                    commit.setEnabled(false);
+                    shapeView.setClickable(false);
+                    //图片路径为空就不显示进度
+                    if (imagePath != null) {
+                        shapeView.setVisibility(View.VISIBLE);
+                    }
+                    FeedBack feedBack = new FeedBack();
+                    feedBack.setType(questionORsuggestion);
+                    feedBack.setContent(questionDetail.getText().toString());
+                    feedBack.setModule(moduleDetail);
+                    feedBack.setContantWay(contact.getText().toString());
+                    subscription = mPresenter.uploadFeedback(feedBack, imagePath);
+                } else {
+                    ToastUtil.showToast("请填写信息后再上传");
+                }
 
-                shapeView.setVisibility(View.VISIBLE);
-
-                FeedBack feedBack = new FeedBack();
-                feedBack.setType(questionORsuggestion);
-                feedBack.setContent(questionDetail.getText().toString());
-                feedBack.setModule(moduleDetail);
-                feedBack.setContantWay(contact.getText().toString());
-                subscription = mPresenter.uploadFeedback(feedBack, imagePath);
             }
         });
         back.setOnClickListener(new View.OnClickListener() {
@@ -300,7 +307,7 @@ public class FeedbackActivity extends MVPBaseActivity<FeedbackContract.View, Fee
     //更新上传进度
     @Override
     public void updateUploadProgress(long length, long hasWrited) {
-        shapeView.setShapeView((int)length, (int)hasWrited);
+        shapeView.setShapeView((int) length, (int) hasWrited);
     }
 
     @Override

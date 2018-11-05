@@ -102,11 +102,7 @@ public class ChapterViewModel extends ViewModel {
                         if (fragment == null) {
                             return;
                         }
-                        if (listResponseResult.getData().isEmpty()) {
-                            fragment.loadEmpty();
-                        } else {
-                            fragment.loadSuccess();
-                        }
+                        fragment.loadSuccess();
                         fragment.onCatalogGet(listResponseResult.getData());
                     }
                 });

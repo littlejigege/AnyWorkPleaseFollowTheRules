@@ -31,7 +31,6 @@ public class FeedbackPresenter extends BasePresenterImpl<FeedbackContract.View> 
     private FeedbackApi feedbackApi;
 
 
-
     @Override
     public Subscription uploadFeedback(FeedBack feedBack, String imagePath) {
 //        mView.showLoad();
@@ -44,24 +43,25 @@ public class FeedbackPresenter extends BasePresenterImpl<FeedbackContract.View> 
                 .setType(MultipartBody.FORM);
 
         File file;
-        if (imagePath == null) {
-            file = null;
-        } else {
+        //图片路径不为空，则上传图片
+        if (imagePath != null) {
+            LogUtil.d("wtf","6666");
             file = new File(imagePath);
+            final FileRequestBody body = new FileRequestBody(MediaType.parse("multipart/form-data"), file);
+            body.setWritedListener(new FileRequestBody.WritedListener() {
+                @Override
+                public void hasSend(long length) {
+                    mView.updateUploadProgress(body.contentLength(), length);
+                }
+            });
+            builder.addFormDataPart("file", file.getName(), body);
         }
 //        RequestBody body = RequestBody.create(MediaType.parse("multipart/form-data"), file);
-        final FileRequestBody body = new FileRequestBody(MediaType.parse("multipart/form-data"), file);
-        body.setWritedListener(new FileRequestBody.WritedListener() {
-            @Override
-            public void hasSend(long length) {
-                mView.updateUploadProgress(body.contentLength(), length);
-            }
-        });
         builder.addFormDataPart("description", feedBack.toString());
-        builder.addFormDataPart("file", file.getName(), body);
+        builder.addFormDataPart("file", "");
         List<MultipartBody.Part> parts = builder.build().parts();
 
-        Subscription subscription = feedbackApi.uploadFeedbackWithPicture(Apis.uploadFeedbackApi(),parts)
+        Subscription subscription = feedbackApi.uploadFeedbackWithPicture(Apis.uploadFeedbackApi(), parts)
                 .subscribeOn(Schedulers.io())
                 .observeOn(AndroidSchedulers.mainThread())
                 .subscribe(new Observer<ResponseResult<User>>() {
