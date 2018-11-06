@@ -16,6 +16,7 @@ import android.widget.TextView;
 import com.airbnb.lottie.LottieAnimationView;
 import com.airbnb.lottie.LottieComposition;
 import com.qgstudio.anywork.R;
+import com.qgstudio.anywork.utils.DesityUtil;
 
 public class LoadingView extends FrameLayout {
     private OnRetryListener retryListener;
@@ -48,7 +49,9 @@ public class LoadingView extends FrameLayout {
         progressBar = new LottieAnimationView(getContext());
         progressBar.setAnimation(R.raw.loading);
         progressBar.setImageAssetsFolder("loader/");
-        LayoutParams layoutParams = new LayoutParams(LayoutParams.WRAP_CONTENT, LayoutParams.WRAP_CONTENT, Gravity.CENTER);
+        progressBar.loop(true);
+        progressBar.playAnimation();
+        LayoutParams layoutParams = new LayoutParams(DesityUtil.dp2px(getContext(),100), DesityUtil.dp2px(getContext(),100), Gravity.CENTER);
         progressBar.setLayoutParams(layoutParams);
         addView(progressBar);
     }
@@ -91,6 +94,7 @@ public class LoadingView extends FrameLayout {
         setVisibility(VISIBLE);
         progressBar.setVisibility(VISIBLE);
         stateTextView.setVisibility(GONE);
+        progressBar.playAnimation();
     }
 
     public void empty(View view) {
