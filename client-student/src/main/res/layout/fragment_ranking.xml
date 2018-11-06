@@ -93,13 +93,13 @@
             android:layout_weight="1"
             android:background="@drawable/background_ranking">
 
-            <android.support.v7.widget.RecyclerView
+            <com.qgstudio.anywork.widget.RankRecyclerView
                 android:id="@+id/recycler_view_ranking"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:overScrollMode="never">
 
-            </android.support.v7.widget.RecyclerView>
+            </com.qgstudio.anywork.widget.RankRecyclerView>
 
             <com.qgstudio.anywork.widget.LoadingView
                 android:id="@+id/loading_view"

@@ -25,6 +25,7 @@ import com.qgstudio.anywork.data.model.RankingMessage;
 import com.qgstudio.anywork.mvp.BaseFragment;
 import com.qgstudio.anywork.ranking.adapters.RankingAdapter;
 import com.qgstudio.anywork.widget.LoadingView;
+import com.qgstudio.anywork.widget.RankRecyclerView;
 
 import java.util.ArrayList;
 import java.util.HashMap;
@@ -43,7 +44,7 @@ public class RankingFragment extends BaseFragment {
     private ArrowsView arrows1;
     private ListView listView1;
     private PopupWindow popupWindow1;
-    private RecyclerView rankingList;
+    private RankRecyclerView rankingList;
     private LoadingView loadingView;
     private TextView score;
     private int leaderboardType = 1;
@@ -109,7 +110,7 @@ public class RankingFragment extends BaseFragment {
             initSpinner(view);
             //避免重复下移
             if (view.getTag() == null) {
-                if (!isFromWorkout){
+                if (!isFromWorkout) {
                     setDetails(view);
                     view.setTag(new Object());
                 }
@@ -160,7 +161,7 @@ public class RankingFragment extends BaseFragment {
      * @param rootView
      */
     private void initRankingList(View rootView) {
-        rankingList = (RecyclerView) rootView.findViewById(R.id.recycler_view_ranking);
+        rankingList = rootView.findViewById(R.id.recycler_view_ranking);
         rankingList.setLayoutManager(new LinearLayoutManager(getActivity()));
         loadingView = rootView.findViewById(R.id.loading_view);
         loadingView.setOnRetryListener(new LoadingView.OnRetryListener() {
@@ -273,7 +274,7 @@ public class RankingFragment extends BaseFragment {
                             } else {
                                 loadingView.loadSuccess(rankingList);
                             }
-                            rankingAdapter = new RankingAdapter(getActivity(), messages);
+                            rankingAdapter = new RankingAdapter(getActivity(), messages,rankingList);
                             rankingList.setAdapter(rankingAdapter);
                             rankingAdapter.notifyDataSetChanged();
                         }
@@ -311,7 +312,7 @@ public class RankingFragment extends BaseFragment {
                             } else {
                                 loadingView.loadSuccess(rankingList);
                             }
-                            rankingAdapter = new RankingAdapter(getActivity(), messages);
+                            rankingAdapter = new RankingAdapter(getActivity(), messages,rankingList);
                             rankingList.setAdapter(rankingAdapter);
                             rankingAdapter.notifyDataSetChanged();
                         }

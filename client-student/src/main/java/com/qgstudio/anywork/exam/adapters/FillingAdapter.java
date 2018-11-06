@@ -39,14 +39,25 @@ public class FillingAdapter extends OptionAdapter {
     private void init() {
         mAnswer = new ArrayList<>(getItemCount());
         for (int index = 0; index < getItemCount(); index++) {
-            mAnswer.add(" ");
+            mAnswer.add("");
         }
     }
 
     @Override
     public String getAnswer() {
+        //只要不是全空则保存答案
+        boolean isAllEmpty = true;
+        for (String s : mAnswer) {
+            if (!s.isEmpty()) {
+                isAllEmpty = false;
+            }
+        }
+        if (isAllEmpty) {
+            return "";
+        }
         StringBuilder sb = new StringBuilder("");
         for (int index = 0; index < getItemCount(); index++) {
+
             sb.append(mAnswer.get(index)).append("∏");
         }
         return sb.toString().substring(0, sb.length() - 1);
@@ -107,6 +118,7 @@ public class FillingAdapter extends OptionAdapter {
         StudentAnswer origin = restoreAnswer();
         if (origin != null) {
             String os = origin.getStudentAnswer();
+            System.out.println("--------" + os + "-");
             String[] o = os.split("∏");
 
             for (int index = 0; index < o.length; index++) {
@@ -114,6 +126,7 @@ public class FillingAdapter extends OptionAdapter {
             }
 
             if (position < o.length) {
+
                 fh.edi_filling.setText(o[position]);
             }
         }

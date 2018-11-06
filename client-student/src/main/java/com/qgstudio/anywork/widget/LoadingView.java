@@ -13,11 +13,13 @@ import android.widget.FrameLayout;
 import android.widget.ProgressBar;
 import android.widget.TextView;
 
+import com.airbnb.lottie.LottieAnimationView;
+import com.airbnb.lottie.LottieComposition;
 import com.qgstudio.anywork.R;
 
 public class LoadingView extends FrameLayout {
     private OnRetryListener retryListener;
-    private ProgressBar progressBar;
+    private LottieAnimationView progressBar;
     private TextView stateTextView;
 
     public LoadingView(@NonNull Context context) {
@@ -43,7 +45,9 @@ public class LoadingView extends FrameLayout {
     }
 
     private void addProgressBar() {
-        progressBar = new ProgressBar(getContext());
+        progressBar = new LottieAnimationView(getContext());
+        progressBar.setAnimation(R.raw.loading);
+        progressBar.setImageAssetsFolder("loader/");
         LayoutParams layoutParams = new LayoutParams(LayoutParams.WRAP_CONTENT, LayoutParams.WRAP_CONTENT, Gravity.CENTER);
         progressBar.setLayoutParams(layoutParams);
         addView(progressBar);

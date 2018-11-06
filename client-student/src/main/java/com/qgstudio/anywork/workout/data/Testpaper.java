@@ -26,7 +26,7 @@ public class Testpaper extends WorkoutInfo{
     private int timeStatus;
     private int totalQuestions;
     private int doneQuestions;
-    private int score;
+    private double score;
     public static final int STATUS_DONE = 1;
     public static final int STATUS_UNDO = 3;
     public static final int STATUS_UNFINISHED = 2;
@@ -171,7 +171,7 @@ public class Testpaper extends WorkoutInfo{
         this.doneQuestions = doneQuestions;
     }
 
-    public int getScore() {
+    public double getScore() {
         return score;
     }
 

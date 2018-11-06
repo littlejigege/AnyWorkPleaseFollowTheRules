@@ -65,6 +65,7 @@ public class HomeActivity extends DialogManagerActivity implements BottomNavigat
 
     public static final String TAG = "HomeActivity";
     public static final String ACTION = TAG + "$Receiver";//广播action
+    public static int statusBarHeight = 0;
     @BindView(R.id.bottomNavigationView)
     BottomNavigationView bottomNavigationView;
 
@@ -119,7 +120,11 @@ public class HomeActivity extends DialogManagerActivity implements BottomNavigat
                 .replace(R.id.frame, homeFragment)
                 .commit();
         bottomNavigationView.setOnNavigationItemSelectedListener(this);
-
+//获得系统状态栏高度
+        int resourceId = getResources().getIdentifier("status_bar_height", "dimen", "android");
+        if (resourceId > 0) {
+            statusBarHeight = getResources().getDimensionPixelOffset(resourceId);
+        }
     }
 
 

@@ -187,6 +187,7 @@ public class ExamActivity extends MVPBaseActivity<ExamView, ExamRepository> impl
             studentAnswer.setQuestionId(questions.get(i).getQuestionId());
             studentAnswer.setStudentAnswer(questions.get(i).getKey());
             AnswerBuffer.getInstance().addStudentAnswer(i, studentAnswer);
+            System.out.println("addQuestions---" + i+studentAnswer.getStudentAnswer()+"---");
         }
         mQuestionFragAdapter.addAll(fragments);
         mExamPagerView.setTitleCenterTextString((position != 0 ? 1 : 0) + "/" + questions.size());
@@ -243,6 +244,7 @@ public class ExamActivity extends MVPBaseActivity<ExamView, ExamRepository> impl
     public void showToast(String s) {
         ToastUtil.showToast(s);
     }
+
     public void loading() {
         loadingView.load(mExamPagerView);
     }
