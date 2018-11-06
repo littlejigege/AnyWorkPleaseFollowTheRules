@@ -5,10 +5,17 @@ import android.graphics.Typeface;
 import android.os.Build;
 import android.support.annotation.NonNull;
 import android.support.v7.widget.RecyclerView;
+import android.transition.AutoTransition;
+import android.transition.Fade;
+import android.transition.Transition;
+import android.transition.TransitionValues;
+import android.util.Log;
 import android.view.LayoutInflater;
+import android.view.MotionEvent;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.ImageView;
+import android.widget.PopupWindow;
 import android.widget.TextView;
 
 import com.qgstudio.anywork.R;
@@ -41,11 +48,11 @@ public class RankingAdapter extends RecyclerView.Adapter<RankingAdapter.ViewHold
         public ViewHolder(View itemView) {
             super(itemView);
 
-            numberImage =  itemView.findViewById(R.id.number_image);
+            numberImage = itemView.findViewById(R.id.number_image);
             numberText = itemView.findViewById(R.id.number_text);
-            headPic =  itemView.findViewById(R.id.head_pic);
-            name =  itemView.findViewById(R.id.name);
-            studentId =  itemView.findViewById(R.id.student_id);
+            headPic = itemView.findViewById(R.id.head_pic);
+            name = itemView.findViewById(R.id.name);
+            studentId = itemView.findViewById(R.id.student_id);
             score = itemView.findViewById(R.id.score);
         }
     }
@@ -60,7 +67,7 @@ public class RankingAdapter extends RecyclerView.Adapter<RankingAdapter.ViewHold
     }
 
     @Override
-    public void onBindViewHolder(@NonNull ViewHolder holder, int position) {
+    public void onBindViewHolder(@NonNull final ViewHolder holder, int position) {
         RankingMessage rankingMessage = rankingMessages.get(position);
         if (position == 0) {
             holder.numberText.setVisibility(View.GONE);
@@ -103,10 +110,48 @@ public class RankingAdapter extends RecyclerView.Adapter<RankingAdapter.ViewHold
             }
         }
         holder.score.setText(score + "");
+        holder.headPic.setOnTouchListener(new View.OnTouchListener() {
+            @Override
+            public boolean onTouch(View v, MotionEvent event) {
+                Log.d("66666", "onTouch: " + event.getAction());
+
+                switch (event.getAction()) {
+                    case MotionEvent.ACTION_DOWN:
+                        showPopup(holder.headPic);
+                        break;
+                    case MotionEvent.ACTION_UP:
+                        hidePopup();
+                        break;
+                    case MotionEvent.ACTION_CANCEL:
+                        hidePopup();
+                        break;
+                    default:
+                        break;
+                }
+                return true;
+            }
+        });
     }
 
     @Override
     public int getItemCount() {
         return rankingMessages.size();
+    }
+
+    PopupWindow popupWindow;
+
+    private void showPopup(ImageView view) {
+        ImageView view1 = new ImageView(context);
+        view1.setImageDrawable(view.getDrawable());
+        hidePopup();
+        popupWindow = new PopupWindow(view1, 200, 200);
+        popupWindow.showAsDropDown(view, view.getWidth() + 50, -100 - view.getHeight() / 2);
+    }
+
+    private void hidePopup() {
+        if (popupWindow != null && popupWindow.isShowing()) {
+            popupWindow.dismiss();
+        }
+        popupWindow = null;
     }
 }

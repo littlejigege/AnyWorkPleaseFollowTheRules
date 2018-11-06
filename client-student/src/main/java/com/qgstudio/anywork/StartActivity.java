@@ -84,8 +84,8 @@ public class StartActivity extends AppCompatActivity {
      */
     private void login(final String account, final String password) {
         //加载动画
-        final LoadingDialog loadingDialog = new LoadingDialog(this);
-        loadingDialog.show();
+//        final LoadingDialog loadingDialog = new LoadingDialog(this);
+//        loadingDialog.show();
 
         loginApi = RetrofitClient.RETROFIT_CLIENT.getRetrofit().create(LoginApi.class);
 
@@ -107,7 +107,7 @@ public class StartActivity extends AppCompatActivity {
                     @Override
                     public void onError(Throwable e) {
                         e.printStackTrace();
-                        loadingDialog.dismiss();  //停止动画
+                        //loadingDialog.dismiss();  //停止动画
                         ToastUtil.showToast("自动登录失败");
                         goToEnterActivity();  //跳转到登录注册界面
                     }
@@ -115,7 +115,7 @@ public class StartActivity extends AppCompatActivity {
                     @Override
 //                    public void onNext(ResponseResult<User> result) {
                     public void onNext(ResponseResult<User> result) {
-                        loadingDialog.dismiss();  //停止动画
+                        //loadingDialog.dismiss();  //停止动画
 
                         if (result.getState() == 1) {
                             User user = result.getData();
@@ -125,9 +125,7 @@ public class StartActivity extends AppCompatActivity {
                             MyOpenHelper myOpenHelper = DataBaseUtil.getHelper();
                             myOpenHelper.save(user);
                             ToastUtil.showToast("自动登录成功");
-                            Intent intent = new Intent(StartActivity.this, HomeActivity.class);
-                            startActivity(intent);
-                            finish();
+                            goToHomeActivity();
                         } else {
                             ToastUtil.showToast("自动登录失败");
                             goToEnterActivity();  //跳转到登录注册界面
@@ -150,9 +148,20 @@ public class StartActivity extends AppCompatActivity {
                 startActivity(intent);
                 finish();
             }
-        }, 1500);
+        }, 1000);
     }
 
+    private void goToHomeActivity() {
+        Handler handler = new Handler();
+        handler.postDelayed(new Runnable() {
+            @Override
+            public void run() {
+                Intent intent = new Intent(StartActivity.this, HomeActivity.class);
+                startActivity(intent);
+                finish();
+            }
+        }, 1000);
+    }
     /**
      * 从数据库中读取用户登录信息
      *

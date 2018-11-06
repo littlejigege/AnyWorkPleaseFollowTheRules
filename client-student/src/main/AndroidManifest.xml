@@ -40,8 +40,7 @@
             android:theme="@android:style/Theme.Translucent" />
         <activity android:name=".enter.EnterActivity" />
         <activity
-            android:name=".StartActivity"
-            android:theme="@style/WelcomeStyle">
+            android:name=".StartActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 

@@ -69,9 +69,7 @@ dependencies {
     implementation 'android.arch.lifecycle:extensions:1.1.1'
     //高斯模糊
     implementation 'jp.wasabeef:glide-transformations:2.0.1'
-    //内存泄露分析
-//    debugImplementation 'com.squareup.leakcanary:leakcanary-android:1.6.2'
-//    releaseImplementation 'com.squareup.leakcanary:leakcanary-android-no-op:1.6.2'
-//    // Optional, if you use support library fragments:
-//    debugImplementation 'com.squareup.leakcanary:leakcanary-support-fragment:1.6.2'
+    //lottie 就希望体验好一丢丢咯，别问我为什么
+    implementation "com.airbnb.android:lottie:2.7.0"
+
 }
