@@ -30,7 +30,7 @@
         </FrameLayout>
     </android.support.v7.widget.Toolbar>
 
-    <com.qgstudio.anywork.widget.QuestionView
+    <com.qgstudio.aniwork.widget.QuestionView
         android:id="@+id/question_view"
         android:layout_width="0dp"
         android:layout_height="0dp"

@@ -177,7 +177,7 @@
                         android:scaleType="centerCrop"
                         android:background="@drawable/icon_add"
                         android:visibility="visible"/>
-                    <com.qgstudio.anywork.feedback.utils.ShapeView
+                    <com.qgstudio.aniwork.feedback.utils.ShapeView
                         android:id="@+id/feedback_shape_view"
                         android:layout_width="match_parent"
                         android:layout_height="match_parent"

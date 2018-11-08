@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
-    package="com.qgstudio.anywork"
+    package="com.qgstudio.aniwork"
     android:versionCode="1">
 
     <!-- 访问网络权限 -->
@@ -20,7 +20,7 @@
     <uses-permission android:name="android.permission.REQUEST_INSTALL_PACKAGES" />
 
     <application
-        android:name=".App"
+        android:name="com.qgstudio.aniwork.App"
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
         android:label="@string/app_name"
@@ -38,43 +38,43 @@
             android:name="com.tencent.bugly.beta.ui.BetaActivity"
             android:configChanges="keyboardHidden|orientation|screenSize|locale"
             android:theme="@android:style/Theme.Translucent" />
-        <activity android:name=".enter.EnterActivity" />
+        <activity android:name="com.qgstudio.aniwork.enter.EnterActivity" />
         <activity
-            android:name=".StartActivity">
+            android:name="com.qgstudio.aniwork.StartActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".grade.GradeActivity" />
-        <activity android:name=".main.HomeActivity" />
-        <activity android:name=".exam.ExamActivity" />
-        <activity android:name=".paper.PaperActivity" />
-        <activity android:name=".user.UserActivity" />
-        <activity android:name=".main.SearchingActivity" />
-        <activity android:name=".feedback.FeedbackActivity" />
-        <activity android:name=".main.NewOrganizationActivity" />
-        <activity android:name=".user.ChangePasswordActivity" />
-        <activity android:name=".user.ChangeInfoActivity" />
+        <activity android:name="com.qgstudio.aniwork.grade.GradeActivity" />
+        <activity android:name="com.qgstudio.aniwork.main.HomeActivity" />
+        <activity android:name="com.qgstudio.aniwork.exam.ExamActivity" />
+        <activity android:name="com.qgstudio.aniwork.paper.PaperActivity" />
+        <activity android:name="com.qgstudio.aniwork.user.UserActivity" />
+        <activity android:name="com.qgstudio.aniwork.main.SearchingActivity" />
+        <activity android:name="com.qgstudio.aniwork.feedback.FeedbackActivity" />
+        <activity android:name="com.qgstudio.aniwork.main.NewOrganizationActivity" />
+        <activity android:name="com.qgstudio.aniwork.user.ChangePasswordActivity" />
+        <activity android:name="com.qgstudio.aniwork.user.ChangeInfoActivity" />
 
-        <receiver android:name=".common.NetworkStatusReceiver">
+        <receiver android:name="com.qgstudio.aniwork.common.NetworkStatusReceiver">
             <intent-filter>
                 <action android:name="android.net.conn.CONNECTIVITY_CHANGE" />
             </intent-filter>
         </receiver>
 
-        <activity android:name=".notice.NoticeActivity" />
+        <activity android:name="com.qgstudio.aniwork.notice.NoticeActivity" />
 
         <service
-            android:name=".user.AppService"
+            android:name="com.qgstudio.aniwork.user.AppService"
             android:enabled="true"
             android:exported="true"
             android:process=":remote" />
 
-        <activity android:name=".workout.WorkoutContainerActivity" />
-        <activity android:name=".search.SearchActivity" />
-        <activity android:name=".collection.CollectionActivity" />
+        <activity android:name="com.qgstudio.aniwork.workout.WorkoutContainerActivity" />
+        <activity android:name="com.qgstudio.aniwork.search.SearchActivity" />
+        <activity android:name="com.qgstudio.aniwork.collection.CollectionActivity" />
     </application>
 
 </manifest>

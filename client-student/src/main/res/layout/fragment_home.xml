@@ -235,7 +235,7 @@
                 android:layout_height="wrap_content"
                 android:visibility="visible" />
 
-            <com.qgstudio.anywork.widget.LoadingView
+            <com.qgstudio.aniwork.widget.LoadingView
                 android:id="@+id/loading_view"
                 android:layout_width="match_parent"
                 android:layout_height="200dp" />

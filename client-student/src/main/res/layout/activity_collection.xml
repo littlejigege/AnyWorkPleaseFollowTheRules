@@ -48,7 +48,7 @@
         </FrameLayout>
     </android.support.v7.widget.Toolbar>
 
-    <com.qgstudio.anywork.widget.LoadingView
+    <com.qgstudio.aniwork.widget.LoadingView
         android:id="@+id/loading_view"
         android:layout_width="0dp"
         android:layout_height="0dp"

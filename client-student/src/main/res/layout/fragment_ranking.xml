@@ -60,7 +60,7 @@
                     android:text="学生所在班级"
                     android:textColor="#2E85EA"></TextView>
 
-                <com.qgstudio.anywork.ranking.ArrowsView
+                <com.qgstudio.aniwork.ranking.ArrowsView
                     android:id="@+id/arrows1"
                     android:layout_width="32dp"
                     android:layout_height="32dp" />
@@ -93,15 +93,15 @@
             android:layout_weight="1"
             android:background="@drawable/background_ranking">
 
-            <com.qgstudio.anywork.widget.RankRecyclerView
+            <com.qgstudio.aniwork.widget.RankRecyclerView
                 android:id="@+id/recycler_view_ranking"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:overScrollMode="never">
 
-            </com.qgstudio.anywork.widget.RankRecyclerView>
+            </com.qgstudio.aniwork.widget.RankRecyclerView>
 
-            <com.qgstudio.anywork.widget.LoadingView
+            <com.qgstudio.aniwork.widget.LoadingView
                 android:id="@+id/loading_view"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
