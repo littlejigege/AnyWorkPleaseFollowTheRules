@@ -11,6 +11,7 @@ import com.qgstudio.aniwork.main.data.OrganizationApi;
 import com.qgstudio.aniwork.mvp.BasePresenterImpl;
 import com.qgstudio.aniwork.notice.NoticeApi;
 import com.qgstudio.aniwork.notice.data.Notice;
+import com.qgstudio.aniwork.notice.data.NoticeContainer;
 import com.qgstudio.aniwork.utils.LogUtil;
 
 import java.util.HashMap;
@@ -88,13 +89,14 @@ public class HomePresenter extends BasePresenterImpl<HomeContract.HomeView> impl
         mNoticeApi.getNotice(Apis.getNoticeApi(), buildRequestParam())
                 .subscribeOn(Schedulers.io())
                 .observeOn((AndroidSchedulers.mainThread()))
-                .subscribe(new RetrofitSubscriber<JsonObject>() {
+                .subscribe(new RetrofitSubscriber<NoticeContainer>() {
                     @Override
-                    protected void onSuccess(JsonObject data) {
-                        List<Notice> noticeList = new Gson().fromJson(data
-                                        .get("list")
-                                , new TypeToken<List<Notice>>() {
-                                }.getType());
+                    protected void onSuccess(NoticeContainer data) {
+//                        List<Notice> noticeList = new Gson().fromJson(data
+//                                        .get("list")
+//                                , new TypeToken<List<Notice>>() {
+//                                }.getType());
+                        List<Notice> noticeList = data.getList();
                         if (mView != null) {
                             if (noticeList == null) {
                                 getHomeFragment().loadEmpty();
