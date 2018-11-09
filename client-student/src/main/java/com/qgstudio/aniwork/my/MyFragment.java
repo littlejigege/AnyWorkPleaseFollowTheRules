@@ -7,6 +7,7 @@ import android.os.Bundle;
 import android.support.annotation.NonNull;
 import android.support.annotation.Nullable;
 import android.support.v4.app.Fragment;
+import android.util.Log;
 import android.view.Gravity;
 import android.view.LayoutInflater;
 import android.view.View;
@@ -22,6 +23,7 @@ import com.qgstudio.aniwork.enter.EnterActivity;
 import com.qgstudio.aniwork.feedback.FeedbackActivity;
 import com.qgstudio.aniwork.user.ChangeInfoActivity;
 import com.qgstudio.aniwork.user.ChangePasswordActivity;
+import com.qgstudio.aniwork.user.UserPresenter;
 import com.qgstudio.aniwork.utils.GlideUtil;
 import com.qgstudio.aniwork.utils.ToastUtil;
 import com.tencent.bugly.beta.Beta;
@@ -170,6 +172,8 @@ public class MyFragment extends Fragment {
         logout.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
+                UserPresenter.userInfoIsChange = true;
+
                 Intent intent = new Intent(App.getContext(), EnterActivity.class);
                 startActivity(intent);
 
@@ -184,7 +188,10 @@ public class MyFragment extends Fragment {
     @Override
     public void onResume() {
         super.onResume();
-        GlideUtil.setPictureWithOutCache(head, App.getInstance().getUser().getUserId(), R.drawable.icon_head);
+        if (UserPresenter.userInfoIsChange) {
+            GlideUtil.setPictureWithOutCache(head, App.getInstance().getUser().getUserId(), R.drawable.icon_head);
+            UserPresenter.userInfoIsChange = false;
+        }
     }
 
     @Override

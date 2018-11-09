@@ -49,7 +49,7 @@ public class ChangeInfoActivity extends MVPBaseActivity<UserContract.View, UserP
     private User user;
 
 
-    CircleImageView pic;
+    ImageView pic;
 
 
     TextView name;
@@ -121,12 +121,6 @@ public class ChangeInfoActivity extends MVPBaseActivity<UserContract.View, UserP
         email = findViewById(R.id.editText_old);
         phone = findViewById(R.id.editText_phone);
         saveButton = findViewById(R.id.button_save);
-        pic = findViewById(R.id.imageView_head);
-        name = findViewById(R.id.textView_name);
-        studentId = findViewById(R.id.textView_id);
-        email = findViewById(R.id.editText_old);
-        phone = findViewById(R.id.editText_phone);
-        saveButton = findViewById(R.id.button_save);
         cancelImage = findViewById(R.id.image_cancel);
 
         cancelImage.setOnClickListener(new View.OnClickListener() {
@@ -184,7 +178,7 @@ public class ChangeInfoActivity extends MVPBaseActivity<UserContract.View, UserP
         name.setText(user1.getUserName());
         email.setText(user1.getEmail());
         phone.setText(user1.getPhone());
-        GlideUtil.setPictureWithOutCache(pic, user1.getUserId(), R.drawable.icon_head);
+        GlideUtil.setPictureWithOutCache(pic, App.getInstance().getUser().getUserId(), R.drawable.icon_head);
     }
 
     private void editFocusable(boolean focusable) {
@@ -334,7 +328,7 @@ public class ChangeInfoActivity extends MVPBaseActivity<UserContract.View, UserP
 
     @Override
     public void changeImg() {
-        GlideUtil.setPictureWithOutCache(pic, user.getUserId(), R.drawable.icon_head);
+        GlideUtil.setPictureWithOutCache(pic, App.getInstance().getUser().getUserId(), R.drawable.icon_head);
     }
 
     private LoadingDialog dialog;

@@ -153,7 +153,7 @@
         app:layout_constraintLeft_toLeftOf="@id/textView_id"
         app:layout_constraintRight_toRightOf="@id/textView_id" />
 
-    <de.hdodenhof.circleimageview.CircleImageView
+    <ImageView
         android:id="@+id/imageView_head"
         android:layout_width="65dp"
         android:layout_height="65dp"

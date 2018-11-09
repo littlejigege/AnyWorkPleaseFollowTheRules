@@ -2,6 +2,8 @@ package com.qgstudio.aniwork;
 
 import android.app.Application;
 import android.content.Context;
+import android.content.pm.PackageInfo;
+import android.content.pm.PackageManager;
 import android.text.TextUtils;
 import android.util.Log;
 
@@ -76,6 +78,16 @@ public class App extends Application {
             new FetchPatchHandler().fetchPatchWithInterval(3);
         }
         Utils.Companion.init(this);
+
+//        //获取应用签名
+//        try {
+//            PackageInfo info =  getPackageManager().getPackageInfo(getPackageName(),PackageManager.GET_SIGNATURES);
+//            System.out.println(info.signatures[0].toCharsString());
+//        } catch (PackageManager.NameNotFoundException e) {
+//            e.printStackTrace();
+//        }
+
+
         //startService(new Intent(this, AppService.class));
         Log.d("checkcheckchekc", Apis.initLib());
     }

@@ -31,6 +31,8 @@ public class UserPresenter extends BasePresenterImpl<UserContract.View> implemen
 
     public static final String TAG = "UserPresenter";
 
+    public static boolean userInfoIsChange = true;
+
     @Override
     public void detachView() {
         mView = new UserContract.View() {
@@ -147,6 +149,7 @@ public class UserPresenter extends BasePresenterImpl<UserContract.View> implemen
 
                     @Override
                     public void onNext(ResponseResult responseResult) {
+                        userInfoIsChange = true;
                         LogUtil.d2(TAG, "changePic", "onNext: " + responseResult.getState() + responseResult.getStateInfo());
                         if (responseResult.getState() == 1) {
                             mView.changeImg();

@@ -97,6 +97,11 @@ public class RankingAdapter extends RecyclerView.Adapter<RankingAdapter.ViewHold
             holder.numberText.setText("NO." + (position + 1));
         }
         GlideUtil.setPictureWithOutCache(holder.headPic, rankingMessage.getImagePath(), R.drawable.icon_head);
+        if (rankingMessage.getStudentId().endsWith(App.getInstance().getUser().getStudentId())) {
+            holder.name.setTextColor(Color.parseColor("#99427cfd"));
+            holder.studentId.setTextColor(Color.parseColor("#99427cfd"));
+            holder.numberText.setTextColor(Color.parseColor("#99427cfd"));
+        }
         holder.name.setText(rankingMessage.getUsername());
         holder.studentId.setText(rankingMessage.getStudentId());
         holder.score.setTypeface(ttf == null ? Typeface.createFromAsset(context.getAssets(), "zhankukuaileti.ttf") : ttf);
