@@ -1,6 +1,7 @@
 package com.qgstudio.aniwork.ranking.adapters;
 
 import android.content.Context;
+import android.graphics.Color;
 import android.graphics.Point;
 import android.graphics.Typeface;
 import android.os.Build;
@@ -15,6 +16,7 @@ import android.widget.ImageView;
 import android.widget.PopupWindow;
 import android.widget.TextView;
 
+import com.qgstudio.aniwork.App;
 import com.qgstudio.aniwork.R;
 import com.qgstudio.aniwork.data.model.RankingMessage;
 import com.qgstudio.aniwork.main.HomeActivity;
@@ -68,6 +70,12 @@ public class RankingAdapter extends RecyclerView.Adapter<RankingAdapter.ViewHold
     @Override
     public void onBindViewHolder(@NonNull final ViewHolder holder, int position) {
         RankingMessage rankingMessage = rankingMessages.get(position);
+        //把自己标出来
+//        if (App.getInstance().getUser().getStudentId().equals(rankingMessage.getStudentId())) {
+//            holder.itemView.setBackgroundColor(Color.parseColor("#441690ed"));
+//        } else {
+//            holder.itemView.setBackgroundColor(Color.TRANSPARENT);
+//        }
         if (position == 0) {
             holder.numberText.setVisibility(View.GONE);
             holder.numberImage.setVisibility(View.VISIBLE);

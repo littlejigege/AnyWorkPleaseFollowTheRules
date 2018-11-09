@@ -130,7 +130,7 @@ public class Question implements Serializable {
     }
 
     public String getKey() {
-        return key;
+        return key == null ? "无答案" : key;
     }
 
     public void setKey(String key) {

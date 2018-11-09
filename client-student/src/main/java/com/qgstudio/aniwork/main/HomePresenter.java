@@ -4,6 +4,7 @@ import com.google.gson.Gson;
 import com.google.gson.JsonObject;
 import com.google.gson.reflect.TypeToken;
 import com.qgstudio.aniwork.core.Apis;
+import com.qgstudio.aniwork.data.ResponseResult;
 import com.qgstudio.aniwork.data.RetrofitClient;
 import com.qgstudio.aniwork.data.RetrofitSubscriber;
 import com.qgstudio.aniwork.data.model.Organization;
@@ -18,6 +19,7 @@ import java.util.HashMap;
 import java.util.List;
 
 import retrofit2.Retrofit;
+import rx.Observer;
 import rx.android.schedulers.AndroidSchedulers;
 import rx.schedulers.Schedulers;
 
@@ -89,38 +91,36 @@ public class HomePresenter extends BasePresenterImpl<HomeContract.HomeView> impl
         mNoticeApi.getNotice(Apis.getNoticeApi(), buildRequestParam())
                 .subscribeOn(Schedulers.io())
                 .observeOn((AndroidSchedulers.mainThread()))
-                .subscribe(new RetrofitSubscriber<NoticeContainer>() {
+                .subscribe(new Observer<ResponseResult<NoticeContainer>>() {
                     @Override
-                    protected void onSuccess(NoticeContainer data) {
-//                        List<Notice> noticeList = new Gson().fromJson(data
-//                                        .get("list")
-//                                , new TypeToken<List<Notice>>() {
-//                                }.getType());
-                        List<Notice> noticeList = data.getList();
+                    public void onCompleted() {
+
+                    }
+
+                    @Override
+                    public void onError(Throwable e) {
+                        e.printStackTrace();
                         if (mView != null) {
-                            if (noticeList == null) {
+                            getHomeFragment().loadError();
+                        }
+                    }
+
+                    @Override
+                    public void onNext(ResponseResult<NoticeContainer> result) {
+
+
+                        if (mView != null) {
+                            if (result.getData() == null || result.getData().getList() == null || result.getData().getList().isEmpty()) {
                                 getHomeFragment().loadEmpty();
                             } else {
                                 getHomeFragment().loadSuccess();
+                                mView.onNoticeGet(result.getData().getList());
                             }
-                            mView.onNoticeGet(noticeList);
-                        }
-                    }
 
-                    @Override
-                    protected void onFailure(String info) {
-                        if (mView != null) {
-                            getHomeFragment().loadError();
-                        }
-                    }
-
-                    @Override
-                    protected void onMistake(Throwable t) {
-                        if (mView != null) {
-                            getHomeFragment().loadError();
                         }
                     }
                 });
+
     }
 
     private Object buildRequestParam() {

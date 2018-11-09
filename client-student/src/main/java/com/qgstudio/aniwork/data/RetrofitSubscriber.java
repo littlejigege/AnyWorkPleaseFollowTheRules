@@ -1,5 +1,7 @@
 package com.qgstudio.aniwork.data;
 
+import com.qgstudio.aniwork.utils.LogUtil;
+
 import rx.Subscriber;
 
 

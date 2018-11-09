@@ -67,8 +67,8 @@ public class ExamRepository extends BasePresenterImpl<ExamView> implements ExamP
                         LogUtil.d(TAG, "[getTestpaper] " + "onSuccess -> " + data);
                         if (mView != null) {
                             getExamActivity().loadSuccess();
+                            mView.addQuestions(data);
                         }
-                        mView.addQuestions(data);
                     }
 
                     @Override

@@ -149,8 +149,7 @@ public class MyFragment extends Fragment {
                             "Copyright (C) 2018\n" +
                                     "AnyWork2.0\n" +
                                     "小平科技创新团队\n" +
-                                    "计算机学院QG工作室\n" +
-                                    "荣誉出品",
+                                    "计算机学院QG工作室\n",
                             Toast.LENGTH_SHORT);
                     if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.M) {
                         TextView textView = (TextView) toast.getView().findViewById(Resources.getSystem().getIdentifier("message", "id", "android"));

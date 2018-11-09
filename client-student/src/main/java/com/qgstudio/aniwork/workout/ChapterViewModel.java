@@ -73,6 +73,9 @@ public class ChapterViewModel extends ViewModel {
         map.put("organizationId", fragment.classId);
         map.put("chapter", chapterID);
         map.put("testPaperType", fragment.type.toInt());
+        if (fragment == null) {
+            return;
+        }
         fragment.loading();
         api.getCatalog(Apis.getCatalogApi(), map)
                 .subscribeOn(Schedulers.io())

@@ -41,7 +41,7 @@ public class GlideUtil {
         Glide.with(App.getInstance())
                 .load(ApiStores.API_DEFAULT_URL + url)
                 .placeholder(def)
-                .skipMemoryCache(false)
+                .skipMemoryCache(true)
                 .diskCacheStrategy(DiskCacheStrategy.NONE)
                 .error(def == -1 ? R.drawable.ic_icon : def)
                 .fitCenter()

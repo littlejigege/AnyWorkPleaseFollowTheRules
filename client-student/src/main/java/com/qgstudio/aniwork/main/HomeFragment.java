@@ -19,6 +19,7 @@ import com.qgstudio.aniwork.mvp.MVPBaseFragment;
 import com.qgstudio.aniwork.notice.NoticeActivity;
 import com.qgstudio.aniwork.notice.NoticeAdapter;
 import com.qgstudio.aniwork.notice.data.Notice;
+import com.qgstudio.aniwork.utils.LogUtil;
 import com.qgstudio.aniwork.websocket.ThreadMode;
 import com.qgstudio.aniwork.websocket.WS;
 import com.qgstudio.aniwork.websocket.WebSocketHolder;
@@ -78,7 +79,10 @@ public class HomeFragment extends MVPBaseFragment<HomeContract.HomeView, HomePre
     @Override
     public void initView(View view) {
         ButterKnife.bind(this, view);
-        btnMyClass.setTag(new Organization(-1));
+        if (btnMyClass.getTag() == null) {
+            //首次初始化才需要手动填-1
+            btnMyClass.setTag(new Organization(-1));
+        }
         if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.LOLLIPOP) {
             getActivity().getWindow().setStatusBarColor(getActivity().getResources().getColor(R.color.sample_blue));
         }
@@ -159,6 +163,10 @@ public class HomeFragment extends MVPBaseFragment<HomeContract.HomeView, HomePre
     public void onMyClassGot(Organization organization) {
         btnMyClass.setTag(organization == null ? new Organization(-1) : organization);
         btnMyClass.setText(organization == null ? "无班级，快去pick你的班级吧  >" : organization.getOrganizationName());
+        if (btnMyClass.getTag() != null &&
+                ((Organization) btnMyClass.getTag()).getOrganizationId() != -1) {
+            mPresenter.getNoticeNew();
+        }
     }
 
     @Override
@@ -191,7 +199,7 @@ public class HomeFragment extends MVPBaseFragment<HomeContract.HomeView, HomePre
         //每次进入碎片都要重新拉取数据
         mPresenter.getJoinOrganization();
         WebSocketHolder.getDefault().register(this);
-        mPresenter.getNoticeNew();
+
     }
 
     public void loading() {

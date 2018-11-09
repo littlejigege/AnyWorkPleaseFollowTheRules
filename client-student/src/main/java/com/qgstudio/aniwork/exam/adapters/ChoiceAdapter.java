@@ -70,7 +70,7 @@ public class ChoiceAdapter extends OptionAdapter {
                 ch.tv_choice.setTextColor(ContextCompat.getColor(mContext, R.color.white));
             }
             //标出答案
-            if (mQuestion.getKey().equals(choice[position])) {
+            if (mQuestion.getKey() != null && mQuestion.getKey().equals(choice[position])) {
                 ch.tv_choice.setBackgroundResource(R.drawable.bg_choice_correct);
                 ch.tv_choice.setTextColor(ContextCompat.getColor(mContext, R.color.white));
             }
