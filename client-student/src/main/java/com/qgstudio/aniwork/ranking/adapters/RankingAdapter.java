@@ -101,6 +101,10 @@ public class RankingAdapter extends RecyclerView.Adapter<RankingAdapter.ViewHold
             holder.name.setTextColor(Color.parseColor("#99427cfd"));
             holder.studentId.setTextColor(Color.parseColor("#99427cfd"));
             holder.numberText.setTextColor(Color.parseColor("#99427cfd"));
+        } else {
+            holder.name.setTextColor(Color.parseColor("#616161"));
+            holder.studentId.setTextColor(Color.parseColor("#616161"));
+            holder.numberText.setTextColor(Color.parseColor("#616161"));
         }
         holder.name.setText(rankingMessage.getUsername());
         holder.studentId.setText(rankingMessage.getStudentId());
