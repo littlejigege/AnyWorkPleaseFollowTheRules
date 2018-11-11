@@ -56,7 +56,7 @@ public abstract class OptionAdapter extends RecyclerView.Adapter<RecyclerView.Vi
         if (mIsReadOnly) {
             return;
         }
-        StudentAnswer studentAnswer = new StudentAnswer();
+        StudentAnswer studentAnswer = new StudentAnswer(mQuestion);
         studentAnswer.setQuestionId(mQuestion.getQuestionId());
         studentAnswer.setStudentAnswer(getAnswer());
         AnswerBuffer.getInstance().addStudentAnswer(mPosition, studentAnswer);

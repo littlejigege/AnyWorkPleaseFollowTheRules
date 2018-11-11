@@ -118,7 +118,7 @@ public class ExamActivity extends MVPBaseActivity<ExamView, ExamRepository> impl
             //没做完
             for (StudentAnswer studentAnswer : studentPaper.getStudentAnswer()) {
                 System.out.println(studentAnswer.getStudentAnswer());
-                if (studentAnswer.getStudentAnswer().isEmpty()) {
+                if (studentAnswer.getStudentAnswerForSubmit().isEmpty()) {
                     ToastUtil.showToast("请完成所有题目后提交");
                     return;
                 }
@@ -174,7 +174,7 @@ public class ExamActivity extends MVPBaseActivity<ExamView, ExamRepository> impl
         }
         //读取保存的进度
         for (int i = 0; i < questions.size(); i++) {
-            StudentAnswer studentAnswer = new StudentAnswer();
+            StudentAnswer studentAnswer = new StudentAnswer(questions.get(i));
             studentAnswer.setQuestionId(questions.get(i).getQuestionId());
             studentAnswer.setStudentAnswer(questions.get(i).getKey());
             AnswerBuffer.getInstance().addStudentAnswer(i, studentAnswer);

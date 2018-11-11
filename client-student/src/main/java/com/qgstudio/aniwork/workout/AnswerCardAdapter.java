@@ -51,13 +51,13 @@ public class AnswerCardAdapter extends Adapter<RecyclerView.ViewHolder> {
     public void onBindViewHolder(RecyclerView.ViewHolder holder, int position) {
         StudentAnswer answer = mDatas.get(position);
         //取到的答案无效则设置为无效
-        if (answer != null && answer.getStudentAnswer().isEmpty()) {
+        if (answer != null && answer.getStudentAnswerForSubmit().isEmpty()) {
             answer.isVaild = false;
         }
 
         //没有这个答案则自动填一个无效答案
         if (answer == null) {
-            answer = new StudentAnswer();
+            answer = new StudentAnswer(null);
             answer.isVaild = false;
         }
         TextView text = ((ItemHolder) holder).text;

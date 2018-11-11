@@ -3,12 +3,18 @@ package com.qgstudio.aniwork.widget;
 import android.animation.Animator;
 import android.animation.ValueAnimator;
 import android.content.Context;
+import android.graphics.Color;
 import android.graphics.drawable.Drawable;
 import android.support.annotation.NonNull;
 import android.support.annotation.Nullable;
 import android.support.v7.widget.LinearLayoutManager;
 import android.support.v7.widget.RecyclerView;
 import android.text.Html;
+import android.text.Spannable;
+import android.text.SpannableString;
+import android.text.Spanned;
+import android.text.style.BackgroundColorSpan;
+import android.text.style.ForegroundColorSpan;
 import android.util.AttributeSet;
 import android.view.LayoutInflater;
 import android.view.View;
@@ -25,6 +31,7 @@ import com.qgstudio.aniwork.exam.adapters.AskingAdapter;
 import com.qgstudio.aniwork.exam.adapters.ChoiceAdapter;
 import com.qgstudio.aniwork.exam.adapters.FillingAdapter;
 import com.qgstudio.aniwork.exam.adapters.OptionAdapter;
+import com.qgstudio.aniwork.utils.LogUtil;
 import com.qgstudio.aniwork.utils.ToastUtil;
 
 import java.util.StringTokenizer;
@@ -300,29 +307,39 @@ public class QuestionView extends FrameLayout {
 
     private void setAnswerBottom() {
         String key = mQuestion.getKey();
-        if (key != null && mQuestion.getType() == 3) {
+        if (key != null && mQuestion.getEnumType() == Question.Type.FILL_BLANK) {
             //分割填空题答案
             StringTokenizer tokenizer = new StringTokenizer(key, "∏");
-            StringBuilder answerBuilder = new StringBuilder();
+            String answer = "";
             for (int i = 1; tokenizer.hasMoreTokens(); i++) {
-                answerBuilder.append(i + "." + tokenizer.nextToken() + "&nbsp;&nbsp;&nbsp;");
+                answer = answer + i + "." + tokenizer.nextToken() + "\n";
             }
-            key = answerBuilder.toString();
-        }
-        if (key != null && mQuestion.getEnumType() == Question.Type.TRUE_OR_FALSE) {
+            key = answer;
+        } else if (key != null && mQuestion.getEnumType() == Question.Type.TRUE_OR_FALSE) {
             if (key.equals("1")) {
-                key = "正确";
+                key = "正确\n";
             } else {
-                key = "错误";
+                key = "错误\n";
             }
+        } else {
+            key = key + "\n";
         }
-
-        String s = "<font color='#F13E58'>正确答案是"
+        LogUtil.d("服务器发回的答案：", key);
+//        String s = "<font color='#F13E58'>正确答案是"
+//                + key
+//                + "</font><br><br>"
+//                + (mQuestion.getAnalysis() == null ? "暂无解析" : mQuestion.getAnalysis());
+        String s = "正确答案:\n"
                 + key
-                + "</font><br><br>"
+                + "\n解析：\n"
                 + (mQuestion.getAnalysis() == null ? "暂无解析" : mQuestion.getAnalysis());
-        tvAnswer.setText(Html.fromHtml(s));
-        tvAnswerInvisible.setText(Html.fromHtml(s));
+        //tvAnswer.setText(Html.fromHtml(s));
+        //tvAnswerInvisible.setText(Html.fromHtml(s));
+        SpannableString string = new SpannableString(s);
+        string.setSpan(new ForegroundColorSpan(Color.parseColor("#3f51b5")), 0, 4, Spanned.SPAN_INCLUSIVE_INCLUSIVE);
+        string.setSpan(new ForegroundColorSpan(Color.parseColor("#009688")), "正确答案:\n".length() + key.length() + "\n".length() - 1, "正确答案:\n".length() + key.length() + "\n".length() - 1 + 3, Spanned.SPAN_INCLUSIVE_INCLUSIVE);
+        tvAnswer.setText(string);
+        tvAnswerInvisible.setText(string);
     }
 
     private void setDrawableBounds(int param) {
