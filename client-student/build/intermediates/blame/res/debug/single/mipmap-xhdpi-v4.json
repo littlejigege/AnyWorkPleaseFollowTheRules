@@ -1,42 +1,42 @@
 [
     {
-        "merged": "D:\\AndroidStudioProjects\\AnyWorkPleaseFollowTheRules\\client-student\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi-v4\\ic_launcher.png",
-        "source": "D:\\AndroidStudioProjects\\AnyWorkPleaseFollowTheRules\\client-student\\src\\main\\res\\mipmap-xhdpi\\ic_launcher.png"
+        "merged": "/home/jimji/StudioProjects/AnyWorkPleaseFollowTheRules/client-student/build/intermediates/res/merged/debug/mipmap-xhdpi-v4/back.png",
+        "source": "/home/jimji/StudioProjects/AnyWorkPleaseFollowTheRules/client-student/src/main/res/mipmap-xhdpi/back.png"
     },
     {
-        "merged": "D:\\AndroidStudioProjects\\AnyWorkPleaseFollowTheRules\\client-student\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi-v4\\back.png",
-        "source": "D:\\AndroidStudioProjects\\AnyWorkPleaseFollowTheRules\\client-student\\src\\main\\res\\mipmap-xhdpi\\back.png"
+        "merged": "/home/jimji/StudioProjects/AnyWorkPleaseFollowTheRules/client-student/build/intermediates/res/merged/debug/mipmap-xhdpi-v4/ic_send.png",
+        "source": "/home/jimji/StudioProjects/AnyWorkPleaseFollowTheRules/client-student/src/main/res/mipmap-xhdpi/ic_send.png"
     },
     {
-        "merged": "D:\\AndroidStudioProjects\\AnyWorkPleaseFollowTheRules\\client-student\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi-v4\\ic_quit.png",
-        "source": "D:\\AndroidStudioProjects\\AnyWorkPleaseFollowTheRules\\client-student\\src\\main\\res\\mipmap-xhdpi\\ic_quit.png"
+        "merged": "/home/jimji/StudioProjects/AnyWorkPleaseFollowTheRules/client-student/build/intermediates/res/merged/debug/mipmap-xhdpi-v4/ic_launcher.png",
+        "source": "/home/jimji/StudioProjects/AnyWorkPleaseFollowTheRules/client-student/src/main/res/mipmap-xhdpi/ic_launcher.png"
     },
     {
-        "merged": "D:\\AndroidStudioProjects\\AnyWorkPleaseFollowTheRules\\client-student\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi-v4\\ic_launcher_round.png",
-        "source": "D:\\AndroidStudioProjects\\AnyWorkPleaseFollowTheRules\\client-student\\src\\main\\res\\mipmap-xhdpi\\ic_launcher_round.png"
+        "merged": "/home/jimji/StudioProjects/AnyWorkPleaseFollowTheRules/client-student/build/intermediates/res/merged/debug/mipmap-xhdpi-v4/ic_searching.png",
+        "source": "/home/jimji/StudioProjects/AnyWorkPleaseFollowTheRules/client-student/src/main/res/mipmap-xhdpi/ic_searching.png"
     },
     {
-        "merged": "D:\\AndroidStudioProjects\\AnyWorkPleaseFollowTheRules\\client-student\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi-v4\\ic_launcher_foreground.png",
-        "source": "D:\\AndroidStudioProjects\\AnyWorkPleaseFollowTheRules\\client-student\\src\\main\\res\\mipmap-xhdpi\\ic_launcher_foreground.png"
+        "merged": "/home/jimji/StudioProjects/AnyWorkPleaseFollowTheRules/client-student/build/intermediates/res/merged/debug/mipmap-xhdpi-v4/ic_launcher_foreground.png",
+        "source": "/home/jimji/StudioProjects/AnyWorkPleaseFollowTheRules/client-student/src/main/res/mipmap-xhdpi/ic_launcher_foreground.png"
     },
     {
-        "merged": "D:\\AndroidStudioProjects\\AnyWorkPleaseFollowTheRules\\client-student\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi-v4\\cancel.png",
-        "source": "D:\\AndroidStudioProjects\\AnyWorkPleaseFollowTheRules\\client-student\\src\\main\\res\\mipmap-xhdpi\\cancel.png"
+        "merged": "/home/jimji/StudioProjects/AnyWorkPleaseFollowTheRules/client-student/build/intermediates/res/merged/debug/mipmap-xhdpi-v4/dialog_cancel.png",
+        "source": "/home/jimji/StudioProjects/AnyWorkPleaseFollowTheRules/client-student/src/main/res/mipmap-xhdpi/dialog_cancel.png"
     },
     {
-        "merged": "D:\\AndroidStudioProjects\\AnyWorkPleaseFollowTheRules\\client-student\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi-v4\\logo.png",
-        "source": "D:\\AndroidStudioProjects\\AnyWorkPleaseFollowTheRules\\client-student\\src\\main\\res\\mipmap-xhdpi\\logo.png"
+        "merged": "/home/jimji/StudioProjects/AnyWorkPleaseFollowTheRules/client-student/build/intermediates/res/merged/debug/mipmap-xhdpi-v4/ic_launcher_round.png",
+        "source": "/home/jimji/StudioProjects/AnyWorkPleaseFollowTheRules/client-student/src/main/res/mipmap-xhdpi/ic_launcher_round.png"
     },
     {
-        "merged": "D:\\AndroidStudioProjects\\AnyWorkPleaseFollowTheRules\\client-student\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi-v4\\ic_searching.png",
-        "source": "D:\\AndroidStudioProjects\\AnyWorkPleaseFollowTheRules\\client-student\\src\\main\\res\\mipmap-xhdpi\\ic_searching.png"
+        "merged": "/home/jimji/StudioProjects/AnyWorkPleaseFollowTheRules/client-student/build/intermediates/res/merged/debug/mipmap-xhdpi-v4/cancel.png",
+        "source": "/home/jimji/StudioProjects/AnyWorkPleaseFollowTheRules/client-student/src/main/res/mipmap-xhdpi/cancel.png"
     },
     {
-        "merged": "D:\\AndroidStudioProjects\\AnyWorkPleaseFollowTheRules\\client-student\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi-v4\\ic_send.png",
-        "source": "D:\\AndroidStudioProjects\\AnyWorkPleaseFollowTheRules\\client-student\\src\\main\\res\\mipmap-xhdpi\\ic_send.png"
+        "merged": "/home/jimji/StudioProjects/AnyWorkPleaseFollowTheRules/client-student/build/intermediates/res/merged/debug/mipmap-xhdpi-v4/logo.png",
+        "source": "/home/jimji/StudioProjects/AnyWorkPleaseFollowTheRules/client-student/src/main/res/mipmap-xhdpi/logo.png"
     },
     {
-        "merged": "D:\\AndroidStudioProjects\\AnyWorkPleaseFollowTheRules\\client-student\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi-v4\\dialog_cancel.png",
-        "source": "D:\\AndroidStudioProjects\\AnyWorkPleaseFollowTheRules\\client-student\\src\\main\\res\\mipmap-xhdpi\\dialog_cancel.png"
+        "merged": "/home/jimji/StudioProjects/AnyWorkPleaseFollowTheRules/client-student/build/intermediates/res/merged/debug/mipmap-xhdpi-v4/ic_quit.png",
+        "source": "/home/jimji/StudioProjects/AnyWorkPleaseFollowTheRules/client-student/src/main/res/mipmap-xhdpi/ic_quit.png"
     }
 ]

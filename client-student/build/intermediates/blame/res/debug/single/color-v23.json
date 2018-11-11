@@ -1,42 +1,42 @@
 [
     {
-        "merged": "E:\\work\\Android\\Apps\\AnyWork2.0\\client-student\\build\\intermediates\\res\\merged\\debug\\color-v23\\abc_btn_colored_text_material.xml",
-        "source": "C:\\Users\\jimiji\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\0f015facd651bc3d985cbdda3308ed92\\res\\color-v23\\abc_btn_colored_text_material.xml"
+        "merged": "/home/jimji/StudioProjects/AnyWorkPleaseFollowTheRules/client-student/build/intermediates/res/merged/debug/color-v23/abc_tint_seek_thumb.xml",
+        "source": "/home/jimji/.gradle/caches/transforms-1/files-1.1/appcompat-v7-28.0.0.aar/0f94072457bc0a7db5ac0fd1c500c574/res/color-v23/abc_tint_seek_thumb.xml"
     },
     {
-        "merged": "E:\\work\\Android\\Apps\\AnyWork2.0\\client-student\\build\\intermediates\\res\\merged\\debug\\color-v23\\abc_tint_btn_checkable.xml",
-        "source": "C:\\Users\\jimiji\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\0f015facd651bc3d985cbdda3308ed92\\res\\color-v23\\abc_tint_btn_checkable.xml"
+        "merged": "/home/jimji/StudioProjects/AnyWorkPleaseFollowTheRules/client-student/build/intermediates/res/merged/debug/color-v23/abc_tint_spinner.xml",
+        "source": "/home/jimji/.gradle/caches/transforms-1/files-1.1/appcompat-v7-28.0.0.aar/0f94072457bc0a7db5ac0fd1c500c574/res/color-v23/abc_tint_spinner.xml"
     },
     {
-        "merged": "E:\\work\\Android\\Apps\\AnyWork2.0\\client-student\\build\\intermediates\\res\\merged\\debug\\color-v23\\abc_color_highlight_material.xml",
-        "source": "C:\\Users\\jimiji\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\0f015facd651bc3d985cbdda3308ed92\\res\\color-v23\\abc_color_highlight_material.xml"
+        "merged": "/home/jimji/StudioProjects/AnyWorkPleaseFollowTheRules/client-student/build/intermediates/res/merged/debug/color-v23/abc_btn_colored_text_material.xml",
+        "source": "/home/jimji/.gradle/caches/transforms-1/files-1.1/appcompat-v7-28.0.0.aar/0f94072457bc0a7db5ac0fd1c500c574/res/color-v23/abc_btn_colored_text_material.xml"
     },
     {
-        "merged": "E:\\work\\Android\\Apps\\AnyWork2.0\\client-student\\build\\intermediates\\res\\merged\\debug\\color-v23\\abc_tint_edittext.xml",
-        "source": "C:\\Users\\jimiji\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\0f015facd651bc3d985cbdda3308ed92\\res\\color-v23\\abc_tint_edittext.xml"
+        "merged": "/home/jimji/StudioProjects/AnyWorkPleaseFollowTheRules/client-student/build/intermediates/res/merged/debug/color-v23/abc_tint_edittext.xml",
+        "source": "/home/jimji/.gradle/caches/transforms-1/files-1.1/appcompat-v7-28.0.0.aar/0f94072457bc0a7db5ac0fd1c500c574/res/color-v23/abc_tint_edittext.xml"
     },
     {
-        "merged": "E:\\work\\Android\\Apps\\AnyWork2.0\\client-student\\build\\intermediates\\res\\merged\\debug\\color-v23\\abc_tint_spinner.xml",
-        "source": "C:\\Users\\jimiji\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\0f015facd651bc3d985cbdda3308ed92\\res\\color-v23\\abc_tint_spinner.xml"
+        "merged": "/home/jimji/StudioProjects/AnyWorkPleaseFollowTheRules/client-student/build/intermediates/res/merged/debug/color-v23/abc_color_highlight_material.xml",
+        "source": "/home/jimji/.gradle/caches/transforms-1/files-1.1/appcompat-v7-28.0.0.aar/0f94072457bc0a7db5ac0fd1c500c574/res/color-v23/abc_color_highlight_material.xml"
     },
     {
-        "merged": "E:\\work\\Android\\Apps\\AnyWork2.0\\client-student\\build\\intermediates\\res\\merged\\debug\\color-v23\\abc_tint_switch_track.xml",
-        "source": "C:\\Users\\jimiji\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\0f015facd651bc3d985cbdda3308ed92\\res\\color-v23\\abc_tint_switch_track.xml"
+        "merged": "/home/jimji/StudioProjects/AnyWorkPleaseFollowTheRules/client-student/build/intermediates/res/merged/debug/color-v23/design_tint_password_toggle.xml",
+        "source": "/home/jimji/.gradle/caches/transforms-1/files-1.1/design-28.0.0.aar/10674943a320c8c6067ee3bc2cf310df/res/color-v23/design_tint_password_toggle.xml"
     },
     {
-        "merged": "E:\\work\\Android\\Apps\\AnyWork2.0\\client-student\\build\\intermediates\\res\\merged\\debug\\color-v23\\abc_tint_default.xml",
-        "source": "C:\\Users\\jimiji\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\0f015facd651bc3d985cbdda3308ed92\\res\\color-v23\\abc_tint_default.xml"
+        "merged": "/home/jimji/StudioProjects/AnyWorkPleaseFollowTheRules/client-student/build/intermediates/res/merged/debug/color-v23/abc_tint_default.xml",
+        "source": "/home/jimji/.gradle/caches/transforms-1/files-1.1/appcompat-v7-28.0.0.aar/0f94072457bc0a7db5ac0fd1c500c574/res/color-v23/abc_tint_default.xml"
     },
     {
-        "merged": "E:\\work\\Android\\Apps\\AnyWork2.0\\client-student\\build\\intermediates\\res\\merged\\debug\\color-v23\\abc_btn_colored_borderless_text_material.xml",
-        "source": "C:\\Users\\jimiji\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\0f015facd651bc3d985cbdda3308ed92\\res\\color-v23\\abc_btn_colored_borderless_text_material.xml"
+        "merged": "/home/jimji/StudioProjects/AnyWorkPleaseFollowTheRules/client-student/build/intermediates/res/merged/debug/color-v23/abc_tint_btn_checkable.xml",
+        "source": "/home/jimji/.gradle/caches/transforms-1/files-1.1/appcompat-v7-28.0.0.aar/0f94072457bc0a7db5ac0fd1c500c574/res/color-v23/abc_tint_btn_checkable.xml"
     },
     {
-        "merged": "E:\\work\\Android\\Apps\\AnyWork2.0\\client-student\\build\\intermediates\\res\\merged\\debug\\color-v23\\abc_tint_seek_thumb.xml",
-        "source": "C:\\Users\\jimiji\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\0f015facd651bc3d985cbdda3308ed92\\res\\color-v23\\abc_tint_seek_thumb.xml"
+        "merged": "/home/jimji/StudioProjects/AnyWorkPleaseFollowTheRules/client-student/build/intermediates/res/merged/debug/color-v23/abc_btn_colored_borderless_text_material.xml",
+        "source": "/home/jimji/.gradle/caches/transforms-1/files-1.1/appcompat-v7-28.0.0.aar/0f94072457bc0a7db5ac0fd1c500c574/res/color-v23/abc_btn_colored_borderless_text_material.xml"
     },
     {
-        "merged": "E:\\work\\Android\\Apps\\AnyWork2.0\\client-student\\build\\intermediates\\res\\merged\\debug\\color-v23\\design_tint_password_toggle.xml",
-        "source": "C:\\Users\\jimiji\\.gradle\\caches\\transforms-1\\files-1.1\\design-28.0.0.aar\\9f13930b895983eb13ccd4dd88fb7063\\res\\color-v23\\design_tint_password_toggle.xml"
+        "merged": "/home/jimji/StudioProjects/AnyWorkPleaseFollowTheRules/client-student/build/intermediates/res/merged/debug/color-v23/abc_tint_switch_track.xml",
+        "source": "/home/jimji/.gradle/caches/transforms-1/files-1.1/appcompat-v7-28.0.0.aar/0f94072457bc0a7db5ac0fd1c500c574/res/color-v23/abc_tint_switch_track.xml"
     }
 ]

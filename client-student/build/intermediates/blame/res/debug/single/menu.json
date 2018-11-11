@@ -1,18 +1,18 @@
 [
     {
-        "merged": "D:\\AndroidStudioProjects\\AnyWorkPleaseFollowTheRules\\client-student\\build\\intermediates\\res\\merged\\debug\\menu\\home_bottom.xml",
-        "source": "D:\\AndroidStudioProjects\\AnyWorkPleaseFollowTheRules\\client-student\\src\\main\\res\\menu\\home_bottom.xml"
+        "merged": "/home/jimji/StudioProjects/AnyWorkPleaseFollowTheRules/client-student/build/intermediates/res/merged/debug/menu/menu_search.xml",
+        "source": "/home/jimji/StudioProjects/AnyWorkPleaseFollowTheRules/client-student/src/main/res/menu/menu_search.xml"
     },
     {
-        "merged": "D:\\AndroidStudioProjects\\AnyWorkPleaseFollowTheRules\\client-student\\build\\intermediates\\res\\merged\\debug\\menu\\setting.xml",
-        "source": "D:\\AndroidStudioProjects\\AnyWorkPleaseFollowTheRules\\client-student\\src\\main\\res\\menu\\setting.xml"
+        "merged": "/home/jimji/StudioProjects/AnyWorkPleaseFollowTheRules/client-student/build/intermediates/res/merged/debug/menu/setting.xml",
+        "source": "/home/jimji/StudioProjects/AnyWorkPleaseFollowTheRules/client-student/src/main/res/menu/setting.xml"
     },
     {
-        "merged": "D:\\AndroidStudioProjects\\AnyWorkPleaseFollowTheRules\\client-student\\build\\intermediates\\res\\merged\\debug\\menu\\drawer_content.xml",
-        "source": "D:\\AndroidStudioProjects\\AnyWorkPleaseFollowTheRules\\client-student\\src\\main\\res\\menu\\drawer_content.xml"
+        "merged": "/home/jimji/StudioProjects/AnyWorkPleaseFollowTheRules/client-student/build/intermediates/res/merged/debug/menu/drawer_content.xml",
+        "source": "/home/jimji/StudioProjects/AnyWorkPleaseFollowTheRules/client-student/src/main/res/menu/drawer_content.xml"
     },
     {
-        "merged": "D:\\AndroidStudioProjects\\AnyWorkPleaseFollowTheRules\\client-student\\build\\intermediates\\res\\merged\\debug\\menu\\menu_search.xml",
-        "source": "D:\\AndroidStudioProjects\\AnyWorkPleaseFollowTheRules\\client-student\\src\\main\\res\\menu\\menu_search.xml"
+        "merged": "/home/jimji/StudioProjects/AnyWorkPleaseFollowTheRules/client-student/build/intermediates/res/merged/debug/menu/home_bottom.xml",
+        "source": "/home/jimji/StudioProjects/AnyWorkPleaseFollowTheRules/client-student/src/main/res/menu/home_bottom.xml"
     }
 ]

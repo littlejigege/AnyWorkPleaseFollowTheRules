@@ -18,14 +18,14 @@ android {
         }
 
     }
-    signingConfigs {//签名配置
-        release {
-            storeFile file('C:/Users/linzongzhan/key.store.jks')
-            storePassword '666666'
-            keyAlias 'key1'
-            keyPassword '666666'
-        }
-    }
+//    signingConfigs {//签名配置
+//        release {
+//            storeFile file('C:/Users/linzongzhan/key.store.jks')
+//            storePassword '666666'
+//            keyAlias 'key1'
+//            keyPassword '666666'
+//        }
+//    }
     buildTypes {//构建配置
         release {
             minifyEnabled false

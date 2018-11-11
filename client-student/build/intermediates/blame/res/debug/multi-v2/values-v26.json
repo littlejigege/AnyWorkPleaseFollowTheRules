@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "E:\\work\\Android\\Apps\\AnyWork2.0\\client-student\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-v26\\values-v26.xml",
+            "outputFile": "/home/jimji/StudioProjects/AnyWorkPleaseFollowTheRules/client-student/build/intermediates/res/merged/debug/values-v26/values-v26.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\jimiji\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\0f015facd651bc3d985cbdda3308ed92\\res\\values-v26\\values-v26.xml",
+                    "source": "/home/jimji/.gradle/caches/transforms-1/files-1.1/appcompat-v7-28.0.0.aar/0f94072457bc0a7db5ac0fd1c500c574/res/values-v26/values-v26.xml",
                     "from": {
                         "startLines": "2,3,4,8,12,16",
                         "startColumns": "4,4,4,4,4,4",
@@ -17,10 +17,10 @@
             ]
         },
         {
-            "outputFile": "E:\\work\\Android\\Apps\\AnyWork2.0\\client-student\\build\\intermediates\\res\\merged\\debug\\values-v26\\values-v26.xml",
+            "outputFile": "/home/jimji/StudioProjects/AnyWorkPleaseFollowTheRules/client-student/build/intermediates/incremental/mergeDebugResources/merged.dir/values-v26/values-v26.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\jimiji\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\0f015facd651bc3d985cbdda3308ed92\\res\\values-v26\\values-v26.xml",
+                    "source": "/home/jimji/.gradle/caches/transforms-1/files-1.1/appcompat-v7-28.0.0.aar/0f94072457bc0a7db5ac0fd1c500c574/res/values-v26/values-v26.xml",
                     "from": {
                         "startLines": "2,3,4,8,12,16",
                         "startColumns": "4,4,4,4,4,4",

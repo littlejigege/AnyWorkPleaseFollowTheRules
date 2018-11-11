@@ -1,48 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "E:\\work\\Android\\Apps\\AnyWork2.0\\client-student\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-v21\\values-v21.xml",
+            "outputFile": "/home/jimji/StudioProjects/AnyWorkPleaseFollowTheRules/client-student/build/intermediates/res/merged/debug/values-v21/values-v21.xml",
             "map": [
                 {
-                    "source": "E:\\work\\Android\\Apps\\AnyWork2.0\\client-student\\src\\main\\res\\values-v21\\styles.xml",
-                    "from": {
-                        "startLines": "14,80,88,159,101,128,56,46,61,134,138,143,148,154,121,112,117,29,39,73,4,107,96",
-                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
-                        "startOffsets": "525,4108,4500,7504,5099,6325,2895,2363,3136,6624,6742,6914,7087,7332,5957,5527,5751,1510,2039,3771,97,5405,4896",
-                        "endLines": "27,86,94,162,105,132,59,54,71,136,141,146,152,157,126,115,119,37,44,78,12,110,99",
-                        "endColumns": "12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12",
-                        "endOffsets": "1502,4492,4888,7682,5397,6616,3128,2887,3763,6734,6906,7079,7324,7496,6317,5743,5949,2031,2355,4100,517,5519,5091"
-                    },
-                    "to": {
-                        "startLines": "6,20,27,34,38,43,48,52,61,72,75,79,83,88,92,98,102,105,114,120,126,135,442",
-                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
-                        "startOffsets": "354,1323,1706,2093,2273,2572,2864,3099,3620,4242,4355,4521,4688,4926,5092,5452,5670,5871,6389,6705,7034,7451,29334",
-                        "endLines": "19,26,33,37,42,47,51,60,71,74,78,82,87,91,97,101,104,113,119,125,134,136,445",
-                        "endColumns": "12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12",
-                        "endOffsets": "1318,1701,2088,2268,2567,2859,3094,3615,4237,4350,4516,4683,4921,5087,5447,5665,5866,6384,6700,7029,7446,7546,29526"
-                    }
-                },
-                {
-                    "source": "C:\\Users\\jimiji\\.gradle\\caches\\transforms-1\\files-1.1\\support-media-compat-28.0.0.aar\\505fed83e67c2aeeb74069a78d29bd2f\\res\\values-v21\\values-v21.xml",
-                    "from": {
-                        "startLines": "2,5,8,11",
-                        "startColumns": "4,4,4,4",
-                        "startOffsets": "55,223,386,554",
-                        "endLines": "4,7,10,13",
-                        "endColumns": "12,12,12,12",
-                        "endOffsets": "218,381,549,716"
-                    },
-                    "to": {
-                        "startLines": "396,399,403,407",
-                        "startColumns": "4,4,4,4",
-                        "startOffsets": "26701,26869,27158,27454",
-                        "endLines": "398,401,405,409",
-                        "endColumns": "12,12,12,12",
-                        "endOffsets": "26864,27027,27321,27616"
-                    }
-                },
-                {
-                    "source": "C:\\Users\\jimiji\\.gradle\\caches\\transforms-1\\files-1.1\\design-28.0.0.aar\\9f13930b895983eb13ccd4dd88fb7063\\res\\values-v21\\values-v21.xml",
+                    "source": "/home/jimji/.gradle/caches/transforms-1/files-1.1/design-28.0.0.aar/10674943a320c8c6067ee3bc2cf310df/res/values-v21/values-v21.xml",
                     "from": {
                         "startLines": "2,10,18,26",
                         "startColumns": "4,4,4,4",
@@ -61,7 +23,7 @@
                     }
                 },
                 {
-                    "source": "C:\\Users\\jimiji\\.gradle\\caches\\transforms-1\\files-1.1\\support-compat-28.0.0.aar\\146ce858928eda2d21fd039b1013447b\\res\\values-v21\\values-v21.xml",
+                    "source": "/home/jimji/.gradle/caches/transforms-1/files-1.1/support-compat-28.0.0.aar/1110b93d5d5a53fc049867b2569040be/res/values-v21/values-v21.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7,8,9,10,13",
                         "startColumns": "4,4,4,4,4,4,4,4,4,4",
@@ -80,7 +42,45 @@
                     }
                 },
                 {
-                    "source": "C:\\Users\\jimiji\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\0f015facd651bc3d985cbdda3308ed92\\res\\values-v21\\values-v21.xml",
+                    "source": "/home/jimji/.gradle/caches/transforms-1/files-1.1/support-media-compat-28.0.0.aar/52333caa3003f7da66ab4d5167a2e292/res/values-v21/values-v21.xml",
+                    "from": {
+                        "startLines": "2,5,8,11",
+                        "startColumns": "4,4,4,4",
+                        "startOffsets": "55,223,386,554",
+                        "endLines": "4,7,10,13",
+                        "endColumns": "12,12,12,12",
+                        "endOffsets": "218,381,549,716"
+                    },
+                    "to": {
+                        "startLines": "396,399,403,407",
+                        "startColumns": "4,4,4,4",
+                        "startOffsets": "26701,26869,27158,27454",
+                        "endLines": "398,401,405,409",
+                        "endColumns": "12,12,12,12",
+                        "endOffsets": "26864,27027,27321,27616"
+                    }
+                },
+                {
+                    "source": "/home/jimji/StudioProjects/AnyWorkPleaseFollowTheRules/client-student/src/main/res/values-v21/styles.xml",
+                    "from": {
+                        "startLines": "14,80,88,159,101,128,56,46,61,134,138,143,148,154,121,112,117,29,39,73,4,107,96",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "511,4028,4412,7345,4998,6197,2839,2317,3075,6490,6604,6771,6939,7178,5836,5415,5634,1481,2000,3698,93,5298,4800",
+                        "endLines": "27,86,94,162,105,132,59,54,71,136,141,146,152,157,126,115,119,37,44,78,12,110,99",
+                        "endColumns": "12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12",
+                        "endOffsets": "1475,4406,4794,7520,5292,6484,3069,2833,3692,6598,6765,6933,7172,7339,6191,5628,5830,1994,2311,4022,505,5409,4992"
+                    },
+                    "to": {
+                        "startLines": "6,20,27,34,38,43,48,52,61,72,75,79,83,88,92,98,102,105,114,120,126,135,442",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "354,1323,1706,2093,2273,2572,2864,3099,3620,4242,4355,4521,4688,4926,5092,5452,5670,5871,6389,6705,7034,7451,29334",
+                        "endLines": "19,26,33,37,42,47,51,60,71,74,78,82,87,91,97,101,104,113,119,125,134,136,445",
+                        "endColumns": "12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12",
+                        "endOffsets": "1318,1701,2088,2268,2567,2859,3094,3615,4237,4350,4516,4683,4921,5087,5447,5665,5866,6384,6700,7029,7446,7546,29526"
+                    }
+                },
+                {
+                    "source": "/home/jimji/.gradle/caches/transforms-1/files-1.1/appcompat-v7-28.0.0.aar/0f94072457bc0a7db5ac0fd1c500c574/res/values-v21/values-v21.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,17,19,20,21,22,24,26,27,28,29,30,32,34,36,38,40,42,43,48,50,52,53,54,56,58,59,60,61,62,63,107,110,154,157,160,162,164,166,169,171,174,175,176,179,180,181,182,183,184,187,188,190,192,194,196,200,202,203,204,205,207,211,213,215,216,217,218,219,221,222,223,233,234,235,247",
                         "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
@@ -101,48 +101,10 @@
             ]
         },
         {
-            "outputFile": "E:\\work\\Android\\Apps\\AnyWork2.0\\client-student\\build\\intermediates\\res\\merged\\debug\\values-v21\\values-v21.xml",
+            "outputFile": "/home/jimji/StudioProjects/AnyWorkPleaseFollowTheRules/client-student/build/intermediates/incremental/mergeDebugResources/merged.dir/values-v21/values-v21.xml",
             "map": [
                 {
-                    "source": "E:\\work\\Android\\Apps\\AnyWork2.0\\client-student\\src\\main\\res\\values-v21\\styles.xml",
-                    "from": {
-                        "startLines": "14,80,88,159,101,128,56,46,61,134,138,143,148,154,121,112,117,29,39,73,4,107,96",
-                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
-                        "startOffsets": "525,4108,4500,7504,5099,6325,2895,2363,3136,6624,6742,6914,7087,7332,5957,5527,5751,1510,2039,3771,97,5405,4896",
-                        "endLines": "27,86,94,162,105,132,59,54,71,136,141,146,152,157,126,115,119,37,44,78,12,110,99",
-                        "endColumns": "12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12",
-                        "endOffsets": "1502,4492,4888,7682,5397,6616,3128,2887,3763,6734,6906,7079,7324,7496,6317,5743,5949,2031,2355,4100,517,5519,5091"
-                    },
-                    "to": {
-                        "startLines": "6,20,27,34,38,43,48,52,61,72,75,79,83,88,92,98,102,105,114,120,126,135,442",
-                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
-                        "startOffsets": "354,1323,1706,2093,2273,2572,2864,3099,3620,4242,4355,4521,4688,4926,5092,5452,5670,5871,6389,6705,7034,7451,29334",
-                        "endLines": "19,26,33,37,42,47,51,60,71,74,78,82,87,91,97,101,104,113,119,125,134,136,445",
-                        "endColumns": "12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12",
-                        "endOffsets": "1318,1701,2088,2268,2567,2859,3094,3615,4237,4350,4516,4683,4921,5087,5447,5665,5866,6384,6700,7029,7446,7546,29526"
-                    }
-                },
-                {
-                    "source": "C:\\Users\\jimiji\\.gradle\\caches\\transforms-1\\files-1.1\\support-media-compat-28.0.0.aar\\505fed83e67c2aeeb74069a78d29bd2f\\res\\values-v21\\values-v21.xml",
-                    "from": {
-                        "startLines": "2,5,8,11",
-                        "startColumns": "4,4,4,4",
-                        "startOffsets": "55,223,386,554",
-                        "endLines": "4,7,10,13",
-                        "endColumns": "12,12,12,12",
-                        "endOffsets": "218,381,549,716"
-                    },
-                    "to": {
-                        "startLines": "396,399,403,407",
-                        "startColumns": "4,4,4,4",
-                        "startOffsets": "26701,26869,27158,27454",
-                        "endLines": "398,401,405,409",
-                        "endColumns": "12,12,12,12",
-                        "endOffsets": "26864,27027,27321,27616"
-                    }
-                },
-                {
-                    "source": "C:\\Users\\jimiji\\.gradle\\caches\\transforms-1\\files-1.1\\design-28.0.0.aar\\9f13930b895983eb13ccd4dd88fb7063\\res\\values-v21\\values-v21.xml",
+                    "source": "/home/jimji/.gradle/caches/transforms-1/files-1.1/design-28.0.0.aar/10674943a320c8c6067ee3bc2cf310df/res/values-v21/values-v21.xml",
                     "from": {
                         "startLines": "2,10,18,26",
                         "startColumns": "4,4,4,4",
@@ -161,7 +123,7 @@
                     }
                 },
                 {
-                    "source": "C:\\Users\\jimiji\\.gradle\\caches\\transforms-1\\files-1.1\\support-compat-28.0.0.aar\\146ce858928eda2d21fd039b1013447b\\res\\values-v21\\values-v21.xml",
+                    "source": "/home/jimji/.gradle/caches/transforms-1/files-1.1/support-compat-28.0.0.aar/1110b93d5d5a53fc049867b2569040be/res/values-v21/values-v21.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7,8,9,10,13",
                         "startColumns": "4,4,4,4,4,4,4,4,4,4",
@@ -180,7 +142,45 @@
                     }
                 },
                 {
-                    "source": "C:\\Users\\jimiji\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\0f015facd651bc3d985cbdda3308ed92\\res\\values-v21\\values-v21.xml",
+                    "source": "/home/jimji/.gradle/caches/transforms-1/files-1.1/support-media-compat-28.0.0.aar/52333caa3003f7da66ab4d5167a2e292/res/values-v21/values-v21.xml",
+                    "from": {
+                        "startLines": "2,5,8,11",
+                        "startColumns": "4,4,4,4",
+                        "startOffsets": "55,223,386,554",
+                        "endLines": "4,7,10,13",
+                        "endColumns": "12,12,12,12",
+                        "endOffsets": "218,381,549,716"
+                    },
+                    "to": {
+                        "startLines": "396,399,403,407",
+                        "startColumns": "4,4,4,4",
+                        "startOffsets": "26701,26869,27158,27454",
+                        "endLines": "398,401,405,409",
+                        "endColumns": "12,12,12,12",
+                        "endOffsets": "26864,27027,27321,27616"
+                    }
+                },
+                {
+                    "source": "/home/jimji/StudioProjects/AnyWorkPleaseFollowTheRules/client-student/src/main/res/values-v21/styles.xml",
+                    "from": {
+                        "startLines": "14,80,88,159,101,128,56,46,61,134,138,143,148,154,121,112,117,29,39,73,4,107,96",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "511,4028,4412,7345,4998,6197,2839,2317,3075,6490,6604,6771,6939,7178,5836,5415,5634,1481,2000,3698,93,5298,4800",
+                        "endLines": "27,86,94,162,105,132,59,54,71,136,141,146,152,157,126,115,119,37,44,78,12,110,99",
+                        "endColumns": "12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12",
+                        "endOffsets": "1475,4406,4794,7520,5292,6484,3069,2833,3692,6598,6765,6933,7172,7339,6191,5628,5830,1994,2311,4022,505,5409,4992"
+                    },
+                    "to": {
+                        "startLines": "6,20,27,34,38,43,48,52,61,72,75,79,83,88,92,98,102,105,114,120,126,135,442",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "354,1323,1706,2093,2273,2572,2864,3099,3620,4242,4355,4521,4688,4926,5092,5452,5670,5871,6389,6705,7034,7451,29334",
+                        "endLines": "19,26,33,37,42,47,51,60,71,74,78,82,87,91,97,101,104,113,119,125,134,136,445",
+                        "endColumns": "12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12",
+                        "endOffsets": "1318,1701,2088,2268,2567,2859,3094,3615,4237,4350,4516,4683,4921,5087,5447,5665,5866,6384,6700,7029,7446,7546,29526"
+                    }
+                },
+                {
+                    "source": "/home/jimji/.gradle/caches/transforms-1/files-1.1/appcompat-v7-28.0.0.aar/0f94072457bc0a7db5ac0fd1c500c574/res/values-v21/values-v21.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,17,19,20,21,22,24,26,27,28,29,30,32,34,36,38,40,42,43,48,50,52,53,54,56,58,59,60,61,62,63,107,110,154,157,160,162,164,166,169,171,174,175,176,179,180,181,182,183,184,187,188,190,192,194,196,200,202,203,204,205,207,211,213,215,216,217,218,219,221,222,223,233,234,235,247",
                         "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",

@@ -4,9 +4,17 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".workout.WorkoutCatalogFragment"
-    android:background="#f9f9f9">
+    android:background="#f9f9f9"
+    tools:context=".workout.WorkoutCatalogFragment">
 
+    <com.qgstudio.aniwork.widget.LoadingView
+        android:id="@+id/loading_view"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/workout_frag_toolbar" />
 
     <android.support.v7.widget.RecyclerView
         android:id="@+id/recycler_view_workout"
@@ -58,11 +66,11 @@
                 android:textSize="18sp" />
 
             <FrameLayout
-                android:visibility="gone"
                 android:id="@+id/btn_search"
                 android:layout_width="64dp"
                 android:layout_height="44dp"
-                android:layout_gravity="end|center_vertical">
+                android:layout_gravity="end|center_vertical"
+                android:visibility="gone">
 
                 <ImageView
                     android:layout_width="24dp"

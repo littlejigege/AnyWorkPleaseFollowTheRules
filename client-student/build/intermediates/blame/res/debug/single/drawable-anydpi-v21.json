@@ -1,58 +1,58 @@
 [
     {
-        "merged": "E:\\work\\Android\\Apps\\AnyWork2.0\\client-student\\build\\intermediates\\res\\merged\\debug\\drawable-anydpi-v21\\design_ic_visibility_off.xml",
-        "source": "C:\\Users\\jimiji\\.gradle\\caches\\transforms-1\\files-1.1\\design-28.0.0.aar\\9f13930b895983eb13ccd4dd88fb7063\\res\\drawable-anydpi-v21\\design_ic_visibility_off.xml"
+        "merged": "/home/jimji/StudioProjects/AnyWorkPleaseFollowTheRules/client-student/build/intermediates/res/merged/debug/drawable-anydpi-v21/feedback_cancel.xml",
+        "source": "/home/jimji/StudioProjects/AnyWorkPleaseFollowTheRules/client-student/build/generated/res/pngs/debug/drawable-anydpi-v21/feedback_cancel.xml"
     },
     {
-        "merged": "E:\\work\\Android\\Apps\\AnyWork2.0\\client-student\\build\\intermediates\\res\\merged\\debug\\drawable-anydpi-v21\\ic_search.xml",
-        "source": "E:\\work\\Android\\Apps\\AnyWork2.0\\client-student\\build\\generated\\res\\pngs\\debug\\drawable-anydpi-v21\\ic_search.xml"
+        "merged": "/home/jimji/StudioProjects/AnyWorkPleaseFollowTheRules/client-student/build/intermediates/res/merged/debug/drawable-anydpi-v21/vector_drawable_feedback.xml",
+        "source": "/home/jimji/StudioProjects/AnyWorkPleaseFollowTheRules/client-student/build/generated/res/pngs/debug/drawable-anydpi-v21/vector_drawable_feedback.xml"
     },
     {
-        "merged": "E:\\work\\Android\\Apps\\AnyWork2.0\\client-student\\build\\intermediates\\res\\merged\\debug\\drawable-anydpi-v21\\ic_fiber_red.xml",
-        "source": "E:\\work\\Android\\Apps\\AnyWork2.0\\client-student\\build\\generated\\res\\pngs\\debug\\drawable-anydpi-v21\\ic_fiber_red.xml"
+        "merged": "/home/jimji/StudioProjects/AnyWorkPleaseFollowTheRules/client-student/build/intermediates/res/merged/debug/drawable-anydpi-v21/feedback_add_picture.xml",
+        "source": "/home/jimji/StudioProjects/AnyWorkPleaseFollowTheRules/client-student/build/generated/res/pngs/debug/drawable-anydpi-v21/feedback_add_picture.xml"
     },
     {
-        "merged": "E:\\work\\Android\\Apps\\AnyWork2.0\\client-student\\build\\intermediates\\res\\merged\\debug\\drawable-anydpi-v21\\bg_load_blank.xml",
-        "source": "E:\\work\\Android\\Apps\\AnyWork2.0\\client-student\\build\\generated\\res\\pngs\\debug\\drawable-anydpi-v21\\bg_load_blank.xml"
+        "merged": "/home/jimji/StudioProjects/AnyWorkPleaseFollowTheRules/client-student/build/intermediates/res/merged/debug/drawable-anydpi-v21/ic_fiber_green.xml",
+        "source": "/home/jimji/StudioProjects/AnyWorkPleaseFollowTheRules/client-student/build/generated/res/pngs/debug/drawable-anydpi-v21/ic_fiber_green.xml"
     },
     {
-        "merged": "E:\\work\\Android\\Apps\\AnyWork2.0\\client-student\\build\\intermediates\\res\\merged\\debug\\drawable-anydpi-v21\\feedback_select.xml",
-        "source": "E:\\work\\Android\\Apps\\AnyWork2.0\\client-student\\build\\generated\\res\\pngs\\debug\\drawable-anydpi-v21\\feedback_select.xml"
+        "merged": "/home/jimji/StudioProjects/AnyWorkPleaseFollowTheRules/client-student/build/intermediates/res/merged/debug/drawable-anydpi-v21/ic_rank_fill.xml",
+        "source": "/home/jimji/StudioProjects/AnyWorkPleaseFollowTheRules/client-student/build/generated/res/pngs/debug/drawable-anydpi-v21/ic_rank_fill.xml"
     },
     {
-        "merged": "E:\\work\\Android\\Apps\\AnyWork2.0\\client-student\\build\\intermediates\\res\\merged\\debug\\drawable-anydpi-v21\\feedback_noselect.xml",
-        "source": "E:\\work\\Android\\Apps\\AnyWork2.0\\client-student\\build\\generated\\res\\pngs\\debug\\drawable-anydpi-v21\\feedback_noselect.xml"
+        "merged": "/home/jimji/StudioProjects/AnyWorkPleaseFollowTheRules/client-student/build/intermediates/res/merged/debug/drawable-anydpi-v21/design_ic_visibility.xml",
+        "source": "/home/jimji/.gradle/caches/transforms-1/files-1.1/design-28.0.0.aar/10674943a320c8c6067ee3bc2cf310df/res/drawable-anydpi-v21/design_ic_visibility.xml"
     },
     {
-        "merged": "E:\\work\\Android\\Apps\\AnyWork2.0\\client-student\\build\\intermediates\\res\\merged\\debug\\drawable-anydpi-v21\\design_ic_visibility.xml",
-        "source": "C:\\Users\\jimiji\\.gradle\\caches\\transforms-1\\files-1.1\\design-28.0.0.aar\\9f13930b895983eb13ccd4dd88fb7063\\res\\drawable-anydpi-v21\\design_ic_visibility.xml"
+        "merged": "/home/jimji/StudioProjects/AnyWorkPleaseFollowTheRules/client-student/build/intermediates/res/merged/debug/drawable-anydpi-v21/change_ip.xml",
+        "source": "/home/jimji/StudioProjects/AnyWorkPleaseFollowTheRules/client-student/build/generated/res/pngs/debug/drawable-anydpi-v21/change_ip.xml"
     },
     {
-        "merged": "E:\\work\\Android\\Apps\\AnyWork2.0\\client-student\\build\\intermediates\\res\\merged\\debug\\drawable-anydpi-v21\\feedback_cancel.xml",
-        "source": "E:\\work\\Android\\Apps\\AnyWork2.0\\client-student\\build\\generated\\res\\pngs\\debug\\drawable-anydpi-v21\\feedback_cancel.xml"
+        "merged": "/home/jimji/StudioProjects/AnyWorkPleaseFollowTheRules/client-student/build/intermediates/res/merged/debug/drawable-anydpi-v21/ic_add.xml",
+        "source": "/home/jimji/StudioProjects/AnyWorkPleaseFollowTheRules/client-student/build/generated/res/pngs/debug/drawable-anydpi-v21/ic_add.xml"
     },
     {
-        "merged": "E:\\work\\Android\\Apps\\AnyWork2.0\\client-student\\build\\intermediates\\res\\merged\\debug\\drawable-anydpi-v21\\vector_drawable_feedback.xml",
-        "source": "E:\\work\\Android\\Apps\\AnyWork2.0\\client-student\\build\\generated\\res\\pngs\\debug\\drawable-anydpi-v21\\vector_drawable_feedback.xml"
+        "merged": "/home/jimji/StudioProjects/AnyWorkPleaseFollowTheRules/client-student/build/intermediates/res/merged/debug/drawable-anydpi-v21/feedback_noselect.xml",
+        "source": "/home/jimji/StudioProjects/AnyWorkPleaseFollowTheRules/client-student/build/generated/res/pngs/debug/drawable-anydpi-v21/feedback_noselect.xml"
     },
     {
-        "merged": "E:\\work\\Android\\Apps\\AnyWork2.0\\client-student\\build\\intermediates\\res\\merged\\debug\\drawable-anydpi-v21\\change_ip.xml",
-        "source": "E:\\work\\Android\\Apps\\AnyWork2.0\\client-student\\build\\generated\\res\\pngs\\debug\\drawable-anydpi-v21\\change_ip.xml"
+        "merged": "/home/jimji/StudioProjects/AnyWorkPleaseFollowTheRules/client-student/build/intermediates/res/merged/debug/drawable-anydpi-v21/design_ic_visibility_off.xml",
+        "source": "/home/jimji/.gradle/caches/transforms-1/files-1.1/design-28.0.0.aar/10674943a320c8c6067ee3bc2cf310df/res/drawable-anydpi-v21/design_ic_visibility_off.xml"
     },
     {
-        "merged": "E:\\work\\Android\\Apps\\AnyWork2.0\\client-student\\build\\intermediates\\res\\merged\\debug\\drawable-anydpi-v21\\ic_add.xml",
-        "source": "E:\\work\\Android\\Apps\\AnyWork2.0\\client-student\\build\\generated\\res\\pngs\\debug\\drawable-anydpi-v21\\ic_add.xml"
+        "merged": "/home/jimji/StudioProjects/AnyWorkPleaseFollowTheRules/client-student/build/intermediates/res/merged/debug/drawable-anydpi-v21/bg_load_blank.xml",
+        "source": "/home/jimji/StudioProjects/AnyWorkPleaseFollowTheRules/client-student/build/generated/res/pngs/debug/drawable-anydpi-v21/bg_load_blank.xml"
     },
     {
-        "merged": "E:\\work\\Android\\Apps\\AnyWork2.0\\client-student\\build\\intermediates\\res\\merged\\debug\\drawable-anydpi-v21\\ic_fiber_green.xml",
-        "source": "E:\\work\\Android\\Apps\\AnyWork2.0\\client-student\\build\\generated\\res\\pngs\\debug\\drawable-anydpi-v21\\ic_fiber_green.xml"
+        "merged": "/home/jimji/StudioProjects/AnyWorkPleaseFollowTheRules/client-student/build/intermediates/res/merged/debug/drawable-anydpi-v21/ic_search.xml",
+        "source": "/home/jimji/StudioProjects/AnyWorkPleaseFollowTheRules/client-student/build/generated/res/pngs/debug/drawable-anydpi-v21/ic_search.xml"
     },
     {
-        "merged": "E:\\work\\Android\\Apps\\AnyWork2.0\\client-student\\build\\intermediates\\res\\merged\\debug\\drawable-anydpi-v21\\ic_rank_fill.xml",
-        "source": "E:\\work\\Android\\Apps\\AnyWork2.0\\client-student\\build\\generated\\res\\pngs\\debug\\drawable-anydpi-v21\\ic_rank_fill.xml"
+        "merged": "/home/jimji/StudioProjects/AnyWorkPleaseFollowTheRules/client-student/build/intermediates/res/merged/debug/drawable-anydpi-v21/feedback_select.xml",
+        "source": "/home/jimji/StudioProjects/AnyWorkPleaseFollowTheRules/client-student/build/generated/res/pngs/debug/drawable-anydpi-v21/feedback_select.xml"
     },
     {
-        "merged": "E:\\work\\Android\\Apps\\AnyWork2.0\\client-student\\build\\intermediates\\res\\merged\\debug\\drawable-anydpi-v21\\feedback_add_picture.xml",
-        "source": "E:\\work\\Android\\Apps\\AnyWork2.0\\client-student\\build\\generated\\res\\pngs\\debug\\drawable-anydpi-v21\\feedback_add_picture.xml"
+        "merged": "/home/jimji/StudioProjects/AnyWorkPleaseFollowTheRules/client-student/build/intermediates/res/merged/debug/drawable-anydpi-v21/ic_fiber_red.xml",
+        "source": "/home/jimji/StudioProjects/AnyWorkPleaseFollowTheRules/client-student/build/generated/res/pngs/debug/drawable-anydpi-v21/ic_fiber_red.xml"
     }
 ]

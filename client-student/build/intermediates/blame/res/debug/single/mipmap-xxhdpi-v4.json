@@ -1,14 +1,14 @@
 [
     {
-        "merged": "D:\\AndroidStudioProjects\\AnyWorkPleaseFollowTheRules\\client-student\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi-v4\\ic_launcher_round.png",
-        "source": "D:\\AndroidStudioProjects\\AnyWorkPleaseFollowTheRules\\client-student\\src\\main\\res\\mipmap-xxhdpi\\ic_launcher_round.png"
+        "merged": "/home/jimji/StudioProjects/AnyWorkPleaseFollowTheRules/client-student/build/intermediates/res/merged/debug/mipmap-xxhdpi-v4/ic_launcher.png",
+        "source": "/home/jimji/StudioProjects/AnyWorkPleaseFollowTheRules/client-student/src/main/res/mipmap-xxhdpi/ic_launcher.png"
     },
     {
-        "merged": "D:\\AndroidStudioProjects\\AnyWorkPleaseFollowTheRules\\client-student\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi-v4\\ic_launcher_foreground.png",
-        "source": "D:\\AndroidStudioProjects\\AnyWorkPleaseFollowTheRules\\client-student\\src\\main\\res\\mipmap-xxhdpi\\ic_launcher_foreground.png"
+        "merged": "/home/jimji/StudioProjects/AnyWorkPleaseFollowTheRules/client-student/build/intermediates/res/merged/debug/mipmap-xxhdpi-v4/ic_launcher_round.png",
+        "source": "/home/jimji/StudioProjects/AnyWorkPleaseFollowTheRules/client-student/src/main/res/mipmap-xxhdpi/ic_launcher_round.png"
     },
     {
-        "merged": "D:\\AndroidStudioProjects\\AnyWorkPleaseFollowTheRules\\client-student\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi-v4\\ic_launcher.png",
-        "source": "D:\\AndroidStudioProjects\\AnyWorkPleaseFollowTheRules\\client-student\\src\\main\\res\\mipmap-xxhdpi\\ic_launcher.png"
+        "merged": "/home/jimji/StudioProjects/AnyWorkPleaseFollowTheRules/client-student/build/intermediates/res/merged/debug/mipmap-xxhdpi-v4/ic_launcher_foreground.png",
+        "source": "/home/jimji/StudioProjects/AnyWorkPleaseFollowTheRules/client-student/src/main/res/mipmap-xxhdpi/ic_launcher_foreground.png"
     }
 ]

@@ -1,10 +1,10 @@
 [
     {
-        "merged": "D:\\AndroidStudioProjects\\AnyWorkPleaseFollowTheRules\\client-student\\build\\intermediates\\res\\merged\\debug\\mipmap-anydpi-v26\\ic_launcher_round.xml",
-        "source": "D:\\AndroidStudioProjects\\AnyWorkPleaseFollowTheRules\\client-student\\src\\main\\res\\mipmap-anydpi-v26\\ic_launcher_round.xml"
+        "merged": "/home/jimji/StudioProjects/AnyWorkPleaseFollowTheRules/client-student/build/intermediates/res/merged/debug/mipmap-anydpi-v26/ic_launcher_round.xml",
+        "source": "/home/jimji/StudioProjects/AnyWorkPleaseFollowTheRules/client-student/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml"
     },
     {
-        "merged": "D:\\AndroidStudioProjects\\AnyWorkPleaseFollowTheRules\\client-student\\build\\intermediates\\res\\merged\\debug\\mipmap-anydpi-v26\\ic_launcher.xml",
-        "source": "D:\\AndroidStudioProjects\\AnyWorkPleaseFollowTheRules\\client-student\\src\\main\\res\\mipmap-anydpi-v26\\ic_launcher.xml"
+        "merged": "/home/jimji/StudioProjects/AnyWorkPleaseFollowTheRules/client-student/build/intermediates/res/merged/debug/mipmap-anydpi-v26/ic_launcher.xml",
+        "source": "/home/jimji/StudioProjects/AnyWorkPleaseFollowTheRules/client-student/src/main/res/mipmap-anydpi-v26/ic_launcher.xml"
     }
 ]

@@ -1,10 +1,10 @@
 [
     {
-        "merged": "E:\\work\\Android\\Apps\\AnyWork2.0\\client-student\\build\\intermediates\\res\\merged\\debug\\xml\\network_config.xml",
-        "source": "E:\\work\\Android\\Apps\\AnyWork2.0\\client-student\\src\\main\\res\\xml\\network_config.xml"
+        "merged": "/home/jimji/StudioProjects/AnyWorkPleaseFollowTheRules/client-student/build/intermediates/res/merged/debug/xml/network_config.xml",
+        "source": "/home/jimji/StudioProjects/AnyWorkPleaseFollowTheRules/client-student/src/main/res/xml/network_config.xml"
     },
     {
-        "merged": "E:\\work\\Android\\Apps\\AnyWork2.0\\client-student\\build\\intermediates\\res\\merged\\debug\\xml\\provider_paths.xml",
-        "source": "C:\\Users\\jimiji\\.gradle\\caches\\transforms-1\\files-1.1\\crashreport_upgrade-1.3.6.aar\\cbbd2ab25164f4ab10615c6bfc3257f0\\res\\xml\\provider_paths.xml"
+        "merged": "/home/jimji/StudioProjects/AnyWorkPleaseFollowTheRules/client-student/build/intermediates/res/merged/debug/xml/provider_paths.xml",
+        "source": "/home/jimji/.gradle/caches/transforms-1/files-1.1/crashreport_upgrade-1.3.6.aar/52abf166be57162f5e0a06fffb78025f/res/xml/provider_paths.xml"
     }
 ]

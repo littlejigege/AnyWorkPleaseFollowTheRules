@@ -1,174 +1,174 @@
 [
     {
-        "merged": "E:\\work\\Android\\Apps\\AnyWork2.0\\client-student\\build\\intermediates\\res\\merged\\debug\\color\\bottom_tab_text_color.xml",
-        "source": "E:\\work\\Android\\Apps\\AnyWork2.0\\client-student\\src\\main\\res\\color\\bottom_tab_text_color.xml"
+        "merged": "/home/jimji/StudioProjects/AnyWorkPleaseFollowTheRules/client-student/build/intermediates/res/merged/debug/color/mtrl_bottom_nav_colored_item_tint.xml",
+        "source": "/home/jimji/.gradle/caches/transforms-1/files-1.1/design-28.0.0.aar/10674943a320c8c6067ee3bc2cf310df/res/color/mtrl_bottom_nav_colored_item_tint.xml"
     },
     {
-        "merged": "E:\\work\\Android\\Apps\\AnyWork2.0\\client-student\\build\\intermediates\\res\\merged\\debug\\color\\mtrl_chip_close_icon_tint.xml",
-        "source": "C:\\Users\\jimiji\\.gradle\\caches\\transforms-1\\files-1.1\\design-28.0.0.aar\\9f13930b895983eb13ccd4dd88fb7063\\res\\color\\mtrl_chip_close_icon_tint.xml"
+        "merged": "/home/jimji/StudioProjects/AnyWorkPleaseFollowTheRules/client-student/build/intermediates/res/merged/debug/color/mtrl_text_btn_text_color_selector.xml",
+        "source": "/home/jimji/.gradle/caches/transforms-1/files-1.1/design-28.0.0.aar/10674943a320c8c6067ee3bc2cf310df/res/color/mtrl_text_btn_text_color_selector.xml"
     },
     {
-        "merged": "E:\\work\\Android\\Apps\\AnyWork2.0\\client-student\\build\\intermediates\\res\\merged\\debug\\color\\abc_tint_default.xml",
-        "source": "C:\\Users\\jimiji\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\0f015facd651bc3d985cbdda3308ed92\\res\\color\\abc_tint_default.xml"
+        "merged": "/home/jimji/StudioProjects/AnyWorkPleaseFollowTheRules/client-student/build/intermediates/res/merged/debug/color/mtrl_tabs_legacy_text_color_selector.xml",
+        "source": "/home/jimji/.gradle/caches/transforms-1/files-1.1/design-28.0.0.aar/10674943a320c8c6067ee3bc2cf310df/res/color/mtrl_tabs_legacy_text_color_selector.xml"
     },
     {
-        "merged": "E:\\work\\Android\\Apps\\AnyWork2.0\\client-student\\build\\intermediates\\res\\merged\\debug\\color\\abc_primary_text_disable_only_material_dark.xml",
-        "source": "C:\\Users\\jimiji\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\0f015facd651bc3d985cbdda3308ed92\\res\\color\\abc_primary_text_disable_only_material_dark.xml"
+        "merged": "/home/jimji/StudioProjects/AnyWorkPleaseFollowTheRules/client-student/build/intermediates/res/merged/debug/color/abc_background_cache_hint_selector_material_light.xml",
+        "source": "/home/jimji/.gradle/caches/transforms-1/files-1.1/appcompat-v7-28.0.0.aar/0f94072457bc0a7db5ac0fd1c500c574/res/color/abc_background_cache_hint_selector_material_light.xml"
     },
     {
-        "merged": "E:\\work\\Android\\Apps\\AnyWork2.0\\client-student\\build\\intermediates\\res\\merged\\debug\\color\\abc_hint_foreground_material_dark.xml",
-        "source": "C:\\Users\\jimiji\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\0f015facd651bc3d985cbdda3308ed92\\res\\color\\abc_hint_foreground_material_dark.xml"
+        "merged": "/home/jimji/StudioProjects/AnyWorkPleaseFollowTheRules/client-student/build/intermediates/res/merged/debug/color/abc_primary_text_disable_only_material_light.xml",
+        "source": "/home/jimji/.gradle/caches/transforms-1/files-1.1/appcompat-v7-28.0.0.aar/0f94072457bc0a7db5ac0fd1c500c574/res/color/abc_primary_text_disable_only_material_light.xml"
     },
     {
-        "merged": "E:\\work\\Android\\Apps\\AnyWork2.0\\client-student\\build\\intermediates\\res\\merged\\debug\\color\\abc_tint_spinner.xml",
-        "source": "C:\\Users\\jimiji\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\0f015facd651bc3d985cbdda3308ed92\\res\\color\\abc_tint_spinner.xml"
+        "merged": "/home/jimji/StudioProjects/AnyWorkPleaseFollowTheRules/client-student/build/intermediates/res/merged/debug/color/abc_secondary_text_material_dark.xml",
+        "source": "/home/jimji/.gradle/caches/transforms-1/files-1.1/appcompat-v7-28.0.0.aar/0f94072457bc0a7db5ac0fd1c500c574/res/color/abc_secondary_text_material_dark.xml"
     },
     {
-        "merged": "E:\\work\\Android\\Apps\\AnyWork2.0\\client-student\\build\\intermediates\\res\\merged\\debug\\color\\mtrl_bottom_nav_item_tint.xml",
-        "source": "C:\\Users\\jimiji\\.gradle\\caches\\transforms-1\\files-1.1\\design-28.0.0.aar\\9f13930b895983eb13ccd4dd88fb7063\\res\\color\\mtrl_bottom_nav_item_tint.xml"
+        "merged": "/home/jimji/StudioProjects/AnyWorkPleaseFollowTheRules/client-student/build/intermediates/res/merged/debug/color/feedback_commit.xml",
+        "source": "/home/jimji/StudioProjects/AnyWorkPleaseFollowTheRules/client-student/src/main/res/color/feedback_commit.xml"
     },
     {
-        "merged": "E:\\work\\Android\\Apps\\AnyWork2.0\\client-student\\build\\intermediates\\res\\merged\\debug\\color\\mtrl_chip_text_color.xml",
-        "source": "C:\\Users\\jimiji\\.gradle\\caches\\transforms-1\\files-1.1\\design-28.0.0.aar\\9f13930b895983eb13ccd4dd88fb7063\\res\\color\\mtrl_chip_text_color.xml"
+        "merged": "/home/jimji/StudioProjects/AnyWorkPleaseFollowTheRules/client-student/build/intermediates/res/merged/debug/color/mtrl_tabs_icon_color_selector_colored.xml",
+        "source": "/home/jimji/.gradle/caches/transforms-1/files-1.1/design-28.0.0.aar/10674943a320c8c6067ee3bc2cf310df/res/color/mtrl_tabs_icon_color_selector_colored.xml"
     },
     {
-        "merged": "E:\\work\\Android\\Apps\\AnyWork2.0\\client-student\\build\\intermediates\\res\\merged\\debug\\color\\abc_primary_text_material_dark.xml",
-        "source": "C:\\Users\\jimiji\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\0f015facd651bc3d985cbdda3308ed92\\res\\color\\abc_primary_text_material_dark.xml"
+        "merged": "/home/jimji/StudioProjects/AnyWorkPleaseFollowTheRules/client-student/build/intermediates/res/merged/debug/color/abc_primary_text_material_dark.xml",
+        "source": "/home/jimji/.gradle/caches/transforms-1/files-1.1/appcompat-v7-28.0.0.aar/0f94072457bc0a7db5ac0fd1c500c574/res/color/abc_primary_text_material_dark.xml"
     },
     {
-        "merged": "E:\\work\\Android\\Apps\\AnyWork2.0\\client-student\\build\\intermediates\\res\\merged\\debug\\color\\abc_secondary_text_material_dark.xml",
-        "source": "C:\\Users\\jimiji\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\0f015facd651bc3d985cbdda3308ed92\\res\\color\\abc_secondary_text_material_dark.xml"
+        "merged": "/home/jimji/StudioProjects/AnyWorkPleaseFollowTheRules/client-student/build/intermediates/res/merged/debug/color/abc_tint_btn_checkable.xml",
+        "source": "/home/jimji/.gradle/caches/transforms-1/files-1.1/appcompat-v7-28.0.0.aar/0f94072457bc0a7db5ac0fd1c500c574/res/color/abc_tint_btn_checkable.xml"
     },
     {
-        "merged": "E:\\work\\Android\\Apps\\AnyWork2.0\\client-student\\build\\intermediates\\res\\merged\\debug\\color\\abc_btn_colored_text_material.xml",
-        "source": "C:\\Users\\jimiji\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\0f015facd651bc3d985cbdda3308ed92\\res\\color\\abc_btn_colored_text_material.xml"
+        "merged": "/home/jimji/StudioProjects/AnyWorkPleaseFollowTheRules/client-student/build/intermediates/res/merged/debug/color/abc_tint_spinner.xml",
+        "source": "/home/jimji/.gradle/caches/transforms-1/files-1.1/appcompat-v7-28.0.0.aar/0f94072457bc0a7db5ac0fd1c500c574/res/color/abc_tint_spinner.xml"
     },
     {
-        "merged": "E:\\work\\Android\\Apps\\AnyWork2.0\\client-student\\build\\intermediates\\res\\merged\\debug\\color\\abc_primary_text_material_light.xml",
-        "source": "C:\\Users\\jimiji\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\0f015facd651bc3d985cbdda3308ed92\\res\\color\\abc_primary_text_material_light.xml"
+        "merged": "/home/jimji/StudioProjects/AnyWorkPleaseFollowTheRules/client-student/build/intermediates/res/merged/debug/color/abc_hint_foreground_material_light.xml",
+        "source": "/home/jimji/.gradle/caches/transforms-1/files-1.1/appcompat-v7-28.0.0.aar/0f94072457bc0a7db5ac0fd1c500c574/res/color/abc_hint_foreground_material_light.xml"
     },
     {
-        "merged": "E:\\work\\Android\\Apps\\AnyWork2.0\\client-student\\build\\intermediates\\res\\merged\\debug\\color\\abc_tint_btn_checkable.xml",
-        "source": "C:\\Users\\jimiji\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\0f015facd651bc3d985cbdda3308ed92\\res\\color\\abc_tint_btn_checkable.xml"
+        "merged": "/home/jimji/StudioProjects/AnyWorkPleaseFollowTheRules/client-student/build/intermediates/res/merged/debug/color/abc_btn_colored_text_material.xml",
+        "source": "/home/jimji/.gradle/caches/transforms-1/files-1.1/appcompat-v7-28.0.0.aar/0f94072457bc0a7db5ac0fd1c500c574/res/color/abc_btn_colored_text_material.xml"
     },
     {
-        "merged": "E:\\work\\Android\\Apps\\AnyWork2.0\\client-student\\build\\intermediates\\res\\merged\\debug\\color\\mtrl_text_btn_text_color_selector.xml",
-        "source": "C:\\Users\\jimiji\\.gradle\\caches\\transforms-1\\files-1.1\\design-28.0.0.aar\\9f13930b895983eb13ccd4dd88fb7063\\res\\color\\mtrl_text_btn_text_color_selector.xml"
+        "merged": "/home/jimji/StudioProjects/AnyWorkPleaseFollowTheRules/client-student/build/intermediates/res/merged/debug/color/mtrl_btn_ripple_color.xml",
+        "source": "/home/jimji/.gradle/caches/transforms-1/files-1.1/design-28.0.0.aar/10674943a320c8c6067ee3bc2cf310df/res/color/mtrl_btn_ripple_color.xml"
     },
     {
-        "merged": "E:\\work\\Android\\Apps\\AnyWork2.0\\client-student\\build\\intermediates\\res\\merged\\debug\\color\\mtrl_chip_background_color.xml",
-        "source": "C:\\Users\\jimiji\\.gradle\\caches\\transforms-1\\files-1.1\\design-28.0.0.aar\\9f13930b895983eb13ccd4dd88fb7063\\res\\color\\mtrl_chip_background_color.xml"
+        "merged": "/home/jimji/StudioProjects/AnyWorkPleaseFollowTheRules/client-student/build/intermediates/res/merged/debug/color/mtrl_chip_close_icon_tint.xml",
+        "source": "/home/jimji/.gradle/caches/transforms-1/files-1.1/design-28.0.0.aar/10674943a320c8c6067ee3bc2cf310df/res/color/mtrl_chip_close_icon_tint.xml"
     },
     {
-        "merged": "E:\\work\\Android\\Apps\\AnyWork2.0\\client-student\\build\\intermediates\\res\\merged\\debug\\color\\mtrl_bottom_nav_colored_item_tint.xml",
-        "source": "C:\\Users\\jimiji\\.gradle\\caches\\transforms-1\\files-1.1\\design-28.0.0.aar\\9f13930b895983eb13ccd4dd88fb7063\\res\\color\\mtrl_bottom_nav_colored_item_tint.xml"
+        "merged": "/home/jimji/StudioProjects/AnyWorkPleaseFollowTheRules/client-student/build/intermediates/res/merged/debug/color/abc_background_cache_hint_selector_material_dark.xml",
+        "source": "/home/jimji/.gradle/caches/transforms-1/files-1.1/appcompat-v7-28.0.0.aar/0f94072457bc0a7db5ac0fd1c500c574/res/color/abc_background_cache_hint_selector_material_dark.xml"
     },
     {
-        "merged": "E:\\work\\Android\\Apps\\AnyWork2.0\\client-student\\build\\intermediates\\res\\merged\\debug\\color\\mtrl_fab_ripple_color.xml",
-        "source": "C:\\Users\\jimiji\\.gradle\\caches\\transforms-1\\files-1.1\\design-28.0.0.aar\\9f13930b895983eb13ccd4dd88fb7063\\res\\color\\mtrl_fab_ripple_color.xml"
+        "merged": "/home/jimji/StudioProjects/AnyWorkPleaseFollowTheRules/client-student/build/intermediates/res/merged/debug/color/design_tint_password_toggle.xml",
+        "source": "/home/jimji/.gradle/caches/transforms-1/files-1.1/design-28.0.0.aar/10674943a320c8c6067ee3bc2cf310df/res/color/design_tint_password_toggle.xml"
     },
     {
-        "merged": "E:\\work\\Android\\Apps\\AnyWork2.0\\client-student\\build\\intermediates\\res\\merged\\debug\\color\\mtrl_btn_ripple_color.xml",
-        "source": "C:\\Users\\jimiji\\.gradle\\caches\\transforms-1\\files-1.1\\design-28.0.0.aar\\9f13930b895983eb13ccd4dd88fb7063\\res\\color\\mtrl_btn_ripple_color.xml"
+        "merged": "/home/jimji/StudioProjects/AnyWorkPleaseFollowTheRules/client-student/build/intermediates/res/merged/debug/color/abc_primary_text_material_light.xml",
+        "source": "/home/jimji/.gradle/caches/transforms-1/files-1.1/appcompat-v7-28.0.0.aar/0f94072457bc0a7db5ac0fd1c500c574/res/color/abc_primary_text_material_light.xml"
     },
     {
-        "merged": "E:\\work\\Android\\Apps\\AnyWork2.0\\client-student\\build\\intermediates\\res\\merged\\debug\\color\\mtrl_tabs_legacy_text_color_selector.xml",
-        "source": "C:\\Users\\jimiji\\.gradle\\caches\\transforms-1\\files-1.1\\design-28.0.0.aar\\9f13930b895983eb13ccd4dd88fb7063\\res\\color\\mtrl_tabs_legacy_text_color_selector.xml"
+        "merged": "/home/jimji/StudioProjects/AnyWorkPleaseFollowTheRules/client-student/build/intermediates/res/merged/debug/color/abc_tint_switch_track.xml",
+        "source": "/home/jimji/.gradle/caches/transforms-1/files-1.1/appcompat-v7-28.0.0.aar/0f94072457bc0a7db5ac0fd1c500c574/res/color/abc_tint_switch_track.xml"
     },
     {
-        "merged": "E:\\work\\Android\\Apps\\AnyWork2.0\\client-student\\build\\intermediates\\res\\merged\\debug\\color\\mtrl_tabs_colored_ripple_color.xml",
-        "source": "C:\\Users\\jimiji\\.gradle\\caches\\transforms-1\\files-1.1\\design-28.0.0.aar\\9f13930b895983eb13ccd4dd88fb7063\\res\\color\\mtrl_tabs_colored_ripple_color.xml"
+        "merged": "/home/jimji/StudioProjects/AnyWorkPleaseFollowTheRules/client-student/build/intermediates/res/merged/debug/color/abc_secondary_text_material_light.xml",
+        "source": "/home/jimji/.gradle/caches/transforms-1/files-1.1/appcompat-v7-28.0.0.aar/0f94072457bc0a7db5ac0fd1c500c574/res/color/abc_secondary_text_material_light.xml"
     },
     {
-        "merged": "E:\\work\\Android\\Apps\\AnyWork2.0\\client-student\\build\\intermediates\\res\\merged\\debug\\color\\mtrl_btn_stroke_color_selector.xml",
-        "source": "C:\\Users\\jimiji\\.gradle\\caches\\transforms-1\\files-1.1\\design-28.0.0.aar\\9f13930b895983eb13ccd4dd88fb7063\\res\\color\\mtrl_btn_stroke_color_selector.xml"
+        "merged": "/home/jimji/StudioProjects/AnyWorkPleaseFollowTheRules/client-student/build/intermediates/res/merged/debug/color/mtrl_fab_ripple_color.xml",
+        "source": "/home/jimji/.gradle/caches/transforms-1/files-1.1/design-28.0.0.aar/10674943a320c8c6067ee3bc2cf310df/res/color/mtrl_fab_ripple_color.xml"
     },
     {
-        "merged": "E:\\work\\Android\\Apps\\AnyWork2.0\\client-student\\build\\intermediates\\res\\merged\\debug\\color\\mtrl_chip_ripple_color.xml",
-        "source": "C:\\Users\\jimiji\\.gradle\\caches\\transforms-1\\files-1.1\\design-28.0.0.aar\\9f13930b895983eb13ccd4dd88fb7063\\res\\color\\mtrl_chip_ripple_color.xml"
+        "merged": "/home/jimji/StudioProjects/AnyWorkPleaseFollowTheRules/client-student/build/intermediates/res/merged/debug/color/switch_thumb_material_light.xml",
+        "source": "/home/jimji/.gradle/caches/transforms-1/files-1.1/appcompat-v7-28.0.0.aar/0f94072457bc0a7db5ac0fd1c500c574/res/color/switch_thumb_material_light.xml"
     },
     {
-        "merged": "E:\\work\\Android\\Apps\\AnyWork2.0\\client-student\\build\\intermediates\\res\\merged\\debug\\color\\design_error.xml",
-        "source": "C:\\Users\\jimiji\\.gradle\\caches\\transforms-1\\files-1.1\\design-28.0.0.aar\\9f13930b895983eb13ccd4dd88fb7063\\res\\color\\design_error.xml"
+        "merged": "/home/jimji/StudioProjects/AnyWorkPleaseFollowTheRules/client-student/build/intermediates/res/merged/debug/color/mtrl_tabs_icon_color_selector.xml",
+        "source": "/home/jimji/.gradle/caches/transforms-1/files-1.1/design-28.0.0.aar/10674943a320c8c6067ee3bc2cf310df/res/color/mtrl_tabs_icon_color_selector.xml"
     },
     {
-        "merged": "E:\\work\\Android\\Apps\\AnyWork2.0\\client-student\\build\\intermediates\\res\\merged\\debug\\color\\abc_tint_seek_thumb.xml",
-        "source": "C:\\Users\\jimiji\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\0f015facd651bc3d985cbdda3308ed92\\res\\color\\abc_tint_seek_thumb.xml"
+        "merged": "/home/jimji/StudioProjects/AnyWorkPleaseFollowTheRules/client-student/build/intermediates/res/merged/debug/color/bottom_tab_text_color.xml",
+        "source": "/home/jimji/StudioProjects/AnyWorkPleaseFollowTheRules/client-student/src/main/res/color/bottom_tab_text_color.xml"
     },
     {
-        "merged": "E:\\work\\Android\\Apps\\AnyWork2.0\\client-student\\build\\intermediates\\res\\merged\\debug\\color\\abc_search_url_text.xml",
-        "source": "C:\\Users\\jimiji\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\0f015facd651bc3d985cbdda3308ed92\\res\\color\\abc_search_url_text.xml"
+        "merged": "/home/jimji/StudioProjects/AnyWorkPleaseFollowTheRules/client-student/build/intermediates/res/merged/debug/color/abc_primary_text_disable_only_material_dark.xml",
+        "source": "/home/jimji/.gradle/caches/transforms-1/files-1.1/appcompat-v7-28.0.0.aar/0f94072457bc0a7db5ac0fd1c500c574/res/color/abc_primary_text_disable_only_material_dark.xml"
     },
     {
-        "merged": "E:\\work\\Android\\Apps\\AnyWork2.0\\client-student\\build\\intermediates\\res\\merged\\debug\\color\\mtrl_btn_bg_color_selector.xml",
-        "source": "C:\\Users\\jimiji\\.gradle\\caches\\transforms-1\\files-1.1\\design-28.0.0.aar\\9f13930b895983eb13ccd4dd88fb7063\\res\\color\\mtrl_btn_bg_color_selector.xml"
+        "merged": "/home/jimji/StudioProjects/AnyWorkPleaseFollowTheRules/client-student/build/intermediates/res/merged/debug/color/switch_thumb_material_dark.xml",
+        "source": "/home/jimji/.gradle/caches/transforms-1/files-1.1/appcompat-v7-28.0.0.aar/0f94072457bc0a7db5ac0fd1c500c574/res/color/switch_thumb_material_dark.xml"
     },
     {
-        "merged": "E:\\work\\Android\\Apps\\AnyWork2.0\\client-student\\build\\intermediates\\res\\merged\\debug\\color\\abc_background_cache_hint_selector_material_light.xml",
-        "source": "C:\\Users\\jimiji\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\0f015facd651bc3d985cbdda3308ed92\\res\\color\\abc_background_cache_hint_selector_material_light.xml"
+        "merged": "/home/jimji/StudioProjects/AnyWorkPleaseFollowTheRules/client-student/build/intermediates/res/merged/debug/color/abc_tint_edittext.xml",
+        "source": "/home/jimji/.gradle/caches/transforms-1/files-1.1/appcompat-v7-28.0.0.aar/0f94072457bc0a7db5ac0fd1c500c574/res/color/abc_tint_edittext.xml"
     },
     {
-        "merged": "E:\\work\\Android\\Apps\\AnyWork2.0\\client-student\\build\\intermediates\\res\\merged\\debug\\color\\abc_tint_edittext.xml",
-        "source": "C:\\Users\\jimiji\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\0f015facd651bc3d985cbdda3308ed92\\res\\color\\abc_tint_edittext.xml"
+        "merged": "/home/jimji/StudioProjects/AnyWorkPleaseFollowTheRules/client-student/build/intermediates/res/merged/debug/color/mtrl_btn_text_btn_ripple_color.xml",
+        "source": "/home/jimji/.gradle/caches/transforms-1/files-1.1/design-28.0.0.aar/10674943a320c8c6067ee3bc2cf310df/res/color/mtrl_btn_text_btn_ripple_color.xml"
     },
     {
-        "merged": "E:\\work\\Android\\Apps\\AnyWork2.0\\client-student\\build\\intermediates\\res\\merged\\debug\\color\\abc_background_cache_hint_selector_material_dark.xml",
-        "source": "C:\\Users\\jimiji\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\0f015facd651bc3d985cbdda3308ed92\\res\\color\\abc_background_cache_hint_selector_material_dark.xml"
+        "merged": "/home/jimji/StudioProjects/AnyWorkPleaseFollowTheRules/client-student/build/intermediates/res/merged/debug/color/mtrl_tabs_ripple_color.xml",
+        "source": "/home/jimji/.gradle/caches/transforms-1/files-1.1/design-28.0.0.aar/10674943a320c8c6067ee3bc2cf310df/res/color/mtrl_tabs_ripple_color.xml"
     },
     {
-        "merged": "E:\\work\\Android\\Apps\\AnyWork2.0\\client-student\\build\\intermediates\\res\\merged\\debug\\color\\abc_tint_switch_track.xml",
-        "source": "C:\\Users\\jimiji\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\0f015facd651bc3d985cbdda3308ed92\\res\\color\\abc_tint_switch_track.xml"
+        "merged": "/home/jimji/StudioProjects/AnyWorkPleaseFollowTheRules/client-student/build/intermediates/res/merged/debug/color/mtrl_btn_text_color_selector.xml",
+        "source": "/home/jimji/.gradle/caches/transforms-1/files-1.1/design-28.0.0.aar/10674943a320c8c6067ee3bc2cf310df/res/color/mtrl_btn_text_color_selector.xml"
     },
     {
-        "merged": "E:\\work\\Android\\Apps\\AnyWork2.0\\client-student\\build\\intermediates\\res\\merged\\debug\\color\\mtrl_tabs_icon_color_selector.xml",
-        "source": "C:\\Users\\jimiji\\.gradle\\caches\\transforms-1\\files-1.1\\design-28.0.0.aar\\9f13930b895983eb13ccd4dd88fb7063\\res\\color\\mtrl_tabs_icon_color_selector.xml"
+        "merged": "/home/jimji/StudioProjects/AnyWorkPleaseFollowTheRules/client-student/build/intermediates/res/merged/debug/color/mtrl_btn_stroke_color_selector.xml",
+        "source": "/home/jimji/.gradle/caches/transforms-1/files-1.1/design-28.0.0.aar/10674943a320c8c6067ee3bc2cf310df/res/color/mtrl_btn_stroke_color_selector.xml"
     },
     {
-        "merged": "E:\\work\\Android\\Apps\\AnyWork2.0\\client-student\\build\\intermediates\\res\\merged\\debug\\color\\mtrl_tabs_icon_color_selector_colored.xml",
-        "source": "C:\\Users\\jimiji\\.gradle\\caches\\transforms-1\\files-1.1\\design-28.0.0.aar\\9f13930b895983eb13ccd4dd88fb7063\\res\\color\\mtrl_tabs_icon_color_selector_colored.xml"
+        "merged": "/home/jimji/StudioProjects/AnyWorkPleaseFollowTheRules/client-student/build/intermediates/res/merged/debug/color/mtrl_chip_text_color.xml",
+        "source": "/home/jimji/.gradle/caches/transforms-1/files-1.1/design-28.0.0.aar/10674943a320c8c6067ee3bc2cf310df/res/color/mtrl_chip_text_color.xml"
     },
     {
-        "merged": "E:\\work\\Android\\Apps\\AnyWork2.0\\client-student\\build\\intermediates\\res\\merged\\debug\\color\\mtrl_btn_text_btn_ripple_color.xml",
-        "source": "C:\\Users\\jimiji\\.gradle\\caches\\transforms-1\\files-1.1\\design-28.0.0.aar\\9f13930b895983eb13ccd4dd88fb7063\\res\\color\\mtrl_btn_text_btn_ripple_color.xml"
+        "merged": "/home/jimji/StudioProjects/AnyWorkPleaseFollowTheRules/client-student/build/intermediates/res/merged/debug/color/mtrl_tabs_colored_ripple_color.xml",
+        "source": "/home/jimji/.gradle/caches/transforms-1/files-1.1/design-28.0.0.aar/10674943a320c8c6067ee3bc2cf310df/res/color/mtrl_tabs_colored_ripple_color.xml"
     },
     {
-        "merged": "E:\\work\\Android\\Apps\\AnyWork2.0\\client-student\\build\\intermediates\\res\\merged\\debug\\color\\mtrl_tabs_ripple_color.xml",
-        "source": "C:\\Users\\jimiji\\.gradle\\caches\\transforms-1\\files-1.1\\design-28.0.0.aar\\9f13930b895983eb13ccd4dd88fb7063\\res\\color\\mtrl_tabs_ripple_color.xml"
+        "merged": "/home/jimji/StudioProjects/AnyWorkPleaseFollowTheRules/client-student/build/intermediates/res/merged/debug/color/abc_tint_default.xml",
+        "source": "/home/jimji/.gradle/caches/transforms-1/files-1.1/appcompat-v7-28.0.0.aar/0f94072457bc0a7db5ac0fd1c500c574/res/color/abc_tint_default.xml"
     },
     {
-        "merged": "E:\\work\\Android\\Apps\\AnyWork2.0\\client-student\\build\\intermediates\\res\\merged\\debug\\color\\abc_secondary_text_material_light.xml",
-        "source": "C:\\Users\\jimiji\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\0f015facd651bc3d985cbdda3308ed92\\res\\color\\abc_secondary_text_material_light.xml"
+        "merged": "/home/jimji/StudioProjects/AnyWorkPleaseFollowTheRules/client-student/build/intermediates/res/merged/debug/color/abc_search_url_text.xml",
+        "source": "/home/jimji/.gradle/caches/transforms-1/files-1.1/appcompat-v7-28.0.0.aar/0f94072457bc0a7db5ac0fd1c500c574/res/color/abc_search_url_text.xml"
     },
     {
-        "merged": "E:\\work\\Android\\Apps\\AnyWork2.0\\client-student\\build\\intermediates\\res\\merged\\debug\\color\\abc_hint_foreground_material_light.xml",
-        "source": "C:\\Users\\jimiji\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\0f015facd651bc3d985cbdda3308ed92\\res\\color\\abc_hint_foreground_material_light.xml"
+        "merged": "/home/jimji/StudioProjects/AnyWorkPleaseFollowTheRules/client-student/build/intermediates/res/merged/debug/color/mtrl_chip_background_color.xml",
+        "source": "/home/jimji/.gradle/caches/transforms-1/files-1.1/design-28.0.0.aar/10674943a320c8c6067ee3bc2cf310df/res/color/mtrl_chip_background_color.xml"
     },
     {
-        "merged": "E:\\work\\Android\\Apps\\AnyWork2.0\\client-student\\build\\intermediates\\res\\merged\\debug\\color\\abc_btn_colored_borderless_text_material.xml",
-        "source": "C:\\Users\\jimiji\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\0f015facd651bc3d985cbdda3308ed92\\res\\color\\abc_btn_colored_borderless_text_material.xml"
+        "merged": "/home/jimji/StudioProjects/AnyWorkPleaseFollowTheRules/client-student/build/intermediates/res/merged/debug/color/abc_tint_seek_thumb.xml",
+        "source": "/home/jimji/.gradle/caches/transforms-1/files-1.1/appcompat-v7-28.0.0.aar/0f94072457bc0a7db5ac0fd1c500c574/res/color/abc_tint_seek_thumb.xml"
     },
     {
-        "merged": "E:\\work\\Android\\Apps\\AnyWork2.0\\client-student\\build\\intermediates\\res\\merged\\debug\\color\\design_tint_password_toggle.xml",
-        "source": "C:\\Users\\jimiji\\.gradle\\caches\\transforms-1\\files-1.1\\design-28.0.0.aar\\9f13930b895983eb13ccd4dd88fb7063\\res\\color\\design_tint_password_toggle.xml"
+        "merged": "/home/jimji/StudioProjects/AnyWorkPleaseFollowTheRules/client-student/build/intermediates/res/merged/debug/color/mtrl_chip_ripple_color.xml",
+        "source": "/home/jimji/.gradle/caches/transforms-1/files-1.1/design-28.0.0.aar/10674943a320c8c6067ee3bc2cf310df/res/color/mtrl_chip_ripple_color.xml"
     },
     {
-        "merged": "E:\\work\\Android\\Apps\\AnyWork2.0\\client-student\\build\\intermediates\\res\\merged\\debug\\color\\mtrl_btn_text_color_selector.xml",
-        "source": "C:\\Users\\jimiji\\.gradle\\caches\\transforms-1\\files-1.1\\design-28.0.0.aar\\9f13930b895983eb13ccd4dd88fb7063\\res\\color\\mtrl_btn_text_color_selector.xml"
+        "merged": "/home/jimji/StudioProjects/AnyWorkPleaseFollowTheRules/client-student/build/intermediates/res/merged/debug/color/abc_btn_colored_borderless_text_material.xml",
+        "source": "/home/jimji/.gradle/caches/transforms-1/files-1.1/appcompat-v7-28.0.0.aar/0f94072457bc0a7db5ac0fd1c500c574/res/color/abc_btn_colored_borderless_text_material.xml"
     },
     {
-        "merged": "E:\\work\\Android\\Apps\\AnyWork2.0\\client-student\\build\\intermediates\\res\\merged\\debug\\color\\abc_primary_text_disable_only_material_light.xml",
-        "source": "C:\\Users\\jimiji\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\0f015facd651bc3d985cbdda3308ed92\\res\\color\\abc_primary_text_disable_only_material_light.xml"
+        "merged": "/home/jimji/StudioProjects/AnyWorkPleaseFollowTheRules/client-student/build/intermediates/res/merged/debug/color/mtrl_btn_bg_color_selector.xml",
+        "source": "/home/jimji/.gradle/caches/transforms-1/files-1.1/design-28.0.0.aar/10674943a320c8c6067ee3bc2cf310df/res/color/mtrl_btn_bg_color_selector.xml"
     },
     {
-        "merged": "E:\\work\\Android\\Apps\\AnyWork2.0\\client-student\\build\\intermediates\\res\\merged\\debug\\color\\switch_thumb_material_dark.xml",
-        "source": "C:\\Users\\jimiji\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\0f015facd651bc3d985cbdda3308ed92\\res\\color\\switch_thumb_material_dark.xml"
+        "merged": "/home/jimji/StudioProjects/AnyWorkPleaseFollowTheRules/client-student/build/intermediates/res/merged/debug/color/abc_hint_foreground_material_dark.xml",
+        "source": "/home/jimji/.gradle/caches/transforms-1/files-1.1/appcompat-v7-28.0.0.aar/0f94072457bc0a7db5ac0fd1c500c574/res/color/abc_hint_foreground_material_dark.xml"
     },
     {
-        "merged": "E:\\work\\Android\\Apps\\AnyWork2.0\\client-student\\build\\intermediates\\res\\merged\\debug\\color\\feedback_commit.xml",
-        "source": "E:\\work\\Android\\Apps\\AnyWork2.0\\client-student\\src\\main\\res\\color\\feedback_commit.xml"
+        "merged": "/home/jimji/StudioProjects/AnyWorkPleaseFollowTheRules/client-student/build/intermediates/res/merged/debug/color/mtrl_bottom_nav_item_tint.xml",
+        "source": "/home/jimji/.gradle/caches/transforms-1/files-1.1/design-28.0.0.aar/10674943a320c8c6067ee3bc2cf310df/res/color/mtrl_bottom_nav_item_tint.xml"
     },
     {
-        "merged": "E:\\work\\Android\\Apps\\AnyWork2.0\\client-student\\build\\intermediates\\res\\merged\\debug\\color\\switch_thumb_material_light.xml",
-        "source": "C:\\Users\\jimiji\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\0f015facd651bc3d985cbdda3308ed92\\res\\color\\switch_thumb_material_light.xml"
+        "merged": "/home/jimji/StudioProjects/AnyWorkPleaseFollowTheRules/client-student/build/intermediates/res/merged/debug/color/design_error.xml",
+        "source": "/home/jimji/.gradle/caches/transforms-1/files-1.1/design-28.0.0.aar/10674943a320c8c6067ee3bc2cf310df/res/color/design_error.xml"
     }
 ]

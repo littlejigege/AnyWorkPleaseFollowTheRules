@@ -1,789 +1,792 @@
 -- Merging decision tree log ---
 manifest
-ADDED from E:\work\Android\Apps\AnyWork2.0\client-student\src\main\AndroidManifest.xml:2:1-81:12
-INJECTED from E:\work\Android\Apps\AnyWork2.0\client-student\src\main\AndroidManifest.xml:2:1-81:12
-INJECTED from E:\work\Android\Apps\AnyWork2.0\client-student\src\main\AndroidManifest.xml:2:1-81:12
-INJECTED from E:\work\Android\Apps\AnyWork2.0\client-student\src\main\AndroidManifest.xml:2:1-81:12
-MERGED from [com.github.littlejigege:suger:v0.0.8.7] C:\Users\jimiji\.gradle\caches\transforms-1\files-1.1\suger-v0.0.8.7.aar\0dfda5ae3ab05bd2eadbe37902783a0c\AndroidManifest.xml:2:1-11:12
-MERGED from [com.android.support:design:28.0.0] C:\Users\jimiji\.gradle\caches\transforms-1\files-1.1\design-28.0.0.aar\9f13930b895983eb13ccd4dd88fb7063\AndroidManifest.xml:17:1-24:12
-MERGED from [com.android.support:appcompat-v7:28.0.0] C:\Users\jimiji\.gradle\caches\transforms-1\files-1.1\appcompat-v7-28.0.0.aar\0f015facd651bc3d985cbdda3308ed92\AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:recyclerview-v7:28.0.0] C:\Users\jimiji\.gradle\caches\transforms-1\files-1.1\recyclerview-v7-28.0.0.aar\8e688ce20ecc13e0a6f26cd5d647a7a6\AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:cardview-v7:28.0.0] C:\Users\jimiji\.gradle\caches\transforms-1\files-1.1\cardview-v7-28.0.0.aar\3ba19d1cf59de097113b0cfe4c674383\AndroidManifest.xml:17:1-22:12
-MERGED from [com.jakewharton:butterknife:8.5.1] C:\Users\jimiji\.gradle\caches\transforms-1\files-1.1\butterknife-8.5.1.aar\659c3ad0bf06bbf45464515d74de91c5\AndroidManifest.xml:2:1-7:12
-MERGED from [io.reactivex:rxandroid:1.0.1] C:\Users\jimiji\.gradle\caches\transforms-1\files-1.1\rxandroid-1.0.1.aar\634edfade157c8d2a9c2201189472633\AndroidManifest.xml:15:1-21:12
-MERGED from [de.hdodenhof:circleimageview:2.0.0] C:\Users\jimiji\.gradle\caches\transforms-1\files-1.1\circleimageview-2.0.0.aar\8eb6100bdbc793077e7a267309179f17\AndroidManifest.xml:2:1-11:12
-MERGED from [com.victor:lib:1.0.4] C:\Users\jimiji\.gradle\caches\transforms-1\files-1.1\lib-1.0.4.aar\a4c6584ac20606762870831b5a671c2d\AndroidManifest.xml:2:1-16:12
-MERGED from [jp.wasabeef:glide-transformations:2.0.1] C:\Users\jimiji\.gradle\caches\transforms-1\files-1.1\glide-transformations-2.0.1.aar\91683a8e31a03984acbd46a614884c5c\AndroidManifest.xml:2:1-12:12
-MERGED from [com.android.support:support-v4:28.0.0] C:\Users\jimiji\.gradle\caches\transforms-1\files-1.1\support-v4-28.0.0.aar\25b24719a75d4fd6d8390acffbba3380\AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support.constraint:constraint-layout:1.0.2] C:\Users\jimiji\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.0.2.aar\dc1dc0d4a174a2974fbe60df8a8b70c9\AndroidManifest.xml:2:1-11:12
-MERGED from [com.tinkerpatch.sdk:tinkerpatch-android-sdk:1.2.8] C:\Users\jimiji\.gradle\caches\transforms-1\files-1.1\tinkerpatch-android-sdk-1.2.8.aar\e8648d9c5a650f54a069d53e0254ede7\AndroidManifest.xml:2:1-23:12
-MERGED from [com.tencent.bugly:crashreport_upgrade:1.3.6] C:\Users\jimiji\.gradle\caches\transforms-1\files-1.1\crashreport_upgrade-1.3.6.aar\cbbd2ab25164f4ab10615c6bfc3257f0\AndroidManifest.xml:2:1-46:12
-MERGED from [com.tencent.bugly:nativecrashreport:3.3.1] C:\Users\jimiji\.gradle\caches\transforms-1\files-1.1\nativecrashreport-3.3.1.aar\699c059ac155a9ab36d10d63a6ae4f59\AndroidManifest.xml:2:1-9:12
-MERGED from [com.scwang.smartrefresh:SmartRefreshLayout:1.1.0-alpha-14] C:\Users\jimiji\.gradle\caches\transforms-1\files-1.1\SmartRefreshLayout-1.1.0-alpha-14.aar\877acbd2a223868a1552222bad59ced8\AndroidManifest.xml:2:1-17:12
-MERGED from [android.arch.lifecycle:extensions:1.1.1] C:\Users\jimiji\.gradle\caches\transforms-1\files-1.1\extensions-1.1.1.aar\c5119834025844dbc95ff77d3ac74d1e\AndroidManifest.xml:17:1-30:12
-MERGED from [com.android.support:animated-vector-drawable:28.0.0] C:\Users\jimiji\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-28.0.0.aar\d8e5e3f04b24161cd10e576d557de142\AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:support-fragment:28.0.0] C:\Users\jimiji\.gradle\caches\transforms-1\files-1.1\support-fragment-28.0.0.aar\acb73e93780a9d52a96d39e2e57e6c54\AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:support-core-ui:28.0.0] C:\Users\jimiji\.gradle\caches\transforms-1\files-1.1\support-core-ui-28.0.0.aar\7c74c08d76ea9f6062d14b8dea4b81c0\AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:support-core-utils:28.0.0] C:\Users\jimiji\.gradle\caches\transforms-1\files-1.1\support-core-utils-28.0.0.aar\f217f300b041bc8e3138607c68a5cfcc\AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:support-media-compat:28.0.0] C:\Users\jimiji\.gradle\caches\transforms-1\files-1.1\support-media-compat-28.0.0.aar\505fed83e67c2aeeb74069a78d29bd2f\AndroidManifest.xml:17:1-22:12
-MERGED from [com.tinkerpatch.tinker:tinker-android-lib:1.9.8] C:\Users\jimiji\.gradle\caches\transforms-1\files-1.1\tinker-android-lib-1.9.8.aar\9deafb8c2105f556971db04ae4734620\AndroidManifest.xml:2:1-39:12
-MERGED from [com.tinkerpatch.tinker:tinker-android-loader:1.9.8] C:\Users\jimiji\.gradle\caches\transforms-1\files-1.1\tinker-android-loader-1.9.8.aar\b94fb6ceb58b29982ecb5680d14e6c4c\AndroidManifest.xml:2:1-161:12
-MERGED from [com.android.support:loader:28.0.0] C:\Users\jimiji\.gradle\caches\transforms-1\files-1.1\loader-28.0.0.aar\85aa6257d3d6831478d2c3110a378c4e\AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:viewpager:28.0.0] C:\Users\jimiji\.gradle\caches\transforms-1\files-1.1\viewpager-28.0.0.aar\12bf7d68235aa941644e1fe2fd861496\AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:coordinatorlayout:28.0.0] C:\Users\jimiji\.gradle\caches\transforms-1\files-1.1\coordinatorlayout-28.0.0.aar\4bf318b61ff0d6ed0a0116bf02e7eb57\AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:drawerlayout:28.0.0] C:\Users\jimiji\.gradle\caches\transforms-1\files-1.1\drawerlayout-28.0.0.aar\55e2d4289649ddf89507dfb027ef316f\AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:slidingpanelayout:28.0.0] C:\Users\jimiji\.gradle\caches\transforms-1\files-1.1\slidingpanelayout-28.0.0.aar\d2df569d5738a6b40f46b6e858062158\AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:customview:28.0.0] C:\Users\jimiji\.gradle\caches\transforms-1\files-1.1\customview-28.0.0.aar\831c94d75d7811ce12d4fbc2d6ec7a7e\AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:swiperefreshlayout:28.0.0] C:\Users\jimiji\.gradle\caches\transforms-1\files-1.1\swiperefreshlayout-28.0.0.aar\38a1789b398d22d450fc4ab66cc1fb1f\AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:asynclayoutinflater:28.0.0] C:\Users\jimiji\.gradle\caches\transforms-1\files-1.1\asynclayoutinflater-28.0.0.aar\3fdeafd73c147f1daef0813f24182827\AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:transition:28.0.0] C:\Users\jimiji\.gradle\caches\transforms-1\files-1.1\transition-28.0.0.aar\d813ea53144ac2f6c270ab94ac54ca00\AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:support-vector-drawable:28.0.0] C:\Users\jimiji\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-28.0.0.aar\0699e68f601dc3ed248a680cccfe915d\AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:support-compat:28.0.0] C:\Users\jimiji\.gradle\caches\transforms-1\files-1.1\support-compat-28.0.0.aar\146ce858928eda2d21fd039b1013447b\AndroidManifest.xml:17:1-24:12
-MERGED from [android.arch.lifecycle:runtime:1.1.1] C:\Users\jimiji\.gradle\caches\transforms-1\files-1.1\runtime-1.1.1.aar\0b6d2f3377cfd89628f281f11ecb357a\AndroidManifest.xml:17:1-22:12
-MERGED from [android.arch.lifecycle:livedata:1.1.1] C:\Users\jimiji\.gradle\caches\transforms-1\files-1.1\livedata-1.1.1.aar\a974e63ad5fe9b105054a7822a39ec06\AndroidManifest.xml:17:1-22:12
-MERGED from [android.arch.lifecycle:livedata-core:1.1.1] C:\Users\jimiji\.gradle\caches\transforms-1\files-1.1\livedata-core-1.1.1.aar\06e01545b8d7da71408a007477f3028c\AndroidManifest.xml:17:1-22:12
-MERGED from [android.arch.core:runtime:1.1.1] C:\Users\jimiji\.gradle\caches\transforms-1\files-1.1\runtime-1.1.1.aar\b8cdd081222ef30c0c06160f250034f0\AndroidManifest.xml:17:1-22:12
-MERGED from [android.arch.lifecycle:viewmodel:1.1.1] C:\Users\jimiji\.gradle\caches\transforms-1\files-1.1\viewmodel-1.1.1.aar\34a8c8db0434a3468a1fde600961b7bf\AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:documentfile:28.0.0] C:\Users\jimiji\.gradle\caches\transforms-1\files-1.1\documentfile-28.0.0.aar\dfd6c03a3eed36b606c6cbd79af20eca\AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:localbroadcastmanager:28.0.0] C:\Users\jimiji\.gradle\caches\transforms-1\files-1.1\localbroadcastmanager-28.0.0.aar\eedd8e654eee5921cf63537a29af053b\AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:print:28.0.0] C:\Users\jimiji\.gradle\caches\transforms-1\files-1.1\print-28.0.0.aar\3295a21256bd28ee1523238121b66dbf\AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:interpolator:28.0.0] C:\Users\jimiji\.gradle\caches\transforms-1\files-1.1\interpolator-28.0.0.aar\7ffdca9172c0bda39fd0e20a69a8d109\AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:cursoradapter:28.0.0] C:\Users\jimiji\.gradle\caches\transforms-1\files-1.1\cursoradapter-28.0.0.aar\899858866c689c84e505408ce6daa5e4\AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:versionedparcelable:28.0.0] C:\Users\jimiji\.gradle\caches\transforms-1\files-1.1\versionedparcelable-28.0.0.aar\d6550683263e6390dcd535ea9e5aa5cc\AndroidManifest.xml:17:1-25:12
-INJECTED from E:\work\Android\Apps\AnyWork2.0\client-student\src\main\AndroidManifest.xml:2:1-81:12
-INJECTED from E:\work\Android\Apps\AnyWork2.0\client-student\src\main\AndroidManifest.xml:2:1-81:12
-INJECTED from E:\work\Android\Apps\AnyWork2.0\client-student\src\main\AndroidManifest.xml:2:1-81:12
+ADDED from /home/jimji/StudioProjects/AnyWorkPleaseFollowTheRules/client-student/src/main/AndroidManifest.xml:2:1-80:12
+INJECTED from /home/jimji/StudioProjects/AnyWorkPleaseFollowTheRules/client-student/src/main/AndroidManifest.xml:2:1-80:12
+INJECTED from /home/jimji/StudioProjects/AnyWorkPleaseFollowTheRules/client-student/src/main/AndroidManifest.xml:2:1-80:12
+INJECTED from /home/jimji/StudioProjects/AnyWorkPleaseFollowTheRules/client-student/src/main/AndroidManifest.xml:2:1-80:12
+MERGED from [com.github.littlejigege:suger:v0.0.8.7] /home/jimji/.gradle/caches/transforms-1/files-1.1/suger-v0.0.8.7.aar/904dd82274fe5a45a9c4e8de2ee379d1/AndroidManifest.xml:2:1-11:12
+MERGED from [com.airbnb.android:lottie:2.7.0] /home/jimji/.gradle/caches/transforms-1/files-1.1/lottie-2.7.0.aar/d2252a0ce92031efd3e9ff39989c29fe/AndroidManifest.xml:2:1-13:12
+MERGED from [com.android.support:design:28.0.0] /home/jimji/.gradle/caches/transforms-1/files-1.1/design-28.0.0.aar/10674943a320c8c6067ee3bc2cf310df/AndroidManifest.xml:17:1-24:12
+MERGED from [com.android.support:appcompat-v7:28.0.0] /home/jimji/.gradle/caches/transforms-1/files-1.1/appcompat-v7-28.0.0.aar/0f94072457bc0a7db5ac0fd1c500c574/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:recyclerview-v7:28.0.0] /home/jimji/.gradle/caches/transforms-1/files-1.1/recyclerview-v7-28.0.0.aar/2bfab606fe1b3405aad9d2bc524d3df7/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:cardview-v7:28.0.0] /home/jimji/.gradle/caches/transforms-1/files-1.1/cardview-v7-28.0.0.aar/6c0f0ea932d7c22d6131aca823f7cf3c/AndroidManifest.xml:17:1-22:12
+MERGED from [com.jakewharton:butterknife:8.5.1] /home/jimji/.gradle/caches/transforms-1/files-1.1/butterknife-8.5.1.aar/327f928d42f67106aaf0f805deb45df5/AndroidManifest.xml:2:1-7:12
+MERGED from [io.reactivex:rxandroid:1.0.1] /home/jimji/.gradle/caches/transforms-1/files-1.1/rxandroid-1.0.1.aar/925b1dfe7fe735004c271b2118bdaf9a/AndroidManifest.xml:15:1-21:12
+MERGED from [de.hdodenhof:circleimageview:2.0.0] /home/jimji/.gradle/caches/transforms-1/files-1.1/circleimageview-2.0.0.aar/7a2b7017b73ec9c30d65284cdbff1370/AndroidManifest.xml:2:1-11:12
+MERGED from [com.victor:lib:1.0.4] /home/jimji/.gradle/caches/transforms-1/files-1.1/lib-1.0.4.aar/c387997f6d1069c4a11eefeb4265d338/AndroidManifest.xml:2:1-16:12
+MERGED from [jp.wasabeef:glide-transformations:2.0.1] /home/jimji/.gradle/caches/transforms-1/files-1.1/glide-transformations-2.0.1.aar/fbdc734fff2bfa62a0b3016324e03c2f/AndroidManifest.xml:2:1-12:12
+MERGED from [com.android.support:support-v4:28.0.0] /home/jimji/.gradle/caches/transforms-1/files-1.1/support-v4-28.0.0.aar/5126f6787f935ae710bc9791ee253706/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support.constraint:constraint-layout:1.0.2] /home/jimji/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.0.2.aar/9a44cdef409e7eb0bf1bcd0148b02e71/AndroidManifest.xml:2:1-11:12
+MERGED from [com.tinkerpatch.sdk:tinkerpatch-android-sdk:1.2.8] /home/jimji/.gradle/caches/transforms-1/files-1.1/tinkerpatch-android-sdk-1.2.8.aar/b5a1f61c39d23b7b89b9b6863eef8143/AndroidManifest.xml:2:1-23:12
+MERGED from [com.tencent.bugly:crashreport_upgrade:1.3.6] /home/jimji/.gradle/caches/transforms-1/files-1.1/crashreport_upgrade-1.3.6.aar/52abf166be57162f5e0a06fffb78025f/AndroidManifest.xml:2:1-46:12
+MERGED from [com.tencent.bugly:nativecrashreport:3.3.1] /home/jimji/.gradle/caches/transforms-1/files-1.1/nativecrashreport-3.3.1.aar/4c3aaa334a10647c4880f17bcffa89a0/AndroidManifest.xml:2:1-9:12
+MERGED from [com.scwang.smartrefresh:SmartRefreshLayout:1.1.0-alpha-14] /home/jimji/.gradle/caches/transforms-1/files-1.1/SmartRefreshLayout-1.1.0-alpha-14.aar/3fca37581e6bf45ebe31187b217656ff/AndroidManifest.xml:2:1-17:12
+MERGED from [android.arch.lifecycle:extensions:1.1.1] /home/jimji/.gradle/caches/transforms-1/files-1.1/extensions-1.1.1.aar/25d8263bc4f880887b4de47da98cd3aa/AndroidManifest.xml:17:1-30:12
+MERGED from [com.android.support:animated-vector-drawable:28.0.0] /home/jimji/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-28.0.0.aar/bf55199fbfc0e8305c486fc4764d2dc8/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-fragment:28.0.0] /home/jimji/.gradle/caches/transforms-1/files-1.1/support-fragment-28.0.0.aar/cfb29de1540051a47ee14e490b6ad576/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-core-ui:28.0.0] /home/jimji/.gradle/caches/transforms-1/files-1.1/support-core-ui-28.0.0.aar/0fed64b6dfc5375d7050fb1a43814116/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-core-utils:28.0.0] /home/jimji/.gradle/caches/transforms-1/files-1.1/support-core-utils-28.0.0.aar/a62b1dfa1fca42b02299e5423f99b3c8/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-media-compat:28.0.0] /home/jimji/.gradle/caches/transforms-1/files-1.1/support-media-compat-28.0.0.aar/52333caa3003f7da66ab4d5167a2e292/AndroidManifest.xml:17:1-22:12
+MERGED from [com.tinkerpatch.tinker:tinker-android-lib:1.9.8] /home/jimji/.gradle/caches/transforms-1/files-1.1/tinker-android-lib-1.9.8.aar/44668ca118a50998e3f045fe74763e89/AndroidManifest.xml:2:1-39:12
+MERGED from [com.tinkerpatch.tinker:tinker-android-loader:1.9.8] /home/jimji/.gradle/caches/transforms-1/files-1.1/tinker-android-loader-1.9.8.aar/6eaddd392232ae1aa5409c01de1c875a/AndroidManifest.xml:2:1-161:12
+MERGED from [com.android.support:loader:28.0.0] /home/jimji/.gradle/caches/transforms-1/files-1.1/loader-28.0.0.aar/08143013317fcb39de6e3aace2f2345f/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:viewpager:28.0.0] /home/jimji/.gradle/caches/transforms-1/files-1.1/viewpager-28.0.0.aar/cba90ced5ec2c295e890773864070449/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:coordinatorlayout:28.0.0] /home/jimji/.gradle/caches/transforms-1/files-1.1/coordinatorlayout-28.0.0.aar/94d3e09414e81d42e1a7745f84d0fc94/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:drawerlayout:28.0.0] /home/jimji/.gradle/caches/transforms-1/files-1.1/drawerlayout-28.0.0.aar/19c85a245d5071757cea14816ef23436/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:slidingpanelayout:28.0.0] /home/jimji/.gradle/caches/transforms-1/files-1.1/slidingpanelayout-28.0.0.aar/c8310f874b2ceb522992c871ba7650a8/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:customview:28.0.0] /home/jimji/.gradle/caches/transforms-1/files-1.1/customview-28.0.0.aar/4dee426a9215be9d3d35cc4e7d27ec0b/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:swiperefreshlayout:28.0.0] /home/jimji/.gradle/caches/transforms-1/files-1.1/swiperefreshlayout-28.0.0.aar/0727764bfd6caf0a553ae61bbc9817fa/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:asynclayoutinflater:28.0.0] /home/jimji/.gradle/caches/transforms-1/files-1.1/asynclayoutinflater-28.0.0.aar/53a6174d4f09685c10634c0950f33374/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:transition:28.0.0] /home/jimji/.gradle/caches/transforms-1/files-1.1/transition-28.0.0.aar/00d0adc29e5cc48f3cc3aaf5f416468d/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-vector-drawable:28.0.0] /home/jimji/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-28.0.0.aar/45ed16858ec647d33550d26a4cd82212/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-compat:28.0.0] /home/jimji/.gradle/caches/transforms-1/files-1.1/support-compat-28.0.0.aar/1110b93d5d5a53fc049867b2569040be/AndroidManifest.xml:17:1-24:12
+MERGED from [android.arch.lifecycle:runtime:1.1.1] /home/jimji/.gradle/caches/transforms-1/files-1.1/runtime-1.1.1.aar/7fab1552d0d3cacf0ed011f0b8ba1540/AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:livedata:1.1.1] /home/jimji/.gradle/caches/transforms-1/files-1.1/livedata-1.1.1.aar/c841bf4ebd9653a8cacd20bf83bf6f29/AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:livedata-core:1.1.1] /home/jimji/.gradle/caches/transforms-1/files-1.1/livedata-core-1.1.1.aar/6a0101d981e4182b644cc30d0d2e9dfe/AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.core:runtime:1.1.1] /home/jimji/.gradle/caches/transforms-1/files-1.1/runtime-1.1.1.aar/40ceafd608fc6225f60c85d17dcc45fb/AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:viewmodel:1.1.1] /home/jimji/.gradle/caches/transforms-1/files-1.1/viewmodel-1.1.1.aar/b5f7fd7dc42fceb90f579335b8ec584b/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:documentfile:28.0.0] /home/jimji/.gradle/caches/transforms-1/files-1.1/documentfile-28.0.0.aar/ba897a1e18d095765e53fbb2127cb85e/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:localbroadcastmanager:28.0.0] /home/jimji/.gradle/caches/transforms-1/files-1.1/localbroadcastmanager-28.0.0.aar/cfc656e0a21f1a6bd61a3c0fc0721c6d/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:print:28.0.0] /home/jimji/.gradle/caches/transforms-1/files-1.1/print-28.0.0.aar/62628a470e0cee10c58a9f1a34a6828f/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:interpolator:28.0.0] /home/jimji/.gradle/caches/transforms-1/files-1.1/interpolator-28.0.0.aar/8477ac33782efa01379211bb042dffb7/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:cursoradapter:28.0.0] /home/jimji/.gradle/caches/transforms-1/files-1.1/cursoradapter-28.0.0.aar/19ffb0c339c47135a66504671117eba7/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:versionedparcelable:28.0.0] /home/jimji/.gradle/caches/transforms-1/files-1.1/versionedparcelable-28.0.0.aar/e34fd4e6f50c0b1e64e871614997d153/AndroidManifest.xml:17:1-25:12
+INJECTED from /home/jimji/StudioProjects/AnyWorkPleaseFollowTheRules/client-student/src/main/AndroidManifest.xml:2:1-80:12
+INJECTED from /home/jimji/StudioProjects/AnyWorkPleaseFollowTheRules/client-student/src/main/AndroidManifest.xml:2:1-80:12
+INJECTED from /home/jimji/StudioProjects/AnyWorkPleaseFollowTheRules/client-student/src/main/AndroidManifest.xml:2:1-80:12
 	package
-		ADDED from E:\work\Android\Apps\AnyWork2.0\client-student\src\main\AndroidManifest.xml:4:5-35
-		INJECTED from E:\work\Android\Apps\AnyWork2.0\client-student\src\main\AndroidManifest.xml
-		INJECTED from E:\work\Android\Apps\AnyWork2.0\client-student\src\main\AndroidManifest.xml
+		ADDED from /home/jimji/StudioProjects/AnyWorkPleaseFollowTheRules/client-student/src/main/AndroidManifest.xml:4:5-35
+		INJECTED from /home/jimji/StudioProjects/AnyWorkPleaseFollowTheRules/client-student/src/main/AndroidManifest.xml
+		INJECTED from /home/jimji/StudioProjects/AnyWorkPleaseFollowTheRules/client-student/src/main/AndroidManifest.xml
 	android:versionName
-		INJECTED from E:\work\Android\Apps\AnyWork2.0\client-student\src\main\AndroidManifest.xml
-		ADDED from E:\work\Android\Apps\AnyWork2.0\client-student\src\main\AndroidManifest.xml:2:1-81:12
-		INJECTED from E:\work\Android\Apps\AnyWork2.0\client-student\src\main\AndroidManifest.xml
+		INJECTED from /home/jimji/StudioProjects/AnyWorkPleaseFollowTheRules/client-student/src/main/AndroidManifest.xml
+		ADDED from /home/jimji/StudioProjects/AnyWorkPleaseFollowTheRules/client-student/src/main/AndroidManifest.xml:2:1-80:12
+		INJECTED from /home/jimji/StudioProjects/AnyWorkPleaseFollowTheRules/client-student/src/main/AndroidManifest.xml
 	xmlns:tools
-		ADDED from E:\work\Android\Apps\AnyWork2.0\client-student\src\main\AndroidManifest.xml:3:5-51
+		ADDED from /home/jimji/StudioProjects/AnyWorkPleaseFollowTheRules/client-student/src/main/AndroidManifest.xml:3:5-51
 	xmlns:android
-		ADDED from E:\work\Android\Apps\AnyWork2.0\client-student\src\main\AndroidManifest.xml:2:11-69
+		ADDED from /home/jimji/StudioProjects/AnyWorkPleaseFollowTheRules/client-student/src/main/AndroidManifest.xml:2:11-69
 	android:versionCode
-		ADDED from E:\work\Android\Apps\AnyWork2.0\client-student\src\main\AndroidManifest.xml:5:5-28
-		INJECTED from E:\work\Android\Apps\AnyWork2.0\client-student\src\main\AndroidManifest.xml
-		INJECTED from E:\work\Android\Apps\AnyWork2.0\client-student\src\main\AndroidManifest.xml
+		ADDED from /home/jimji/StudioProjects/AnyWorkPleaseFollowTheRules/client-student/src/main/AndroidManifest.xml:5:5-28
+		INJECTED from /home/jimji/StudioProjects/AnyWorkPleaseFollowTheRules/client-student/src/main/AndroidManifest.xml
+		INJECTED from /home/jimji/StudioProjects/AnyWorkPleaseFollowTheRules/client-student/src/main/AndroidManifest.xml
 uses-permission#android.permission.INTERNET
-ADDED from E:\work\Android\Apps\AnyWork2.0\client-student\src\main\AndroidManifest.xml:8:5-67
-MERGED from [com.tinkerpatch.sdk:tinkerpatch-android-sdk:1.2.8] C:\Users\jimiji\.gradle\caches\transforms-1\files-1.1\tinkerpatch-android-sdk-1.2.8.aar\e8648d9c5a650f54a069d53e0254ede7\AndroidManifest.xml:10:5-67
-MERGED from [com.tinkerpatch.sdk:tinkerpatch-android-sdk:1.2.8] C:\Users\jimiji\.gradle\caches\transforms-1\files-1.1\tinkerpatch-android-sdk-1.2.8.aar\e8648d9c5a650f54a069d53e0254ede7\AndroidManifest.xml:10:5-67
-MERGED from [com.tencent.bugly:crashreport_upgrade:1.3.6] C:\Users\jimiji\.gradle\caches\transforms-1\files-1.1\crashreport_upgrade-1.3.6.aar\cbbd2ab25164f4ab10615c6bfc3257f0\AndroidManifest.xml:12:5-67
-MERGED from [com.tencent.bugly:crashreport_upgrade:1.3.6] C:\Users\jimiji\.gradle\caches\transforms-1\files-1.1\crashreport_upgrade-1.3.6.aar\cbbd2ab25164f4ab10615c6bfc3257f0\AndroidManifest.xml:12:5-67
+ADDED from /home/jimji/StudioProjects/AnyWorkPleaseFollowTheRules/client-student/src/main/AndroidManifest.xml:8:5-67
+MERGED from [com.tinkerpatch.sdk:tinkerpatch-android-sdk:1.2.8] /home/jimji/.gradle/caches/transforms-1/files-1.1/tinkerpatch-android-sdk-1.2.8.aar/b5a1f61c39d23b7b89b9b6863eef8143/AndroidManifest.xml:10:5-67
+MERGED from [com.tinkerpatch.sdk:tinkerpatch-android-sdk:1.2.8] /home/jimji/.gradle/caches/transforms-1/files-1.1/tinkerpatch-android-sdk-1.2.8.aar/b5a1f61c39d23b7b89b9b6863eef8143/AndroidManifest.xml:10:5-67
+MERGED from [com.tencent.bugly:crashreport_upgrade:1.3.6] /home/jimji/.gradle/caches/transforms-1/files-1.1/crashreport_upgrade-1.3.6.aar/52abf166be57162f5e0a06fffb78025f/AndroidManifest.xml:12:5-67
+MERGED from [com.tencent.bugly:crashreport_upgrade:1.3.6] /home/jimji/.gradle/caches/transforms-1/files-1.1/crashreport_upgrade-1.3.6.aar/52abf166be57162f5e0a06fffb78025f/AndroidManifest.xml:12:5-67
 	android:name
-		ADDED from E:\work\Android\Apps\AnyWork2.0\client-student\src\main\AndroidManifest.xml:8:22-64
+		ADDED from /home/jimji/StudioProjects/AnyWorkPleaseFollowTheRules/client-student/src/main/AndroidManifest.xml:8:22-64
 uses-permission#android.permission.ACCESS_NETWORK_STATE
-ADDED from E:\work\Android\Apps\AnyWork2.0\client-student\src\main\AndroidManifest.xml:10:5-79
-MERGED from [com.tinkerpatch.sdk:tinkerpatch-android-sdk:1.2.8] C:\Users\jimiji\.gradle\caches\transforms-1\files-1.1\tinkerpatch-android-sdk-1.2.8.aar\e8648d9c5a650f54a069d53e0254ede7\AndroidManifest.xml:11:5-79
-MERGED from [com.tinkerpatch.sdk:tinkerpatch-android-sdk:1.2.8] C:\Users\jimiji\.gradle\caches\transforms-1\files-1.1\tinkerpatch-android-sdk-1.2.8.aar\e8648d9c5a650f54a069d53e0254ede7\AndroidManifest.xml:11:5-79
-MERGED from [com.tencent.bugly:crashreport_upgrade:1.3.6] C:\Users\jimiji\.gradle\caches\transforms-1\files-1.1\crashreport_upgrade-1.3.6.aar\cbbd2ab25164f4ab10615c6bfc3257f0\AndroidManifest.xml:13:5-79
-MERGED from [com.tencent.bugly:crashreport_upgrade:1.3.6] C:\Users\jimiji\.gradle\caches\transforms-1\files-1.1\crashreport_upgrade-1.3.6.aar\cbbd2ab25164f4ab10615c6bfc3257f0\AndroidManifest.xml:13:5-79
+ADDED from /home/jimji/StudioProjects/AnyWorkPleaseFollowTheRules/client-student/src/main/AndroidManifest.xml:10:5-79
+MERGED from [com.tinkerpatch.sdk:tinkerpatch-android-sdk:1.2.8] /home/jimji/.gradle/caches/transforms-1/files-1.1/tinkerpatch-android-sdk-1.2.8.aar/b5a1f61c39d23b7b89b9b6863eef8143/AndroidManifest.xml:11:5-79
+MERGED from [com.tinkerpatch.sdk:tinkerpatch-android-sdk:1.2.8] /home/jimji/.gradle/caches/transforms-1/files-1.1/tinkerpatch-android-sdk-1.2.8.aar/b5a1f61c39d23b7b89b9b6863eef8143/AndroidManifest.xml:11:5-79
+MERGED from [com.tencent.bugly:crashreport_upgrade:1.3.6] /home/jimji/.gradle/caches/transforms-1/files-1.1/crashreport_upgrade-1.3.6.aar/52abf166be57162f5e0a06fffb78025f/AndroidManifest.xml:13:5-79
+MERGED from [com.tencent.bugly:crashreport_upgrade:1.3.6] /home/jimji/.gradle/caches/transforms-1/files-1.1/crashreport_upgrade-1.3.6.aar/52abf166be57162f5e0a06fffb78025f/AndroidManifest.xml:13:5-79
 	android:name
-		ADDED from E:\work\Android\Apps\AnyWork2.0\client-student\src\main\AndroidManifest.xml:10:22-76
+		ADDED from /home/jimji/StudioProjects/AnyWorkPleaseFollowTheRules/client-student/src/main/AndroidManifest.xml:10:22-76
 uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
-ADDED from E:\work\Android\Apps\AnyWork2.0\client-student\src\main\AndroidManifest.xml:12:5-81
-MERGED from [com.tencent.bugly:crashreport_upgrade:1.3.6] C:\Users\jimiji\.gradle\caches\transforms-1\files-1.1\crashreport_upgrade-1.3.6.aar\cbbd2ab25164f4ab10615c6bfc3257f0\AndroidManifest.xml:16:5-81
-MERGED from [com.tencent.bugly:crashreport_upgrade:1.3.6] C:\Users\jimiji\.gradle\caches\transforms-1\files-1.1\crashreport_upgrade-1.3.6.aar\cbbd2ab25164f4ab10615c6bfc3257f0\AndroidManifest.xml:16:5-81
+ADDED from /home/jimji/StudioProjects/AnyWorkPleaseFollowTheRules/client-student/src/main/AndroidManifest.xml:12:5-81
+MERGED from [com.tencent.bugly:crashreport_upgrade:1.3.6] /home/jimji/.gradle/caches/transforms-1/files-1.1/crashreport_upgrade-1.3.6.aar/52abf166be57162f5e0a06fffb78025f/AndroidManifest.xml:16:5-81
+MERGED from [com.tencent.bugly:crashreport_upgrade:1.3.6] /home/jimji/.gradle/caches/transforms-1/files-1.1/crashreport_upgrade-1.3.6.aar/52abf166be57162f5e0a06fffb78025f/AndroidManifest.xml:16:5-81
 	android:name
-		ADDED from E:\work\Android\Apps\AnyWork2.0\client-student\src\main\AndroidManifest.xml:12:22-78
+		ADDED from /home/jimji/StudioProjects/AnyWorkPleaseFollowTheRules/client-student/src/main/AndroidManifest.xml:12:22-78
 uses-permission#android.permission.READ_EXTERNAL_STORAGE
-ADDED from E:\work\Android\Apps\AnyWork2.0\client-student\src\main\AndroidManifest.xml:14:5-80
+ADDED from /home/jimji/StudioProjects/AnyWorkPleaseFollowTheRules/client-student/src/main/AndroidManifest.xml:14:5-80
 	android:name
-		ADDED from E:\work\Android\Apps\AnyWork2.0\client-student\src\main\AndroidManifest.xml:14:22-77
+		ADDED from /home/jimji/StudioProjects/AnyWorkPleaseFollowTheRules/client-student/src/main/AndroidManifest.xml:14:22-77
 uses-permission#android.permission.MOUNT_UNMOUNT_FILESYSTEMS
-ADDED from E:\work\Android\Apps\AnyWork2.0\client-student\src\main\AndroidManifest.xml:16:5-84
+ADDED from /home/jimji/StudioProjects/AnyWorkPleaseFollowTheRules/client-student/src/main/AndroidManifest.xml:16:5-84
 	android:name
-		ADDED from E:\work\Android\Apps\AnyWork2.0\client-student\src\main\AndroidManifest.xml:16:22-81
+		ADDED from /home/jimji/StudioProjects/AnyWorkPleaseFollowTheRules/client-student/src/main/AndroidManifest.xml:16:22-81
 uses-permission#android.permission.READ_PHONE_STATE
-ADDED from E:\work\Android\Apps\AnyWork2.0\client-student\src\main\AndroidManifest.xml:17:5-75
-MERGED from [com.tencent.bugly:crashreport_upgrade:1.3.6] C:\Users\jimiji\.gradle\caches\transforms-1\files-1.1\crashreport_upgrade-1.3.6.aar\cbbd2ab25164f4ab10615c6bfc3257f0\AndroidManifest.xml:11:5-75
-MERGED from [com.tencent.bugly:crashreport_upgrade:1.3.6] C:\Users\jimiji\.gradle\caches\transforms-1\files-1.1\crashreport_upgrade-1.3.6.aar\cbbd2ab25164f4ab10615c6bfc3257f0\AndroidManifest.xml:11:5-75
+ADDED from /home/jimji/StudioProjects/AnyWorkPleaseFollowTheRules/client-student/src/main/AndroidManifest.xml:17:5-75
+MERGED from [com.tencent.bugly:crashreport_upgrade:1.3.6] /home/jimji/.gradle/caches/transforms-1/files-1.1/crashreport_upgrade-1.3.6.aar/52abf166be57162f5e0a06fffb78025f/AndroidManifest.xml:11:5-75
+MERGED from [com.tencent.bugly:crashreport_upgrade:1.3.6] /home/jimji/.gradle/caches/transforms-1/files-1.1/crashreport_upgrade-1.3.6.aar/52abf166be57162f5e0a06fffb78025f/AndroidManifest.xml:11:5-75
 	android:name
-		ADDED from E:\work\Android\Apps\AnyWork2.0\client-student\src\main\AndroidManifest.xml:17:22-72
+		ADDED from /home/jimji/StudioProjects/AnyWorkPleaseFollowTheRules/client-student/src/main/AndroidManifest.xml:17:22-72
 uses-permission#android.permission.ACCESS_WIFI_STATE
-ADDED from E:\work\Android\Apps\AnyWork2.0\client-student\src\main\AndroidManifest.xml:18:5-76
-MERGED from [com.tencent.bugly:crashreport_upgrade:1.3.6] C:\Users\jimiji\.gradle\caches\transforms-1\files-1.1\crashreport_upgrade-1.3.6.aar\cbbd2ab25164f4ab10615c6bfc3257f0\AndroidManifest.xml:14:5-76
-MERGED from [com.tencent.bugly:crashreport_upgrade:1.3.6] C:\Users\jimiji\.gradle\caches\transforms-1\files-1.1\crashreport_upgrade-1.3.6.aar\cbbd2ab25164f4ab10615c6bfc3257f0\AndroidManifest.xml:14:5-76
+ADDED from /home/jimji/StudioProjects/AnyWorkPleaseFollowTheRules/client-student/src/main/AndroidManifest.xml:18:5-76
+MERGED from [com.tencent.bugly:crashreport_upgrade:1.3.6] /home/jimji/.gradle/caches/transforms-1/files-1.1/crashreport_upgrade-1.3.6.aar/52abf166be57162f5e0a06fffb78025f/AndroidManifest.xml:14:5-76
+MERGED from [com.tencent.bugly:crashreport_upgrade:1.3.6] /home/jimji/.gradle/caches/transforms-1/files-1.1/crashreport_upgrade-1.3.6.aar/52abf166be57162f5e0a06fffb78025f/AndroidManifest.xml:14:5-76
 	android:name
-		ADDED from E:\work\Android\Apps\AnyWork2.0\client-student\src\main\AndroidManifest.xml:18:22-73
+		ADDED from /home/jimji/StudioProjects/AnyWorkPleaseFollowTheRules/client-student/src/main/AndroidManifest.xml:18:22-73
 uses-permission#android.permission.READ_LOGS
-ADDED from E:\work\Android\Apps\AnyWork2.0\client-student\src\main\AndroidManifest.xml:19:5-68
-MERGED from [com.tencent.bugly:crashreport_upgrade:1.3.6] C:\Users\jimiji\.gradle\caches\transforms-1\files-1.1\crashreport_upgrade-1.3.6.aar\cbbd2ab25164f4ab10615c6bfc3257f0\AndroidManifest.xml:15:5-68
-MERGED from [com.tencent.bugly:crashreport_upgrade:1.3.6] C:\Users\jimiji\.gradle\caches\transforms-1\files-1.1\crashreport_upgrade-1.3.6.aar\cbbd2ab25164f4ab10615c6bfc3257f0\AndroidManifest.xml:15:5-68
+ADDED from /home/jimji/StudioProjects/AnyWorkPleaseFollowTheRules/client-student/src/main/AndroidManifest.xml:19:5-68
+MERGED from [com.tencent.bugly:crashreport_upgrade:1.3.6] /home/jimji/.gradle/caches/transforms-1/files-1.1/crashreport_upgrade-1.3.6.aar/52abf166be57162f5e0a06fffb78025f/AndroidManifest.xml:15:5-68
+MERGED from [com.tencent.bugly:crashreport_upgrade:1.3.6] /home/jimji/.gradle/caches/transforms-1/files-1.1/crashreport_upgrade-1.3.6.aar/52abf166be57162f5e0a06fffb78025f/AndroidManifest.xml:15:5-68
 	android:name
-		ADDED from E:\work\Android\Apps\AnyWork2.0\client-student\src\main\AndroidManifest.xml:19:22-65
+		ADDED from /home/jimji/StudioProjects/AnyWorkPleaseFollowTheRules/client-student/src/main/AndroidManifest.xml:19:22-65
 uses-permission#android.permission.REQUEST_INSTALL_PACKAGES
-ADDED from E:\work\Android\Apps\AnyWork2.0\client-student\src\main\AndroidManifest.xml:20:5-83
-MERGED from [com.tencent.bugly:crashreport_upgrade:1.3.6] C:\Users\jimiji\.gradle\caches\transforms-1\files-1.1\crashreport_upgrade-1.3.6.aar\cbbd2ab25164f4ab10615c6bfc3257f0\AndroidManifest.xml:17:5-83
-MERGED from [com.tencent.bugly:crashreport_upgrade:1.3.6] C:\Users\jimiji\.gradle\caches\transforms-1\files-1.1\crashreport_upgrade-1.3.6.aar\cbbd2ab25164f4ab10615c6bfc3257f0\AndroidManifest.xml:17:5-83
+ADDED from /home/jimji/StudioProjects/AnyWorkPleaseFollowTheRules/client-student/src/main/AndroidManifest.xml:20:5-83
+MERGED from [com.tencent.bugly:crashreport_upgrade:1.3.6] /home/jimji/.gradle/caches/transforms-1/files-1.1/crashreport_upgrade-1.3.6.aar/52abf166be57162f5e0a06fffb78025f/AndroidManifest.xml:17:5-83
+MERGED from [com.tencent.bugly:crashreport_upgrade:1.3.6] /home/jimji/.gradle/caches/transforms-1/files-1.1/crashreport_upgrade-1.3.6.aar/52abf166be57162f5e0a06fffb78025f/AndroidManifest.xml:17:5-83
 	android:name
-		ADDED from E:\work\Android\Apps\AnyWork2.0\client-student\src\main\AndroidManifest.xml:20:22-80
+		ADDED from /home/jimji/StudioProjects/AnyWorkPleaseFollowTheRules/client-student/src/main/AndroidManifest.xml:20:22-80
 application
-ADDED from E:\work\Android\Apps\AnyWork2.0\client-student\src\main\AndroidManifest.xml:22:5-79:19
-MERGED from [com.android.support:design:28.0.0] C:\Users\jimiji\.gradle\caches\transforms-1\files-1.1\design-28.0.0.aar\9f13930b895983eb13ccd4dd88fb7063\AndroidManifest.xml:22:5-20
-MERGED from [com.android.support:design:28.0.0] C:\Users\jimiji\.gradle\caches\transforms-1\files-1.1\design-28.0.0.aar\9f13930b895983eb13ccd4dd88fb7063\AndroidManifest.xml:22:5-20
-MERGED from [de.hdodenhof:circleimageview:2.0.0] C:\Users\jimiji\.gradle\caches\transforms-1\files-1.1\circleimageview-2.0.0.aar\8eb6100bdbc793077e7a267309179f17\AndroidManifest.xml:9:5-20
-MERGED from [de.hdodenhof:circleimageview:2.0.0] C:\Users\jimiji\.gradle\caches\transforms-1\files-1.1\circleimageview-2.0.0.aar\8eb6100bdbc793077e7a267309179f17\AndroidManifest.xml:9:5-20
-MERGED from [com.victor:lib:1.0.4] C:\Users\jimiji\.gradle\caches\transforms-1\files-1.1\lib-1.0.4.aar\a4c6584ac20606762870831b5a671c2d\AndroidManifest.xml:11:5-14:19
-MERGED from [com.victor:lib:1.0.4] C:\Users\jimiji\.gradle\caches\transforms-1\files-1.1\lib-1.0.4.aar\a4c6584ac20606762870831b5a671c2d\AndroidManifest.xml:11:5-14:19
-MERGED from [com.android.support.constraint:constraint-layout:1.0.2] C:\Users\jimiji\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.0.2.aar\dc1dc0d4a174a2974fbe60df8a8b70c9\AndroidManifest.xml:9:5-20
-MERGED from [com.android.support.constraint:constraint-layout:1.0.2] C:\Users\jimiji\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.0.2.aar\dc1dc0d4a174a2974fbe60df8a8b70c9\AndroidManifest.xml:9:5-20
-MERGED from [com.tinkerpatch.sdk:tinkerpatch-android-sdk:1.2.8] C:\Users\jimiji\.gradle\caches\transforms-1\files-1.1\tinkerpatch-android-sdk-1.2.8.aar\e8648d9c5a650f54a069d53e0254ede7\AndroidManifest.xml:13:5-21:19
-MERGED from [com.tinkerpatch.sdk:tinkerpatch-android-sdk:1.2.8] C:\Users\jimiji\.gradle\caches\transforms-1\files-1.1\tinkerpatch-android-sdk-1.2.8.aar\e8648d9c5a650f54a069d53e0254ede7\AndroidManifest.xml:13:5-21:19
-MERGED from [com.tencent.bugly:crashreport_upgrade:1.3.6] C:\Users\jimiji\.gradle\caches\transforms-1\files-1.1\crashreport_upgrade-1.3.6.aar\cbbd2ab25164f4ab10615c6bfc3257f0\AndroidManifest.xml:20:5-44:19
-MERGED from [com.tencent.bugly:crashreport_upgrade:1.3.6] C:\Users\jimiji\.gradle\caches\transforms-1\files-1.1\crashreport_upgrade-1.3.6.aar\cbbd2ab25164f4ab10615c6bfc3257f0\AndroidManifest.xml:20:5-44:19
-MERGED from [com.scwang.smartrefresh:SmartRefreshLayout:1.1.0-alpha-14] C:\Users\jimiji\.gradle\caches\transforms-1\files-1.1\SmartRefreshLayout-1.1.0-alpha-14.aar\877acbd2a223868a1552222bad59ced8\AndroidManifest.xml:11:5-15:19
-MERGED from [com.scwang.smartrefresh:SmartRefreshLayout:1.1.0-alpha-14] C:\Users\jimiji\.gradle\caches\transforms-1\files-1.1\SmartRefreshLayout-1.1.0-alpha-14.aar\877acbd2a223868a1552222bad59ced8\AndroidManifest.xml:11:5-15:19
-MERGED from [android.arch.lifecycle:extensions:1.1.1] C:\Users\jimiji\.gradle\caches\transforms-1\files-1.1\extensions-1.1.1.aar\c5119834025844dbc95ff77d3ac74d1e\AndroidManifest.xml:22:5-28:19
-MERGED from [android.arch.lifecycle:extensions:1.1.1] C:\Users\jimiji\.gradle\caches\transforms-1\files-1.1\extensions-1.1.1.aar\c5119834025844dbc95ff77d3ac74d1e\AndroidManifest.xml:22:5-28:19
-MERGED from [com.tinkerpatch.tinker:tinker-android-lib:1.9.8] C:\Users\jimiji\.gradle\caches\transforms-1\files-1.1\tinker-android-lib-1.9.8.aar\9deafb8c2105f556971db04ae4734620\AndroidManifest.xml:9:5-37:19
-MERGED from [com.tinkerpatch.tinker:tinker-android-lib:1.9.8] C:\Users\jimiji\.gradle\caches\transforms-1\files-1.1\tinker-android-lib-1.9.8.aar\9deafb8c2105f556971db04ae4734620\AndroidManifest.xml:9:5-37:19
-MERGED from [com.tinkerpatch.tinker:tinker-android-loader:1.9.8] C:\Users\jimiji\.gradle\caches\transforms-1\files-1.1\tinker-android-loader-1.9.8.aar\b94fb6ceb58b29982ecb5680d14e6c4c\AndroidManifest.xml:9:5-159:19
-MERGED from [com.tinkerpatch.tinker:tinker-android-loader:1.9.8] C:\Users\jimiji\.gradle\caches\transforms-1\files-1.1\tinker-android-loader-1.9.8.aar\b94fb6ceb58b29982ecb5680d14e6c4c\AndroidManifest.xml:9:5-159:19
-MERGED from [com.android.support:support-compat:28.0.0] C:\Users\jimiji\.gradle\caches\transforms-1\files-1.1\support-compat-28.0.0.aar\146ce858928eda2d21fd039b1013447b\AndroidManifest.xml:22:5-94
-MERGED from [com.android.support:support-compat:28.0.0] C:\Users\jimiji\.gradle\caches\transforms-1\files-1.1\support-compat-28.0.0.aar\146ce858928eda2d21fd039b1013447b\AndroidManifest.xml:22:5-94
-MERGED from [com.android.support:versionedparcelable:28.0.0] C:\Users\jimiji\.gradle\caches\transforms-1\files-1.1\versionedparcelable-28.0.0.aar\d6550683263e6390dcd535ea9e5aa5cc\AndroidManifest.xml:22:5-23:19
-MERGED from [com.android.support:versionedparcelable:28.0.0] C:\Users\jimiji\.gradle\caches\transforms-1\files-1.1\versionedparcelable-28.0.0.aar\d6550683263e6390dcd535ea9e5aa5cc\AndroidManifest.xml:22:5-23:19
+ADDED from /home/jimji/StudioProjects/AnyWorkPleaseFollowTheRules/client-student/src/main/AndroidManifest.xml:22:5-78:19
+MERGED from [com.airbnb.android:lottie:2.7.0] /home/jimji/.gradle/caches/transforms-1/files-1.1/lottie-2.7.0.aar/d2252a0ce92031efd3e9ff39989c29fe/AndroidManifest.xml:11:5-20
+MERGED from [com.airbnb.android:lottie:2.7.0] /home/jimji/.gradle/caches/transforms-1/files-1.1/lottie-2.7.0.aar/d2252a0ce92031efd3e9ff39989c29fe/AndroidManifest.xml:11:5-20
+MERGED from [com.android.support:design:28.0.0] /home/jimji/.gradle/caches/transforms-1/files-1.1/design-28.0.0.aar/10674943a320c8c6067ee3bc2cf310df/AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:design:28.0.0] /home/jimji/.gradle/caches/transforms-1/files-1.1/design-28.0.0.aar/10674943a320c8c6067ee3bc2cf310df/AndroidManifest.xml:22:5-20
+MERGED from [de.hdodenhof:circleimageview:2.0.0] /home/jimji/.gradle/caches/transforms-1/files-1.1/circleimageview-2.0.0.aar/7a2b7017b73ec9c30d65284cdbff1370/AndroidManifest.xml:9:5-20
+MERGED from [de.hdodenhof:circleimageview:2.0.0] /home/jimji/.gradle/caches/transforms-1/files-1.1/circleimageview-2.0.0.aar/7a2b7017b73ec9c30d65284cdbff1370/AndroidManifest.xml:9:5-20
+MERGED from [com.victor:lib:1.0.4] /home/jimji/.gradle/caches/transforms-1/files-1.1/lib-1.0.4.aar/c387997f6d1069c4a11eefeb4265d338/AndroidManifest.xml:11:5-14:19
+MERGED from [com.victor:lib:1.0.4] /home/jimji/.gradle/caches/transforms-1/files-1.1/lib-1.0.4.aar/c387997f6d1069c4a11eefeb4265d338/AndroidManifest.xml:11:5-14:19
+MERGED from [com.android.support.constraint:constraint-layout:1.0.2] /home/jimji/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.0.2.aar/9a44cdef409e7eb0bf1bcd0148b02e71/AndroidManifest.xml:9:5-20
+MERGED from [com.android.support.constraint:constraint-layout:1.0.2] /home/jimji/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.0.2.aar/9a44cdef409e7eb0bf1bcd0148b02e71/AndroidManifest.xml:9:5-20
+MERGED from [com.tinkerpatch.sdk:tinkerpatch-android-sdk:1.2.8] /home/jimji/.gradle/caches/transforms-1/files-1.1/tinkerpatch-android-sdk-1.2.8.aar/b5a1f61c39d23b7b89b9b6863eef8143/AndroidManifest.xml:13:5-21:19
+MERGED from [com.tinkerpatch.sdk:tinkerpatch-android-sdk:1.2.8] /home/jimji/.gradle/caches/transforms-1/files-1.1/tinkerpatch-android-sdk-1.2.8.aar/b5a1f61c39d23b7b89b9b6863eef8143/AndroidManifest.xml:13:5-21:19
+MERGED from [com.tencent.bugly:crashreport_upgrade:1.3.6] /home/jimji/.gradle/caches/transforms-1/files-1.1/crashreport_upgrade-1.3.6.aar/52abf166be57162f5e0a06fffb78025f/AndroidManifest.xml:20:5-44:19
+MERGED from [com.tencent.bugly:crashreport_upgrade:1.3.6] /home/jimji/.gradle/caches/transforms-1/files-1.1/crashreport_upgrade-1.3.6.aar/52abf166be57162f5e0a06fffb78025f/AndroidManifest.xml:20:5-44:19
+MERGED from [com.scwang.smartrefresh:SmartRefreshLayout:1.1.0-alpha-14] /home/jimji/.gradle/caches/transforms-1/files-1.1/SmartRefreshLayout-1.1.0-alpha-14.aar/3fca37581e6bf45ebe31187b217656ff/AndroidManifest.xml:11:5-15:19
+MERGED from [com.scwang.smartrefresh:SmartRefreshLayout:1.1.0-alpha-14] /home/jimji/.gradle/caches/transforms-1/files-1.1/SmartRefreshLayout-1.1.0-alpha-14.aar/3fca37581e6bf45ebe31187b217656ff/AndroidManifest.xml:11:5-15:19
+MERGED from [android.arch.lifecycle:extensions:1.1.1] /home/jimji/.gradle/caches/transforms-1/files-1.1/extensions-1.1.1.aar/25d8263bc4f880887b4de47da98cd3aa/AndroidManifest.xml:22:5-28:19
+MERGED from [android.arch.lifecycle:extensions:1.1.1] /home/jimji/.gradle/caches/transforms-1/files-1.1/extensions-1.1.1.aar/25d8263bc4f880887b4de47da98cd3aa/AndroidManifest.xml:22:5-28:19
+MERGED from [com.tinkerpatch.tinker:tinker-android-lib:1.9.8] /home/jimji/.gradle/caches/transforms-1/files-1.1/tinker-android-lib-1.9.8.aar/44668ca118a50998e3f045fe74763e89/AndroidManifest.xml:9:5-37:19
+MERGED from [com.tinkerpatch.tinker:tinker-android-lib:1.9.8] /home/jimji/.gradle/caches/transforms-1/files-1.1/tinker-android-lib-1.9.8.aar/44668ca118a50998e3f045fe74763e89/AndroidManifest.xml:9:5-37:19
+MERGED from [com.tinkerpatch.tinker:tinker-android-loader:1.9.8] /home/jimji/.gradle/caches/transforms-1/files-1.1/tinker-android-loader-1.9.8.aar/6eaddd392232ae1aa5409c01de1c875a/AndroidManifest.xml:9:5-159:19
+MERGED from [com.tinkerpatch.tinker:tinker-android-loader:1.9.8] /home/jimji/.gradle/caches/transforms-1/files-1.1/tinker-android-loader-1.9.8.aar/6eaddd392232ae1aa5409c01de1c875a/AndroidManifest.xml:9:5-159:19
+MERGED from [com.android.support:support-compat:28.0.0] /home/jimji/.gradle/caches/transforms-1/files-1.1/support-compat-28.0.0.aar/1110b93d5d5a53fc049867b2569040be/AndroidManifest.xml:22:5-94
+MERGED from [com.android.support:support-compat:28.0.0] /home/jimji/.gradle/caches/transforms-1/files-1.1/support-compat-28.0.0.aar/1110b93d5d5a53fc049867b2569040be/AndroidManifest.xml:22:5-94
+MERGED from [com.android.support:versionedparcelable:28.0.0] /home/jimji/.gradle/caches/transforms-1/files-1.1/versionedparcelable-28.0.0.aar/e34fd4e6f50c0b1e64e871614997d153/AndroidManifest.xml:22:5-23:19
+MERGED from [com.android.support:versionedparcelable:28.0.0] /home/jimji/.gradle/caches/transforms-1/files-1.1/versionedparcelable-28.0.0.aar/e34fd4e6f50c0b1e64e871614997d153/AndroidManifest.xml:22:5-23:19
 	android:appComponentFactory
-		ADDED from [com.android.support:support-compat:28.0.0] C:\Users\jimiji\.gradle\caches\transforms-1\files-1.1\support-compat-28.0.0.aar\146ce858928eda2d21fd039b1013447b\AndroidManifest.xml:22:18-91
+		ADDED from [com.android.support:support-compat:28.0.0] /home/jimji/.gradle/caches/transforms-1/files-1.1/support-compat-28.0.0.aar/1110b93d5d5a53fc049867b2569040be/AndroidManifest.xml:22:18-91
 	android:supportsRtl
-		ADDED from E:\work\Android\Apps\AnyWork2.0\client-student\src\main\AndroidManifest.xml:29:9-35
+		ADDED from /home/jimji/StudioProjects/AnyWorkPleaseFollowTheRules/client-student/src/main/AndroidManifest.xml:29:9-35
 	android:label
-		ADDED from E:\work\Android\Apps\AnyWork2.0\client-student\src\main\AndroidManifest.xml:26:9-41
+		ADDED from /home/jimji/StudioProjects/AnyWorkPleaseFollowTheRules/client-student/src/main/AndroidManifest.xml:26:9-41
 	tools:ignore
-		ADDED from E:\work\Android\Apps\AnyWork2.0\client-student\src\main\AndroidManifest.xml:31:9-48
+		ADDED from /home/jimji/StudioProjects/AnyWorkPleaseFollowTheRules/client-student/src/main/AndroidManifest.xml:31:9-48
 	android:roundIcon
-		ADDED from E:\work\Android\Apps\AnyWork2.0\client-student\src\main\AndroidManifest.xml:28:9-54
+		ADDED from /home/jimji/StudioProjects/AnyWorkPleaseFollowTheRules/client-student/src/main/AndroidManifest.xml:28:9-54
 	tools:targetApi
-		ADDED from E:\work\Android\Apps\AnyWork2.0\client-student\src\main\AndroidManifest.xml:32:9-28
+		ADDED from /home/jimji/StudioProjects/AnyWorkPleaseFollowTheRules/client-student/src/main/AndroidManifest.xml:32:9-28
 	android:icon
-		ADDED from E:\work\Android\Apps\AnyWork2.0\client-student\src\main\AndroidManifest.xml:25:9-43
+		ADDED from /home/jimji/StudioProjects/AnyWorkPleaseFollowTheRules/client-student/src/main/AndroidManifest.xml:25:9-43
 	android:allowBackup
-		ADDED from E:\work\Android\Apps\AnyWork2.0\client-student\src\main\AndroidManifest.xml:24:9-35
+		ADDED from /home/jimji/StudioProjects/AnyWorkPleaseFollowTheRules/client-student/src/main/AndroidManifest.xml:24:9-35
 	android:theme
-		ADDED from E:\work\Android\Apps\AnyWork2.0\client-student\src\main\AndroidManifest.xml:30:9-45
+		ADDED from /home/jimji/StudioProjects/AnyWorkPleaseFollowTheRules/client-student/src/main/AndroidManifest.xml:30:9-45
 	android:networkSecurityConfig
-		ADDED from E:\work\Android\Apps\AnyWork2.0\client-student\src\main\AndroidManifest.xml:27:9-60
+		ADDED from /home/jimji/StudioProjects/AnyWorkPleaseFollowTheRules/client-student/src/main/AndroidManifest.xml:27:9-60
 	android:name
-		ADDED from E:\work\Android\Apps\AnyWork2.0\client-student\src\main\AndroidManifest.xml:23:9-28
+		ADDED from /home/jimji/StudioProjects/AnyWorkPleaseFollowTheRules/client-student/src/main/AndroidManifest.xml:23:9-48
 meta-data#android.max_aspect
-ADDED from E:\work\Android\Apps\AnyWork2.0\client-student\src\main\AndroidManifest.xml:33:9-35:35
+ADDED from /home/jimji/StudioProjects/AnyWorkPleaseFollowTheRules/client-student/src/main/AndroidManifest.xml:33:9-35:35
 	android:value
-		ADDED from E:\work\Android\Apps\AnyWork2.0\client-student\src\main\AndroidManifest.xml:35:13-32
+		ADDED from /home/jimji/StudioProjects/AnyWorkPleaseFollowTheRules/client-student/src/main/AndroidManifest.xml:35:13-32
 	android:name
-		ADDED from E:\work\Android\Apps\AnyWork2.0\client-student\src\main\AndroidManifest.xml:34:13-46
+		ADDED from /home/jimji/StudioProjects/AnyWorkPleaseFollowTheRules/client-student/src/main/AndroidManifest.xml:34:13-46
 activity#com.tencent.bugly.beta.ui.BetaActivity
-ADDED from E:\work\Android\Apps\AnyWork2.0\client-student\src\main\AndroidManifest.xml:37:9-40:64
-MERGED from [com.tencent.bugly:crashreport_upgrade:1.3.6] C:\Users\jimiji\.gradle\caches\transforms-1\files-1.1\crashreport_upgrade-1.3.6.aar\cbbd2ab25164f4ab10615c6bfc3257f0\AndroidManifest.xml:23:9-27:56
-MERGED from [com.tencent.bugly:crashreport_upgrade:1.3.6] C:\Users\jimiji\.gradle\caches\transforms-1\files-1.1\crashreport_upgrade-1.3.6.aar\cbbd2ab25164f4ab10615c6bfc3257f0\AndroidManifest.xml:23:9-27:56
+ADDED from /home/jimji/StudioProjects/AnyWorkPleaseFollowTheRules/client-student/src/main/AndroidManifest.xml:37:9-40:64
+MERGED from [com.tencent.bugly:crashreport_upgrade:1.3.6] /home/jimji/.gradle/caches/transforms-1/files-1.1/crashreport_upgrade-1.3.6.aar/52abf166be57162f5e0a06fffb78025f/AndroidManifest.xml:23:9-27:56
+MERGED from [com.tencent.bugly:crashreport_upgrade:1.3.6] /home/jimji/.gradle/caches/transforms-1/files-1.1/crashreport_upgrade-1.3.6.aar/52abf166be57162f5e0a06fffb78025f/AndroidManifest.xml:23:9-27:56
 	android:configChanges
-		ADDED from E:\work\Android\Apps\AnyWork2.0\client-student\src\main\AndroidManifest.xml:39:13-81
+		ADDED from /home/jimji/StudioProjects/AnyWorkPleaseFollowTheRules/client-student/src/main/AndroidManifest.xml:39:13-81
 	android:theme
-		ADDED from E:\work\Android\Apps\AnyWork2.0\client-student\src\main\AndroidManifest.xml:40:13-61
+		ADDED from /home/jimji/StudioProjects/AnyWorkPleaseFollowTheRules/client-student/src/main/AndroidManifest.xml:40:13-61
 	tools:replace
-		ADDED from [com.tencent.bugly:crashreport_upgrade:1.3.6] C:\Users\jimiji\.gradle\caches\transforms-1\files-1.1\crashreport_upgrade-1.3.6.aar\cbbd2ab25164f4ab10615c6bfc3257f0\AndroidManifest.xml:27:13-53
+		ADDED from [com.tencent.bugly:crashreport_upgrade:1.3.6] /home/jimji/.gradle/caches/transforms-1/files-1.1/crashreport_upgrade-1.3.6.aar/52abf166be57162f5e0a06fffb78025f/AndroidManifest.xml:27:13-53
 	android:name
-		ADDED from E:\work\Android\Apps\AnyWork2.0\client-student\src\main\AndroidManifest.xml:38:13-66
-activity#com.qgstudio.anywork.enter.EnterActivity
-ADDED from E:\work\Android\Apps\AnyWork2.0\client-student\src\main\AndroidManifest.xml:41:9-57
+		ADDED from /home/jimji/StudioProjects/AnyWorkPleaseFollowTheRules/client-student/src/main/AndroidManifest.xml:38:13-66
+activity#com.qgstudio.aniwork.enter.EnterActivity
+ADDED from /home/jimji/StudioProjects/AnyWorkPleaseFollowTheRules/client-student/src/main/AndroidManifest.xml:41:9-77
 	android:name
-		ADDED from E:\work\Android\Apps\AnyWork2.0\client-student\src\main\AndroidManifest.xml:41:19-54
-activity#com.qgstudio.anywork.StartActivity
-ADDED from E:\work\Android\Apps\AnyWork2.0\client-student\src\main\AndroidManifest.xml:42:9-50:20
-	android:theme
-		ADDED from E:\work\Android\Apps\AnyWork2.0\client-student\src\main\AndroidManifest.xml:44:13-48
+		ADDED from /home/jimji/StudioProjects/AnyWorkPleaseFollowTheRules/client-student/src/main/AndroidManifest.xml:41:19-74
+activity#com.qgstudio.aniwork.StartActivity
+ADDED from /home/jimji/StudioProjects/AnyWorkPleaseFollowTheRules/client-student/src/main/AndroidManifest.xml:42:9-49:20
 	android:name
-		ADDED from E:\work\Android\Apps\AnyWork2.0\client-student\src\main\AndroidManifest.xml:43:13-42
+		ADDED from /home/jimji/StudioProjects/AnyWorkPleaseFollowTheRules/client-student/src/main/AndroidManifest.xml:43:13-62
 intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
-ADDED from E:\work\Android\Apps\AnyWork2.0\client-student\src\main\AndroidManifest.xml:45:13-49:29
+ADDED from /home/jimji/StudioProjects/AnyWorkPleaseFollowTheRules/client-student/src/main/AndroidManifest.xml:44:13-48:29
 action#android.intent.action.MAIN
-ADDED from E:\work\Android\Apps\AnyWork2.0\client-student\src\main\AndroidManifest.xml:46:17-69
+ADDED from /home/jimji/StudioProjects/AnyWorkPleaseFollowTheRules/client-student/src/main/AndroidManifest.xml:45:17-69
 	android:name
-		ADDED from E:\work\Android\Apps\AnyWork2.0\client-student\src\main\AndroidManifest.xml:46:25-66
+		ADDED from /home/jimji/StudioProjects/AnyWorkPleaseFollowTheRules/client-student/src/main/AndroidManifest.xml:45:25-66
 category#android.intent.category.LAUNCHER
-ADDED from E:\work\Android\Apps\AnyWork2.0\client-student\src\main\AndroidManifest.xml:48:17-77
+ADDED from /home/jimji/StudioProjects/AnyWorkPleaseFollowTheRules/client-student/src/main/AndroidManifest.xml:47:17-77
 	android:name
-		ADDED from E:\work\Android\Apps\AnyWork2.0\client-student\src\main\AndroidManifest.xml:48:27-74
-activity#com.qgstudio.anywork.grade.GradeActivity
-ADDED from E:\work\Android\Apps\AnyWork2.0\client-student\src\main\AndroidManifest.xml:51:9-57
+		ADDED from /home/jimji/StudioProjects/AnyWorkPleaseFollowTheRules/client-student/src/main/AndroidManifest.xml:47:27-74
+activity#com.qgstudio.aniwork.grade.GradeActivity
+ADDED from /home/jimji/StudioProjects/AnyWorkPleaseFollowTheRules/client-student/src/main/AndroidManifest.xml:50:9-77
 	android:name
-		ADDED from E:\work\Android\Apps\AnyWork2.0\client-student\src\main\AndroidManifest.xml:51:19-54
-activity#com.qgstudio.anywork.main.HomeActivity
-ADDED from E:\work\Android\Apps\AnyWork2.0\client-student\src\main\AndroidManifest.xml:52:9-55
+		ADDED from /home/jimji/StudioProjects/AnyWorkPleaseFollowTheRules/client-student/src/main/AndroidManifest.xml:50:19-74
+activity#com.qgstudio.aniwork.main.HomeActivity
+ADDED from /home/jimji/StudioProjects/AnyWorkPleaseFollowTheRules/client-student/src/main/AndroidManifest.xml:51:9-75
 	android:name
-		ADDED from E:\work\Android\Apps\AnyWork2.0\client-student\src\main\AndroidManifest.xml:52:19-52
-activity#com.qgstudio.anywork.exam.ExamActivity
-ADDED from E:\work\Android\Apps\AnyWork2.0\client-student\src\main\AndroidManifest.xml:53:9-55
+		ADDED from /home/jimji/StudioProjects/AnyWorkPleaseFollowTheRules/client-student/src/main/AndroidManifest.xml:51:19-72
+activity#com.qgstudio.aniwork.exam.ExamActivity
+ADDED from /home/jimji/StudioProjects/AnyWorkPleaseFollowTheRules/client-student/src/main/AndroidManifest.xml:52:9-75
 	android:name
-		ADDED from E:\work\Android\Apps\AnyWork2.0\client-student\src\main\AndroidManifest.xml:53:19-52
-activity#com.qgstudio.anywork.paper.PaperActivity
-ADDED from E:\work\Android\Apps\AnyWork2.0\client-student\src\main\AndroidManifest.xml:54:9-57
+		ADDED from /home/jimji/StudioProjects/AnyWorkPleaseFollowTheRules/client-student/src/main/AndroidManifest.xml:52:19-72
+activity#com.qgstudio.aniwork.paper.PaperActivity
+ADDED from /home/jimji/StudioProjects/AnyWorkPleaseFollowTheRules/client-student/src/main/AndroidManifest.xml:53:9-77
 	android:name
-		ADDED from E:\work\Android\Apps\AnyWork2.0\client-student\src\main\AndroidManifest.xml:54:19-54
-activity#com.qgstudio.anywork.user.UserActivity
-ADDED from E:\work\Android\Apps\AnyWork2.0\client-student\src\main\AndroidManifest.xml:55:9-55
+		ADDED from /home/jimji/StudioProjects/AnyWorkPleaseFollowTheRules/client-student/src/main/AndroidManifest.xml:53:19-74
+activity#com.qgstudio.aniwork.user.UserActivity
+ADDED from /home/jimji/StudioProjects/AnyWorkPleaseFollowTheRules/client-student/src/main/AndroidManifest.xml:54:9-75
 	android:name
-		ADDED from E:\work\Android\Apps\AnyWork2.0\client-student\src\main\AndroidManifest.xml:55:19-52
-activity#com.qgstudio.anywork.main.SearchingActivity
-ADDED from E:\work\Android\Apps\AnyWork2.0\client-student\src\main\AndroidManifest.xml:56:9-60
+		ADDED from /home/jimji/StudioProjects/AnyWorkPleaseFollowTheRules/client-student/src/main/AndroidManifest.xml:54:19-72
+activity#com.qgstudio.aniwork.main.SearchingActivity
+ADDED from /home/jimji/StudioProjects/AnyWorkPleaseFollowTheRules/client-student/src/main/AndroidManifest.xml:55:9-80
 	android:name
-		ADDED from E:\work\Android\Apps\AnyWork2.0\client-student\src\main\AndroidManifest.xml:56:19-57
-activity#com.qgstudio.anywork.feedback.FeedbackActivity
-ADDED from E:\work\Android\Apps\AnyWork2.0\client-student\src\main\AndroidManifest.xml:57:9-63
+		ADDED from /home/jimji/StudioProjects/AnyWorkPleaseFollowTheRules/client-student/src/main/AndroidManifest.xml:55:19-77
+activity#com.qgstudio.aniwork.feedback.FeedbackActivity
+ADDED from /home/jimji/StudioProjects/AnyWorkPleaseFollowTheRules/client-student/src/main/AndroidManifest.xml:56:9-83
 	android:name
-		ADDED from E:\work\Android\Apps\AnyWork2.0\client-student\src\main\AndroidManifest.xml:57:19-60
-activity#com.qgstudio.anywork.main.NewOrganizationActivity
-ADDED from E:\work\Android\Apps\AnyWork2.0\client-student\src\main\AndroidManifest.xml:58:9-66
+		ADDED from /home/jimji/StudioProjects/AnyWorkPleaseFollowTheRules/client-student/src/main/AndroidManifest.xml:56:19-80
+activity#com.qgstudio.aniwork.main.NewOrganizationActivity
+ADDED from /home/jimji/StudioProjects/AnyWorkPleaseFollowTheRules/client-student/src/main/AndroidManifest.xml:57:9-86
 	android:name
-		ADDED from E:\work\Android\Apps\AnyWork2.0\client-student\src\main\AndroidManifest.xml:58:19-63
-activity#com.qgstudio.anywork.user.ChangePasswordActivity
-ADDED from E:\work\Android\Apps\AnyWork2.0\client-student\src\main\AndroidManifest.xml:59:9-65
+		ADDED from /home/jimji/StudioProjects/AnyWorkPleaseFollowTheRules/client-student/src/main/AndroidManifest.xml:57:19-83
+activity#com.qgstudio.aniwork.user.ChangePasswordActivity
+ADDED from /home/jimji/StudioProjects/AnyWorkPleaseFollowTheRules/client-student/src/main/AndroidManifest.xml:58:9-85
 	android:name
-		ADDED from E:\work\Android\Apps\AnyWork2.0\client-student\src\main\AndroidManifest.xml:59:19-62
-activity#com.qgstudio.anywork.user.ChangeInfoActivity
-ADDED from E:\work\Android\Apps\AnyWork2.0\client-student\src\main\AndroidManifest.xml:60:9-61
+		ADDED from /home/jimji/StudioProjects/AnyWorkPleaseFollowTheRules/client-student/src/main/AndroidManifest.xml:58:19-82
+activity#com.qgstudio.aniwork.user.ChangeInfoActivity
+ADDED from /home/jimji/StudioProjects/AnyWorkPleaseFollowTheRules/client-student/src/main/AndroidManifest.xml:59:9-81
 	android:name
-		ADDED from E:\work\Android\Apps\AnyWork2.0\client-student\src\main\AndroidManifest.xml:60:19-58
-receiver#com.qgstudio.anywork.common.NetworkStatusReceiver
-ADDED from E:\work\Android\Apps\AnyWork2.0\client-student\src\main\AndroidManifest.xml:62:9-66:20
+		ADDED from /home/jimji/StudioProjects/AnyWorkPleaseFollowTheRules/client-student/src/main/AndroidManifest.xml:59:19-78
+receiver#com.qgstudio.aniwork.common.NetworkStatusReceiver
+ADDED from /home/jimji/StudioProjects/AnyWorkPleaseFollowTheRules/client-student/src/main/AndroidManifest.xml:61:9-65:20
 	android:name
-		ADDED from E:\work\Android\Apps\AnyWork2.0\client-student\src\main\AndroidManifest.xml:62:19-63
+		ADDED from /home/jimji/StudioProjects/AnyWorkPleaseFollowTheRules/client-student/src/main/AndroidManifest.xml:61:19-83
 intent-filter#action:name:android.net.conn.CONNECTIVITY_CHANGE
-ADDED from E:\work\Android\Apps\AnyWork2.0\client-student\src\main\AndroidManifest.xml:63:13-65:29
+ADDED from /home/jimji/StudioProjects/AnyWorkPleaseFollowTheRules/client-student/src/main/AndroidManifest.xml:62:13-64:29
 action#android.net.conn.CONNECTIVITY_CHANGE
-ADDED from E:\work\Android\Apps\AnyWork2.0\client-student\src\main\AndroidManifest.xml:64:17-79
+ADDED from /home/jimji/StudioProjects/AnyWorkPleaseFollowTheRules/client-student/src/main/AndroidManifest.xml:63:17-79
 	android:name
-		ADDED from E:\work\Android\Apps\AnyWork2.0\client-student\src\main\AndroidManifest.xml:64:25-76
-activity#com.qgstudio.anywork.notice.NoticeActivity
-ADDED from E:\work\Android\Apps\AnyWork2.0\client-student\src\main\AndroidManifest.xml:68:9-59
+		ADDED from /home/jimji/StudioProjects/AnyWorkPleaseFollowTheRules/client-student/src/main/AndroidManifest.xml:63:25-76
+activity#com.qgstudio.aniwork.notice.NoticeActivity
+ADDED from /home/jimji/StudioProjects/AnyWorkPleaseFollowTheRules/client-student/src/main/AndroidManifest.xml:67:9-79
 	android:name
-		ADDED from E:\work\Android\Apps\AnyWork2.0\client-student\src\main\AndroidManifest.xml:68:19-56
-service#com.qgstudio.anywork.user.AppService
-ADDED from E:\work\Android\Apps\AnyWork2.0\client-student\src\main\AndroidManifest.xml:70:9-74:41
+		ADDED from /home/jimji/StudioProjects/AnyWorkPleaseFollowTheRules/client-student/src/main/AndroidManifest.xml:67:19-76
+service#com.qgstudio.aniwork.user.AppService
+ADDED from /home/jimji/StudioProjects/AnyWorkPleaseFollowTheRules/client-student/src/main/AndroidManifest.xml:69:9-73:41
 	android:process
-		ADDED from E:\work\Android\Apps\AnyWork2.0\client-student\src\main\AndroidManifest.xml:74:13-38
+		ADDED from /home/jimji/StudioProjects/AnyWorkPleaseFollowTheRules/client-student/src/main/AndroidManifest.xml:73:13-38
 	android:enabled
-		ADDED from E:\work\Android\Apps\AnyWork2.0\client-student\src\main\AndroidManifest.xml:72:13-35
+		ADDED from /home/jimji/StudioProjects/AnyWorkPleaseFollowTheRules/client-student/src/main/AndroidManifest.xml:71:13-35
 	android:exported
-		ADDED from E:\work\Android\Apps\AnyWork2.0\client-student\src\main\AndroidManifest.xml:73:13-36
+		ADDED from /home/jimji/StudioProjects/AnyWorkPleaseFollowTheRules/client-student/src/main/AndroidManifest.xml:72:13-36
 	android:name
-		ADDED from E:\work\Android\Apps\AnyWork2.0\client-student\src\main\AndroidManifest.xml:71:13-44
-activity#com.qgstudio.anywork.workout.WorkoutContainerActivity
-ADDED from E:\work\Android\Apps\AnyWork2.0\client-student\src\main\AndroidManifest.xml:76:9-70
+		ADDED from /home/jimji/StudioProjects/AnyWorkPleaseFollowTheRules/client-student/src/main/AndroidManifest.xml:70:13-64
+activity#com.qgstudio.aniwork.workout.WorkoutContainerActivity
+ADDED from /home/jimji/StudioProjects/AnyWorkPleaseFollowTheRules/client-student/src/main/AndroidManifest.xml:75:9-90
 	android:name
-		ADDED from E:\work\Android\Apps\AnyWork2.0\client-student\src\main\AndroidManifest.xml:76:19-67
-activity#com.qgstudio.anywork.search.SearchActivity
-ADDED from E:\work\Android\Apps\AnyWork2.0\client-student\src\main\AndroidManifest.xml:77:9-59
+		ADDED from /home/jimji/StudioProjects/AnyWorkPleaseFollowTheRules/client-student/src/main/AndroidManifest.xml:75:19-87
+activity#com.qgstudio.aniwork.search.SearchActivity
+ADDED from /home/jimji/StudioProjects/AnyWorkPleaseFollowTheRules/client-student/src/main/AndroidManifest.xml:76:9-79
 	android:name
-		ADDED from E:\work\Android\Apps\AnyWork2.0\client-student\src\main\AndroidManifest.xml:77:19-56
-activity#com.qgstudio.anywork.collection.CollectionActivity
-ADDED from E:\work\Android\Apps\AnyWork2.0\client-student\src\main\AndroidManifest.xml:78:9-67
+		ADDED from /home/jimji/StudioProjects/AnyWorkPleaseFollowTheRules/client-student/src/main/AndroidManifest.xml:76:19-76
+activity#com.qgstudio.aniwork.collection.CollectionActivity
+ADDED from /home/jimji/StudioProjects/AnyWorkPleaseFollowTheRules/client-student/src/main/AndroidManifest.xml:77:9-87
 	android:name
-		ADDED from E:\work\Android\Apps\AnyWork2.0\client-student\src\main\AndroidManifest.xml:78:19-64
+		ADDED from /home/jimji/StudioProjects/AnyWorkPleaseFollowTheRules/client-student/src/main/AndroidManifest.xml:77:19-84
 uses-sdk
-INJECTED from E:\work\Android\Apps\AnyWork2.0\client-student\src\main\AndroidManifest.xml reason: use-sdk injection requested
-INJECTED from E:\work\Android\Apps\AnyWork2.0\client-student\src\main\AndroidManifest.xml
-INJECTED from E:\work\Android\Apps\AnyWork2.0\client-student\src\main\AndroidManifest.xml
-MERGED from [com.github.littlejigege:suger:v0.0.8.7] C:\Users\jimiji\.gradle\caches\transforms-1\files-1.1\suger-v0.0.8.7.aar\0dfda5ae3ab05bd2eadbe37902783a0c\AndroidManifest.xml:7:5-9:41
-MERGED from [com.github.littlejigege:suger:v0.0.8.7] C:\Users\jimiji\.gradle\caches\transforms-1\files-1.1\suger-v0.0.8.7.aar\0dfda5ae3ab05bd2eadbe37902783a0c\AndroidManifest.xml:7:5-9:41
-MERGED from [com.android.support:design:28.0.0] C:\Users\jimiji\.gradle\caches\transforms-1\files-1.1\design-28.0.0.aar\9f13930b895983eb13ccd4dd88fb7063\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:design:28.0.0] C:\Users\jimiji\.gradle\caches\transforms-1\files-1.1\design-28.0.0.aar\9f13930b895983eb13ccd4dd88fb7063\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:appcompat-v7:28.0.0] C:\Users\jimiji\.gradle\caches\transforms-1\files-1.1\appcompat-v7-28.0.0.aar\0f015facd651bc3d985cbdda3308ed92\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:appcompat-v7:28.0.0] C:\Users\jimiji\.gradle\caches\transforms-1\files-1.1\appcompat-v7-28.0.0.aar\0f015facd651bc3d985cbdda3308ed92\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:recyclerview-v7:28.0.0] C:\Users\jimiji\.gradle\caches\transforms-1\files-1.1\recyclerview-v7-28.0.0.aar\8e688ce20ecc13e0a6f26cd5d647a7a6\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:recyclerview-v7:28.0.0] C:\Users\jimiji\.gradle\caches\transforms-1\files-1.1\recyclerview-v7-28.0.0.aar\8e688ce20ecc13e0a6f26cd5d647a7a6\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:cardview-v7:28.0.0] C:\Users\jimiji\.gradle\caches\transforms-1\files-1.1\cardview-v7-28.0.0.aar\3ba19d1cf59de097113b0cfe4c674383\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:cardview-v7:28.0.0] C:\Users\jimiji\.gradle\caches\transforms-1\files-1.1\cardview-v7-28.0.0.aar\3ba19d1cf59de097113b0cfe4c674383\AndroidManifest.xml:20:5-44
-MERGED from [com.jakewharton:butterknife:8.5.1] C:\Users\jimiji\.gradle\caches\transforms-1\files-1.1\butterknife-8.5.1.aar\659c3ad0bf06bbf45464515d74de91c5\AndroidManifest.xml:5:5-43
-MERGED from [com.jakewharton:butterknife:8.5.1] C:\Users\jimiji\.gradle\caches\transforms-1\files-1.1\butterknife-8.5.1.aar\659c3ad0bf06bbf45464515d74de91c5\AndroidManifest.xml:5:5-43
-MERGED from [io.reactivex:rxandroid:1.0.1] C:\Users\jimiji\.gradle\caches\transforms-1\files-1.1\rxandroid-1.0.1.aar\634edfade157c8d2a9c2201189472633\AndroidManifest.xml:19:5-43
-MERGED from [io.reactivex:rxandroid:1.0.1] C:\Users\jimiji\.gradle\caches\transforms-1\files-1.1\rxandroid-1.0.1.aar\634edfade157c8d2a9c2201189472633\AndroidManifest.xml:19:5-43
-MERGED from [de.hdodenhof:circleimageview:2.0.0] C:\Users\jimiji\.gradle\caches\transforms-1\files-1.1\circleimageview-2.0.0.aar\8eb6100bdbc793077e7a267309179f17\AndroidManifest.xml:5:5-7:41
-MERGED from [de.hdodenhof:circleimageview:2.0.0] C:\Users\jimiji\.gradle\caches\transforms-1\files-1.1\circleimageview-2.0.0.aar\8eb6100bdbc793077e7a267309179f17\AndroidManifest.xml:5:5-7:41
-MERGED from [com.victor:lib:1.0.4] C:\Users\jimiji\.gradle\caches\transforms-1\files-1.1\lib-1.0.4.aar\a4c6584ac20606762870831b5a671c2d\AndroidManifest.xml:7:5-9:41
-MERGED from [com.victor:lib:1.0.4] C:\Users\jimiji\.gradle\caches\transforms-1\files-1.1\lib-1.0.4.aar\a4c6584ac20606762870831b5a671c2d\AndroidManifest.xml:7:5-9:41
-MERGED from [jp.wasabeef:glide-transformations:2.0.1] C:\Users\jimiji\.gradle\caches\transforms-1\files-1.1\glide-transformations-2.0.1.aar\91683a8e31a03984acbd46a614884c5c\AndroidManifest.xml:8:5-10:41
-MERGED from [jp.wasabeef:glide-transformations:2.0.1] C:\Users\jimiji\.gradle\caches\transforms-1\files-1.1\glide-transformations-2.0.1.aar\91683a8e31a03984acbd46a614884c5c\AndroidManifest.xml:8:5-10:41
-MERGED from [com.android.support:support-v4:28.0.0] C:\Users\jimiji\.gradle\caches\transforms-1\files-1.1\support-v4-28.0.0.aar\25b24719a75d4fd6d8390acffbba3380\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-v4:28.0.0] C:\Users\jimiji\.gradle\caches\transforms-1\files-1.1\support-v4-28.0.0.aar\25b24719a75d4fd6d8390acffbba3380\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support.constraint:constraint-layout:1.0.2] C:\Users\jimiji\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.0.2.aar\dc1dc0d4a174a2974fbe60df8a8b70c9\AndroidManifest.xml:5:5-7:41
-MERGED from [com.android.support.constraint:constraint-layout:1.0.2] C:\Users\jimiji\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.0.2.aar\dc1dc0d4a174a2974fbe60df8a8b70c9\AndroidManifest.xml:5:5-7:41
-MERGED from [com.tinkerpatch.sdk:tinkerpatch-android-sdk:1.2.8] C:\Users\jimiji\.gradle\caches\transforms-1\files-1.1\tinkerpatch-android-sdk-1.2.8.aar\e8648d9c5a650f54a069d53e0254ede7\AndroidManifest.xml:6:5-8:41
-MERGED from [com.tinkerpatch.sdk:tinkerpatch-android-sdk:1.2.8] C:\Users\jimiji\.gradle\caches\transforms-1\files-1.1\tinkerpatch-android-sdk-1.2.8.aar\e8648d9c5a650f54a069d53e0254ede7\AndroidManifest.xml:6:5-8:41
-MERGED from [com.tencent.bugly:crashreport_upgrade:1.3.6] C:\Users\jimiji\.gradle\caches\transforms-1\files-1.1\crashreport_upgrade-1.3.6.aar\cbbd2ab25164f4ab10615c6bfc3257f0\AndroidManifest.xml:6:5-8:41
-MERGED from [com.tencent.bugly:crashreport_upgrade:1.3.6] C:\Users\jimiji\.gradle\caches\transforms-1\files-1.1\crashreport_upgrade-1.3.6.aar\cbbd2ab25164f4ab10615c6bfc3257f0\AndroidManifest.xml:6:5-8:41
-MERGED from [com.tencent.bugly:nativecrashreport:3.3.1] C:\Users\jimiji\.gradle\caches\transforms-1\files-1.1\nativecrashreport-3.3.1.aar\699c059ac155a9ab36d10d63a6ae4f59\AndroidManifest.xml:5:5-7:41
-MERGED from [com.tencent.bugly:nativecrashreport:3.3.1] C:\Users\jimiji\.gradle\caches\transforms-1\files-1.1\nativecrashreport-3.3.1.aar\699c059ac155a9ab36d10d63a6ae4f59\AndroidManifest.xml:5:5-7:41
-MERGED from [com.scwang.smartrefresh:SmartRefreshLayout:1.1.0-alpha-14] C:\Users\jimiji\.gradle\caches\transforms-1\files-1.1\SmartRefreshLayout-1.1.0-alpha-14.aar\877acbd2a223868a1552222bad59ced8\AndroidManifest.xml:7:5-9:41
-MERGED from [com.scwang.smartrefresh:SmartRefreshLayout:1.1.0-alpha-14] C:\Users\jimiji\.gradle\caches\transforms-1\files-1.1\SmartRefreshLayout-1.1.0-alpha-14.aar\877acbd2a223868a1552222bad59ced8\AndroidManifest.xml:7:5-9:41
-MERGED from [android.arch.lifecycle:extensions:1.1.1] C:\Users\jimiji\.gradle\caches\transforms-1\files-1.1\extensions-1.1.1.aar\c5119834025844dbc95ff77d3ac74d1e\AndroidManifest.xml:20:5-44
-MERGED from [android.arch.lifecycle:extensions:1.1.1] C:\Users\jimiji\.gradle\caches\transforms-1\files-1.1\extensions-1.1.1.aar\c5119834025844dbc95ff77d3ac74d1e\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:animated-vector-drawable:28.0.0] C:\Users\jimiji\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-28.0.0.aar\d8e5e3f04b24161cd10e576d557de142\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:animated-vector-drawable:28.0.0] C:\Users\jimiji\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-28.0.0.aar\d8e5e3f04b24161cd10e576d557de142\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-fragment:28.0.0] C:\Users\jimiji\.gradle\caches\transforms-1\files-1.1\support-fragment-28.0.0.aar\acb73e93780a9d52a96d39e2e57e6c54\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-fragment:28.0.0] C:\Users\jimiji\.gradle\caches\transforms-1\files-1.1\support-fragment-28.0.0.aar\acb73e93780a9d52a96d39e2e57e6c54\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-core-ui:28.0.0] C:\Users\jimiji\.gradle\caches\transforms-1\files-1.1\support-core-ui-28.0.0.aar\7c74c08d76ea9f6062d14b8dea4b81c0\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-core-ui:28.0.0] C:\Users\jimiji\.gradle\caches\transforms-1\files-1.1\support-core-ui-28.0.0.aar\7c74c08d76ea9f6062d14b8dea4b81c0\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-core-utils:28.0.0] C:\Users\jimiji\.gradle\caches\transforms-1\files-1.1\support-core-utils-28.0.0.aar\f217f300b041bc8e3138607c68a5cfcc\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-core-utils:28.0.0] C:\Users\jimiji\.gradle\caches\transforms-1\files-1.1\support-core-utils-28.0.0.aar\f217f300b041bc8e3138607c68a5cfcc\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-media-compat:28.0.0] C:\Users\jimiji\.gradle\caches\transforms-1\files-1.1\support-media-compat-28.0.0.aar\505fed83e67c2aeeb74069a78d29bd2f\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-media-compat:28.0.0] C:\Users\jimiji\.gradle\caches\transforms-1\files-1.1\support-media-compat-28.0.0.aar\505fed83e67c2aeeb74069a78d29bd2f\AndroidManifest.xml:20:5-44
-MERGED from [com.tinkerpatch.tinker:tinker-android-lib:1.9.8] C:\Users\jimiji\.gradle\caches\transforms-1\files-1.1\tinker-android-lib-1.9.8.aar\9deafb8c2105f556971db04ae4734620\AndroidManifest.xml:5:5-7:41
-MERGED from [com.tinkerpatch.tinker:tinker-android-lib:1.9.8] C:\Users\jimiji\.gradle\caches\transforms-1\files-1.1\tinker-android-lib-1.9.8.aar\9deafb8c2105f556971db04ae4734620\AndroidManifest.xml:5:5-7:41
-MERGED from [com.tinkerpatch.tinker:tinker-android-loader:1.9.8] C:\Users\jimiji\.gradle\caches\transforms-1\files-1.1\tinker-android-loader-1.9.8.aar\b94fb6ceb58b29982ecb5680d14e6c4c\AndroidManifest.xml:5:5-7:41
-MERGED from [com.tinkerpatch.tinker:tinker-android-loader:1.9.8] C:\Users\jimiji\.gradle\caches\transforms-1\files-1.1\tinker-android-loader-1.9.8.aar\b94fb6ceb58b29982ecb5680d14e6c4c\AndroidManifest.xml:5:5-7:41
-MERGED from [com.android.support:loader:28.0.0] C:\Users\jimiji\.gradle\caches\transforms-1\files-1.1\loader-28.0.0.aar\85aa6257d3d6831478d2c3110a378c4e\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:loader:28.0.0] C:\Users\jimiji\.gradle\caches\transforms-1\files-1.1\loader-28.0.0.aar\85aa6257d3d6831478d2c3110a378c4e\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:viewpager:28.0.0] C:\Users\jimiji\.gradle\caches\transforms-1\files-1.1\viewpager-28.0.0.aar\12bf7d68235aa941644e1fe2fd861496\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:viewpager:28.0.0] C:\Users\jimiji\.gradle\caches\transforms-1\files-1.1\viewpager-28.0.0.aar\12bf7d68235aa941644e1fe2fd861496\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:coordinatorlayout:28.0.0] C:\Users\jimiji\.gradle\caches\transforms-1\files-1.1\coordinatorlayout-28.0.0.aar\4bf318b61ff0d6ed0a0116bf02e7eb57\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:coordinatorlayout:28.0.0] C:\Users\jimiji\.gradle\caches\transforms-1\files-1.1\coordinatorlayout-28.0.0.aar\4bf318b61ff0d6ed0a0116bf02e7eb57\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:drawerlayout:28.0.0] C:\Users\jimiji\.gradle\caches\transforms-1\files-1.1\drawerlayout-28.0.0.aar\55e2d4289649ddf89507dfb027ef316f\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:drawerlayout:28.0.0] C:\Users\jimiji\.gradle\caches\transforms-1\files-1.1\drawerlayout-28.0.0.aar\55e2d4289649ddf89507dfb027ef316f\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:slidingpanelayout:28.0.0] C:\Users\jimiji\.gradle\caches\transforms-1\files-1.1\slidingpanelayout-28.0.0.aar\d2df569d5738a6b40f46b6e858062158\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:slidingpanelayout:28.0.0] C:\Users\jimiji\.gradle\caches\transforms-1\files-1.1\slidingpanelayout-28.0.0.aar\d2df569d5738a6b40f46b6e858062158\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:customview:28.0.0] C:\Users\jimiji\.gradle\caches\transforms-1\files-1.1\customview-28.0.0.aar\831c94d75d7811ce12d4fbc2d6ec7a7e\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:customview:28.0.0] C:\Users\jimiji\.gradle\caches\transforms-1\files-1.1\customview-28.0.0.aar\831c94d75d7811ce12d4fbc2d6ec7a7e\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:swiperefreshlayout:28.0.0] C:\Users\jimiji\.gradle\caches\transforms-1\files-1.1\swiperefreshlayout-28.0.0.aar\38a1789b398d22d450fc4ab66cc1fb1f\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:swiperefreshlayout:28.0.0] C:\Users\jimiji\.gradle\caches\transforms-1\files-1.1\swiperefreshlayout-28.0.0.aar\38a1789b398d22d450fc4ab66cc1fb1f\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:asynclayoutinflater:28.0.0] C:\Users\jimiji\.gradle\caches\transforms-1\files-1.1\asynclayoutinflater-28.0.0.aar\3fdeafd73c147f1daef0813f24182827\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:asynclayoutinflater:28.0.0] C:\Users\jimiji\.gradle\caches\transforms-1\files-1.1\asynclayoutinflater-28.0.0.aar\3fdeafd73c147f1daef0813f24182827\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:transition:28.0.0] C:\Users\jimiji\.gradle\caches\transforms-1\files-1.1\transition-28.0.0.aar\d813ea53144ac2f6c270ab94ac54ca00\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:transition:28.0.0] C:\Users\jimiji\.gradle\caches\transforms-1\files-1.1\transition-28.0.0.aar\d813ea53144ac2f6c270ab94ac54ca00\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-vector-drawable:28.0.0] C:\Users\jimiji\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-28.0.0.aar\0699e68f601dc3ed248a680cccfe915d\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-vector-drawable:28.0.0] C:\Users\jimiji\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-28.0.0.aar\0699e68f601dc3ed248a680cccfe915d\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-compat:28.0.0] C:\Users\jimiji\.gradle\caches\transforms-1\files-1.1\support-compat-28.0.0.aar\146ce858928eda2d21fd039b1013447b\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-compat:28.0.0] C:\Users\jimiji\.gradle\caches\transforms-1\files-1.1\support-compat-28.0.0.aar\146ce858928eda2d21fd039b1013447b\AndroidManifest.xml:20:5-44
-MERGED from [android.arch.lifecycle:runtime:1.1.1] C:\Users\jimiji\.gradle\caches\transforms-1\files-1.1\runtime-1.1.1.aar\0b6d2f3377cfd89628f281f11ecb357a\AndroidManifest.xml:20:5-44
-MERGED from [android.arch.lifecycle:runtime:1.1.1] C:\Users\jimiji\.gradle\caches\transforms-1\files-1.1\runtime-1.1.1.aar\0b6d2f3377cfd89628f281f11ecb357a\AndroidManifest.xml:20:5-44
-MERGED from [android.arch.lifecycle:livedata:1.1.1] C:\Users\jimiji\.gradle\caches\transforms-1\files-1.1\livedata-1.1.1.aar\a974e63ad5fe9b105054a7822a39ec06\AndroidManifest.xml:20:5-44
-MERGED from [android.arch.lifecycle:livedata:1.1.1] C:\Users\jimiji\.gradle\caches\transforms-1\files-1.1\livedata-1.1.1.aar\a974e63ad5fe9b105054a7822a39ec06\AndroidManifest.xml:20:5-44
-MERGED from [android.arch.lifecycle:livedata-core:1.1.1] C:\Users\jimiji\.gradle\caches\transforms-1\files-1.1\livedata-core-1.1.1.aar\06e01545b8d7da71408a007477f3028c\AndroidManifest.xml:20:5-44
-MERGED from [android.arch.lifecycle:livedata-core:1.1.1] C:\Users\jimiji\.gradle\caches\transforms-1\files-1.1\livedata-core-1.1.1.aar\06e01545b8d7da71408a007477f3028c\AndroidManifest.xml:20:5-44
-MERGED from [android.arch.core:runtime:1.1.1] C:\Users\jimiji\.gradle\caches\transforms-1\files-1.1\runtime-1.1.1.aar\b8cdd081222ef30c0c06160f250034f0\AndroidManifest.xml:20:5-44
-MERGED from [android.arch.core:runtime:1.1.1] C:\Users\jimiji\.gradle\caches\transforms-1\files-1.1\runtime-1.1.1.aar\b8cdd081222ef30c0c06160f250034f0\AndroidManifest.xml:20:5-44
-MERGED from [android.arch.lifecycle:viewmodel:1.1.1] C:\Users\jimiji\.gradle\caches\transforms-1\files-1.1\viewmodel-1.1.1.aar\34a8c8db0434a3468a1fde600961b7bf\AndroidManifest.xml:20:5-44
-MERGED from [android.arch.lifecycle:viewmodel:1.1.1] C:\Users\jimiji\.gradle\caches\transforms-1\files-1.1\viewmodel-1.1.1.aar\34a8c8db0434a3468a1fde600961b7bf\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:documentfile:28.0.0] C:\Users\jimiji\.gradle\caches\transforms-1\files-1.1\documentfile-28.0.0.aar\dfd6c03a3eed36b606c6cbd79af20eca\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:documentfile:28.0.0] C:\Users\jimiji\.gradle\caches\transforms-1\files-1.1\documentfile-28.0.0.aar\dfd6c03a3eed36b606c6cbd79af20eca\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:localbroadcastmanager:28.0.0] C:\Users\jimiji\.gradle\caches\transforms-1\files-1.1\localbroadcastmanager-28.0.0.aar\eedd8e654eee5921cf63537a29af053b\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:localbroadcastmanager:28.0.0] C:\Users\jimiji\.gradle\caches\transforms-1\files-1.1\localbroadcastmanager-28.0.0.aar\eedd8e654eee5921cf63537a29af053b\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:print:28.0.0] C:\Users\jimiji\.gradle\caches\transforms-1\files-1.1\print-28.0.0.aar\3295a21256bd28ee1523238121b66dbf\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:print:28.0.0] C:\Users\jimiji\.gradle\caches\transforms-1\files-1.1\print-28.0.0.aar\3295a21256bd28ee1523238121b66dbf\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:interpolator:28.0.0] C:\Users\jimiji\.gradle\caches\transforms-1\files-1.1\interpolator-28.0.0.aar\7ffdca9172c0bda39fd0e20a69a8d109\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:interpolator:28.0.0] C:\Users\jimiji\.gradle\caches\transforms-1\files-1.1\interpolator-28.0.0.aar\7ffdca9172c0bda39fd0e20a69a8d109\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:cursoradapter:28.0.0] C:\Users\jimiji\.gradle\caches\transforms-1\files-1.1\cursoradapter-28.0.0.aar\899858866c689c84e505408ce6daa5e4\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:cursoradapter:28.0.0] C:\Users\jimiji\.gradle\caches\transforms-1\files-1.1\cursoradapter-28.0.0.aar\899858866c689c84e505408ce6daa5e4\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:versionedparcelable:28.0.0] C:\Users\jimiji\.gradle\caches\transforms-1\files-1.1\versionedparcelable-28.0.0.aar\d6550683263e6390dcd535ea9e5aa5cc\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:versionedparcelable:28.0.0] C:\Users\jimiji\.gradle\caches\transforms-1\files-1.1\versionedparcelable-28.0.0.aar\d6550683263e6390dcd535ea9e5aa5cc\AndroidManifest.xml:20:5-44
-INJECTED from E:\work\Android\Apps\AnyWork2.0\client-student\src\main\AndroidManifest.xml
-INJECTED from E:\work\Android\Apps\AnyWork2.0\client-student\src\main\AndroidManifest.xml
+INJECTED from /home/jimji/StudioProjects/AnyWorkPleaseFollowTheRules/client-student/src/main/AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from /home/jimji/StudioProjects/AnyWorkPleaseFollowTheRules/client-student/src/main/AndroidManifest.xml
+INJECTED from /home/jimji/StudioProjects/AnyWorkPleaseFollowTheRules/client-student/src/main/AndroidManifest.xml
+MERGED from [com.github.littlejigege:suger:v0.0.8.7] /home/jimji/.gradle/caches/transforms-1/files-1.1/suger-v0.0.8.7.aar/904dd82274fe5a45a9c4e8de2ee379d1/AndroidManifest.xml:7:5-9:41
+MERGED from [com.github.littlejigege:suger:v0.0.8.7] /home/jimji/.gradle/caches/transforms-1/files-1.1/suger-v0.0.8.7.aar/904dd82274fe5a45a9c4e8de2ee379d1/AndroidManifest.xml:7:5-9:41
+MERGED from [com.airbnb.android:lottie:2.7.0] /home/jimji/.gradle/caches/transforms-1/files-1.1/lottie-2.7.0.aar/d2252a0ce92031efd3e9ff39989c29fe/AndroidManifest.xml:7:5-9:41
+MERGED from [com.airbnb.android:lottie:2.7.0] /home/jimji/.gradle/caches/transforms-1/files-1.1/lottie-2.7.0.aar/d2252a0ce92031efd3e9ff39989c29fe/AndroidManifest.xml:7:5-9:41
+MERGED from [com.android.support:design:28.0.0] /home/jimji/.gradle/caches/transforms-1/files-1.1/design-28.0.0.aar/10674943a320c8c6067ee3bc2cf310df/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:design:28.0.0] /home/jimji/.gradle/caches/transforms-1/files-1.1/design-28.0.0.aar/10674943a320c8c6067ee3bc2cf310df/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:appcompat-v7:28.0.0] /home/jimji/.gradle/caches/transforms-1/files-1.1/appcompat-v7-28.0.0.aar/0f94072457bc0a7db5ac0fd1c500c574/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:appcompat-v7:28.0.0] /home/jimji/.gradle/caches/transforms-1/files-1.1/appcompat-v7-28.0.0.aar/0f94072457bc0a7db5ac0fd1c500c574/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:recyclerview-v7:28.0.0] /home/jimji/.gradle/caches/transforms-1/files-1.1/recyclerview-v7-28.0.0.aar/2bfab606fe1b3405aad9d2bc524d3df7/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:recyclerview-v7:28.0.0] /home/jimji/.gradle/caches/transforms-1/files-1.1/recyclerview-v7-28.0.0.aar/2bfab606fe1b3405aad9d2bc524d3df7/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:cardview-v7:28.0.0] /home/jimji/.gradle/caches/transforms-1/files-1.1/cardview-v7-28.0.0.aar/6c0f0ea932d7c22d6131aca823f7cf3c/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:cardview-v7:28.0.0] /home/jimji/.gradle/caches/transforms-1/files-1.1/cardview-v7-28.0.0.aar/6c0f0ea932d7c22d6131aca823f7cf3c/AndroidManifest.xml:20:5-44
+MERGED from [com.jakewharton:butterknife:8.5.1] /home/jimji/.gradle/caches/transforms-1/files-1.1/butterknife-8.5.1.aar/327f928d42f67106aaf0f805deb45df5/AndroidManifest.xml:5:5-43
+MERGED from [com.jakewharton:butterknife:8.5.1] /home/jimji/.gradle/caches/transforms-1/files-1.1/butterknife-8.5.1.aar/327f928d42f67106aaf0f805deb45df5/AndroidManifest.xml:5:5-43
+MERGED from [io.reactivex:rxandroid:1.0.1] /home/jimji/.gradle/caches/transforms-1/files-1.1/rxandroid-1.0.1.aar/925b1dfe7fe735004c271b2118bdaf9a/AndroidManifest.xml:19:5-43
+MERGED from [io.reactivex:rxandroid:1.0.1] /home/jimji/.gradle/caches/transforms-1/files-1.1/rxandroid-1.0.1.aar/925b1dfe7fe735004c271b2118bdaf9a/AndroidManifest.xml:19:5-43
+MERGED from [de.hdodenhof:circleimageview:2.0.0] /home/jimji/.gradle/caches/transforms-1/files-1.1/circleimageview-2.0.0.aar/7a2b7017b73ec9c30d65284cdbff1370/AndroidManifest.xml:5:5-7:41
+MERGED from [de.hdodenhof:circleimageview:2.0.0] /home/jimji/.gradle/caches/transforms-1/files-1.1/circleimageview-2.0.0.aar/7a2b7017b73ec9c30d65284cdbff1370/AndroidManifest.xml:5:5-7:41
+MERGED from [com.victor:lib:1.0.4] /home/jimji/.gradle/caches/transforms-1/files-1.1/lib-1.0.4.aar/c387997f6d1069c4a11eefeb4265d338/AndroidManifest.xml:7:5-9:41
+MERGED from [com.victor:lib:1.0.4] /home/jimji/.gradle/caches/transforms-1/files-1.1/lib-1.0.4.aar/c387997f6d1069c4a11eefeb4265d338/AndroidManifest.xml:7:5-9:41
+MERGED from [jp.wasabeef:glide-transformations:2.0.1] /home/jimji/.gradle/caches/transforms-1/files-1.1/glide-transformations-2.0.1.aar/fbdc734fff2bfa62a0b3016324e03c2f/AndroidManifest.xml:8:5-10:41
+MERGED from [jp.wasabeef:glide-transformations:2.0.1] /home/jimji/.gradle/caches/transforms-1/files-1.1/glide-transformations-2.0.1.aar/fbdc734fff2bfa62a0b3016324e03c2f/AndroidManifest.xml:8:5-10:41
+MERGED from [com.android.support:support-v4:28.0.0] /home/jimji/.gradle/caches/transforms-1/files-1.1/support-v4-28.0.0.aar/5126f6787f935ae710bc9791ee253706/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-v4:28.0.0] /home/jimji/.gradle/caches/transforms-1/files-1.1/support-v4-28.0.0.aar/5126f6787f935ae710bc9791ee253706/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support.constraint:constraint-layout:1.0.2] /home/jimji/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.0.2.aar/9a44cdef409e7eb0bf1bcd0148b02e71/AndroidManifest.xml:5:5-7:41
+MERGED from [com.android.support.constraint:constraint-layout:1.0.2] /home/jimji/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.0.2.aar/9a44cdef409e7eb0bf1bcd0148b02e71/AndroidManifest.xml:5:5-7:41
+MERGED from [com.tinkerpatch.sdk:tinkerpatch-android-sdk:1.2.8] /home/jimji/.gradle/caches/transforms-1/files-1.1/tinkerpatch-android-sdk-1.2.8.aar/b5a1f61c39d23b7b89b9b6863eef8143/AndroidManifest.xml:6:5-8:41
+MERGED from [com.tinkerpatch.sdk:tinkerpatch-android-sdk:1.2.8] /home/jimji/.gradle/caches/transforms-1/files-1.1/tinkerpatch-android-sdk-1.2.8.aar/b5a1f61c39d23b7b89b9b6863eef8143/AndroidManifest.xml:6:5-8:41
+MERGED from [com.tencent.bugly:crashreport_upgrade:1.3.6] /home/jimji/.gradle/caches/transforms-1/files-1.1/crashreport_upgrade-1.3.6.aar/52abf166be57162f5e0a06fffb78025f/AndroidManifest.xml:6:5-8:41
+MERGED from [com.tencent.bugly:crashreport_upgrade:1.3.6] /home/jimji/.gradle/caches/transforms-1/files-1.1/crashreport_upgrade-1.3.6.aar/52abf166be57162f5e0a06fffb78025f/AndroidManifest.xml:6:5-8:41
+MERGED from [com.tencent.bugly:nativecrashreport:3.3.1] /home/jimji/.gradle/caches/transforms-1/files-1.1/nativecrashreport-3.3.1.aar/4c3aaa334a10647c4880f17bcffa89a0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.tencent.bugly:nativecrashreport:3.3.1] /home/jimji/.gradle/caches/transforms-1/files-1.1/nativecrashreport-3.3.1.aar/4c3aaa334a10647c4880f17bcffa89a0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.scwang.smartrefresh:SmartRefreshLayout:1.1.0-alpha-14] /home/jimji/.gradle/caches/transforms-1/files-1.1/SmartRefreshLayout-1.1.0-alpha-14.aar/3fca37581e6bf45ebe31187b217656ff/AndroidManifest.xml:7:5-9:41
+MERGED from [com.scwang.smartrefresh:SmartRefreshLayout:1.1.0-alpha-14] /home/jimji/.gradle/caches/transforms-1/files-1.1/SmartRefreshLayout-1.1.0-alpha-14.aar/3fca37581e6bf45ebe31187b217656ff/AndroidManifest.xml:7:5-9:41
+MERGED from [android.arch.lifecycle:extensions:1.1.1] /home/jimji/.gradle/caches/transforms-1/files-1.1/extensions-1.1.1.aar/25d8263bc4f880887b4de47da98cd3aa/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:extensions:1.1.1] /home/jimji/.gradle/caches/transforms-1/files-1.1/extensions-1.1.1.aar/25d8263bc4f880887b4de47da98cd3aa/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:28.0.0] /home/jimji/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-28.0.0.aar/bf55199fbfc0e8305c486fc4764d2dc8/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:28.0.0] /home/jimji/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-28.0.0.aar/bf55199fbfc0e8305c486fc4764d2dc8/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-fragment:28.0.0] /home/jimji/.gradle/caches/transforms-1/files-1.1/support-fragment-28.0.0.aar/cfb29de1540051a47ee14e490b6ad576/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-fragment:28.0.0] /home/jimji/.gradle/caches/transforms-1/files-1.1/support-fragment-28.0.0.aar/cfb29de1540051a47ee14e490b6ad576/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-ui:28.0.0] /home/jimji/.gradle/caches/transforms-1/files-1.1/support-core-ui-28.0.0.aar/0fed64b6dfc5375d7050fb1a43814116/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-ui:28.0.0] /home/jimji/.gradle/caches/transforms-1/files-1.1/support-core-ui-28.0.0.aar/0fed64b6dfc5375d7050fb1a43814116/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-utils:28.0.0] /home/jimji/.gradle/caches/transforms-1/files-1.1/support-core-utils-28.0.0.aar/a62b1dfa1fca42b02299e5423f99b3c8/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-utils:28.0.0] /home/jimji/.gradle/caches/transforms-1/files-1.1/support-core-utils-28.0.0.aar/a62b1dfa1fca42b02299e5423f99b3c8/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-media-compat:28.0.0] /home/jimji/.gradle/caches/transforms-1/files-1.1/support-media-compat-28.0.0.aar/52333caa3003f7da66ab4d5167a2e292/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-media-compat:28.0.0] /home/jimji/.gradle/caches/transforms-1/files-1.1/support-media-compat-28.0.0.aar/52333caa3003f7da66ab4d5167a2e292/AndroidManifest.xml:20:5-44
+MERGED from [com.tinkerpatch.tinker:tinker-android-lib:1.9.8] /home/jimji/.gradle/caches/transforms-1/files-1.1/tinker-android-lib-1.9.8.aar/44668ca118a50998e3f045fe74763e89/AndroidManifest.xml:5:5-7:41
+MERGED from [com.tinkerpatch.tinker:tinker-android-lib:1.9.8] /home/jimji/.gradle/caches/transforms-1/files-1.1/tinker-android-lib-1.9.8.aar/44668ca118a50998e3f045fe74763e89/AndroidManifest.xml:5:5-7:41
+MERGED from [com.tinkerpatch.tinker:tinker-android-loader:1.9.8] /home/jimji/.gradle/caches/transforms-1/files-1.1/tinker-android-loader-1.9.8.aar/6eaddd392232ae1aa5409c01de1c875a/AndroidManifest.xml:5:5-7:41
+MERGED from [com.tinkerpatch.tinker:tinker-android-loader:1.9.8] /home/jimji/.gradle/caches/transforms-1/files-1.1/tinker-android-loader-1.9.8.aar/6eaddd392232ae1aa5409c01de1c875a/AndroidManifest.xml:5:5-7:41
+MERGED from [com.android.support:loader:28.0.0] /home/jimji/.gradle/caches/transforms-1/files-1.1/loader-28.0.0.aar/08143013317fcb39de6e3aace2f2345f/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:loader:28.0.0] /home/jimji/.gradle/caches/transforms-1/files-1.1/loader-28.0.0.aar/08143013317fcb39de6e3aace2f2345f/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:viewpager:28.0.0] /home/jimji/.gradle/caches/transforms-1/files-1.1/viewpager-28.0.0.aar/cba90ced5ec2c295e890773864070449/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:viewpager:28.0.0] /home/jimji/.gradle/caches/transforms-1/files-1.1/viewpager-28.0.0.aar/cba90ced5ec2c295e890773864070449/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:coordinatorlayout:28.0.0] /home/jimji/.gradle/caches/transforms-1/files-1.1/coordinatorlayout-28.0.0.aar/94d3e09414e81d42e1a7745f84d0fc94/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:coordinatorlayout:28.0.0] /home/jimji/.gradle/caches/transforms-1/files-1.1/coordinatorlayout-28.0.0.aar/94d3e09414e81d42e1a7745f84d0fc94/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:drawerlayout:28.0.0] /home/jimji/.gradle/caches/transforms-1/files-1.1/drawerlayout-28.0.0.aar/19c85a245d5071757cea14816ef23436/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:drawerlayout:28.0.0] /home/jimji/.gradle/caches/transforms-1/files-1.1/drawerlayout-28.0.0.aar/19c85a245d5071757cea14816ef23436/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:slidingpanelayout:28.0.0] /home/jimji/.gradle/caches/transforms-1/files-1.1/slidingpanelayout-28.0.0.aar/c8310f874b2ceb522992c871ba7650a8/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:slidingpanelayout:28.0.0] /home/jimji/.gradle/caches/transforms-1/files-1.1/slidingpanelayout-28.0.0.aar/c8310f874b2ceb522992c871ba7650a8/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:customview:28.0.0] /home/jimji/.gradle/caches/transforms-1/files-1.1/customview-28.0.0.aar/4dee426a9215be9d3d35cc4e7d27ec0b/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:customview:28.0.0] /home/jimji/.gradle/caches/transforms-1/files-1.1/customview-28.0.0.aar/4dee426a9215be9d3d35cc4e7d27ec0b/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:swiperefreshlayout:28.0.0] /home/jimji/.gradle/caches/transforms-1/files-1.1/swiperefreshlayout-28.0.0.aar/0727764bfd6caf0a553ae61bbc9817fa/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:swiperefreshlayout:28.0.0] /home/jimji/.gradle/caches/transforms-1/files-1.1/swiperefreshlayout-28.0.0.aar/0727764bfd6caf0a553ae61bbc9817fa/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:asynclayoutinflater:28.0.0] /home/jimji/.gradle/caches/transforms-1/files-1.1/asynclayoutinflater-28.0.0.aar/53a6174d4f09685c10634c0950f33374/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:asynclayoutinflater:28.0.0] /home/jimji/.gradle/caches/transforms-1/files-1.1/asynclayoutinflater-28.0.0.aar/53a6174d4f09685c10634c0950f33374/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:transition:28.0.0] /home/jimji/.gradle/caches/transforms-1/files-1.1/transition-28.0.0.aar/00d0adc29e5cc48f3cc3aaf5f416468d/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:transition:28.0.0] /home/jimji/.gradle/caches/transforms-1/files-1.1/transition-28.0.0.aar/00d0adc29e5cc48f3cc3aaf5f416468d/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:28.0.0] /home/jimji/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-28.0.0.aar/45ed16858ec647d33550d26a4cd82212/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:28.0.0] /home/jimji/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-28.0.0.aar/45ed16858ec647d33550d26a4cd82212/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-compat:28.0.0] /home/jimji/.gradle/caches/transforms-1/files-1.1/support-compat-28.0.0.aar/1110b93d5d5a53fc049867b2569040be/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-compat:28.0.0] /home/jimji/.gradle/caches/transforms-1/files-1.1/support-compat-28.0.0.aar/1110b93d5d5a53fc049867b2569040be/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:runtime:1.1.1] /home/jimji/.gradle/caches/transforms-1/files-1.1/runtime-1.1.1.aar/7fab1552d0d3cacf0ed011f0b8ba1540/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:runtime:1.1.1] /home/jimji/.gradle/caches/transforms-1/files-1.1/runtime-1.1.1.aar/7fab1552d0d3cacf0ed011f0b8ba1540/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata:1.1.1] /home/jimji/.gradle/caches/transforms-1/files-1.1/livedata-1.1.1.aar/c841bf4ebd9653a8cacd20bf83bf6f29/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata:1.1.1] /home/jimji/.gradle/caches/transforms-1/files-1.1/livedata-1.1.1.aar/c841bf4ebd9653a8cacd20bf83bf6f29/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata-core:1.1.1] /home/jimji/.gradle/caches/transforms-1/files-1.1/livedata-core-1.1.1.aar/6a0101d981e4182b644cc30d0d2e9dfe/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata-core:1.1.1] /home/jimji/.gradle/caches/transforms-1/files-1.1/livedata-core-1.1.1.aar/6a0101d981e4182b644cc30d0d2e9dfe/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.core:runtime:1.1.1] /home/jimji/.gradle/caches/transforms-1/files-1.1/runtime-1.1.1.aar/40ceafd608fc6225f60c85d17dcc45fb/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.core:runtime:1.1.1] /home/jimji/.gradle/caches/transforms-1/files-1.1/runtime-1.1.1.aar/40ceafd608fc6225f60c85d17dcc45fb/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:viewmodel:1.1.1] /home/jimji/.gradle/caches/transforms-1/files-1.1/viewmodel-1.1.1.aar/b5f7fd7dc42fceb90f579335b8ec584b/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:viewmodel:1.1.1] /home/jimji/.gradle/caches/transforms-1/files-1.1/viewmodel-1.1.1.aar/b5f7fd7dc42fceb90f579335b8ec584b/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:documentfile:28.0.0] /home/jimji/.gradle/caches/transforms-1/files-1.1/documentfile-28.0.0.aar/ba897a1e18d095765e53fbb2127cb85e/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:documentfile:28.0.0] /home/jimji/.gradle/caches/transforms-1/files-1.1/documentfile-28.0.0.aar/ba897a1e18d095765e53fbb2127cb85e/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:localbroadcastmanager:28.0.0] /home/jimji/.gradle/caches/transforms-1/files-1.1/localbroadcastmanager-28.0.0.aar/cfc656e0a21f1a6bd61a3c0fc0721c6d/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:localbroadcastmanager:28.0.0] /home/jimji/.gradle/caches/transforms-1/files-1.1/localbroadcastmanager-28.0.0.aar/cfc656e0a21f1a6bd61a3c0fc0721c6d/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:print:28.0.0] /home/jimji/.gradle/caches/transforms-1/files-1.1/print-28.0.0.aar/62628a470e0cee10c58a9f1a34a6828f/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:print:28.0.0] /home/jimji/.gradle/caches/transforms-1/files-1.1/print-28.0.0.aar/62628a470e0cee10c58a9f1a34a6828f/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:interpolator:28.0.0] /home/jimji/.gradle/caches/transforms-1/files-1.1/interpolator-28.0.0.aar/8477ac33782efa01379211bb042dffb7/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:interpolator:28.0.0] /home/jimji/.gradle/caches/transforms-1/files-1.1/interpolator-28.0.0.aar/8477ac33782efa01379211bb042dffb7/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:cursoradapter:28.0.0] /home/jimji/.gradle/caches/transforms-1/files-1.1/cursoradapter-28.0.0.aar/19ffb0c339c47135a66504671117eba7/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:cursoradapter:28.0.0] /home/jimji/.gradle/caches/transforms-1/files-1.1/cursoradapter-28.0.0.aar/19ffb0c339c47135a66504671117eba7/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:versionedparcelable:28.0.0] /home/jimji/.gradle/caches/transforms-1/files-1.1/versionedparcelable-28.0.0.aar/e34fd4e6f50c0b1e64e871614997d153/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:versionedparcelable:28.0.0] /home/jimji/.gradle/caches/transforms-1/files-1.1/versionedparcelable-28.0.0.aar/e34fd4e6f50c0b1e64e871614997d153/AndroidManifest.xml:20:5-44
+INJECTED from /home/jimji/StudioProjects/AnyWorkPleaseFollowTheRules/client-student/src/main/AndroidManifest.xml
+INJECTED from /home/jimji/StudioProjects/AnyWorkPleaseFollowTheRules/client-student/src/main/AndroidManifest.xml
 	android:targetSdkVersion
-		INJECTED from E:\work\Android\Apps\AnyWork2.0\client-student\src\main\AndroidManifest.xml
-		ADDED from E:\work\Android\Apps\AnyWork2.0\client-student\src\main\AndroidManifest.xml
-		INJECTED from E:\work\Android\Apps\AnyWork2.0\client-student\src\main\AndroidManifest.xml
+		INJECTED from /home/jimji/StudioProjects/AnyWorkPleaseFollowTheRules/client-student/src/main/AndroidManifest.xml
+		ADDED from /home/jimji/StudioProjects/AnyWorkPleaseFollowTheRules/client-student/src/main/AndroidManifest.xml
+		INJECTED from /home/jimji/StudioProjects/AnyWorkPleaseFollowTheRules/client-student/src/main/AndroidManifest.xml
 	android:minSdkVersion
-		INJECTED from E:\work\Android\Apps\AnyWork2.0\client-student\src\main\AndroidManifest.xml
-		ADDED from E:\work\Android\Apps\AnyWork2.0\client-student\src\main\AndroidManifest.xml
-		INJECTED from E:\work\Android\Apps\AnyWork2.0\client-student\src\main\AndroidManifest.xml
+		INJECTED from /home/jimji/StudioProjects/AnyWorkPleaseFollowTheRules/client-student/src/main/AndroidManifest.xml
+		ADDED from /home/jimji/StudioProjects/AnyWorkPleaseFollowTheRules/client-student/src/main/AndroidManifest.xml
+		INJECTED from /home/jimji/StudioProjects/AnyWorkPleaseFollowTheRules/client-student/src/main/AndroidManifest.xml
 service#com.tinkerpatch.sdk.tinker.service.TinkerServerResultService
-ADDED from [com.tinkerpatch.sdk:tinkerpatch-android-sdk:1.2.8] C:\Users\jimiji\.gradle\caches\transforms-1\files-1.1\tinkerpatch-android-sdk-1.2.8.aar\e8648d9c5a650f54a069d53e0254ede7\AndroidManifest.xml:14:9-16:40
+ADDED from [com.tinkerpatch.sdk:tinkerpatch-android-sdk:1.2.8] /home/jimji/.gradle/caches/transforms-1/files-1.1/tinkerpatch-android-sdk-1.2.8.aar/b5a1f61c39d23b7b89b9b6863eef8143/AndroidManifest.xml:14:9-16:40
 	android:exported
-		ADDED from [com.tinkerpatch.sdk:tinkerpatch-android-sdk:1.2.8] C:\Users\jimiji\.gradle\caches\transforms-1\files-1.1\tinkerpatch-android-sdk-1.2.8.aar\e8648d9c5a650f54a069d53e0254ede7\AndroidManifest.xml:16:13-37
+		ADDED from [com.tinkerpatch.sdk:tinkerpatch-android-sdk:1.2.8] /home/jimji/.gradle/caches/transforms-1/files-1.1/tinkerpatch-android-sdk-1.2.8.aar/b5a1f61c39d23b7b89b9b6863eef8143/AndroidManifest.xml:16:13-37
 	android:name
-		ADDED from [com.tinkerpatch.sdk:tinkerpatch-android-sdk:1.2.8] C:\Users\jimiji\.gradle\caches\transforms-1\files-1.1\tinkerpatch-android-sdk-1.2.8.aar\e8648d9c5a650f54a069d53e0254ede7\AndroidManifest.xml:15:13-88
+		ADDED from [com.tinkerpatch.sdk:tinkerpatch-android-sdk:1.2.8] /home/jimji/.gradle/caches/transforms-1/files-1.1/tinkerpatch-android-sdk-1.2.8.aar/b5a1f61c39d23b7b89b9b6863eef8143/AndroidManifest.xml:15:13-88
 receiver#com.tinkerpatch.sdk.server.utils.ReportBroadCast
-ADDED from [com.tinkerpatch.sdk:tinkerpatch-android-sdk:1.2.8] C:\Users\jimiji\.gradle\caches\transforms-1\files-1.1\tinkerpatch-android-sdk-1.2.8.aar\e8648d9c5a650f54a069d53e0254ede7\AndroidManifest.xml:18:9-20:40
+ADDED from [com.tinkerpatch.sdk:tinkerpatch-android-sdk:1.2.8] /home/jimji/.gradle/caches/transforms-1/files-1.1/tinkerpatch-android-sdk-1.2.8.aar/b5a1f61c39d23b7b89b9b6863eef8143/AndroidManifest.xml:18:9-20:40
 	android:exported
-		ADDED from [com.tinkerpatch.sdk:tinkerpatch-android-sdk:1.2.8] C:\Users\jimiji\.gradle\caches\transforms-1\files-1.1\tinkerpatch-android-sdk-1.2.8.aar\e8648d9c5a650f54a069d53e0254ede7\AndroidManifest.xml:20:13-37
+		ADDED from [com.tinkerpatch.sdk:tinkerpatch-android-sdk:1.2.8] /home/jimji/.gradle/caches/transforms-1/files-1.1/tinkerpatch-android-sdk-1.2.8.aar/b5a1f61c39d23b7b89b9b6863eef8143/AndroidManifest.xml:20:13-37
 	android:name
-		ADDED from [com.tinkerpatch.sdk:tinkerpatch-android-sdk:1.2.8] C:\Users\jimiji\.gradle\caches\transforms-1\files-1.1\tinkerpatch-android-sdk-1.2.8.aar\e8648d9c5a650f54a069d53e0254ede7\AndroidManifest.xml:19:13-76
+		ADDED from [com.tinkerpatch.sdk:tinkerpatch-android-sdk:1.2.8] /home/jimji/.gradle/caches/transforms-1/files-1.1/tinkerpatch-android-sdk-1.2.8.aar/b5a1f61c39d23b7b89b9b6863eef8143/AndroidManifest.xml:19:13-76
 provider#com.tencent.bugly.beta.utils.BuglyFileProvider
-ADDED from [com.tencent.bugly:crashreport_upgrade:1.3.6] C:\Users\jimiji\.gradle\caches\transforms-1\files-1.1\crashreport_upgrade-1.3.6.aar\cbbd2ab25164f4ab10615c6bfc3257f0\AndroidManifest.xml:29:9-39:20
+ADDED from [com.tencent.bugly:crashreport_upgrade:1.3.6] /home/jimji/.gradle/caches/transforms-1/files-1.1/crashreport_upgrade-1.3.6.aar/52abf166be57162f5e0a06fffb78025f/AndroidManifest.xml:29:9-39:20
 	android:grantUriPermissions
-		ADDED from [com.tencent.bugly:crashreport_upgrade:1.3.6] C:\Users\jimiji\.gradle\caches\transforms-1\files-1.1\crashreport_upgrade-1.3.6.aar\cbbd2ab25164f4ab10615c6bfc3257f0\AndroidManifest.xml:33:13-47
+		ADDED from [com.tencent.bugly:crashreport_upgrade:1.3.6] /home/jimji/.gradle/caches/transforms-1/files-1.1/crashreport_upgrade-1.3.6.aar/52abf166be57162f5e0a06fffb78025f/AndroidManifest.xml:33:13-47
 	android:authorities
-		ADDED from [com.tencent.bugly:crashreport_upgrade:1.3.6] C:\Users\jimiji\.gradle\caches\transforms-1\files-1.1\crashreport_upgrade-1.3.6.aar\cbbd2ab25164f4ab10615c6bfc3257f0\AndroidManifest.xml:31:13-64
+		ADDED from [com.tencent.bugly:crashreport_upgrade:1.3.6] /home/jimji/.gradle/caches/transforms-1/files-1.1/crashreport_upgrade-1.3.6.aar/52abf166be57162f5e0a06fffb78025f/AndroidManifest.xml:31:13-64
 	android:exported
-		ADDED from [com.tencent.bugly:crashreport_upgrade:1.3.6] C:\Users\jimiji\.gradle\caches\transforms-1\files-1.1\crashreport_upgrade-1.3.6.aar\cbbd2ab25164f4ab10615c6bfc3257f0\AndroidManifest.xml:32:13-37
+		ADDED from [com.tencent.bugly:crashreport_upgrade:1.3.6] /home/jimji/.gradle/caches/transforms-1/files-1.1/crashreport_upgrade-1.3.6.aar/52abf166be57162f5e0a06fffb78025f/AndroidManifest.xml:32:13-37
 	tools:replace
-		ADDED from [com.tencent.bugly:crashreport_upgrade:1.3.6] C:\Users\jimiji\.gradle\caches\transforms-1\files-1.1\crashreport_upgrade-1.3.6.aar\cbbd2ab25164f4ab10615c6bfc3257f0\AndroidManifest.xml:34:13-74
+		ADDED from [com.tencent.bugly:crashreport_upgrade:1.3.6] /home/jimji/.gradle/caches/transforms-1/files-1.1/crashreport_upgrade-1.3.6.aar/52abf166be57162f5e0a06fffb78025f/AndroidManifest.xml:34:13-74
 	android:name
-		ADDED from [com.tencent.bugly:crashreport_upgrade:1.3.6] C:\Users\jimiji\.gradle\caches\transforms-1\files-1.1\crashreport_upgrade-1.3.6.aar\cbbd2ab25164f4ab10615c6bfc3257f0\AndroidManifest.xml:30:13-74
+		ADDED from [com.tencent.bugly:crashreport_upgrade:1.3.6] /home/jimji/.gradle/caches/transforms-1/files-1.1/crashreport_upgrade-1.3.6.aar/52abf166be57162f5e0a06fffb78025f/AndroidManifest.xml:30:13-74
 meta-data#android.support.FILE_PROVIDER_PATHS
-ADDED from [com.tencent.bugly:crashreport_upgrade:1.3.6] C:\Users\jimiji\.gradle\caches\transforms-1\files-1.1\crashreport_upgrade-1.3.6.aar\cbbd2ab25164f4ab10615c6bfc3257f0\AndroidManifest.xml:35:13-38:49
+ADDED from [com.tencent.bugly:crashreport_upgrade:1.3.6] /home/jimji/.gradle/caches/transforms-1/files-1.1/crashreport_upgrade-1.3.6.aar/52abf166be57162f5e0a06fffb78025f/AndroidManifest.xml:35:13-38:49
 	android:resource
-		ADDED from [com.tencent.bugly:crashreport_upgrade:1.3.6] C:\Users\jimiji\.gradle\caches\transforms-1\files-1.1\crashreport_upgrade-1.3.6.aar\cbbd2ab25164f4ab10615c6bfc3257f0\AndroidManifest.xml:37:17-55
+		ADDED from [com.tencent.bugly:crashreport_upgrade:1.3.6] /home/jimji/.gradle/caches/transforms-1/files-1.1/crashreport_upgrade-1.3.6.aar/52abf166be57162f5e0a06fffb78025f/AndroidManifest.xml:37:17-55
 	tools:replace
-		ADDED from [com.tencent.bugly:crashreport_upgrade:1.3.6] C:\Users\jimiji\.gradle\caches\transforms-1\files-1.1\crashreport_upgrade-1.3.6.aar\cbbd2ab25164f4ab10615c6bfc3257f0\AndroidManifest.xml:38:17-46
+		ADDED from [com.tencent.bugly:crashreport_upgrade:1.3.6] /home/jimji/.gradle/caches/transforms-1/files-1.1/crashreport_upgrade-1.3.6.aar/52abf166be57162f5e0a06fffb78025f/AndroidManifest.xml:38:17-46
 	android:name
-		ADDED from [com.tencent.bugly:crashreport_upgrade:1.3.6] C:\Users\jimiji\.gradle\caches\transforms-1\files-1.1\crashreport_upgrade-1.3.6.aar\cbbd2ab25164f4ab10615c6bfc3257f0\AndroidManifest.xml:36:17-67
+		ADDED from [com.tencent.bugly:crashreport_upgrade:1.3.6] /home/jimji/.gradle/caches/transforms-1/files-1.1/crashreport_upgrade-1.3.6.aar/52abf166be57162f5e0a06fffb78025f/AndroidManifest.xml:36:17-67
 service#com.tencent.bugly.beta.tinker.TinkerResultService
-ADDED from [com.tencent.bugly:crashreport_upgrade:1.3.6] C:\Users\jimiji\.gradle\caches\transforms-1\files-1.1\crashreport_upgrade-1.3.6.aar\cbbd2ab25164f4ab10615c6bfc3257f0\AndroidManifest.xml:41:9-43:40
+ADDED from [com.tencent.bugly:crashreport_upgrade:1.3.6] /home/jimji/.gradle/caches/transforms-1/files-1.1/crashreport_upgrade-1.3.6.aar/52abf166be57162f5e0a06fffb78025f/AndroidManifest.xml:41:9-43:40
 	android:exported
-		ADDED from [com.tencent.bugly:crashreport_upgrade:1.3.6] C:\Users\jimiji\.gradle\caches\transforms-1\files-1.1\crashreport_upgrade-1.3.6.aar\cbbd2ab25164f4ab10615c6bfc3257f0\AndroidManifest.xml:43:13-37
+		ADDED from [com.tencent.bugly:crashreport_upgrade:1.3.6] /home/jimji/.gradle/caches/transforms-1/files-1.1/crashreport_upgrade-1.3.6.aar/52abf166be57162f5e0a06fffb78025f/AndroidManifest.xml:43:13-37
 	android:name
-		ADDED from [com.tencent.bugly:crashreport_upgrade:1.3.6] C:\Users\jimiji\.gradle\caches\transforms-1\files-1.1\crashreport_upgrade-1.3.6.aar\cbbd2ab25164f4ab10615c6bfc3257f0\AndroidManifest.xml:42:13-77
+		ADDED from [com.tencent.bugly:crashreport_upgrade:1.3.6] /home/jimji/.gradle/caches/transforms-1/files-1.1/crashreport_upgrade-1.3.6.aar/52abf166be57162f5e0a06fffb78025f/AndroidManifest.xml:42:13-77
 provider#android.arch.lifecycle.ProcessLifecycleOwnerInitializer
-ADDED from [android.arch.lifecycle:extensions:1.1.1] C:\Users\jimiji\.gradle\caches\transforms-1\files-1.1\extensions-1.1.1.aar\c5119834025844dbc95ff77d3ac74d1e\AndroidManifest.xml:23:9-27:43
+ADDED from [android.arch.lifecycle:extensions:1.1.1] /home/jimji/.gradle/caches/transforms-1/files-1.1/extensions-1.1.1.aar/25d8263bc4f880887b4de47da98cd3aa/AndroidManifest.xml:23:9-27:43
 	android:authorities
-		ADDED from [android.arch.lifecycle:extensions:1.1.1] C:\Users\jimiji\.gradle\caches\transforms-1\files-1.1\extensions-1.1.1.aar\c5119834025844dbc95ff77d3ac74d1e\AndroidManifest.xml:25:13-68
+		ADDED from [android.arch.lifecycle:extensions:1.1.1] /home/jimji/.gradle/caches/transforms-1/files-1.1/extensions-1.1.1.aar/25d8263bc4f880887b4de47da98cd3aa/AndroidManifest.xml:25:13-68
 	android:multiprocess
-		ADDED from [android.arch.lifecycle:extensions:1.1.1] C:\Users\jimiji\.gradle\caches\transforms-1\files-1.1\extensions-1.1.1.aar\c5119834025844dbc95ff77d3ac74d1e\AndroidManifest.xml:27:13-40
+		ADDED from [android.arch.lifecycle:extensions:1.1.1] /home/jimji/.gradle/caches/transforms-1/files-1.1/extensions-1.1.1.aar/25d8263bc4f880887b4de47da98cd3aa/AndroidManifest.xml:27:13-40
 	android:exported
-		ADDED from [android.arch.lifecycle:extensions:1.1.1] C:\Users\jimiji\.gradle\caches\transforms-1\files-1.1\extensions-1.1.1.aar\c5119834025844dbc95ff77d3ac74d1e\AndroidManifest.xml:26:13-37
+		ADDED from [android.arch.lifecycle:extensions:1.1.1] /home/jimji/.gradle/caches/transforms-1/files-1.1/extensions-1.1.1.aar/25d8263bc4f880887b4de47da98cd3aa/AndroidManifest.xml:26:13-37
 	android:name
-		ADDED from [android.arch.lifecycle:extensions:1.1.1] C:\Users\jimiji\.gradle\caches\transforms-1\files-1.1\extensions-1.1.1.aar\c5119834025844dbc95ff77d3ac74d1e\AndroidManifest.xml:24:13-83
+		ADDED from [android.arch.lifecycle:extensions:1.1.1] /home/jimji/.gradle/caches/transforms-1/files-1.1/extensions-1.1.1.aar/25d8263bc4f880887b4de47da98cd3aa/AndroidManifest.xml:24:13-83
 service#com.tencent.tinker.lib.service.TinkerPatchService$IntentServiceRunner
-ADDED from [com.tinkerpatch.tinker:tinker-android-lib:1.9.8] C:\Users\jimiji\.gradle\caches\transforms-1\files-1.1\tinker-android-lib-1.9.8.aar\9deafb8c2105f556971db04ae4734620\AndroidManifest.xml:19:9-22:40
+ADDED from [com.tinkerpatch.tinker:tinker-android-lib:1.9.8] /home/jimji/.gradle/caches/transforms-1/files-1.1/tinker-android-lib-1.9.8.aar/44668ca118a50998e3f045fe74763e89/AndroidManifest.xml:19:9-22:40
 	android:process
-		ADDED from [com.tinkerpatch.tinker:tinker-android-lib:1.9.8] C:\Users\jimiji\.gradle\caches\transforms-1\files-1.1\tinker-android-lib-1.9.8.aar\9deafb8c2105f556971db04ae4734620\AndroidManifest.xml:22:13-37
+		ADDED from [com.tinkerpatch.tinker:tinker-android-lib:1.9.8] /home/jimji/.gradle/caches/transforms-1/files-1.1/tinker-android-lib-1.9.8.aar/44668ca118a50998e3f045fe74763e89/AndroidManifest.xml:22:13-37
 	android:exported
-		ADDED from [com.tinkerpatch.tinker:tinker-android-lib:1.9.8] C:\Users\jimiji\.gradle\caches\transforms-1\files-1.1\tinker-android-lib-1.9.8.aar\9deafb8c2105f556971db04ae4734620\AndroidManifest.xml:21:13-37
+		ADDED from [com.tinkerpatch.tinker:tinker-android-lib:1.9.8] /home/jimji/.gradle/caches/transforms-1/files-1.1/tinker-android-lib-1.9.8.aar/44668ca118a50998e3f045fe74763e89/AndroidManifest.xml:21:13-37
 	android:name
-		ADDED from [com.tinkerpatch.tinker:tinker-android-lib:1.9.8] C:\Users\jimiji\.gradle\caches\transforms-1\files-1.1\tinker-android-lib-1.9.8.aar\9deafb8c2105f556971db04ae4734620\AndroidManifest.xml:20:13-97
+		ADDED from [com.tinkerpatch.tinker:tinker-android-lib:1.9.8] /home/jimji/.gradle/caches/transforms-1/files-1.1/tinker-android-lib-1.9.8.aar/44668ca118a50998e3f045fe74763e89/AndroidManifest.xml:20:13-97
 service#com.tencent.tinker.lib.service.TinkerPatchService$IntentServiceRunner$InnerService
-ADDED from [com.tinkerpatch.tinker:tinker-android-lib:1.9.8] C:\Users\jimiji\.gradle\caches\transforms-1\files-1.1\tinker-android-lib-1.9.8.aar\9deafb8c2105f556971db04ae4734620\AndroidManifest.xml:23:9-26:40
+ADDED from [com.tinkerpatch.tinker:tinker-android-lib:1.9.8] /home/jimji/.gradle/caches/transforms-1/files-1.1/tinker-android-lib-1.9.8.aar/44668ca118a50998e3f045fe74763e89/AndroidManifest.xml:23:9-26:40
 	android:process
-		ADDED from [com.tinkerpatch.tinker:tinker-android-lib:1.9.8] C:\Users\jimiji\.gradle\caches\transforms-1\files-1.1\tinker-android-lib-1.9.8.aar\9deafb8c2105f556971db04ae4734620\AndroidManifest.xml:26:13-37
+		ADDED from [com.tinkerpatch.tinker:tinker-android-lib:1.9.8] /home/jimji/.gradle/caches/transforms-1/files-1.1/tinker-android-lib-1.9.8.aar/44668ca118a50998e3f045fe74763e89/AndroidManifest.xml:26:13-37
 	android:exported
-		ADDED from [com.tinkerpatch.tinker:tinker-android-lib:1.9.8] C:\Users\jimiji\.gradle\caches\transforms-1\files-1.1\tinker-android-lib-1.9.8.aar\9deafb8c2105f556971db04ae4734620\AndroidManifest.xml:25:13-37
+		ADDED from [com.tinkerpatch.tinker:tinker-android-lib:1.9.8] /home/jimji/.gradle/caches/transforms-1/files-1.1/tinker-android-lib-1.9.8.aar/44668ca118a50998e3f045fe74763e89/AndroidManifest.xml:25:13-37
 	android:name
-		ADDED from [com.tinkerpatch.tinker:tinker-android-lib:1.9.8] C:\Users\jimiji\.gradle\caches\transforms-1\files-1.1\tinker-android-lib-1.9.8.aar\9deafb8c2105f556971db04ae4734620\AndroidManifest.xml:24:13-110
+		ADDED from [com.tinkerpatch.tinker:tinker-android-lib:1.9.8] /home/jimji/.gradle/caches/transforms-1/files-1.1/tinker-android-lib-1.9.8.aar/44668ca118a50998e3f045fe74763e89/AndroidManifest.xml:24:13-110
 service#com.tencent.tinker.lib.service.TinkerPatchService$JobServiceRunner
-ADDED from [com.tinkerpatch.tinker:tinker-android-lib:1.9.8] C:\Users\jimiji\.gradle\caches\transforms-1\files-1.1\tinker-android-lib-1.9.8.aar\9deafb8c2105f556971db04ae4734620\AndroidManifest.xml:27:9-31:40
+ADDED from [com.tinkerpatch.tinker:tinker-android-lib:1.9.8] /home/jimji/.gradle/caches/transforms-1/files-1.1/tinker-android-lib-1.9.8.aar/44668ca118a50998e3f045fe74763e89/AndroidManifest.xml:27:9-31:40
 	android:process
-		ADDED from [com.tinkerpatch.tinker:tinker-android-lib:1.9.8] C:\Users\jimiji\.gradle\caches\transforms-1\files-1.1\tinker-android-lib-1.9.8.aar\9deafb8c2105f556971db04ae4734620\AndroidManifest.xml:31:13-37
+		ADDED from [com.tinkerpatch.tinker:tinker-android-lib:1.9.8] /home/jimji/.gradle/caches/transforms-1/files-1.1/tinker-android-lib-1.9.8.aar/44668ca118a50998e3f045fe74763e89/AndroidManifest.xml:31:13-37
 	android:exported
-		ADDED from [com.tinkerpatch.tinker:tinker-android-lib:1.9.8] C:\Users\jimiji\.gradle\caches\transforms-1\files-1.1\tinker-android-lib-1.9.8.aar\9deafb8c2105f556971db04ae4734620\AndroidManifest.xml:29:13-37
+		ADDED from [com.tinkerpatch.tinker:tinker-android-lib:1.9.8] /home/jimji/.gradle/caches/transforms-1/files-1.1/tinker-android-lib-1.9.8.aar/44668ca118a50998e3f045fe74763e89/AndroidManifest.xml:29:13-37
 	android:permission
-		ADDED from [com.tinkerpatch.tinker:tinker-android-lib:1.9.8] C:\Users\jimiji\.gradle\caches\transforms-1\files-1.1\tinker-android-lib-1.9.8.aar\9deafb8c2105f556971db04ae4734620\AndroidManifest.xml:30:13-69
+		ADDED from [com.tinkerpatch.tinker:tinker-android-lib:1.9.8] /home/jimji/.gradle/caches/transforms-1/files-1.1/tinker-android-lib-1.9.8.aar/44668ca118a50998e3f045fe74763e89/AndroidManifest.xml:30:13-69
 	android:name
-		ADDED from [com.tinkerpatch.tinker:tinker-android-lib:1.9.8] C:\Users\jimiji\.gradle\caches\transforms-1\files-1.1\tinker-android-lib-1.9.8.aar\9deafb8c2105f556971db04ae4734620\AndroidManifest.xml:28:13-94
+		ADDED from [com.tinkerpatch.tinker:tinker-android-lib:1.9.8] /home/jimji/.gradle/caches/transforms-1/files-1.1/tinker-android-lib-1.9.8.aar/44668ca118a50998e3f045fe74763e89/AndroidManifest.xml:28:13-94
 service#com.tencent.tinker.lib.service.DefaultTinkerResultService
-ADDED from [com.tinkerpatch.tinker:tinker-android-lib:1.9.8] C:\Users\jimiji\.gradle\caches\transforms-1\files-1.1\tinker-android-lib-1.9.8.aar\9deafb8c2105f556971db04ae4734620\AndroidManifest.xml:34:9-36:40
+ADDED from [com.tinkerpatch.tinker:tinker-android-lib:1.9.8] /home/jimji/.gradle/caches/transforms-1/files-1.1/tinker-android-lib-1.9.8.aar/44668ca118a50998e3f045fe74763e89/AndroidManifest.xml:34:9-36:40
 	android:exported
-		ADDED from [com.tinkerpatch.tinker:tinker-android-lib:1.9.8] C:\Users\jimiji\.gradle\caches\transforms-1\files-1.1\tinker-android-lib-1.9.8.aar\9deafb8c2105f556971db04ae4734620\AndroidManifest.xml:36:13-37
+		ADDED from [com.tinkerpatch.tinker:tinker-android-lib:1.9.8] /home/jimji/.gradle/caches/transforms-1/files-1.1/tinker-android-lib-1.9.8.aar/44668ca118a50998e3f045fe74763e89/AndroidManifest.xml:36:13-37
 	android:name
-		ADDED from [com.tinkerpatch.tinker:tinker-android-lib:1.9.8] C:\Users\jimiji\.gradle\caches\transforms-1\files-1.1\tinker-android-lib-1.9.8.aar\9deafb8c2105f556971db04ae4734620\AndroidManifest.xml:35:13-85
+		ADDED from [com.tinkerpatch.tinker:tinker-android-lib:1.9.8] /home/jimji/.gradle/caches/transforms-1/files-1.1/tinker-android-lib-1.9.8.aar/44668ca118a50998e3f045fe74763e89/AndroidManifest.xml:35:13-85
 activity#com.tencent.tinker.loader.hotplug.ActivityStubs$STDStub_00
-ADDED from [com.tinkerpatch.tinker:tinker-android-loader:1.9.8] C:\Users\jimiji\.gradle\caches\transforms-1\files-1.1\tinker-android-loader-1.9.8.aar\b94fb6ceb58b29982ecb5680d14e6c4c\AndroidManifest.xml:10:9-95
+ADDED from [com.tinkerpatch.tinker:tinker-android-loader:1.9.8] /home/jimji/.gradle/caches/transforms-1/files-1.1/tinker-android-loader-1.9.8.aar/6eaddd392232ae1aa5409c01de1c875a/AndroidManifest.xml:10:9-95
 	android:name
-		ADDED from [com.tinkerpatch.tinker:tinker-android-loader:1.9.8] C:\Users\jimiji\.gradle\caches\transforms-1\files-1.1\tinker-android-loader-1.9.8.aar\b94fb6ceb58b29982ecb5680d14e6c4c\AndroidManifest.xml:10:19-92
+		ADDED from [com.tinkerpatch.tinker:tinker-android-loader:1.9.8] /home/jimji/.gradle/caches/transforms-1/files-1.1/tinker-android-loader-1.9.8.aar/6eaddd392232ae1aa5409c01de1c875a/AndroidManifest.xml:10:19-92
 activity#com.tencent.tinker.loader.hotplug.ActivityStubs$STDStub_01
-ADDED from [com.tinkerpatch.tinker:tinker-android-loader:1.9.8] C:\Users\jimiji\.gradle\caches\transforms-1\files-1.1\tinker-android-loader-1.9.8.aar\b94fb6ceb58b29982ecb5680d14e6c4c\AndroidManifest.xml:11:9-95
+ADDED from [com.tinkerpatch.tinker:tinker-android-loader:1.9.8] /home/jimji/.gradle/caches/transforms-1/files-1.1/tinker-android-loader-1.9.8.aar/6eaddd392232ae1aa5409c01de1c875a/AndroidManifest.xml:11:9-95
 	android:name
-		ADDED from [com.tinkerpatch.tinker:tinker-android-loader:1.9.8] C:\Users\jimiji\.gradle\caches\transforms-1\files-1.1\tinker-android-loader-1.9.8.aar\b94fb6ceb58b29982ecb5680d14e6c4c\AndroidManifest.xml:11:19-92
+		ADDED from [com.tinkerpatch.tinker:tinker-android-loader:1.9.8] /home/jimji/.gradle/caches/transforms-1/files-1.1/tinker-android-loader-1.9.8.aar/6eaddd392232ae1aa5409c01de1c875a/AndroidManifest.xml:11:19-92
 activity#com.tencent.tinker.loader.hotplug.ActivityStubs$STDStub_02
-ADDED from [com.tinkerpatch.tinker:tinker-android-loader:1.9.8] C:\Users\jimiji\.gradle\caches\transforms-1\files-1.1\tinker-android-loader-1.9.8.aar\b94fb6ceb58b29982ecb5680d14e6c4c\AndroidManifest.xml:12:9-95
+ADDED from [com.tinkerpatch.tinker:tinker-android-loader:1.9.8] /home/jimji/.gradle/caches/transforms-1/files-1.1/tinker-android-loader-1.9.8.aar/6eaddd392232ae1aa5409c01de1c875a/AndroidManifest.xml:12:9-95
 	android:name
-		ADDED from [com.tinkerpatch.tinker:tinker-android-loader:1.9.8] C:\Users\jimiji\.gradle\caches\transforms-1\files-1.1\tinker-android-loader-1.9.8.aar\b94fb6ceb58b29982ecb5680d14e6c4c\AndroidManifest.xml:12:19-92
+		ADDED from [com.tinkerpatch.tinker:tinker-android-loader:1.9.8] /home/jimji/.gradle/caches/transforms-1/files-1.1/tinker-android-loader-1.9.8.aar/6eaddd392232ae1aa5409c01de1c875a/AndroidManifest.xml:12:19-92
 activity#com.tencent.tinker.loader.hotplug.ActivityStubs$STDStub_03
-ADDED from [com.tinkerpatch.tinker:tinker-android-loader:1.9.8] C:\Users\jimiji\.gradle\caches\transforms-1\files-1.1\tinker-android-loader-1.9.8.aar\b94fb6ceb58b29982ecb5680d14e6c4c\AndroidManifest.xml:13:9-95
+ADDED from [com.tinkerpatch.tinker:tinker-android-loader:1.9.8] /home/jimji/.gradle/caches/transforms-1/files-1.1/tinker-android-loader-1.9.8.aar/6eaddd392232ae1aa5409c01de1c875a/AndroidManifest.xml:13:9-95
 	android:name
-		ADDED from [com.tinkerpatch.tinker:tinker-android-loader:1.9.8] C:\Users\jimiji\.gradle\caches\transforms-1\files-1.1\tinker-android-loader-1.9.8.aar\b94fb6ceb58b29982ecb5680d14e6c4c\AndroidManifest.xml:13:19-92
+		ADDED from [com.tinkerpatch.tinker:tinker-android-loader:1.9.8] /home/jimji/.gradle/caches/transforms-1/files-1.1/tinker-android-loader-1.9.8.aar/6eaddd392232ae1aa5409c01de1c875a/AndroidManifest.xml:13:19-92
 activity#com.tencent.tinker.loader.hotplug.ActivityStubs$STDStub_04
-ADDED from [com.tinkerpatch.tinker:tinker-android-loader:1.9.8] C:\Users\jimiji\.gradle\caches\transforms-1\files-1.1\tinker-android-loader-1.9.8.aar\b94fb6ceb58b29982ecb5680d14e6c4c\AndroidManifest.xml:14:9-95
+ADDED from [com.tinkerpatch.tinker:tinker-android-loader:1.9.8] /home/jimji/.gradle/caches/transforms-1/files-1.1/tinker-android-loader-1.9.8.aar/6eaddd392232ae1aa5409c01de1c875a/AndroidManifest.xml:14:9-95
 	android:name
-		ADDED from [com.tinkerpatch.tinker:tinker-android-loader:1.9.8] C:\Users\jimiji\.gradle\caches\transforms-1\files-1.1\tinker-android-loader-1.9.8.aar\b94fb6ceb58b29982ecb5680d14e6c4c\AndroidManifest.xml:14:19-92
+		ADDED from [com.tinkerpatch.tinker:tinker-android-loader:1.9.8] /home/jimji/.gradle/caches/transforms-1/files-1.1/tinker-android-loader-1.9.8.aar/6eaddd392232ae1aa5409c01de1c875a/AndroidManifest.xml:14:19-92
 activity#com.tencent.tinker.loader.hotplug.ActivityStubs$STDStub_05
-ADDED from [com.tinkerpatch.tinker:tinker-android-loader:1.9.8] C:\Users\jimiji\.gradle\caches\transforms-1\files-1.1\tinker-android-loader-1.9.8.aar\b94fb6ceb58b29982ecb5680d14e6c4c\AndroidManifest.xml:15:9-95
+ADDED from [com.tinkerpatch.tinker:tinker-android-loader:1.9.8] /home/jimji/.gradle/caches/transforms-1/files-1.1/tinker-android-loader-1.9.8.aar/6eaddd392232ae1aa5409c01de1c875a/AndroidManifest.xml:15:9-95
 	android:name
-		ADDED from [com.tinkerpatch.tinker:tinker-android-loader:1.9.8] C:\Users\jimiji\.gradle\caches\transforms-1\files-1.1\tinker-android-loader-1.9.8.aar\b94fb6ceb58b29982ecb5680d14e6c4c\AndroidManifest.xml:15:19-92
+		ADDED from [com.tinkerpatch.tinker:tinker-android-loader:1.9.8] /home/jimji/.gradle/caches/transforms-1/files-1.1/tinker-android-loader-1.9.8.aar/6eaddd392232ae1aa5409c01de1c875a/AndroidManifest.xml:15:19-92
 activity#com.tencent.tinker.loader.hotplug.ActivityStubs$STDStub_06
-ADDED from [com.tinkerpatch.tinker:tinker-android-loader:1.9.8] C:\Users\jimiji\.gradle\caches\transforms-1\files-1.1\tinker-android-loader-1.9.8.aar\b94fb6ceb58b29982ecb5680d14e6c4c\AndroidManifest.xml:16:9-95
+ADDED from [com.tinkerpatch.tinker:tinker-android-loader:1.9.8] /home/jimji/.gradle/caches/transforms-1/files-1.1/tinker-android-loader-1.9.8.aar/6eaddd392232ae1aa5409c01de1c875a/AndroidManifest.xml:16:9-95
 	android:name
-		ADDED from [com.tinkerpatch.tinker:tinker-android-loader:1.9.8] C:\Users\jimiji\.gradle\caches\transforms-1\files-1.1\tinker-android-loader-1.9.8.aar\b94fb6ceb58b29982ecb5680d14e6c4c\AndroidManifest.xml:16:19-92
+		ADDED from [com.tinkerpatch.tinker:tinker-android-loader:1.9.8] /home/jimji/.gradle/caches/transforms-1/files-1.1/tinker-android-loader-1.9.8.aar/6eaddd392232ae1aa5409c01de1c875a/AndroidManifest.xml:16:19-92
 activity#com.tencent.tinker.loader.hotplug.ActivityStubs$STDStub_07
-ADDED from [com.tinkerpatch.tinker:tinker-android-loader:1.9.8] C:\Users\jimiji\.gradle\caches\transforms-1\files-1.1\tinker-android-loader-1.9.8.aar\b94fb6ceb58b29982ecb5680d14e6c4c\AndroidManifest.xml:17:9-95
+ADDED from [com.tinkerpatch.tinker:tinker-android-loader:1.9.8] /home/jimji/.gradle/caches/transforms-1/files-1.1/tinker-android-loader-1.9.8.aar/6eaddd392232ae1aa5409c01de1c875a/AndroidManifest.xml:17:9-95
 	android:name
-		ADDED from [com.tinkerpatch.tinker:tinker-android-loader:1.9.8] C:\Users\jimiji\.gradle\caches\transforms-1\files-1.1\tinker-android-loader-1.9.8.aar\b94fb6ceb58b29982ecb5680d14e6c4c\AndroidManifest.xml:17:19-92
+		ADDED from [com.tinkerpatch.tinker:tinker-android-loader:1.9.8] /home/jimji/.gradle/caches/transforms-1/files-1.1/tinker-android-loader-1.9.8.aar/6eaddd392232ae1aa5409c01de1c875a/AndroidManifest.xml:17:19-92
 activity#com.tencent.tinker.loader.hotplug.ActivityStubs$STDStub_08
-ADDED from [com.tinkerpatch.tinker:tinker-android-loader:1.9.8] C:\Users\jimiji\.gradle\caches\transforms-1\files-1.1\tinker-android-loader-1.9.8.aar\b94fb6ceb58b29982ecb5680d14e6c4c\AndroidManifest.xml:18:9-95
+ADDED from [com.tinkerpatch.tinker:tinker-android-loader:1.9.8] /home/jimji/.gradle/caches/transforms-1/files-1.1/tinker-android-loader-1.9.8.aar/6eaddd392232ae1aa5409c01de1c875a/AndroidManifest.xml:18:9-95
 	android:name
-		ADDED from [com.tinkerpatch.tinker:tinker-android-loader:1.9.8] C:\Users\jimiji\.gradle\caches\transforms-1\files-1.1\tinker-android-loader-1.9.8.aar\b94fb6ceb58b29982ecb5680d14e6c4c\AndroidManifest.xml:18:19-92
+		ADDED from [com.tinkerpatch.tinker:tinker-android-loader:1.9.8] /home/jimji/.gradle/caches/transforms-1/files-1.1/tinker-android-loader-1.9.8.aar/6eaddd392232ae1aa5409c01de1c875a/AndroidManifest.xml:18:19-92
 activity#com.tencent.tinker.loader.hotplug.ActivityStubs$STDStub_09
-ADDED from [com.tinkerpatch.tinker:tinker-android-loader:1.9.8] C:\Users\jimiji\.gradle\caches\transforms-1\files-1.1\tinker-android-loader-1.9.8.aar\b94fb6ceb58b29982ecb5680d14e6c4c\AndroidManifest.xml:19:9-95
+ADDED from [com.tinkerpatch.tinker:tinker-android-loader:1.9.8] /home/jimji/.gradle/caches/transforms-1/files-1.1/tinker-android-loader-1.9.8.aar/6eaddd392232ae1aa5409c01de1c875a/AndroidManifest.xml:19:9-95
 	android:name
-		ADDED from [com.tinkerpatch.tinker:tinker-android-loader:1.9.8] C:\Users\jimiji\.gradle\caches\transforms-1\files-1.1\tinker-android-loader-1.9.8.aar\b94fb6ceb58b29982ecb5680d14e6c4c\AndroidManifest.xml:19:19-92
+		ADDED from [com.tinkerpatch.tinker:tinker-android-loader:1.9.8] /home/jimji/.gradle/caches/transforms-1/files-1.1/tinker-android-loader-1.9.8.aar/6eaddd392232ae1aa5409c01de1c875a/AndroidManifest.xml:19:19-92
 activity#com.tencent.tinker.loader.hotplug.ActivityStubs$STDStub_00_T
-ADDED from [com.tinkerpatch.tinker:tinker-android-loader:1.9.8] C:\Users\jimiji\.gradle\caches\transforms-1\files-1.1\tinker-android-loader-1.9.8.aar\b94fb6ceb58b29982ecb5680d14e6c4c\AndroidManifest.xml:20:9-22:64
+ADDED from [com.tinkerpatch.tinker:tinker-android-loader:1.9.8] /home/jimji/.gradle/caches/transforms-1/files-1.1/tinker-android-loader-1.9.8.aar/6eaddd392232ae1aa5409c01de1c875a/AndroidManifest.xml:20:9-22:64
 	android:theme
-		ADDED from [com.tinkerpatch.tinker:tinker-android-loader:1.9.8] C:\Users\jimiji\.gradle\caches\transforms-1\files-1.1\tinker-android-loader-1.9.8.aar\b94fb6ceb58b29982ecb5680d14e6c4c\AndroidManifest.xml:22:13-61
+		ADDED from [com.tinkerpatch.tinker:tinker-android-loader:1.9.8] /home/jimji/.gradle/caches/transforms-1/files-1.1/tinker-android-loader-1.9.8.aar/6eaddd392232ae1aa5409c01de1c875a/AndroidManifest.xml:22:13-61
 	android:name
-		ADDED from [com.tinkerpatch.tinker:tinker-android-loader:1.9.8] C:\Users\jimiji\.gradle\caches\transforms-1\files-1.1\tinker-android-loader-1.9.8.aar\b94fb6ceb58b29982ecb5680d14e6c4c\AndroidManifest.xml:21:13-88
+		ADDED from [com.tinkerpatch.tinker:tinker-android-loader:1.9.8] /home/jimji/.gradle/caches/transforms-1/files-1.1/tinker-android-loader-1.9.8.aar/6eaddd392232ae1aa5409c01de1c875a/AndroidManifest.xml:21:13-88
 activity#com.tencent.tinker.loader.hotplug.ActivityStubs$STDStub_01_T
-ADDED from [com.tinkerpatch.tinker:tinker-android-loader:1.9.8] C:\Users\jimiji\.gradle\caches\transforms-1\files-1.1\tinker-android-loader-1.9.8.aar\b94fb6ceb58b29982ecb5680d14e6c4c\AndroidManifest.xml:23:9-25:64
+ADDED from [com.tinkerpatch.tinker:tinker-android-loader:1.9.8] /home/jimji/.gradle/caches/transforms-1/files-1.1/tinker-android-loader-1.9.8.aar/6eaddd392232ae1aa5409c01de1c875a/AndroidManifest.xml:23:9-25:64
 	android:theme
-		ADDED from [com.tinkerpatch.tinker:tinker-android-loader:1.9.8] C:\Users\jimiji\.gradle\caches\transforms-1\files-1.1\tinker-android-loader-1.9.8.aar\b94fb6ceb58b29982ecb5680d14e6c4c\AndroidManifest.xml:25:13-61
+		ADDED from [com.tinkerpatch.tinker:tinker-android-loader:1.9.8] /home/jimji/.gradle/caches/transforms-1/files-1.1/tinker-android-loader-1.9.8.aar/6eaddd392232ae1aa5409c01de1c875a/AndroidManifest.xml:25:13-61
 	android:name
-		ADDED from [com.tinkerpatch.tinker:tinker-android-loader:1.9.8] C:\Users\jimiji\.gradle\caches\transforms-1\files-1.1\tinker-android-loader-1.9.8.aar\b94fb6ceb58b29982ecb5680d14e6c4c\AndroidManifest.xml:24:13-88
+		ADDED from [com.tinkerpatch.tinker:tinker-android-loader:1.9.8] /home/jimji/.gradle/caches/transforms-1/files-1.1/tinker-android-loader-1.9.8.aar/6eaddd392232ae1aa5409c01de1c875a/AndroidManifest.xml:24:13-88
 activity#com.tencent.tinker.loader.hotplug.ActivityStubs$STDStub_02_T
-ADDED from [com.tinkerpatch.tinker:tinker-android-loader:1.9.8] C:\Users\jimiji\.gradle\caches\transforms-1\files-1.1\tinker-android-loader-1.9.8.aar\b94fb6ceb58b29982ecb5680d14e6c4c\AndroidManifest.xml:26:9-28:64
+ADDED from [com.tinkerpatch.tinker:tinker-android-loader:1.9.8] /home/jimji/.gradle/caches/transforms-1/files-1.1/tinker-android-loader-1.9.8.aar/6eaddd392232ae1aa5409c01de1c875a/AndroidManifest.xml:26:9-28:64
 	android:theme
-		ADDED from [com.tinkerpatch.tinker:tinker-android-loader:1.9.8] C:\Users\jimiji\.gradle\caches\transforms-1\files-1.1\tinker-android-loader-1.9.8.aar\b94fb6ceb58b29982ecb5680d14e6c4c\AndroidManifest.xml:28:13-61
+		ADDED from [com.tinkerpatch.tinker:tinker-android-loader:1.9.8] /home/jimji/.gradle/caches/transforms-1/files-1.1/tinker-android-loader-1.9.8.aar/6eaddd392232ae1aa5409c01de1c875a/AndroidManifest.xml:28:13-61
 	android:name
-		ADDED from [com.tinkerpatch.tinker:tinker-android-loader:1.9.8] C:\Users\jimiji\.gradle\caches\transforms-1\files-1.1\tinker-android-loader-1.9.8.aar\b94fb6ceb58b29982ecb5680d14e6c4c\AndroidManifest.xml:27:13-88
+		ADDED from [com.tinkerpatch.tinker:tinker-android-loader:1.9.8] /home/jimji/.gradle/caches/transforms-1/files-1.1/tinker-android-loader-1.9.8.aar/6eaddd392232ae1aa5409c01de1c875a/AndroidManifest.xml:27:13-88
 activity#com.tencent.tinker.loader.hotplug.ActivityStubs$SGTStub_00
-ADDED from [com.tinkerpatch.tinker:tinker-android-loader:1.9.8] C:\Users\jimiji\.gradle\caches\transforms-1\files-1.1\tinker-android-loader-1.9.8.aar\b94fb6ceb58b29982ecb5680d14e6c4c\AndroidManifest.xml:29:9-31:46
+ADDED from [com.tinkerpatch.tinker:tinker-android-loader:1.9.8] /home/jimji/.gradle/caches/transforms-1/files-1.1/tinker-android-loader-1.9.8.aar/6eaddd392232ae1aa5409c01de1c875a/AndroidManifest.xml:29:9-31:46
 	android:launchMode
-		ADDED from [com.tinkerpatch.tinker:tinker-android-loader:1.9.8] C:\Users\jimiji\.gradle\caches\transforms-1\files-1.1\tinker-android-loader-1.9.8.aar\b94fb6ceb58b29982ecb5680d14e6c4c\AndroidManifest.xml:31:13-43
+		ADDED from [com.tinkerpatch.tinker:tinker-android-loader:1.9.8] /home/jimji/.gradle/caches/transforms-1/files-1.1/tinker-android-loader-1.9.8.aar/6eaddd392232ae1aa5409c01de1c875a/AndroidManifest.xml:31:13-43
 	android:name
-		ADDED from [com.tinkerpatch.tinker:tinker-android-loader:1.9.8] C:\Users\jimiji\.gradle\caches\transforms-1\files-1.1\tinker-android-loader-1.9.8.aar\b94fb6ceb58b29982ecb5680d14e6c4c\AndroidManifest.xml:30:13-86
+		ADDED from [com.tinkerpatch.tinker:tinker-android-loader:1.9.8] /home/jimji/.gradle/caches/transforms-1/files-1.1/tinker-android-loader-1.9.8.aar/6eaddd392232ae1aa5409c01de1c875a/AndroidManifest.xml:30:13-86
 activity#com.tencent.tinker.loader.hotplug.ActivityStubs$SGTStub_01
-ADDED from [com.tinkerpatch.tinker:tinker-android-loader:1.9.8] C:\Users\jimiji\.gradle\caches\transforms-1\files-1.1\tinker-android-loader-1.9.8.aar\b94fb6ceb58b29982ecb5680d14e6c4c\AndroidManifest.xml:32:9-34:46
+ADDED from [com.tinkerpatch.tinker:tinker-android-loader:1.9.8] /home/jimji/.gradle/caches/transforms-1/files-1.1/tinker-android-loader-1.9.8.aar/6eaddd392232ae1aa5409c01de1c875a/AndroidManifest.xml:32:9-34:46
 	android:launchMode
-		ADDED from [com.tinkerpatch.tinker:tinker-android-loader:1.9.8] C:\Users\jimiji\.gradle\caches\transforms-1\files-1.1\tinker-android-loader-1.9.8.aar\b94fb6ceb58b29982ecb5680d14e6c4c\AndroidManifest.xml:34:13-43
+		ADDED from [com.tinkerpatch.tinker:tinker-android-loader:1.9.8] /home/jimji/.gradle/caches/transforms-1/files-1.1/tinker-android-loader-1.9.8.aar/6eaddd392232ae1aa5409c01de1c875a/AndroidManifest.xml:34:13-43
 	android:name
-		ADDED from [com.tinkerpatch.tinker:tinker-android-loader:1.9.8] C:\Users\jimiji\.gradle\caches\transforms-1\files-1.1\tinker-android-loader-1.9.8.aar\b94fb6ceb58b29982ecb5680d14e6c4c\AndroidManifest.xml:33:13-86
+		ADDED from [com.tinkerpatch.tinker:tinker-android-loader:1.9.8] /home/jimji/.gradle/caches/transforms-1/files-1.1/tinker-android-loader-1.9.8.aar/6eaddd392232ae1aa5409c01de1c875a/AndroidManifest.xml:33:13-86
 activity#com.tencent.tinker.loader.hotplug.ActivityStubs$SGTStub_02
-ADDED from [com.tinkerpatch.tinker:tinker-android-loader:1.9.8] C:\Users\jimiji\.gradle\caches\transforms-1\files-1.1\tinker-android-loader-1.9.8.aar\b94fb6ceb58b29982ecb5680d14e6c4c\AndroidManifest.xml:35:9-37:46
+ADDED from [com.tinkerpatch.tinker:tinker-android-loader:1.9.8] /home/jimji/.gradle/caches/transforms-1/files-1.1/tinker-android-loader-1.9.8.aar/6eaddd392232ae1aa5409c01de1c875a/AndroidManifest.xml:35:9-37:46
 	android:launchMode
-		ADDED from [com.tinkerpatch.tinker:tinker-android-loader:1.9.8] C:\Users\jimiji\.gradle\caches\transforms-1\files-1.1\tinker-android-loader-1.9.8.aar\b94fb6ceb58b29982ecb5680d14e6c4c\AndroidManifest.xml:37:13-43
+		ADDED from [com.tinkerpatch.tinker:tinker-android-loader:1.9.8] /home/jimji/.gradle/caches/transforms-1/files-1.1/tinker-android-loader-1.9.8.aar/6eaddd392232ae1aa5409c01de1c875a/AndroidManifest.xml:37:13-43
 	android:name
-		ADDED from [com.tinkerpatch.tinker:tinker-android-loader:1.9.8] C:\Users\jimiji\.gradle\caches\transforms-1\files-1.1\tinker-android-loader-1.9.8.aar\b94fb6ceb58b29982ecb5680d14e6c4c\AndroidManifest.xml:36:13-86
+		ADDED from [com.tinkerpatch.tinker:tinker-android-loader:1.9.8] /home/jimji/.gradle/caches/transforms-1/files-1.1/tinker-android-loader-1.9.8.aar/6eaddd392232ae1aa5409c01de1c875a/AndroidManifest.xml:36:13-86
 activity#com.tencent.tinker.loader.hotplug.ActivityStubs$SGTStub_03
-ADDED from [com.tinkerpatch.tinker:tinker-android-loader:1.9.8] C:\Users\jimiji\.gradle\caches\transforms-1\files-1.1\tinker-android-loader-1.9.8.aar\b94fb6ceb58b29982ecb5680d14e6c4c\AndroidManifest.xml:38:9-40:46
+ADDED from [com.tinkerpatch.tinker:tinker-android-loader:1.9.8] /home/jimji/.gradle/caches/transforms-1/files-1.1/tinker-android-loader-1.9.8.aar/6eaddd392232ae1aa5409c01de1c875a/AndroidManifest.xml:38:9-40:46
 	android:launchMode
-		ADDED from [com.tinkerpatch.tinker:tinker-android-loader:1.9.8] C:\Users\jimiji\.gradle\caches\transforms-1\files-1.1\tinker-android-loader-1.9.8.aar\b94fb6ceb58b29982ecb5680d14e6c4c\AndroidManifest.xml:40:13-43
+		ADDED from [com.tinkerpatch.tinker:tinker-android-loader:1.9.8] /home/jimji/.gradle/caches/transforms-1/files-1.1/tinker-android-loader-1.9.8.aar/6eaddd392232ae1aa5409c01de1c875a/AndroidManifest.xml:40:13-43
 	android:name
-		ADDED from [com.tinkerpatch.tinker:tinker-android-loader:1.9.8] C:\Users\jimiji\.gradle\caches\transforms-1\files-1.1\tinker-android-loader-1.9.8.aar\b94fb6ceb58b29982ecb5680d14e6c4c\AndroidManifest.xml:39:13-86
+		ADDED from [com.tinkerpatch.tinker:tinker-android-loader:1.9.8] /home/jimji/.gradle/caches/transforms-1/files-1.1/tinker-android-loader-1.9.8.aar/6eaddd392232ae1aa5409c01de1c875a/AndroidManifest.xml:39:13-86
 activity#com.tencent.tinker.loader.hotplug.ActivityStubs$SGTStub_04
-ADDED from [com.tinkerpatch.tinker:tinker-android-loader:1.9.8] C:\Users\jimiji\.gradle\caches\transforms-1\files-1.1\tinker-android-loader-1.9.8.aar\b94fb6ceb58b29982ecb5680d14e6c4c\AndroidManifest.xml:41:9-43:46
+ADDED from [com.tinkerpatch.tinker:tinker-android-loader:1.9.8] /home/jimji/.gradle/caches/transforms-1/files-1.1/tinker-android-loader-1.9.8.aar/6eaddd392232ae1aa5409c01de1c875a/AndroidManifest.xml:41:9-43:46
 	android:launchMode
-		ADDED from [com.tinkerpatch.tinker:tinker-android-loader:1.9.8] C:\Users\jimiji\.gradle\caches\transforms-1\files-1.1\tinker-android-loader-1.9.8.aar\b94fb6ceb58b29982ecb5680d14e6c4c\AndroidManifest.xml:43:13-43
+		ADDED from [com.tinkerpatch.tinker:tinker-android-loader:1.9.8] /home/jimji/.gradle/caches/transforms-1/files-1.1/tinker-android-loader-1.9.8.aar/6eaddd392232ae1aa5409c01de1c875a/AndroidManifest.xml:43:13-43
 	android:name
-		ADDED from [com.tinkerpatch.tinker:tinker-android-loader:1.9.8] C:\Users\jimiji\.gradle\caches\transforms-1\files-1.1\tinker-android-loader-1.9.8.aar\b94fb6ceb58b29982ecb5680d14e6c4c\AndroidManifest.xml:42:13-86
+		ADDED from [com.tinkerpatch.tinker:tinker-android-loader:1.9.8] /home/jimji/.gradle/caches/transforms-1/files-1.1/tinker-android-loader-1.9.8.aar/6eaddd392232ae1aa5409c01de1c875a/AndroidManifest.xml:42:13-86
 activity#com.tencent.tinker.loader.hotplug.ActivityStubs$SGTStub_05
-ADDED from [com.tinkerpatch.tinker:tinker-android-loader:1.9.8] C:\Users\jimiji\.gradle\caches\transforms-1\files-1.1\tinker-android-loader-1.9.8.aar\b94fb6ceb58b29982ecb5680d14e6c4c\AndroidManifest.xml:44:9-46:46
+ADDED from [com.tinkerpatch.tinker:tinker-android-loader:1.9.8] /home/jimji/.gradle/caches/transforms-1/files-1.1/tinker-android-loader-1.9.8.aar/6eaddd392232ae1aa5409c01de1c875a/AndroidManifest.xml:44:9-46:46
 	android:launchMode
-		ADDED from [com.tinkerpatch.tinker:tinker-android-loader:1.9.8] C:\Users\jimiji\.gradle\caches\transforms-1\files-1.1\tinker-android-loader-1.9.8.aar\b94fb6ceb58b29982ecb5680d14e6c4c\AndroidManifest.xml:46:13-43
+		ADDED from [com.tinkerpatch.tinker:tinker-android-loader:1.9.8] /home/jimji/.gradle/caches/transforms-1/files-1.1/tinker-android-loader-1.9.8.aar/6eaddd392232ae1aa5409c01de1c875a/AndroidManifest.xml:46:13-43
 	android:name
-		ADDED from [com.tinkerpatch.tinker:tinker-android-loader:1.9.8] C:\Users\jimiji\.gradle\caches\transforms-1\files-1.1\tinker-android-loader-1.9.8.aar\b94fb6ceb58b29982ecb5680d14e6c4c\AndroidManifest.xml:45:13-86
+		ADDED from [com.tinkerpatch.tinker:tinker-android-loader:1.9.8] /home/jimji/.gradle/caches/transforms-1/files-1.1/tinker-android-loader-1.9.8.aar/6eaddd392232ae1aa5409c01de1c875a/AndroidManifest.xml:45:13-86
 activity#com.tencent.tinker.loader.hotplug.ActivityStubs$SGTStub_06
-ADDED from [com.tinkerpatch.tinker:tinker-android-loader:1.9.8] C:\Users\jimiji\.gradle\caches\transforms-1\files-1.1\tinker-android-loader-1.9.8.aar\b94fb6ceb58b29982ecb5680d14e6c4c\AndroidManifest.xml:47:9-49:46
+ADDED from [com.tinkerpatch.tinker:tinker-android-loader:1.9.8] /home/jimji/.gradle/caches/transforms-1/files-1.1/tinker-android-loader-1.9.8.aar/6eaddd392232ae1aa5409c01de1c875a/AndroidManifest.xml:47:9-49:46
 	android:launchMode
-		ADDED from [com.tinkerpatch.tinker:tinker-android-loader:1.9.8] C:\Users\jimiji\.gradle\caches\transforms-1\files-1.1\tinker-android-loader-1.9.8.aar\b94fb6ceb58b29982ecb5680d14e6c4c\AndroidManifest.xml:49:13-43
+		ADDED from [com.tinkerpatch.tinker:tinker-android-loader:1.9.8] /home/jimji/.gradle/caches/transforms-1/files-1.1/tinker-android-loader-1.9.8.aar/6eaddd392232ae1aa5409c01de1c875a/AndroidManifest.xml:49:13-43
 	android:name
-		ADDED from [com.tinkerpatch.tinker:tinker-android-loader:1.9.8] C:\Users\jimiji\.gradle\caches\transforms-1\files-1.1\tinker-android-loader-1.9.8.aar\b94fb6ceb58b29982ecb5680d14e6c4c\AndroidManifest.xml:48:13-86
+		ADDED from [com.tinkerpatch.tinker:tinker-android-loader:1.9.8] /home/jimji/.gradle/caches/transforms-1/files-1.1/tinker-android-loader-1.9.8.aar/6eaddd392232ae1aa5409c01de1c875a/AndroidManifest.xml:48:13-86
 activity#com.tencent.tinker.loader.hotplug.ActivityStubs$SGTStub_07
-ADDED from [com.tinkerpatch.tinker:tinker-android-loader:1.9.8] C:\Users\jimiji\.gradle\caches\transforms-1\files-1.1\tinker-android-loader-1.9.8.aar\b94fb6ceb58b29982ecb5680d14e6c4c\AndroidManifest.xml:50:9-52:46
+ADDED from [com.tinkerpatch.tinker:tinker-android-loader:1.9.8] /home/jimji/.gradle/caches/transforms-1/files-1.1/tinker-android-loader-1.9.8.aar/6eaddd392232ae1aa5409c01de1c875a/AndroidManifest.xml:50:9-52:46
 	android:launchMode
-		ADDED from [com.tinkerpatch.tinker:tinker-android-loader:1.9.8] C:\Users\jimiji\.gradle\caches\transforms-1\files-1.1\tinker-android-loader-1.9.8.aar\b94fb6ceb58b29982ecb5680d14e6c4c\AndroidManifest.xml:52:13-43
+		ADDED from [com.tinkerpatch.tinker:tinker-android-loader:1.9.8] /home/jimji/.gradle/caches/transforms-1/files-1.1/tinker-android-loader-1.9.8.aar/6eaddd392232ae1aa5409c01de1c875a/AndroidManifest.xml:52:13-43
 	android:name
-		ADDED from [com.tinkerpatch.tinker:tinker-android-loader:1.9.8] C:\Users\jimiji\.gradle\caches\transforms-1\files-1.1\tinker-android-loader-1.9.8.aar\b94fb6ceb58b29982ecb5680d14e6c4c\AndroidManifest.xml:51:13-86
+		ADDED from [com.tinkerpatch.tinker:tinker-android-loader:1.9.8] /home/jimji/.gradle/caches/transforms-1/files-1.1/tinker-android-loader-1.9.8.aar/6eaddd392232ae1aa5409c01de1c875a/AndroidManifest.xml:51:13-86
 activity#com.tencent.tinker.loader.hotplug.ActivityStubs$SGTStub_08
-ADDED from [com.tinkerpatch.tinker:tinker-android-loader:1.9.8] C:\Users\jimiji\.gradle\caches\transforms-1\files-1.1\tinker-android-loader-1.9.8.aar\b94fb6ceb58b29982ecb5680d14e6c4c\AndroidManifest.xml:53:9-55:46
+ADDED from [com.tinkerpatch.tinker:tinker-android-loader:1.9.8] /home/jimji/.gradle/caches/transforms-1/files-1.1/tinker-android-loader-1.9.8.aar/6eaddd392232ae1aa5409c01de1c875a/AndroidManifest.xml:53:9-55:46
 	android:launchMode
-		ADDED from [com.tinkerpatch.tinker:tinker-android-loader:1.9.8] C:\Users\jimiji\.gradle\caches\transforms-1\files-1.1\tinker-android-loader-1.9.8.aar\b94fb6ceb58b29982ecb5680d14e6c4c\AndroidManifest.xml:55:13-43
+		ADDED from [com.tinkerpatch.tinker:tinker-android-loader:1.9.8] /home/jimji/.gradle/caches/transforms-1/files-1.1/tinker-android-loader-1.9.8.aar/6eaddd392232ae1aa5409c01de1c875a/AndroidManifest.xml:55:13-43
 	android:name
-		ADDED from [com.tinkerpatch.tinker:tinker-android-loader:1.9.8] C:\Users\jimiji\.gradle\caches\transforms-1\files-1.1\tinker-android-loader-1.9.8.aar\b94fb6ceb58b29982ecb5680d14e6c4c\AndroidManifest.xml:54:13-86
+		ADDED from [com.tinkerpatch.tinker:tinker-android-loader:1.9.8] /home/jimji/.gradle/caches/transforms-1/files-1.1/tinker-android-loader-1.9.8.aar/6eaddd392232ae1aa5409c01de1c875a/AndroidManifest.xml:54:13-86
 activity#com.tencent.tinker.loader.hotplug.ActivityStubs$SGTStub_09
-ADDED from [com.tinkerpatch.tinker:tinker-android-loader:1.9.8] C:\Users\jimiji\.gradle\caches\transforms-1\files-1.1\tinker-android-loader-1.9.8.aar\b94fb6ceb58b29982ecb5680d14e6c4c\AndroidManifest.xml:56:9-58:46
+ADDED from [com.tinkerpatch.tinker:tinker-android-loader:1.9.8] /home/jimji/.gradle/caches/transforms-1/files-1.1/tinker-android-loader-1.9.8.aar/6eaddd392232ae1aa5409c01de1c875a/AndroidManifest.xml:56:9-58:46
 	android:launchMode
-		ADDED from [com.tinkerpatch.tinker:tinker-android-loader:1.9.8] C:\Users\jimiji\.gradle\caches\transforms-1\files-1.1\tinker-android-loader-1.9.8.aar\b94fb6ceb58b29982ecb5680d14e6c4c\AndroidManifest.xml:58:13-43
+		ADDED from [com.tinkerpatch.tinker:tinker-android-loader:1.9.8] /home/jimji/.gradle/caches/transforms-1/files-1.1/tinker-android-loader-1.9.8.aar/6eaddd392232ae1aa5409c01de1c875a/AndroidManifest.xml:58:13-43
 	android:name
-		ADDED from [com.tinkerpatch.tinker:tinker-android-loader:1.9.8] C:\Users\jimiji\.gradle\caches\transforms-1\files-1.1\tinker-android-loader-1.9.8.aar\b94fb6ceb58b29982ecb5680d14e6c4c\AndroidManifest.xml:57:13-86
+		ADDED from [com.tinkerpatch.tinker:tinker-android-loader:1.9.8] /home/jimji/.gradle/caches/transforms-1/files-1.1/tinker-android-loader-1.9.8.aar/6eaddd392232ae1aa5409c01de1c875a/AndroidManifest.xml:57:13-86
 activity#com.tencent.tinker.loader.hotplug.ActivityStubs$SGTStub_00_T
-ADDED from [com.tinkerpatch.tinker:tinker-android-loader:1.9.8] C:\Users\jimiji\.gradle\caches\transforms-1\files-1.1\tinker-android-loader-1.9.8.aar\b94fb6ceb58b29982ecb5680d14e6c4c\AndroidManifest.xml:59:9-62:64
+ADDED from [com.tinkerpatch.tinker:tinker-android-loader:1.9.8] /home/jimji/.gradle/caches/transforms-1/files-1.1/tinker-android-loader-1.9.8.aar/6eaddd392232ae1aa5409c01de1c875a/AndroidManifest.xml:59:9-62:64
 	android:launchMode
-		ADDED from [com.tinkerpatch.tinker:tinker-android-loader:1.9.8] C:\Users\jimiji\.gradle\caches\transforms-1\files-1.1\tinker-android-loader-1.9.8.aar\b94fb6ceb58b29982ecb5680d14e6c4c\AndroidManifest.xml:61:13-43
+		ADDED from [com.tinkerpatch.tinker:tinker-android-loader:1.9.8] /home/jimji/.gradle/caches/transforms-1/files-1.1/tinker-android-loader-1.9.8.aar/6eaddd392232ae1aa5409c01de1c875a/AndroidManifest.xml:61:13-43
 	android:theme
-		ADDED from [com.tinkerpatch.tinker:tinker-android-loader:1.9.8] C:\Users\jimiji\.gradle\caches\transforms-1\files-1.1\tinker-android-loader-1.9.8.aar\b94fb6ceb58b29982ecb5680d14e6c4c\AndroidManifest.xml:62:13-61
+		ADDED from [com.tinkerpatch.tinker:tinker-android-loader:1.9.8] /home/jimji/.gradle/caches/transforms-1/files-1.1/tinker-android-loader-1.9.8.aar/6eaddd392232ae1aa5409c01de1c875a/AndroidManifest.xml:62:13-61
 	android:name
-		ADDED from [com.tinkerpatch.tinker:tinker-android-loader:1.9.8] C:\Users\jimiji\.gradle\caches\transforms-1\files-1.1\tinker-android-loader-1.9.8.aar\b94fb6ceb58b29982ecb5680d14e6c4c\AndroidManifest.xml:60:13-88
+		ADDED from [com.tinkerpatch.tinker:tinker-android-loader:1.9.8] /home/jimji/.gradle/caches/transforms-1/files-1.1/tinker-android-loader-1.9.8.aar/6eaddd392232ae1aa5409c01de1c875a/AndroidManifest.xml:60:13-88
 activity#com.tencent.tinker.loader.hotplug.ActivityStubs$SGTStub_01_T
-ADDED from [com.tinkerpatch.tinker:tinker-android-loader:1.9.8] C:\Users\jimiji\.gradle\caches\transforms-1\files-1.1\tinker-android-loader-1.9.8.aar\b94fb6ceb58b29982ecb5680d14e6c4c\AndroidManifest.xml:63:9-66:64
+ADDED from [com.tinkerpatch.tinker:tinker-android-loader:1.9.8] /home/jimji/.gradle/caches/transforms-1/files-1.1/tinker-android-loader-1.9.8.aar/6eaddd392232ae1aa5409c01de1c875a/AndroidManifest.xml:63:9-66:64
 	android:launchMode
-		ADDED from [com.tinkerpatch.tinker:tinker-android-loader:1.9.8] C:\Users\jimiji\.gradle\caches\transforms-1\files-1.1\tinker-android-loader-1.9.8.aar\b94fb6ceb58b29982ecb5680d14e6c4c\AndroidManifest.xml:65:13-43
+		ADDED from [com.tinkerpatch.tinker:tinker-android-loader:1.9.8] /home/jimji/.gradle/caches/transforms-1/files-1.1/tinker-android-loader-1.9.8.aar/6eaddd392232ae1aa5409c01de1c875a/AndroidManifest.xml:65:13-43
 	android:theme
-		ADDED from [com.tinkerpatch.tinker:tinker-android-loader:1.9.8] C:\Users\jimiji\.gradle\caches\transforms-1\files-1.1\tinker-android-loader-1.9.8.aar\b94fb6ceb58b29982ecb5680d14e6c4c\AndroidManifest.xml:66:13-61
+		ADDED from [com.tinkerpatch.tinker:tinker-android-loader:1.9.8] /home/jimji/.gradle/caches/transforms-1/files-1.1/tinker-android-loader-1.9.8.aar/6eaddd392232ae1aa5409c01de1c875a/AndroidManifest.xml:66:13-61
 	android:name
-		ADDED from [com.tinkerpatch.tinker:tinker-android-loader:1.9.8] C:\Users\jimiji\.gradle\caches\transforms-1\files-1.1\tinker-android-loader-1.9.8.aar\b94fb6ceb58b29982ecb5680d14e6c4c\AndroidManifest.xml:64:13-88
+		ADDED from [com.tinkerpatch.tinker:tinker-android-loader:1.9.8] /home/jimji/.gradle/caches/transforms-1/files-1.1/tinker-android-loader-1.9.8.aar/6eaddd392232ae1aa5409c01de1c875a/AndroidManifest.xml:64:13-88
 activity#com.tencent.tinker.loader.hotplug.ActivityStubs$SGTStub_02_T
-ADDED from [com.tinkerpatch.tinker:tinker-android-loader:1.9.8] C:\Users\jimiji\.gradle\caches\transforms-1\files-1.1\tinker-android-loader-1.9.8.aar\b94fb6ceb58b29982ecb5680d14e6c4c\AndroidManifest.xml:67:9-70:64
+ADDED from [com.tinkerpatch.tinker:tinker-android-loader:1.9.8] /home/jimji/.gradle/caches/transforms-1/files-1.1/tinker-android-loader-1.9.8.aar/6eaddd392232ae1aa5409c01de1c875a/AndroidManifest.xml:67:9-70:64
 	android:launchMode
-		ADDED from [com.tinkerpatch.tinker:tinker-android-loader:1.9.8] C:\Users\jimiji\.gradle\caches\transforms-1\files-1.1\tinker-android-loader-1.9.8.aar\b94fb6ceb58b29982ecb5680d14e6c4c\AndroidManifest.xml:69:13-43
+		ADDED from [com.tinkerpatch.tinker:tinker-android-loader:1.9.8] /home/jimji/.gradle/caches/transforms-1/files-1.1/tinker-android-loader-1.9.8.aar/6eaddd392232ae1aa5409c01de1c875a/AndroidManifest.xml:69:13-43
 	android:theme
-		ADDED from [com.tinkerpatch.tinker:tinker-android-loader:1.9.8] C:\Users\jimiji\.gradle\caches\transforms-1\files-1.1\tinker-android-loader-1.9.8.aar\b94fb6ceb58b29982ecb5680d14e6c4c\AndroidManifest.xml:70:13-61
+		ADDED from [com.tinkerpatch.tinker:tinker-android-loader:1.9.8] /home/jimji/.gradle/caches/transforms-1/files-1.1/tinker-android-loader-1.9.8.aar/6eaddd392232ae1aa5409c01de1c875a/AndroidManifest.xml:70:13-61
 	android:name
-		ADDED from [com.tinkerpatch.tinker:tinker-android-loader:1.9.8] C:\Users\jimiji\.gradle\caches\transforms-1\files-1.1\tinker-android-loader-1.9.8.aar\b94fb6ceb58b29982ecb5680d14e6c4c\AndroidManifest.xml:68:13-88
+		ADDED from [com.tinkerpatch.tinker:tinker-android-loader:1.9.8] /home/jimji/.gradle/caches/transforms-1/files-1.1/tinker-android-loader-1.9.8.aar/6eaddd392232ae1aa5409c01de1c875a/AndroidManifest.xml:68:13-88
 activity#com.tencent.tinker.loader.hotplug.ActivityStubs$SGTKStub_00
-ADDED from [com.tinkerpatch.tinker:tinker-android-loader:1.9.8] C:\Users\jimiji\.gradle\caches\transforms-1\files-1.1\tinker-android-loader-1.9.8.aar\b94fb6ceb58b29982ecb5680d14e6c4c\AndroidManifest.xml:71:9-73:47
+ADDED from [com.tinkerpatch.tinker:tinker-android-loader:1.9.8] /home/jimji/.gradle/caches/transforms-1/files-1.1/tinker-android-loader-1.9.8.aar/6eaddd392232ae1aa5409c01de1c875a/AndroidManifest.xml:71:9-73:47
 	android:launchMode
-		ADDED from [com.tinkerpatch.tinker:tinker-android-loader:1.9.8] C:\Users\jimiji\.gradle\caches\transforms-1\files-1.1\tinker-android-loader-1.9.8.aar\b94fb6ceb58b29982ecb5680d14e6c4c\AndroidManifest.xml:73:13-44
+		ADDED from [com.tinkerpatch.tinker:tinker-android-loader:1.9.8] /home/jimji/.gradle/caches/transforms-1/files-1.1/tinker-android-loader-1.9.8.aar/6eaddd392232ae1aa5409c01de1c875a/AndroidManifest.xml:73:13-44
 	android:name
-		ADDED from [com.tinkerpatch.tinker:tinker-android-loader:1.9.8] C:\Users\jimiji\.gradle\caches\transforms-1\files-1.1\tinker-android-loader-1.9.8.aar\b94fb6ceb58b29982ecb5680d14e6c4c\AndroidManifest.xml:72:13-87
+		ADDED from [com.tinkerpatch.tinker:tinker-android-loader:1.9.8] /home/jimji/.gradle/caches/transforms-1/files-1.1/tinker-android-loader-1.9.8.aar/6eaddd392232ae1aa5409c01de1c875a/AndroidManifest.xml:72:13-87
 activity#com.tencent.tinker.loader.hotplug.ActivityStubs$SGTKStub_01
-ADDED from [com.tinkerpatch.tinker:tinker-android-loader:1.9.8] C:\Users\jimiji\.gradle\caches\transforms-1\files-1.1\tinker-android-loader-1.9.8.aar\b94fb6ceb58b29982ecb5680d14e6c4c\AndroidManifest.xml:74:9-76:47
+ADDED from [com.tinkerpatch.tinker:tinker-android-loader:1.9.8] /home/jimji/.gradle/caches/transforms-1/files-1.1/tinker-android-loader-1.9.8.aar/6eaddd392232ae1aa5409c01de1c875a/AndroidManifest.xml:74:9-76:47
 	android:launchMode
-		ADDED from [com.tinkerpatch.tinker:tinker-android-loader:1.9.8] C:\Users\jimiji\.gradle\caches\transforms-1\files-1.1\tinker-android-loader-1.9.8.aar\b94fb6ceb58b29982ecb5680d14e6c4c\AndroidManifest.xml:76:13-44
+		ADDED from [com.tinkerpatch.tinker:tinker-android-loader:1.9.8] /home/jimji/.gradle/caches/transforms-1/files-1.1/tinker-android-loader-1.9.8.aar/6eaddd392232ae1aa5409c01de1c875a/AndroidManifest.xml:76:13-44
 	android:name
-		ADDED from [com.tinkerpatch.tinker:tinker-android-loader:1.9.8] C:\Users\jimiji\.gradle\caches\transforms-1\files-1.1\tinker-android-loader-1.9.8.aar\b94fb6ceb58b29982ecb5680d14e6c4c\AndroidManifest.xml:75:13-87
+		ADDED from [com.tinkerpatch.tinker:tinker-android-loader:1.9.8] /home/jimji/.gradle/caches/transforms-1/files-1.1/tinker-android-loader-1.9.8.aar/6eaddd392232ae1aa5409c01de1c875a/AndroidManifest.xml:75:13-87
 activity#com.tencent.tinker.loader.hotplug.ActivityStubs$SGTKStub_02
-ADDED from [com.tinkerpatch.tinker:tinker-android-loader:1.9.8] C:\Users\jimiji\.gradle\caches\transforms-1\files-1.1\tinker-android-loader-1.9.8.aar\b94fb6ceb58b29982ecb5680d14e6c4c\AndroidManifest.xml:77:9-79:47
+ADDED from [com.tinkerpatch.tinker:tinker-android-loader:1.9.8] /home/jimji/.gradle/caches/transforms-1/files-1.1/tinker-android-loader-1.9.8.aar/6eaddd392232ae1aa5409c01de1c875a/AndroidManifest.xml:77:9-79:47
 	android:launchMode
-		ADDED from [com.tinkerpatch.tinker:tinker-android-loader:1.9.8] C:\Users\jimiji\.gradle\caches\transforms-1\files-1.1\tinker-android-loader-1.9.8.aar\b94fb6ceb58b29982ecb5680d14e6c4c\AndroidManifest.xml:79:13-44
+		ADDED from [com.tinkerpatch.tinker:tinker-android-loader:1.9.8] /home/jimji/.gradle/caches/transforms-1/files-1.1/tinker-android-loader-1.9.8.aar/6eaddd392232ae1aa5409c01de1c875a/AndroidManifest.xml:79:13-44
 	android:name
-		ADDED from [com.tinkerpatch.tinker:tinker-android-loader:1.9.8] C:\Users\jimiji\.gradle\caches\transforms-1\files-1.1\tinker-android-loader-1.9.8.aar\b94fb6ceb58b29982ecb5680d14e6c4c\AndroidManifest.xml:78:13-87
+		ADDED from [com.tinkerpatch.tinker:tinker-android-loader:1.9.8] /home/jimji/.gradle/caches/transforms-1/files-1.1/tinker-android-loader-1.9.8.aar/6eaddd392232ae1aa5409c01de1c875a/AndroidManifest.xml:78:13-87
 activity#com.tencent.tinker.loader.hotplug.ActivityStubs$SGTKStub_03
-ADDED from [com.tinkerpatch.tinker:tinker-android-loader:1.9.8] C:\Users\jimiji\.gradle\caches\transforms-1\files-1.1\tinker-android-loader-1.9.8.aar\b94fb6ceb58b29982ecb5680d14e6c4c\AndroidManifest.xml:80:9-82:47
+ADDED from [com.tinkerpatch.tinker:tinker-android-loader:1.9.8] /home/jimji/.gradle/caches/transforms-1/files-1.1/tinker-android-loader-1.9.8.aar/6eaddd392232ae1aa5409c01de1c875a/AndroidManifest.xml:80:9-82:47
 	android:launchMode
-		ADDED from [com.tinkerpatch.tinker:tinker-android-loader:1.9.8] C:\Users\jimiji\.gradle\caches\transforms-1\files-1.1\tinker-android-loader-1.9.8.aar\b94fb6ceb58b29982ecb5680d14e6c4c\AndroidManifest.xml:82:13-44
+		ADDED from [com.tinkerpatch.tinker:tinker-android-loader:1.9.8] /home/jimji/.gradle/caches/transforms-1/files-1.1/tinker-android-loader-1.9.8.aar/6eaddd392232ae1aa5409c01de1c875a/AndroidManifest.xml:82:13-44
 	android:name
-		ADDED from [com.tinkerpatch.tinker:tinker-android-loader:1.9.8] C:\Users\jimiji\.gradle\caches\transforms-1\files-1.1\tinker-android-loader-1.9.8.aar\b94fb6ceb58b29982ecb5680d14e6c4c\AndroidManifest.xml:81:13-87
+		ADDED from [com.tinkerpatch.tinker:tinker-android-loader:1.9.8] /home/jimji/.gradle/caches/transforms-1/files-1.1/tinker-android-loader-1.9.8.aar/6eaddd392232ae1aa5409c01de1c875a/AndroidManifest.xml:81:13-87
 activity#com.tencent.tinker.loader.hotplug.ActivityStubs$SGTKStub_04
-ADDED from [com.tinkerpatch.tinker:tinker-android-loader:1.9.8] C:\Users\jimiji\.gradle\caches\transforms-1\files-1.1\tinker-android-loader-1.9.8.aar\b94fb6ceb58b29982ecb5680d14e6c4c\AndroidManifest.xml:83:9-85:47
+ADDED from [com.tinkerpatch.tinker:tinker-android-loader:1.9.8] /home/jimji/.gradle/caches/transforms-1/files-1.1/tinker-android-loader-1.9.8.aar/6eaddd392232ae1aa5409c01de1c875a/AndroidManifest.xml:83:9-85:47
 	android:launchMode
-		ADDED from [com.tinkerpatch.tinker:tinker-android-loader:1.9.8] C:\Users\jimiji\.gradle\caches\transforms-1\files-1.1\tinker-android-loader-1.9.8.aar\b94fb6ceb58b29982ecb5680d14e6c4c\AndroidManifest.xml:85:13-44
+		ADDED from [com.tinkerpatch.tinker:tinker-android-loader:1.9.8] /home/jimji/.gradle/caches/transforms-1/files-1.1/tinker-android-loader-1.9.8.aar/6eaddd392232ae1aa5409c01de1c875a/AndroidManifest.xml:85:13-44
 	android:name
-		ADDED from [com.tinkerpatch.tinker:tinker-android-loader:1.9.8] C:\Users\jimiji\.gradle\caches\transforms-1\files-1.1\tinker-android-loader-1.9.8.aar\b94fb6ceb58b29982ecb5680d14e6c4c\AndroidManifest.xml:84:13-87
+		ADDED from [com.tinkerpatch.tinker:tinker-android-loader:1.9.8] /home/jimji/.gradle/caches/transforms-1/files-1.1/tinker-android-loader-1.9.8.aar/6eaddd392232ae1aa5409c01de1c875a/AndroidManifest.xml:84:13-87
 activity#com.tencent.tinker.loader.hotplug.ActivityStubs$SGTKStub_05
-ADDED from [com.tinkerpatch.tinker:tinker-android-loader:1.9.8] C:\Users\jimiji\.gradle\caches\transforms-1\files-1.1\tinker-android-loader-1.9.8.aar\b94fb6ceb58b29982ecb5680d14e6c4c\AndroidManifest.xml:86:9-88:47
+ADDED from [com.tinkerpatch.tinker:tinker-android-loader:1.9.8] /home/jimji/.gradle/caches/transforms-1/files-1.1/tinker-android-loader-1.9.8.aar/6eaddd392232ae1aa5409c01de1c875a/AndroidManifest.xml:86:9-88:47
 	android:launchMode
-		ADDED from [com.tinkerpatch.tinker:tinker-android-loader:1.9.8] C:\Users\jimiji\.gradle\caches\transforms-1\files-1.1\tinker-android-loader-1.9.8.aar\b94fb6ceb58b29982ecb5680d14e6c4c\AndroidManifest.xml:88:13-44
+		ADDED from [com.tinkerpatch.tinker:tinker-android-loader:1.9.8] /home/jimji/.gradle/caches/transforms-1/files-1.1/tinker-android-loader-1.9.8.aar/6eaddd392232ae1aa5409c01de1c875a/AndroidManifest.xml:88:13-44
 	android:name
-		ADDED from [com.tinkerpatch.tinker:tinker-android-loader:1.9.8] C:\Users\jimiji\.gradle\caches\transforms-1\files-1.1\tinker-android-loader-1.9.8.aar\b94fb6ceb58b29982ecb5680d14e6c4c\AndroidManifest.xml:87:13-87
+		ADDED from [com.tinkerpatch.tinker:tinker-android-loader:1.9.8] /home/jimji/.gradle/caches/transforms-1/files-1.1/tinker-android-loader-1.9.8.aar/6eaddd392232ae1aa5409c01de1c875a/AndroidManifest.xml:87:13-87
 activity#com.tencent.tinker.loader.hotplug.ActivityStubs$SGTKStub_06
-ADDED from [com.tinkerpatch.tinker:tinker-android-loader:1.9.8] C:\Users\jimiji\.gradle\caches\transforms-1\files-1.1\tinker-android-loader-1.9.8.aar\b94fb6ceb58b29982ecb5680d14e6c4c\AndroidManifest.xml:89:9-91:47
+ADDED from [com.tinkerpatch.tinker:tinker-android-loader:1.9.8] /home/jimji/.gradle/caches/transforms-1/files-1.1/tinker-android-loader-1.9.8.aar/6eaddd392232ae1aa5409c01de1c875a/AndroidManifest.xml:89:9-91:47
 	android:launchMode
-		ADDED from [com.tinkerpatch.tinker:tinker-android-loader:1.9.8] C:\Users\jimiji\.gradle\caches\transforms-1\files-1.1\tinker-android-loader-1.9.8.aar\b94fb6ceb58b29982ecb5680d14e6c4c\AndroidManifest.xml:91:13-44
+		ADDED from [com.tinkerpatch.tinker:tinker-android-loader:1.9.8] /home/jimji/.gradle/caches/transforms-1/files-1.1/tinker-android-loader-1.9.8.aar/6eaddd392232ae1aa5409c01de1c875a/AndroidManifest.xml:91:13-44
 	android:name
-		ADDED from [com.tinkerpatch.tinker:tinker-android-loader:1.9.8] C:\Users\jimiji\.gradle\caches\transforms-1\files-1.1\tinker-android-loader-1.9.8.aar\b94fb6ceb58b29982ecb5680d14e6c4c\AndroidManifest.xml:90:13-87
+		ADDED from [com.tinkerpatch.tinker:tinker-android-loader:1.9.8] /home/jimji/.gradle/caches/transforms-1/files-1.1/tinker-android-loader-1.9.8.aar/6eaddd392232ae1aa5409c01de1c875a/AndroidManifest.xml:90:13-87
 activity#com.tencent.tinker.loader.hotplug.ActivityStubs$SGTKStub_07
-ADDED from [com.tinkerpatch.tinker:tinker-android-loader:1.9.8] C:\Users\jimiji\.gradle\caches\transforms-1\files-1.1\tinker-android-loader-1.9.8.aar\b94fb6ceb58b29982ecb5680d14e6c4c\AndroidManifest.xml:92:9-94:47
+ADDED from [com.tinkerpatch.tinker:tinker-android-loader:1.9.8] /home/jimji/.gradle/caches/transforms-1/files-1.1/tinker-android-loader-1.9.8.aar/6eaddd392232ae1aa5409c01de1c875a/AndroidManifest.xml:92:9-94:47
 	android:launchMode
-		ADDED from [com.tinkerpatch.tinker:tinker-android-loader:1.9.8] C:\Users\jimiji\.gradle\caches\transforms-1\files-1.1\tinker-android-loader-1.9.8.aar\b94fb6ceb58b29982ecb5680d14e6c4c\AndroidManifest.xml:94:13-44
+		ADDED from [com.tinkerpatch.tinker:tinker-android-loader:1.9.8] /home/jimji/.gradle/caches/transforms-1/files-1.1/tinker-android-loader-1.9.8.aar/6eaddd392232ae1aa5409c01de1c875a/AndroidManifest.xml:94:13-44
 	android:name
-		ADDED from [com.tinkerpatch.tinker:tinker-android-loader:1.9.8] C:\Users\jimiji\.gradle\caches\transforms-1\files-1.1\tinker-android-loader-1.9.8.aar\b94fb6ceb58b29982ecb5680d14e6c4c\AndroidManifest.xml:93:13-87
+		ADDED from [com.tinkerpatch.tinker:tinker-android-loader:1.9.8] /home/jimji/.gradle/caches/transforms-1/files-1.1/tinker-android-loader-1.9.8.aar/6eaddd392232ae1aa5409c01de1c875a/AndroidManifest.xml:93:13-87
 activity#com.tencent.tinker.loader.hotplug.ActivityStubs$SGTKStub_08
-ADDED from [com.tinkerpatch.tinker:tinker-android-loader:1.9.8] C:\Users\jimiji\.gradle\caches\transforms-1\files-1.1\tinker-android-loader-1.9.8.aar\b94fb6ceb58b29982ecb5680d14e6c4c\AndroidManifest.xml:95:9-97:47
+ADDED from [com.tinkerpatch.tinker:tinker-android-loader:1.9.8] /home/jimji/.gradle/caches/transforms-1/files-1.1/tinker-android-loader-1.9.8.aar/6eaddd392232ae1aa5409c01de1c875a/AndroidManifest.xml:95:9-97:47
 	android:launchMode
-		ADDED from [com.tinkerpatch.tinker:tinker-android-loader:1.9.8] C:\Users\jimiji\.gradle\caches\transforms-1\files-1.1\tinker-android-loader-1.9.8.aar\b94fb6ceb58b29982ecb5680d14e6c4c\AndroidManifest.xml:97:13-44
+		ADDED from [com.tinkerpatch.tinker:tinker-android-loader:1.9.8] /home/jimji/.gradle/caches/transforms-1/files-1.1/tinker-android-loader-1.9.8.aar/6eaddd392232ae1aa5409c01de1c875a/AndroidManifest.xml:97:13-44
 	android:name
-		ADDED from [com.tinkerpatch.tinker:tinker-android-loader:1.9.8] C:\Users\jimiji\.gradle\caches\transforms-1\files-1.1\tinker-android-loader-1.9.8.aar\b94fb6ceb58b29982ecb5680d14e6c4c\AndroidManifest.xml:96:13-87
+		ADDED from [com.tinkerpatch.tinker:tinker-android-loader:1.9.8] /home/jimji/.gradle/caches/transforms-1/files-1.1/tinker-android-loader-1.9.8.aar/6eaddd392232ae1aa5409c01de1c875a/AndroidManifest.xml:96:13-87
 activity#com.tencent.tinker.loader.hotplug.ActivityStubs$SGTKStub_09
-ADDED from [com.tinkerpatch.tinker:tinker-android-loader:1.9.8] C:\Users\jimiji\.gradle\caches\transforms-1\files-1.1\tinker-android-loader-1.9.8.aar\b94fb6ceb58b29982ecb5680d14e6c4c\AndroidManifest.xml:98:9-100:47
+ADDED from [com.tinkerpatch.tinker:tinker-android-loader:1.9.8] /home/jimji/.gradle/caches/transforms-1/files-1.1/tinker-android-loader-1.9.8.aar/6eaddd392232ae1aa5409c01de1c875a/AndroidManifest.xml:98:9-100:47
 	android:launchMode
-		ADDED from [com.tinkerpatch.tinker:tinker-android-loader:1.9.8] C:\Users\jimiji\.gradle\caches\transforms-1\files-1.1\tinker-android-loader-1.9.8.aar\b94fb6ceb58b29982ecb5680d14e6c4c\AndroidManifest.xml:100:13-44
+		ADDED from [com.tinkerpatch.tinker:tinker-android-loader:1.9.8] /home/jimji/.gradle/caches/transforms-1/files-1.1/tinker-android-loader-1.9.8.aar/6eaddd392232ae1aa5409c01de1c875a/AndroidManifest.xml:100:13-44
 	android:name
-		ADDED from [com.tinkerpatch.tinker:tinker-android-loader:1.9.8] C:\Users\jimiji\.gradle\caches\transforms-1\files-1.1\tinker-android-loader-1.9.8.aar\b94fb6ceb58b29982ecb5680d14e6c4c\AndroidManifest.xml:99:13-87
+		ADDED from [com.tinkerpatch.tinker:tinker-android-loader:1.9.8] /home/jimji/.gradle/caches/transforms-1/files-1.1/tinker-android-loader-1.9.8.aar/6eaddd392232ae1aa5409c01de1c875a/AndroidManifest.xml:99:13-87
 activity#com.tencent.tinker.loader.hotplug.ActivityStubs$SGTKStub_00_T
-ADDED from [com.tinkerpatch.tinker:tinker-android-loader:1.9.8] C:\Users\jimiji\.gradle\caches\transforms-1\files-1.1\tinker-android-loader-1.9.8.aar\b94fb6ceb58b29982ecb5680d14e6c4c\AndroidManifest.xml:101:9-104:64
+ADDED from [com.tinkerpatch.tinker:tinker-android-loader:1.9.8] /home/jimji/.gradle/caches/transforms-1/files-1.1/tinker-android-loader-1.9.8.aar/6eaddd392232ae1aa5409c01de1c875a/AndroidManifest.xml:101:9-104:64
 	android:launchMode
-		ADDED from [com.tinkerpatch.tinker:tinker-android-loader:1.9.8] C:\Users\jimiji\.gradle\caches\transforms-1\files-1.1\tinker-android-loader-1.9.8.aar\b94fb6ceb58b29982ecb5680d14e6c4c\AndroidManifest.xml:103:13-44
+		ADDED from [com.tinkerpatch.tinker:tinker-android-loader:1.9.8] /home/jimji/.gradle/caches/transforms-1/files-1.1/tinker-android-loader-1.9.8.aar/6eaddd392232ae1aa5409c01de1c875a/AndroidManifest.xml:103:13-44
 	android:theme
-		ADDED from [com.tinkerpatch.tinker:tinker-android-loader:1.9.8] C:\Users\jimiji\.gradle\caches\transforms-1\files-1.1\tinker-android-loader-1.9.8.aar\b94fb6ceb58b29982ecb5680d14e6c4c\AndroidManifest.xml:104:13-61
+		ADDED from [com.tinkerpatch.tinker:tinker-android-loader:1.9.8] /home/jimji/.gradle/caches/transforms-1/files-1.1/tinker-android-loader-1.9.8.aar/6eaddd392232ae1aa5409c01de1c875a/AndroidManifest.xml:104:13-61
 	android:name
-		ADDED from [com.tinkerpatch.tinker:tinker-android-loader:1.9.8] C:\Users\jimiji\.gradle\caches\transforms-1\files-1.1\tinker-android-loader-1.9.8.aar\b94fb6ceb58b29982ecb5680d14e6c4c\AndroidManifest.xml:102:13-89
+		ADDED from [com.tinkerpatch.tinker:tinker-android-loader:1.9.8] /home/jimji/.gradle/caches/transforms-1/files-1.1/tinker-android-loader-1.9.8.aar/6eaddd392232ae1aa5409c01de1c875a/AndroidManifest.xml:102:13-89
 activity#com.tencent.tinker.loader.hotplug.ActivityStubs$SGTKStub_01_T
-ADDED from [com.tinkerpatch.tinker:tinker-android-loader:1.9.8] C:\Users\jimiji\.gradle\caches\transforms-1\files-1.1\tinker-android-loader-1.9.8.aar\b94fb6ceb58b29982ecb5680d14e6c4c\AndroidManifest.xml:105:9-108:64
+ADDED from [com.tinkerpatch.tinker:tinker-android-loader:1.9.8] /home/jimji/.gradle/caches/transforms-1/files-1.1/tinker-android-loader-1.9.8.aar/6eaddd392232ae1aa5409c01de1c875a/AndroidManifest.xml:105:9-108:64
 	android:launchMode
-		ADDED from [com.tinkerpatch.tinker:tinker-android-loader:1.9.8] C:\Users\jimiji\.gradle\caches\transforms-1\files-1.1\tinker-android-loader-1.9.8.aar\b94fb6ceb58b29982ecb5680d14e6c4c\AndroidManifest.xml:107:13-44
+		ADDED from [com.tinkerpatch.tinker:tinker-android-loader:1.9.8] /home/jimji/.gradle/caches/transforms-1/files-1.1/tinker-android-loader-1.9.8.aar/6eaddd392232ae1aa5409c01de1c875a/AndroidManifest.xml:107:13-44
 	android:theme
-		ADDED from [com.tinkerpatch.tinker:tinker-android-loader:1.9.8] C:\Users\jimiji\.gradle\caches\transforms-1\files-1.1\tinker-android-loader-1.9.8.aar\b94fb6ceb58b29982ecb5680d14e6c4c\AndroidManifest.xml:108:13-61
+		ADDED from [com.tinkerpatch.tinker:tinker-android-loader:1.9.8] /home/jimji/.gradle/caches/transforms-1/files-1.1/tinker-android-loader-1.9.8.aar/6eaddd392232ae1aa5409c01de1c875a/AndroidManifest.xml:108:13-61
 	android:name
-		ADDED from [com.tinkerpatch.tinker:tinker-android-loader:1.9.8] C:\Users\jimiji\.gradle\caches\transforms-1\files-1.1\tinker-android-loader-1.9.8.aar\b94fb6ceb58b29982ecb5680d14e6c4c\AndroidManifest.xml:106:13-89
+		ADDED from [com.tinkerpatch.tinker:tinker-android-loader:1.9.8] /home/jimji/.gradle/caches/transforms-1/files-1.1/tinker-android-loader-1.9.8.aar/6eaddd392232ae1aa5409c01de1c875a/AndroidManifest.xml:106:13-89
 activity#com.tencent.tinker.loader.hotplug.ActivityStubs$SGTKStub_02_T
-ADDED from [com.tinkerpatch.tinker:tinker-android-loader:1.9.8] C:\Users\jimiji\.gradle\caches\transforms-1\files-1.1\tinker-android-loader-1.9.8.aar\b94fb6ceb58b29982ecb5680d14e6c4c\AndroidManifest.xml:109:9-112:64
+ADDED from [com.tinkerpatch.tinker:tinker-android-loader:1.9.8] /home/jimji/.gradle/caches/transforms-1/files-1.1/tinker-android-loader-1.9.8.aar/6eaddd392232ae1aa5409c01de1c875a/AndroidManifest.xml:109:9-112:64
 	android:launchMode
-		ADDED from [com.tinkerpatch.tinker:tinker-android-loader:1.9.8] C:\Users\jimiji\.gradle\caches\transforms-1\files-1.1\tinker-android-loader-1.9.8.aar\b94fb6ceb58b29982ecb5680d14e6c4c\AndroidManifest.xml:111:13-44
+		ADDED from [com.tinkerpatch.tinker:tinker-android-loader:1.9.8] /home/jimji/.gradle/caches/transforms-1/files-1.1/tinker-android-loader-1.9.8.aar/6eaddd392232ae1aa5409c01de1c875a/AndroidManifest.xml:111:13-44
 	android:theme
-		ADDED from [com.tinkerpatch.tinker:tinker-android-loader:1.9.8] C:\Users\jimiji\.gradle\caches\transforms-1\files-1.1\tinker-android-loader-1.9.8.aar\b94fb6ceb58b29982ecb5680d14e6c4c\AndroidManifest.xml:112:13-61
+		ADDED from [com.tinkerpatch.tinker:tinker-android-loader:1.9.8] /home/jimji/.gradle/caches/transforms-1/files-1.1/tinker-android-loader-1.9.8.aar/6eaddd392232ae1aa5409c01de1c875a/AndroidManifest.xml:112:13-61
 	android:name
-		ADDED from [com.tinkerpatch.tinker:tinker-android-loader:1.9.8] C:\Users\jimiji\.gradle\caches\transforms-1\files-1.1\tinker-android-loader-1.9.8.aar\b94fb6ceb58b29982ecb5680d14e6c4c\AndroidManifest.xml:110:13-89
+		ADDED from [com.tinkerpatch.tinker:tinker-android-loader:1.9.8] /home/jimji/.gradle/caches/transforms-1/files-1.1/tinker-android-loader-1.9.8.aar/6eaddd392232ae1aa5409c01de1c875a/AndroidManifest.xml:110:13-89
 activity#com.tencent.tinker.loader.hotplug.ActivityStubs$SIStub_00
-ADDED from [com.tinkerpatch.tinker:tinker-android-loader:1.9.8] C:\Users\jimiji\.gradle\caches\transforms-1\files-1.1\tinker-android-loader-1.9.8.aar\b94fb6ceb58b29982ecb5680d14e6c4c\AndroidManifest.xml:113:9-115:51
+ADDED from [com.tinkerpatch.tinker:tinker-android-loader:1.9.8] /home/jimji/.gradle/caches/transforms-1/files-1.1/tinker-android-loader-1.9.8.aar/6eaddd392232ae1aa5409c01de1c875a/AndroidManifest.xml:113:9-115:51
 	android:launchMode
-		ADDED from [com.tinkerpatch.tinker:tinker-android-loader:1.9.8] C:\Users\jimiji\.gradle\caches\transforms-1\files-1.1\tinker-android-loader-1.9.8.aar\b94fb6ceb58b29982ecb5680d14e6c4c\AndroidManifest.xml:115:13-48
+		ADDED from [com.tinkerpatch.tinker:tinker-android-loader:1.9.8] /home/jimji/.gradle/caches/transforms-1/files-1.1/tinker-android-loader-1.9.8.aar/6eaddd392232ae1aa5409c01de1c875a/AndroidManifest.xml:115:13-48
 	android:name
-		ADDED from [com.tinkerpatch.tinker:tinker-android-loader:1.9.8] C:\Users\jimiji\.gradle\caches\transforms-1\files-1.1\tinker-android-loader-1.9.8.aar\b94fb6ceb58b29982ecb5680d14e6c4c\AndroidManifest.xml:114:13-85
+		ADDED from [com.tinkerpatch.tinker:tinker-android-loader:1.9.8] /home/jimji/.gradle/caches/transforms-1/files-1.1/tinker-android-loader-1.9.8.aar/6eaddd392232ae1aa5409c01de1c875a/AndroidManifest.xml:114:13-85
 activity#com.tencent.tinker.loader.hotplug.ActivityStubs$SIStub_01
-ADDED from [com.tinkerpatch.tinker:tinker-android-loader:1.9.8] C:\Users\jimiji\.gradle\caches\transforms-1\files-1.1\tinker-android-loader-1.9.8.aar\b94fb6ceb58b29982ecb5680d14e6c4c\AndroidManifest.xml:116:9-118:51
+ADDED from [com.tinkerpatch.tinker:tinker-android-loader:1.9.8] /home/jimji/.gradle/caches/transforms-1/files-1.1/tinker-android-loader-1.9.8.aar/6eaddd392232ae1aa5409c01de1c875a/AndroidManifest.xml:116:9-118:51
 	android:launchMode
-		ADDED from [com.tinkerpatch.tinker:tinker-android-loader:1.9.8] C:\Users\jimiji\.gradle\caches\transforms-1\files-1.1\tinker-android-loader-1.9.8.aar\b94fb6ceb58b29982ecb5680d14e6c4c\AndroidManifest.xml:118:13-48
+		ADDED from [com.tinkerpatch.tinker:tinker-android-loader:1.9.8] /home/jimji/.gradle/caches/transforms-1/files-1.1/tinker-android-loader-1.9.8.aar/6eaddd392232ae1aa5409c01de1c875a/AndroidManifest.xml:118:13-48
 	android:name
-		ADDED from [com.tinkerpatch.tinker:tinker-android-loader:1.9.8] C:\Users\jimiji\.gradle\caches\transforms-1\files-1.1\tinker-android-loader-1.9.8.aar\b94fb6ceb58b29982ecb5680d14e6c4c\AndroidManifest.xml:117:13-85
+		ADDED from [com.tinkerpatch.tinker:tinker-android-loader:1.9.8] /home/jimji/.gradle/caches/transforms-1/files-1.1/tinker-android-loader-1.9.8.aar/6eaddd392232ae1aa5409c01de1c875a/AndroidManifest.xml:117:13-85
 activity#com.tencent.tinker.loader.hotplug.ActivityStubs$SIStub_02
-ADDED from [com.tinkerpatch.tinker:tinker-android-loader:1.9.8] C:\Users\jimiji\.gradle\caches\transforms-1\files-1.1\tinker-android-loader-1.9.8.aar\b94fb6ceb58b29982ecb5680d14e6c4c\AndroidManifest.xml:119:9-121:51
+ADDED from [com.tinkerpatch.tinker:tinker-android-loader:1.9.8] /home/jimji/.gradle/caches/transforms-1/files-1.1/tinker-android-loader-1.9.8.aar/6eaddd392232ae1aa5409c01de1c875a/AndroidManifest.xml:119:9-121:51
 	android:launchMode
-		ADDED from [com.tinkerpatch.tinker:tinker-android-loader:1.9.8] C:\Users\jimiji\.gradle\caches\transforms-1\files-1.1\tinker-android-loader-1.9.8.aar\b94fb6ceb58b29982ecb5680d14e6c4c\AndroidManifest.xml:121:13-48
+		ADDED from [com.tinkerpatch.tinker:tinker-android-loader:1.9.8] /home/jimji/.gradle/caches/transforms-1/files-1.1/tinker-android-loader-1.9.8.aar/6eaddd392232ae1aa5409c01de1c875a/AndroidManifest.xml:121:13-48
 	android:name
-		ADDED from [com.tinkerpatch.tinker:tinker-android-loader:1.9.8] C:\Users\jimiji\.gradle\caches\transforms-1\files-1.1\tinker-android-loader-1.9.8.aar\b94fb6ceb58b29982ecb5680d14e6c4c\AndroidManifest.xml:120:13-85
+		ADDED from [com.tinkerpatch.tinker:tinker-android-loader:1.9.8] /home/jimji/.gradle/caches/transforms-1/files-1.1/tinker-android-loader-1.9.8.aar/6eaddd392232ae1aa5409c01de1c875a/AndroidManifest.xml:120:13-85
 activity#com.tencent.tinker.loader.hotplug.ActivityStubs$SIStub_03
-ADDED from [com.tinkerpatch.tinker:tinker-android-loader:1.9.8] C:\Users\jimiji\.gradle\caches\transforms-1\files-1.1\tinker-android-loader-1.9.8.aar\b94fb6ceb58b29982ecb5680d14e6c4c\AndroidManifest.xml:122:9-124:51
+ADDED from [com.tinkerpatch.tinker:tinker-android-loader:1.9.8] /home/jimji/.gradle/caches/transforms-1/files-1.1/tinker-android-loader-1.9.8.aar/6eaddd392232ae1aa5409c01de1c875a/AndroidManifest.xml:122:9-124:51
 	android:launchMode
-		ADDED from [com.tinkerpatch.tinker:tinker-android-loader:1.9.8] C:\Users\jimiji\.gradle\caches\transforms-1\files-1.1\tinker-android-loader-1.9.8.aar\b94fb6ceb58b29982ecb5680d14e6c4c\AndroidManifest.xml:124:13-48
+		ADDED from [com.tinkerpatch.tinker:tinker-android-loader:1.9.8] /home/jimji/.gradle/caches/transforms-1/files-1.1/tinker-android-loader-1.9.8.aar/6eaddd392232ae1aa5409c01de1c875a/AndroidManifest.xml:124:13-48
 	android:name
-		ADDED from [com.tinkerpatch.tinker:tinker-android-loader:1.9.8] C:\Users\jimiji\.gradle\caches\transforms-1\files-1.1\tinker-android-loader-1.9.8.aar\b94fb6ceb58b29982ecb5680d14e6c4c\AndroidManifest.xml:123:13-85
+		ADDED from [com.tinkerpatch.tinker:tinker-android-loader:1.9.8] /home/jimji/.gradle/caches/transforms-1/files-1.1/tinker-android-loader-1.9.8.aar/6eaddd392232ae1aa5409c01de1c875a/AndroidManifest.xml:123:13-85
 activity#com.tencent.tinker.loader.hotplug.ActivityStubs$SIStub_04
-ADDED from [com.tinkerpatch.tinker:tinker-android-loader:1.9.8] C:\Users\jimiji\.gradle\caches\transforms-1\files-1.1\tinker-android-loader-1.9.8.aar\b94fb6ceb58b29982ecb5680d14e6c4c\AndroidManifest.xml:125:9-127:51
+ADDED from [com.tinkerpatch.tinker:tinker-android-loader:1.9.8] /home/jimji/.gradle/caches/transforms-1/files-1.1/tinker-android-loader-1.9.8.aar/6eaddd392232ae1aa5409c01de1c875a/AndroidManifest.xml:125:9-127:51
 	android:launchMode
-		ADDED from [com.tinkerpatch.tinker:tinker-android-loader:1.9.8] C:\Users\jimiji\.gradle\caches\transforms-1\files-1.1\tinker-android-loader-1.9.8.aar\b94fb6ceb58b29982ecb5680d14e6c4c\AndroidManifest.xml:127:13-48
+		ADDED from [com.tinkerpatch.tinker:tinker-android-loader:1.9.8] /home/jimji/.gradle/caches/transforms-1/files-1.1/tinker-android-loader-1.9.8.aar/6eaddd392232ae1aa5409c01de1c875a/AndroidManifest.xml:127:13-48
 	android:name
-		ADDED from [com.tinkerpatch.tinker:tinker-android-loader:1.9.8] C:\Users\jimiji\.gradle\caches\transforms-1\files-1.1\tinker-android-loader-1.9.8.aar\b94fb6ceb58b29982ecb5680d14e6c4c\AndroidManifest.xml:126:13-85
+		ADDED from [com.tinkerpatch.tinker:tinker-android-loader:1.9.8] /home/jimji/.gradle/caches/transforms-1/files-1.1/tinker-android-loader-1.9.8.aar/6eaddd392232ae1aa5409c01de1c875a/AndroidManifest.xml:126:13-85
 activity#com.tencent.tinker.loader.hotplug.ActivityStubs$SIStub_05
-ADDED from [com.tinkerpatch.tinker:tinker-android-loader:1.9.8] C:\Users\jimiji\.gradle\caches\transforms-1\files-1.1\tinker-android-loader-1.9.8.aar\b94fb6ceb58b29982ecb5680d14e6c4c\AndroidManifest.xml:128:9-130:51
+ADDED from [com.tinkerpatch.tinker:tinker-android-loader:1.9.8] /home/jimji/.gradle/caches/transforms-1/files-1.1/tinker-android-loader-1.9.8.aar/6eaddd392232ae1aa5409c01de1c875a/AndroidManifest.xml:128:9-130:51
 	android:launchMode
-		ADDED from [com.tinkerpatch.tinker:tinker-android-loader:1.9.8] C:\Users\jimiji\.gradle\caches\transforms-1\files-1.1\tinker-android-loader-1.9.8.aar\b94fb6ceb58b29982ecb5680d14e6c4c\AndroidManifest.xml:130:13-48
+		ADDED from [com.tinkerpatch.tinker:tinker-android-loader:1.9.8] /home/jimji/.gradle/caches/transforms-1/files-1.1/tinker-android-loader-1.9.8.aar/6eaddd392232ae1aa5409c01de1c875a/AndroidManifest.xml:130:13-48
 	android:name
-		ADDED from [com.tinkerpatch.tinker:tinker-android-loader:1.9.8] C:\Users\jimiji\.gradle\caches\transforms-1\files-1.1\tinker-android-loader-1.9.8.aar\b94fb6ceb58b29982ecb5680d14e6c4c\AndroidManifest.xml:129:13-85
+		ADDED from [com.tinkerpatch.tinker:tinker-android-loader:1.9.8] /home/jimji/.gradle/caches/transforms-1/files-1.1/tinker-android-loader-1.9.8.aar/6eaddd392232ae1aa5409c01de1c875a/AndroidManifest.xml:129:13-85
 activity#com.tencent.tinker.loader.hotplug.ActivityStubs$SIStub_06
-ADDED from [com.tinkerpatch.tinker:tinker-android-loader:1.9.8] C:\Users\jimiji\.gradle\caches\transforms-1\files-1.1\tinker-android-loader-1.9.8.aar\b94fb6ceb58b29982ecb5680d14e6c4c\AndroidManifest.xml:131:9-133:51
+ADDED from [com.tinkerpatch.tinker:tinker-android-loader:1.9.8] /home/jimji/.gradle/caches/transforms-1/files-1.1/tinker-android-loader-1.9.8.aar/6eaddd392232ae1aa5409c01de1c875a/AndroidManifest.xml:131:9-133:51
 	android:launchMode
-		ADDED from [com.tinkerpatch.tinker:tinker-android-loader:1.9.8] C:\Users\jimiji\.gradle\caches\transforms-1\files-1.1\tinker-android-loader-1.9.8.aar\b94fb6ceb58b29982ecb5680d14e6c4c\AndroidManifest.xml:133:13-48
+		ADDED from [com.tinkerpatch.tinker:tinker-android-loader:1.9.8] /home/jimji/.gradle/caches/transforms-1/files-1.1/tinker-android-loader-1.9.8.aar/6eaddd392232ae1aa5409c01de1c875a/AndroidManifest.xml:133:13-48
 	android:name
-		ADDED from [com.tinkerpatch.tinker:tinker-android-loader:1.9.8] C:\Users\jimiji\.gradle\caches\transforms-1\files-1.1\tinker-android-loader-1.9.8.aar\b94fb6ceb58b29982ecb5680d14e6c4c\AndroidManifest.xml:132:13-85
+		ADDED from [com.tinkerpatch.tinker:tinker-android-loader:1.9.8] /home/jimji/.gradle/caches/transforms-1/files-1.1/tinker-android-loader-1.9.8.aar/6eaddd392232ae1aa5409c01de1c875a/AndroidManifest.xml:132:13-85
 activity#com.tencent.tinker.loader.hotplug.ActivityStubs$SIStub_07
-ADDED from [com.tinkerpatch.tinker:tinker-android-loader:1.9.8] C:\Users\jimiji\.gradle\caches\transforms-1\files-1.1\tinker-android-loader-1.9.8.aar\b94fb6ceb58b29982ecb5680d14e6c4c\AndroidManifest.xml:134:9-136:51
+ADDED from [com.tinkerpatch.tinker:tinker-android-loader:1.9.8] /home/jimji/.gradle/caches/transforms-1/files-1.1/tinker-android-loader-1.9.8.aar/6eaddd392232ae1aa5409c01de1c875a/AndroidManifest.xml:134:9-136:51
 	android:launchMode
-		ADDED from [com.tinkerpatch.tinker:tinker-android-loader:1.9.8] C:\Users\jimiji\.gradle\caches\transforms-1\files-1.1\tinker-android-loader-1.9.8.aar\b94fb6ceb58b29982ecb5680d14e6c4c\AndroidManifest.xml:136:13-48
+		ADDED from [com.tinkerpatch.tinker:tinker-android-loader:1.9.8] /home/jimji/.gradle/caches/transforms-1/files-1.1/tinker-android-loader-1.9.8.aar/6eaddd392232ae1aa5409c01de1c875a/AndroidManifest.xml:136:13-48
 	android:name
-		ADDED from [com.tinkerpatch.tinker:tinker-android-loader:1.9.8] C:\Users\jimiji\.gradle\caches\transforms-1\files-1.1\tinker-android-loader-1.9.8.aar\b94fb6ceb58b29982ecb5680d14e6c4c\AndroidManifest.xml:135:13-85
+		ADDED from [com.tinkerpatch.tinker:tinker-android-loader:1.9.8] /home/jimji/.gradle/caches/transforms-1/files-1.1/tinker-android-loader-1.9.8.aar/6eaddd392232ae1aa5409c01de1c875a/AndroidManifest.xml:135:13-85
 activity#com.tencent.tinker.loader.hotplug.ActivityStubs$SIStub_08
-ADDED from [com.tinkerpatch.tinker:tinker-android-loader:1.9.8] C:\Users\jimiji\.gradle\caches\transforms-1\files-1.1\tinker-android-loader-1.9.8.aar\b94fb6ceb58b29982ecb5680d14e6c4c\AndroidManifest.xml:137:9-139:51
+ADDED from [com.tinkerpatch.tinker:tinker-android-loader:1.9.8] /home/jimji/.gradle/caches/transforms-1/files-1.1/tinker-android-loader-1.9.8.aar/6eaddd392232ae1aa5409c01de1c875a/AndroidManifest.xml:137:9-139:51
 	android:launchMode
-		ADDED from [com.tinkerpatch.tinker:tinker-android-loader:1.9.8] C:\Users\jimiji\.gradle\caches\transforms-1\files-1.1\tinker-android-loader-1.9.8.aar\b94fb6ceb58b29982ecb5680d14e6c4c\AndroidManifest.xml:139:13-48
+		ADDED from [com.tinkerpatch.tinker:tinker-android-loader:1.9.8] /home/jimji/.gradle/caches/transforms-1/files-1.1/tinker-android-loader-1.9.8.aar/6eaddd392232ae1aa5409c01de1c875a/AndroidManifest.xml:139:13-48
 	android:name
-		ADDED from [com.tinkerpatch.tinker:tinker-android-loader:1.9.8] C:\Users\jimiji\.gradle\caches\transforms-1\files-1.1\tinker-android-loader-1.9.8.aar\b94fb6ceb58b29982ecb5680d14e6c4c\AndroidManifest.xml:138:13-85
+		ADDED from [com.tinkerpatch.tinker:tinker-android-loader:1.9.8] /home/jimji/.gradle/caches/transforms-1/files-1.1/tinker-android-loader-1.9.8.aar/6eaddd392232ae1aa5409c01de1c875a/AndroidManifest.xml:138:13-85
 activity#com.tencent.tinker.loader.hotplug.ActivityStubs$SIStub_09
-ADDED from [com.tinkerpatch.tinker:tinker-android-loader:1.9.8] C:\Users\jimiji\.gradle\caches\transforms-1\files-1.1\tinker-android-loader-1.9.8.aar\b94fb6ceb58b29982ecb5680d14e6c4c\AndroidManifest.xml:140:9-142:51
+ADDED from [com.tinkerpatch.tinker:tinker-android-loader:1.9.8] /home/jimji/.gradle/caches/transforms-1/files-1.1/tinker-android-loader-1.9.8.aar/6eaddd392232ae1aa5409c01de1c875a/AndroidManifest.xml:140:9-142:51
 	android:launchMode
-		ADDED from [com.tinkerpatch.tinker:tinker-android-loader:1.9.8] C:\Users\jimiji\.gradle\caches\transforms-1\files-1.1\tinker-android-loader-1.9.8.aar\b94fb6ceb58b29982ecb5680d14e6c4c\AndroidManifest.xml:142:13-48
+		ADDED from [com.tinkerpatch.tinker:tinker-android-loader:1.9.8] /home/jimji/.gradle/caches/transforms-1/files-1.1/tinker-android-loader-1.9.8.aar/6eaddd392232ae1aa5409c01de1c875a/AndroidManifest.xml:142:13-48
 	android:name
-		ADDED from [com.tinkerpatch.tinker:tinker-android-loader:1.9.8] C:\Users\jimiji\.gradle\caches\transforms-1\files-1.1\tinker-android-loader-1.9.8.aar\b94fb6ceb58b29982ecb5680d14e6c4c\AndroidManifest.xml:141:13-85
+		ADDED from [com.tinkerpatch.tinker:tinker-android-loader:1.9.8] /home/jimji/.gradle/caches/transforms-1/files-1.1/tinker-android-loader-1.9.8.aar/6eaddd392232ae1aa5409c01de1c875a/AndroidManifest.xml:141:13-85
 activity#com.tencent.tinker.loader.hotplug.ActivityStubs$SIStub_00_T
-ADDED from [com.tinkerpatch.tinker:tinker-android-loader:1.9.8] C:\Users\jimiji\.gradle\caches\transforms-1\files-1.1\tinker-android-loader-1.9.8.aar\b94fb6ceb58b29982ecb5680d14e6c4c\AndroidManifest.xml:143:9-146:64
+ADDED from [com.tinkerpatch.tinker:tinker-android-loader:1.9.8] /home/jimji/.gradle/caches/transforms-1/files-1.1/tinker-android-loader-1.9.8.aar/6eaddd392232ae1aa5409c01de1c875a/AndroidManifest.xml:143:9-146:64
 	android:launchMode
-		ADDED from [com.tinkerpatch.tinker:tinker-android-loader:1.9.8] C:\Users\jimiji\.gradle\caches\transforms-1\files-1.1\tinker-android-loader-1.9.8.aar\b94fb6ceb58b29982ecb5680d14e6c4c\AndroidManifest.xml:145:13-48
+		ADDED from [com.tinkerpatch.tinker:tinker-android-loader:1.9.8] /home/jimji/.gradle/caches/transforms-1/files-1.1/tinker-android-loader-1.9.8.aar/6eaddd392232ae1aa5409c01de1c875a/AndroidManifest.xml:145:13-48
 	android:theme
-		ADDED from [com.tinkerpatch.tinker:tinker-android-loader:1.9.8] C:\Users\jimiji\.gradle\caches\transforms-1\files-1.1\tinker-android-loader-1.9.8.aar\b94fb6ceb58b29982ecb5680d14e6c4c\AndroidManifest.xml:146:13-61
+		ADDED from [com.tinkerpatch.tinker:tinker-android-loader:1.9.8] /home/jimji/.gradle/caches/transforms-1/files-1.1/tinker-android-loader-1.9.8.aar/6eaddd392232ae1aa5409c01de1c875a/AndroidManifest.xml:146:13-61
 	android:name
-		ADDED from [com.tinkerpatch.tinker:tinker-android-loader:1.9.8] C:\Users\jimiji\.gradle\caches\transforms-1\files-1.1\tinker-android-loader-1.9.8.aar\b94fb6ceb58b29982ecb5680d14e6c4c\AndroidManifest.xml:144:13-87
+		ADDED from [com.tinkerpatch.tinker:tinker-android-loader:1.9.8] /home/jimji/.gradle/caches/transforms-1/files-1.1/tinker-android-loader-1.9.8.aar/6eaddd392232ae1aa5409c01de1c875a/AndroidManifest.xml:144:13-87
 activity#com.tencent.tinker.loader.hotplug.ActivityStubs$SIStub_01_T
-ADDED from [com.tinkerpatch.tinker:tinker-android-loader:1.9.8] C:\Users\jimiji\.gradle\caches\transforms-1\files-1.1\tinker-android-loader-1.9.8.aar\b94fb6ceb58b29982ecb5680d14e6c4c\AndroidManifest.xml:147:9-150:64
+ADDED from [com.tinkerpatch.tinker:tinker-android-loader:1.9.8] /home/jimji/.gradle/caches/transforms-1/files-1.1/tinker-android-loader-1.9.8.aar/6eaddd392232ae1aa5409c01de1c875a/AndroidManifest.xml:147:9-150:64
 	android:launchMode
-		ADDED from [com.tinkerpatch.tinker:tinker-android-loader:1.9.8] C:\Users\jimiji\.gradle\caches\transforms-1\files-1.1\tinker-android-loader-1.9.8.aar\b94fb6ceb58b29982ecb5680d14e6c4c\AndroidManifest.xml:149:13-48
+		ADDED from [com.tinkerpatch.tinker:tinker-android-loader:1.9.8] /home/jimji/.gradle/caches/transforms-1/files-1.1/tinker-android-loader-1.9.8.aar/6eaddd392232ae1aa5409c01de1c875a/AndroidManifest.xml:149:13-48
 	android:theme
-		ADDED from [com.tinkerpatch.tinker:tinker-android-loader:1.9.8] C:\Users\jimiji\.gradle\caches\transforms-1\files-1.1\tinker-android-loader-1.9.8.aar\b94fb6ceb58b29982ecb5680d14e6c4c\AndroidManifest.xml:150:13-61
+		ADDED from [com.tinkerpatch.tinker:tinker-android-loader:1.9.8] /home/jimji/.gradle/caches/transforms-1/files-1.1/tinker-android-loader-1.9.8.aar/6eaddd392232ae1aa5409c01de1c875a/AndroidManifest.xml:150:13-61
 	android:name
-		ADDED from [com.tinkerpatch.tinker:tinker-android-loader:1.9.8] C:\Users\jimiji\.gradle\caches\transforms-1\files-1.1\tinker-android-loader-1.9.8.aar\b94fb6ceb58b29982ecb5680d14e6c4c\AndroidManifest.xml:148:13-87
+		ADDED from [com.tinkerpatch.tinker:tinker-android-loader:1.9.8] /home/jimji/.gradle/caches/transforms-1/files-1.1/tinker-android-loader-1.9.8.aar/6eaddd392232ae1aa5409c01de1c875a/AndroidManifest.xml:148:13-87
 activity#com.tencent.tinker.loader.hotplug.ActivityStubs$SIStub_02_T
-ADDED from [com.tinkerpatch.tinker:tinker-android-loader:1.9.8] C:\Users\jimiji\.gradle\caches\transforms-1\files-1.1\tinker-android-loader-1.9.8.aar\b94fb6ceb58b29982ecb5680d14e6c4c\AndroidManifest.xml:151:9-154:64
+ADDED from [com.tinkerpatch.tinker:tinker-android-loader:1.9.8] /home/jimji/.gradle/caches/transforms-1/files-1.1/tinker-android-loader-1.9.8.aar/6eaddd392232ae1aa5409c01de1c875a/AndroidManifest.xml:151:9-154:64
 	android:launchMode
-		ADDED from [com.tinkerpatch.tinker:tinker-android-loader:1.9.8] C:\Users\jimiji\.gradle\caches\transforms-1\files-1.1\tinker-android-loader-1.9.8.aar\b94fb6ceb58b29982ecb5680d14e6c4c\AndroidManifest.xml:153:13-48
+		ADDED from [com.tinkerpatch.tinker:tinker-android-loader:1.9.8] /home/jimji/.gradle/caches/transforms-1/files-1.1/tinker-android-loader-1.9.8.aar/6eaddd392232ae1aa5409c01de1c875a/AndroidManifest.xml:153:13-48
 	android:theme
-		ADDED from [com.tinkerpatch.tinker:tinker-android-loader:1.9.8] C:\Users\jimiji\.gradle\caches\transforms-1\files-1.1\tinker-android-loader-1.9.8.aar\b94fb6ceb58b29982ecb5680d14e6c4c\AndroidManifest.xml:154:13-61
+		ADDED from [com.tinkerpatch.tinker:tinker-android-loader:1.9.8] /home/jimji/.gradle/caches/transforms-1/files-1.1/tinker-android-loader-1.9.8.aar/6eaddd392232ae1aa5409c01de1c875a/AndroidManifest.xml:154:13-61
 	android:name
-		ADDED from [com.tinkerpatch.tinker:tinker-android-loader:1.9.8] C:\Users\jimiji\.gradle\caches\transforms-1\files-1.1\tinker-android-loader-1.9.8.aar\b94fb6ceb58b29982ecb5680d14e6c4c\AndroidManifest.xml:152:13-87
+		ADDED from [com.tinkerpatch.tinker:tinker-android-loader:1.9.8] /home/jimji/.gradle/caches/transforms-1/files-1.1/tinker-android-loader-1.9.8.aar/6eaddd392232ae1aa5409c01de1c875a/AndroidManifest.xml:152:13-87
 meta-data#tinker_version
-ADDED from [com.tinkerpatch.tinker:tinker-android-loader:1.9.8] C:\Users\jimiji\.gradle\caches\transforms-1\files-1.1\tinker-android-loader-1.9.8.aar\b94fb6ceb58b29982ecb5680d14e6c4c\AndroidManifest.xml:156:9-158:37
+ADDED from [com.tinkerpatch.tinker:tinker-android-loader:1.9.8] /home/jimji/.gradle/caches/transforms-1/files-1.1/tinker-android-loader-1.9.8.aar/6eaddd392232ae1aa5409c01de1c875a/AndroidManifest.xml:156:9-158:37
 	android:value
-		ADDED from [com.tinkerpatch.tinker:tinker-android-loader:1.9.8] C:\Users\jimiji\.gradle\caches\transforms-1\files-1.1\tinker-android-loader-1.9.8.aar\b94fb6ceb58b29982ecb5680d14e6c4c\AndroidManifest.xml:158:13-34
+		ADDED from [com.tinkerpatch.tinker:tinker-android-loader:1.9.8] /home/jimji/.gradle/caches/transforms-1/files-1.1/tinker-android-loader-1.9.8.aar/6eaddd392232ae1aa5409c01de1c875a/AndroidManifest.xml:158:13-34
 	android:name
-		ADDED from [com.tinkerpatch.tinker:tinker-android-loader:1.9.8] C:\Users\jimiji\.gradle\caches\transforms-1\files-1.1\tinker-android-loader-1.9.8.aar\b94fb6ceb58b29982ecb5680d14e6c4c\AndroidManifest.xml:157:13-42
+		ADDED from [com.tinkerpatch.tinker:tinker-android-loader:1.9.8] /home/jimji/.gradle/caches/transforms-1/files-1.1/tinker-android-loader-1.9.8.aar/6eaddd392232ae1aa5409c01de1c875a/AndroidManifest.xml:157:13-42
